@@ -1,0 +1,7179 @@
+{
+ "meta": {
+  "updated": "2026-10-19",
+  "weekOf": "2026-10-19",
+  "coverage": "2026-10-19 to 2026-11-30",
+  "featured": {
+   "2026-10": [
+    {
+     "id": "e154",
+     "why": "A week of costume runs, candy crawls and ghost tours in NoDa"
+    },
+    {
+     "id": "e101",
+     "why": "Last week to see it: closes Sunday Oct 25"
+    },
+    {
+     "id": "e164",
+     "why": "Free, glowing and very Elizabeth; nightly walk-by"
+    },
+    {
+     "id": "e136",
+     "why": "Opening night at Spectrum Center"
+    },
+    {
+     "id": "e163",
+     "why": "Free birthday party for the Mint: music, food trucks and art"
+    },
+    {
+     "id": "e158",
+     "why": "New Discovery Place exhibit opens Oct 24"
+    }
+   ],
+   "2026-11": [
+    {
+     "id": "e237",
+     "why": "Drive-through lights open Nov 20 at the Speedway"
+    },
+    {
+     "id": "e218",
+     "why": "Free museum weekend Nov 7–8 with a BofA card"
+    },
+    {
+     "id": "e252",
+     "why": "Daniel Stowe's garden lights open Nov 28; weeknights are cheaper"
+    },
+    {
+     "id": "e236",
+     "why": "Two Spectrum Center shows Nov 20 and 22; buy tickets early"
+    },
+    {
+     "id": "e242",
+     "why": "Free Uptown parade the night before Thanksgiving"
+    },
+    {
+     "id": "e208",
+     "why": "Free food, music and fashion at Harrisburg Park"
+    }
+   ]
+  },
+  "nextUpdate": "Thursday, Oct 22",
+  "picks": [
+   "e136",
+   "e146",
+   "e163",
+   "e122",
+   "e142",
+   "e143"
+  ],
+  "forecast": [
+   {
+    "date": "2026-10-19",
+    "hi": 68,
+    "lo": 44,
+    "sky": "Sunny",
+    "wind": "NNE 10 mph",
+    "gust": 20,
+    "detail": "Sunny, with a high near 68. North northeast wind around 10 mph, with gusts as high as 20 mph.",
+    "night": "Clear, low 44°"
+   },
+   {
+    "date": "2026-10-20",
+    "hi": 74,
+    "lo": 46,
+    "sky": "Sunny",
+    "wind": "N 6–9 mph",
+    "detail": "Sunny, with a high near 74. North wind 6 to 9 mph.",
+    "night": "Clear, low 46°"
+   },
+   {
+    "date": "2026-10-21",
+    "hi": 71,
+    "lo": 44,
+    "sky": "Sunny",
+    "wind": "NNE 8 mph",
+    "detail": "Sunny, with a high near 71. North northeast wind around 8 mph.",
+    "night": "Clear, low 44°"
+   },
+   {
+    "date": "2026-10-22",
+    "hi": 73,
+    "lo": 45,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 73.",
+    "night": "Clear, low 45°"
+   },
+   {
+    "date": "2026-10-23",
+    "hi": 71,
+    "lo": 44,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 71.",
+    "night": "Clear, low 44°"
+   },
+   {
+    "date": "2026-10-24",
+    "hi": 67,
+    "lo": 43,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 67.",
+    "night": "Clear, low 43°"
+   },
+   {
+    "date": "2026-10-25",
+    "hi": 70,
+    "lo": null,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 70."
+   }
+  ],
+  "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
+  "season": {
+   "id": "halloween",
+   "title": "Halloween in CLT",
+   "intro": "Costume runs, candy crawls, haunts, pumpkin walls and spooky trivia, all in one place.",
+   "until": "2026-11-01"
+  },
+  "sources": {
+   "kidsFriendly": "https://southcharlotte.macaronikid.com/articles/5c813516ba150d3e72f0c152/8-kid-friendly-brewery-in-charlotte",
+   "dogsFriendly": "https://www.charlottemagazine.com/?p=11006"
+  },
+  "hosts": {
+   "Mindless Minutia": {
+    "url": "https://www.mindlessminutiatrivia.com/charlotte-trivia-music-bingo-survey-says",
+    "formats": {
+     "General knowledge": "4 rounds of 11 questions: 10 one-point questions plus a 2-point bonus. Rounds like homophones, before-and-after and company mascots.",
+     "Survey Says": "Their take on Family Feud: guess what the crowd answered.",
+     "Music Bingo": "Digital music bingo played on your phone, no paper cards.",
+     "Mixtape Music Trivia": "Audio clips from eight categories; points for both the song and the artist.",
+     "Themed": "A different theme each week; check the host's theme calendar for upcoming topics.",
+     "Spelling Bee": "Adult spelling bee."
+    }
+   },
+   "Cappitoff Entertainment": {
+    "url": "https://www.eventbrite.com/cc/thursday-events-4213923",
+    "formats": {}
+   }
+  }
+ },
+ "events": [
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Triple C Brewing",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.charlotteonthecheap.com/triple-c-brewing/",
+   "id": "e001",
+   "dogs": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "6:00 PM",
+   "title": "Line Dancing Lessons",
+   "venue": "Triple C Brewing",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Line Dancing",
+   "price": "$5",
+   "free": false,
+   "note": "No experience needed. In the Barrel Room",
+   "url": "https://www.charlotteonthecheap.com/triple-c-brewing/",
+   "id": "e002",
+   "dogs": true,
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "zone": "charlotte",
+   "endTime": "10:00 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Divine Barrel Brewing",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e003",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Monday Night Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e004",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Birdsong Brewing",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e005",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Suffolk Punch",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Prizes for winners.",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e006",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "9:00 PM",
+   "gameKind": "General knowledge"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "Time TBA",
+   "title": "Game Night",
+   "venue": "Percent Tap House",
+   "area": "Harrisburg",
+   "cat": "games",
+   "tag": "Game Night",
+   "price": "Free",
+   "free": true,
+   "note": "Listed by visitors; confirm with the taproom",
+   "url": "https://www.charlottesgotalot.com/eat-drink/breweries/percent-tap-house",
+   "id": "e007",
+   "kids": true,
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "zone": "nearby"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Trivia",
+   "venue": "Suffolk Punch Birkdale",
+   "area": "Huntersville",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "$10 cocktail deal",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "id": "e008",
+   "endTime": "9:00 PM",
+   "gameKind": "Music trivia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "6:30 PM",
+   "title": "Open Mic Night",
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "cat": "music",
+   "tag": "Open Mic",
+   "price": "Free",
+   "free": true,
+   "note": "Sign-ups at 6. $1 wings 4–10 PM",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "id": "e009",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "6:30 PM",
+   "title": "Run Club",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "3, 5 or 7 miles, weekly beer raffle",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e010",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "6:15 PM",
+   "title": "Barn Burners Run Club",
+   "venue": "Trolley Barn",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e011",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Mon"
+   ],
+   "time": "6:15 AM",
+   "title": "Charlotte Girls Run Club",
+   "venue": "Atherton Mill",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e012",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trail Talk",
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "cat": "community",
+   "tag": "Meetup",
+   "price": "Free",
+   "free": true,
+   "note": "Hikers swap trail stories. Kids eat free Tuesdays",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "id": "e013",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Burial Beer Co.",
+   "area": "Plaza Midwood",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "$5 featured pints",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e014",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Prizes for winning teams",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e015",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Petty Thieves Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Themes change weekly. Season trophy on the line",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e016",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Top 3 teams win gift cards. $5 pints",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "id": "e017",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "6:30 PM",
+   "title": "Music Bingo",
+   "venue": "Club West Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "$8 pizza, $5 IPAs",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e018",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Vaulted Oak Brewing",
+   "area": "Eastover",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e019",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Brewers at 4001 Yancey",
+   "area": "Lower South End",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e020",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Vintner's Hill",
+   "area": "Mint Hill",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e021",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Ed's Tavern LKN",
+   "area": "Cornelius",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e022",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "region",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Themed Trivia",
+   "venue": "Hopfly Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e023",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Themed Trivia",
+   "venue": "Freemore Tavern",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e024",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Themed Trivia",
+   "venue": "Ed's Tavern Dilworth",
+   "area": "Dilworth",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e025",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Clutch",
+   "area": "Uptown",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e026",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Caswell Station",
+   "area": "Elizabeth",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e027",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Rosie's Wine Garden",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e028",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "Time TBA",
+   "title": "Trivia Night",
+   "venue": "Percent Tap House",
+   "area": "Harrisburg",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Listed by visitors; confirm the start time with the taproom",
+   "url": "https://www.charlottesgotalot.com/eat-drink/breweries/percent-tap-house",
+   "id": "e029",
+   "kids": true,
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "zone": "nearby"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Wooden Robot Brewery",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://woodenrobotbrewery.com/event/acotar-themed-trivia-2026-10-21/",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e030",
+   "gameKind": "General knowledge"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Jinya Ramen Bar Uptown",
+   "area": "Uptown",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e031",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "Time TBA",
+   "title": "Mixtape Music Trivia",
+   "venue": "Blackfinn Ameripub Ballantyne",
+   "area": "Ballantyne",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Mixtape Music Trivia",
+   "host": "Mindless Minutia",
+   "unconfirmedTime": true,
+   "id": "e032"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue",
+    "Fri",
+    "Sat"
+   ],
+   "time": "6:00 AM",
+   "title": "Kings Drive Farmers Market",
+   "venue": "938 S. Kings Dr",
+   "area": "Midtown",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "Hours vary by day",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e033",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "7:00 PM",
+   "title": "Open Mic",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "music",
+   "tag": "Open Mic",
+   "price": "Free",
+   "free": true,
+   "note": "Sign-ups 6:30–7",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e034",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "6:30 PM",
+   "title": "RunBots Run Club",
+   "venue": "Wooden Robot Brewery",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e035",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "6:30 PM",
+   "title": "OMB Run Club",
+   "venue": "Olde Mecklenburg Brewery",
+   "area": "Lower South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e036",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "6:30 PM",
+   "title": "Running Raptors",
+   "venue": "Monday Night Brewing",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e037",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "5:00 PM",
+   "title": "Free Wednesday Evening",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Free Night",
+   "price": "Free",
+   "free": true,
+   "note": "Wednesday Night Live: free 5–9 PM. Special exhibits may cost extra",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "id": "e038",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "5:00 PM",
+   "title": "Free Wednesday Evening",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "cat": "arts",
+   "tag": "Free Night",
+   "price": "Free",
+   "free": true,
+   "note": "Free 5–9 PM. Drop In Art room 5–8 PM",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "id": "e039",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "5:00 PM",
+   "title": "Free Wednesday Evening",
+   "venue": "Harvey B. Gantt Center",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Free Night",
+   "price": "Free",
+   "free": true,
+   "note": "Free 5–9 PM. Closed Wed, Oct 21",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "id": "e040",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "5:00 PM",
+   "title": "Free Wednesday Evening",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Free Night",
+   "price": "Free",
+   "free": true,
+   "note": "Free 5–9 PM",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "id": "e041",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "In the Canteen backroom",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e042",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "host": "Triple J"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Resident Culture",
+   "area": "Plaza Midwood",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e043",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:30 PM",
+   "title": "Trivia Night",
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Half-off wine bottles from 4 PM",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "id": "e044",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Lenny Boy Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e045",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Hopfly Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e046",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Tremont Music Hall",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e047",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Monarch Market",
+   "area": "Uptown",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e048",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Monday Night Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e049",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Trivia Night",
+   "venue": "Club West Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Half-off apps 5–8, $5 pints",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e050",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Caswell Station",
+   "area": "Elizabeth",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e051",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "8:00 PM",
+   "title": "Music Bingo",
+   "venue": "Freemore Tavern",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e052",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Adult Spelling Bee",
+   "venue": "Horseshoe",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Spelling Bee",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e053",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Spelling Bee",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Optimist Hall",
+   "area": "Optimist Park",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e054",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Seaboard South End",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e055",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "The Penguin",
+   "area": "Plaza Midwood",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e056",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Themed Trivia",
+   "venue": "Clutch",
+   "area": "Uptown",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e057",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "7:00 PM",
+   "title": "Hella-Spell Spelling Bee",
+   "venue": "Gilde Brewery",
+   "area": "Lower South End",
+   "cat": "games",
+   "tag": "Spelling Bee",
+   "price": "Free",
+   "free": true,
+   "note": "Free; capped at 12 teams",
+   "url": "https://gilde1546.com/charlotte-lower-south-end-gilde-brewery-events",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e058",
+   "gameKind": "Spelling Bee"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:00 PM",
+   "title": "Trivia Night",
+   "venue": "Suffolk Punch Birkdale",
+   "area": "Huntersville",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "id": "e059",
+   "gameKind": "General knowledge",
+   "host": "Cappitoff Entertainment",
+   "hostSrc": "https://www.eventbrite.com/cc/thursday-events-4213923"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "Time TBA",
+   "title": "Trivia Night",
+   "venue": "Blackfinn Ameripub Ballantyne",
+   "area": "Ballantyne",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia",
+   "unconfirmedTime": true,
+   "id": "e060"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "time": "8:00 AM",
+   "title": "Charlotte Regional Farmers Market",
+   "venue": "1801 Yorkmont Rd",
+   "area": "West Charlotte",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "Year-round",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e061",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "5:00 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "3:00 PM",
+   "title": "East Charlotte Farmers' Market",
+   "venue": "McLawland Farms",
+   "area": "East Charlotte",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e062",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "6:30 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "NoDa Brewing Run Club",
+   "venue": "NoDa Brewing",
+   "area": "NoDa",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "Meets at the North End taproom. Also Sundays at noon",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e063",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Resident Culture Run Club",
+   "venue": "Resident Culture",
+   "area": "Plaza Midwood",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e064",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Hi-Wire Run Club",
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e065",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Gilde 1546 Runners",
+   "venue": "Gilde Brewery",
+   "area": "Lower South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e066",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Run HopFly",
+   "venue": "Hopfly Brewing",
+   "area": "South End",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e067",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Run This Town",
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e068",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Wed"
+   ],
+   "time": "6:30 PM",
+   "title": "Legion SouthPark Run Club",
+   "venue": "Legion Brewing SouthPark",
+   "area": "SouthPark",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e069",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "NoDa Brewing",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e070",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Gilde Brewery",
+   "area": "Lower South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Drink & Think Trivia. Prizes.",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e071",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "9:00 PM",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Sugar Creek Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Prizes",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e072",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Edge City Brewery",
+   "area": "East Charlotte",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Prizes 1st–4th, food truck, $6 Guinness",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e073",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Armored Cow Brewing",
+   "area": "University City",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e074",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Cappitoff Entertainment",
+   "hostSrc": "https://www.eventbrite.com/cc/thursday-events-4213923"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Hopfly Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e075",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "DeeJay hosts.",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e076",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "9:00 PM",
+   "gameKind": "Music Bingo"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "Prizes for every bingo",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e077",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Music Bingo"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:30 PM",
+   "title": "Board Game Night",
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Game Night",
+   "price": "Free",
+   "free": true,
+   "note": "$8 draft cocktails",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "id": "e078",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Horseshoe",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e079",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Tavern on the Tracks",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e080",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:30 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Harp & Crown LKN",
+   "area": "Cornelius",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "id": "e081",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "region",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Music Bingo",
+   "venue": "Percent Tap House",
+   "area": "Harrisburg",
+   "cat": "games",
+   "tag": "Music Bingo",
+   "price": "Free",
+   "free": true,
+   "note": "Hosted by Cappitoff Entertainment. Prizes each round.",
+   "url": "https://www.eventbrite.com/e/the-trivia-academy-thursday-music-bingo-at-percent-tap-house-tickets-1980342487690",
+   "id": "e082",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "endTime": "9:00 PM",
+   "gameKind": "Music Bingo",
+   "host": "Cappitoff Entertainment"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Wooden Robot NoDa Chamber",
+   "area": "NoDa",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://woodenrobotbrewery.com/event/acotar-themed-trivia-2026-10-21/",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e083",
+   "gameKind": "General knowledge"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "8:00 PM",
+   "title": "Trivia Night",
+   "venue": "Freemore Tavern",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e084",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:30 PM",
+   "title": "Trivia Night",
+   "venue": "SouthBound",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "id": "e085",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Survey Says (Family Feud)",
+   "venue": "Canteen at Camp North End",
+   "area": "Camp North End",
+   "cat": "games",
+   "tag": "Survey Says",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Survey Says",
+   "host": "Mindless Minutia",
+   "id": "e086"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Hawthorne's Pizza",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia",
+   "id": "e087"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "7:00 PM",
+   "title": "Trivia Night",
+   "venue": "Clutch",
+   "area": "Uptown",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia",
+   "id": "e088"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "Time TBA",
+   "title": "Trivia Night",
+   "venue": "Highland Creek Golf Club",
+   "area": "Highland Creek",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia",
+   "unconfirmedTime": true,
+   "id": "e089"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:30 PM",
+   "title": "Ballantyne Running Club",
+   "venue": "OMB Ballantyne",
+   "area": "Ballantyne",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e090",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:30 PM",
+   "title": "Birdsong Run Club",
+   "venue": "Birdsong Brewing",
+   "area": "NoDa",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e091",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:30 PM",
+   "title": "Burial Run Club",
+   "venue": "Burial Beer Co.",
+   "area": "Plaza Midwood",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e092",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "6:00 AM",
+   "title": "Morning Miles",
+   "venue": "Giddy Goat Coffee",
+   "area": "Charlotte",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "Early run that ends with coffee",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e093",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Thu"
+   ],
+   "time": "9:00 AM",
+   "title": "Birding at Stevens Creek",
+   "venue": "Stevens Creek Nature Center",
+   "area": "Mint Hill",
+   "cat": "outdoors",
+   "tag": "Bird Walk",
+   "price": "Free",
+   "free": true,
+   "note": "Ages 18+. Register online up to 3 days ahead, or call 980-314-2526.",
+   "url": "https://www.charlotteonthecheap.com/stevens-creek-nature-center/",
+   "id": "e094",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "10:30 AM",
+   "ages": "18+"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sat"
+   ],
+   "time": "8:00 AM",
+   "title": "Uptown Farmers Market",
+   "venue": "300 S. Davidson St",
+   "area": "Uptown",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "Season runs through Dec 12",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e095",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "12:30 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sat"
+   ],
+   "time": "8:00 AM",
+   "title": "South End Market",
+   "venue": "Atherton Mill",
+   "area": "South End",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "Year-round",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e096",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "1:00 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sat"
+   ],
+   "time": "8:00 AM",
+   "title": "Matthews Community Farmers Market",
+   "venue": "188 N. Trade St",
+   "area": "Matthews",
+   "cat": "market",
+   "tag": "Farmers Market",
+   "price": "Free",
+   "free": true,
+   "note": "Main season through Nov 11",
+   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
+   "id": "e097",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "12:00 PM"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sat"
+   ],
+   "time": "7:30 AM",
+   "title": "Achilles Charlotte",
+   "venue": "Freedom Park",
+   "area": "Dilworth",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "Athletes with disabilities run with volunteer guides",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e098",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sat"
+   ],
+   "time": "7:00 AM",
+   "title": "Slow Runners of Charlotte",
+   "venue": "Not Just Coffee",
+   "area": "Charlotte",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "Slower pace, all welcome",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e099",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Sun"
+   ],
+   "time": "12:00 PM",
+   "title": "NoDa Brewing Run Club",
+   "venue": "NoDa Brewing",
+   "area": "NoDa",
+   "cat": "outdoors",
+   "tag": "Run Club",
+   "price": "Free",
+   "free": true,
+   "note": "Meets at the North End taproom",
+   "url": "https://www.axios.com/local/charlotte/2026/08/21/charlotte-run-clubs-and-walking-groups-to-join",
+   "id": "e100",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Last week: closes Sunday Oct 25",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-04-26",
+   "end": "2026-10-25",
+   "time": "Museum hours",
+   "title": "Caravaggio | Revolution",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "url": "https://mintmuseum.org/exhibitions",
+   "ongoing": true,
+   "id": "e101"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-06-13",
+   "end": "2026-11-09",
+   "time": "Museum hours",
+   "title": "Collection, Reframed: Jiha Moon",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Closes Nov 9",
+   "url": "https://bechtler.org/currentexhibitions",
+   "id": "e102",
+   "ongoing": true,
+   "checked": "2026-10-18",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-08-29",
+   "end": "2027-01-03",
+   "time": "Museum hours",
+   "title": "Mending the Wild",
+   "venue": "Discovery Place Science",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Tina Alberni artworks. Included with admission",
+   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
+   "id": "e103",
+   "ongoing": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-09-04",
+   "end": "2027-01-03",
+   "time": "Museum hours",
+   "title": "Repossessions",
+   "venue": "Harvey B. Gantt Center",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "url": "https://ganttcenter.org/exhibitions",
+   "id": "e104",
+   "ongoing": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-09-05",
+   "end": "2027-03-07",
+   "time": "Museum hours",
+   "title": "Grace Stott: The Artifacts of Being Human",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "url": "https://mintmuseum.org/exhibitions",
+   "ongoing": true,
+   "id": "e105"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-09-11",
+   "end": "2027-01-22",
+   "time": "Museum hours",
+   "title": "Yashua Klos: Cornerstones",
+   "venue": "Harvey B. Gantt Center",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "url": "https://ganttcenter.org/exhibitions",
+   "id": "e106",
+   "ongoing": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-09-11",
+   "end": "2027-01-24",
+   "time": "Museum hours",
+   "title": "Sown Together: New Voices in Contemporary Textile Art",
+   "venue": "Harvey B. Gantt Center",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "url": "https://ganttcenter.org/exhibitions",
+   "id": "e107",
+   "ongoing": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-09-19",
+   "end": "2027-01-31",
+   "time": "Museum hours",
+   "title": "Corey Pemberton: Living Well",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "url": "https://mintmuseum.org/exhibitions",
+   "ongoing": true,
+   "id": "e108"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-09-26",
+   "end": "2027-02-01",
+   "time": "Museum hours",
+   "title": "Making an Impression: Pioneering Latin American Printmakers",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "",
+   "url": "https://bechtler.org/currentexhibitions",
+   "id": "e109",
+   "ongoing": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Garden admission",
+   "free": false,
+   "note": "In the Pavilion",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-04",
+   "end": "2026-11-15",
+   "time": "Garden hours",
+   "title": "Visual Harvest Art Show",
+   "venue": "Daniel Stowe Conservancy",
+   "area": "Belmont",
+   "url": "https://danielstoweconservancy.org/events/",
+   "ongoing": true,
+   "id": "e110"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "time": "All week",
+   "title": "Charlotte Craft Beer Week",
+   "venue": "60+ breweries citywide",
+   "area": "Citywide",
+   "cat": "festival",
+   "tag": "Beer Week",
+   "price": "Free passport",
+   "free": true,
+   "note": "Free mobile passport earns prizes for check-ins",
+   "url": "https://www.charlotteonthecheap.com/charlotte-craft-beer-week/",
+   "id": "e111",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-19",
+   "time": "6:00 PM",
+   "title": "The Sound of Print: Bechtler Ensemble",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "url": "https://www.bechtler.org/events/calendar",
+   "end": "2026-10-19",
+   "id": "e112"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-19",
+   "end": "2026-10-29",
+   "time": "Evening",
+   "title": "Ballantyne Live Fall Concerts",
+   "venue": "Ballantyne Village",
+   "area": "Ballantyne",
+   "cat": "music",
+   "tag": "Live Music",
+   "price": "Free",
+   "free": true,
+   "note": "Free Thursday shows",
+   "url": "https://onestowatch.com/live/best-concerts-charlotte-october/",
+   "onDays": [
+    "Thu"
+   ],
+   "id": "e113",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-19",
+   "end": "2026-10-30",
+   "time": "Evening",
+   "title": "Friday Nights at Camp North End",
+   "venue": "Camp North End",
+   "area": "Camp North End",
+   "cat": "festival",
+   "tag": "Community",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://cltguide.beehiiv.com/p/charlotte-fall-activities",
+   "onDays": [
+    "Fri"
+   ],
+   "id": "e114",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-19",
+   "end": "2026-11-01",
+   "time": "7:00 PM",
+   "title": "SCarowinds",
+   "venue": "Carowinds",
+   "area": "South Charlotte",
+   "cat": "music",
+   "tag": "Haunt",
+   "price": "From $39.99",
+   "free": false,
+   "note": "Select nights. Check calendar",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e115",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-19",
+   "end": "2026-11-19",
+   "time": "Evening",
+   "title": "Thursdays at the Turf",
+   "venue": "Commonwealth",
+   "area": "Plaza Midwood",
+   "cat": "festival",
+   "tag": "Community",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://cltguide.beehiiv.com/p/charlotte-fall-activities",
+   "onDays": [
+    "Thu"
+   ],
+   "id": "e116",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "8:00 PM",
+   "title": "KATSEYE: The Wildworld Tour",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e117",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "8:00 PM",
+   "title": "The Airborne Toxic Event",
+   "venue": "The Fillmore",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e118",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "8:00 PM",
+   "title": "Benjamin Tod and the Inline Six",
+   "venue": "The Fillmore",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e119",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "6:45 PM",
+   "title": "Sound Bath Series",
+   "venue": "Mint Museum",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Free",
+   "free": true,
+   "note": "Guided sound, breathwork and meditation.",
+   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
+   "id": "e120",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "7:45 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "5:00 PM",
+   "title": "Charlotte Studio Artists Third Tuesday",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "arts",
+   "tag": "Art Market",
+   "price": "Free to browse",
+   "free": true,
+   "note": "",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e121",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "8:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-21",
+   "end": "2026-10-21",
+   "time": "7:00 PM",
+   "title": "ACOTAR Themed Trivia",
+   "venue": "Wooden Robot Brewery",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "A Court of Thorns and Roses, books 1–5",
+   "url": "https://woodenrobotbrewery.com/event/acotar-themed-trivia-2026-10-21/",
+   "id": "e122",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-21",
+   "end": "2026-10-21",
+   "time": "6:00 PM",
+   "title": "Arch Enemy & The Black Dahlia Murder",
+   "venue": "The Fillmore",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e123",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-21",
+   "end": "2026-10-21",
+   "time": "10:00 AM",
+   "title": "Little Learners: Safari",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "family",
+   "tag": "Nature Program",
+   "price": "$5 per child",
+   "free": false,
+   "note": "Drop-in until 11 AM; register by 5 PM the day before",
+   "url": "https://whitewater.org/little-learners/",
+   "id": "e124",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "zone": "charlotte",
+   "endTime": "11:00 AM",
+   "ages": "1–5"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-21",
+   "end": "2026-10-21",
+   "time": "6:00 PM",
+   "title": "Steinway Residency Concert",
+   "venue": "Mint Museum",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Free",
+   "free": true,
+   "note": "Piano and cello, romantic-era works",
+   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
+   "id": "e125",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Comedy",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-21",
+   "time": "7:30 PM",
+   "title": "Dave Chappelle",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-10-21",
+   "id": "e126"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "time": "8:00 PM",
+   "title": "Steve Lacy: Oh Yeah? Tour",
+   "venue": "Skyla Credit Union Amphitheatre",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e127",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "time": "8:00 PM",
+   "title": "Scene Queen",
+   "venue": "The Fillmore",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
+   "id": "e128",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "time": "12:00 PM",
+   "title": "ArtBreak Lunchtime Tour",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Free",
+   "free": true,
+   "note": "30-minute guided tour, no registration",
+   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
+   "id": "e129",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "time": "4:30 PM",
+   "title": "Julia Child Exhibit Preview (18+)",
+   "venue": "Discovery Place Science",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Tickets",
+   "free": false,
+   "note": "Adults-only preview.",
+   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
+   "id": "e130",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "endTime": "7:00 PM",
+   "ages": "18+"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "See venue",
+   "free": false,
+   "note": "Rock House Ghost Tours 7–10 PM same night",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-22",
+   "time": "6:00 PM",
+   "title": "Charlotte History through Horror",
+   "venue": "Charlotte Museum of History",
+   "area": "East Charlotte",
+   "url": "https://charlottemuseum.org",
+   "season": "halloween",
+   "end": "2026-10-22",
+   "id": "e131",
+   "endTime": "9:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "7:00 PM",
+   "title": "Football Trivia",
+   "venue": "Suffolk Punch",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e132",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "7:00 PM",
+   "title": "Pints & Punchlines",
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "cat": "music",
+   "tag": "Comedy",
+   "price": "See venue",
+   "free": false,
+   "note": "Charlotte Craft Beer Week show",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e133",
+   "checked": "2026-10-18",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "8:00 PM",
+   "title": "21+ Bad Prom: Forbidden Forest Masquerade",
+   "venue": "Amos' Southend",
+   "area": "South End",
+   "cat": "music",
+   "tag": "Party",
+   "price": "$55 advance",
+   "free": false,
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/2026/10/01/charlotte-biggest-events-october-2026",
+   "id": "e134",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "ages": "21+",
+   "kids": false
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "5:00 PM",
+   "title": "Goodies and Goblins",
+   "venue": "Promenade on Providence",
+   "area": "South Charlotte",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e135",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Hawks: Home Opener",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://qclife.wbtv.com/2026/08/28/charlotte-hornets-release-highly-anticipated-2026-27-schedule/",
+   "id": "e136",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": "2:00 PM",
+   "title": "In Conversation: Brilliant by Design",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Free",
+   "free": true,
+   "note": "Curator talk on the Judith Leiber handbags exhibit",
+   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
+   "id": "e137",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-23",
+   "time": "7:00 PM",
+   "title": "Checkers vs. Springfield Thunderbirds",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "end": "2026-10-23",
+   "id": "e138"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "time": "5:30 PM",
+   "title": "Haunted Trail at Matthews Playhouse",
+   "venue": "100 E. McDowell St",
+   "area": "Matthews",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "$10",
+   "free": false,
+   "note": "Not-so-spooky trail 5:30–7",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e139",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "season": "halloween",
+   "zone": "nearby"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-30",
+   "time": "Sunset",
+   "title": "Whitewater Film Series",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "festival",
+   "tag": "Outdoor Movie",
+   "price": "Free ($13 parking)",
+   "free": false,
+   "note": "",
+   "url": "https://www.charlotteonthecheap.com/october-things-to-do/",
+   "onDays": [
+    "Fri"
+   ],
+   "id": "e140",
+   "checked": "2026-10-18",
+   "priceTier": "under20",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-23",
+   "end": "2026-10-30",
+   "time": "4:00 PM",
+   "title": "Movie Night at Rea Farms",
+   "venue": "9855 Sandy Rock Pl",
+   "area": "Ballantyne",
+   "cat": "family",
+   "tag": "Outdoor Movie",
+   "price": "Free",
+   "free": true,
+   "note": "Bring chairs and blankets",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "onDays": [
+    "Fri"
+   ],
+   "id": "e141",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "5:00 PM",
+   "title": "NoDaWeen Freaky 5K Costume Run",
+   "venue": "Great Wagon Road Distilling",
+   "area": "NoDa",
+   "cat": "festival",
+   "tag": "Run",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e142",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "12:00 PM",
+   "title": "Fall Fest at Commonwealth",
+   "venue": "Commonwealth Ave",
+   "area": "Plaza Midwood",
+   "cat": "festival",
+   "tag": "Fall Festival",
+   "price": "Free",
+   "free": true,
+   "note": "Pumpkin patch, vendors, live music.",
+   "url": "https://www.charlotteonthecheap.com/fall-fest-commonwealth/",
+   "id": "e143",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "3:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "5:00 PM",
+   "title": "Plaza Midwood Fall Crawl",
+   "venue": "The Vine Church, 2101 Belvedere Ave",
+   "area": "Plaza Midwood",
+   "cat": "festival",
+   "tag": "Fall Festival",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e144",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "9:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "11:00 AM",
+   "title": "Romanian-American Festival",
+   "venue": "Stumptown Park",
+   "area": "Matthews",
+   "cat": "festival",
+   "tag": "Cultural Festival",
+   "price": "Free",
+   "free": true,
+   "note": "Folk dance, street food.",
+   "url": "https://www.charlotteonthecheap.com/october-things-to-do/",
+   "id": "e145",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "4:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "7:00 PM",
+   "title": "Mount Holly Lantern Parade",
+   "venue": "Downtown Mount Holly",
+   "area": "Mount Holly",
+   "cat": "festival",
+   "tag": "Parade",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://www.charlotteonthecheap.com/october-things-to-do/",
+   "id": "e146",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "6:00 PM",
+   "title": "Hornets vs. Heat",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e147",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "5:00 PM",
+   "title": "Whiskey Wine & Fire",
+   "venue": "Ballantyne's Backyard",
+   "area": "Ballantyne",
+   "cat": "festival",
+   "tag": "Food & Drink",
+   "price": "From $107",
+   "free": false,
+   "note": "Whiskey bars, wine, food trucks, fire pits",
+   "url": "https://www.tickpick.com/buy-whiskey-wine-fire-tickets-ballantynes-backyard-10-24-26-5pm/7667034/",
+   "id": "e148",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "time": "10:00 AM",
+   "title": "Heritage Month Storytime",
+   "venue": "Stevens Creek Nature Center",
+   "area": "Mint Hill",
+   "cat": "family",
+   "tag": "Nature Program",
+   "price": "Free",
+   "free": true,
+   "note": "Registration required.",
+   "url": "https://www.charlotteonthecheap.com/stevens-creek-nature-center/",
+   "id": "e149",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "endTime": "11:30 AM"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-24",
+   "time": "6:00 PM",
+   "title": "Checkers vs. Springfield Thunderbirds",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "end": "2026-10-24",
+   "id": "e150"
+  },
+  {
+   "kind": "dated",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "start": "2026-10-24",
+   "time": "3:00 PM",
+   "title": "Stalloween",
+   "venue": "Stallings Municipal Park",
+   "area": "Stallings",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "kids": true,
+   "outdoor": true,
+   "season": "halloween",
+   "end": "2026-10-24",
+   "id": "e151",
+   "endTime": "7:00 PM"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Admission",
+   "free": false,
+   "note": "Also Oct 31 at Randolph",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "time": "1:30 PM",
+   "title": "Mint on the Dot! Talk",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "url": "https://mintmuseum.org/events/",
+   "end": "2026-10-24",
+   "id": "e152",
+   "endTime": "2:30 PM"
+  },
+  {
+   "kind": "dated",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Garden admission",
+   "free": false,
+   "note": "",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "time": "10:00 AM",
+   "title": "Bootanical",
+   "venue": "Daniel Stowe Conservancy",
+   "area": "Belmont",
+   "url": "https://danielstoweconservancy.org/events/",
+   "kids": true,
+   "outdoor": true,
+   "season": "halloween",
+   "end": "2026-10-24",
+   "id": "e153",
+   "endTime": "2:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-10-31",
+   "time": "Varies",
+   "title": "NoDaWeen",
+   "venue": "NoDa",
+   "area": "NoDa",
+   "cat": "festival",
+   "tag": "Halloween",
+   "price": "Many events free",
+   "free": true,
+   "note": "Ghost tours, candy crawl, costume run",
+   "url": "https://www.axios.com/local/charlotte/2026/10/01/charlotte-biggest-events-october-2026",
+   "id": "e154",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-11-01",
+   "time": "12:00 PM",
+   "title": "Carowinds Tricks & Treats",
+   "venue": "Carowinds",
+   "area": "South Charlotte",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Varies",
+   "free": false,
+   "note": ", weekends",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "onDays": [
+    "Sat",
+    "Sun"
+   ],
+   "id": "e155",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "5:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-11-01",
+   "time": "10:00 AM",
+   "title": "Whitewater Fall Market",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "market",
+   "tag": "Market",
+   "price": "See venue",
+   "free": false,
+   "note": "Parking fee applies",
+   "url": "https://whitewater.org/calendar/",
+   "onDays": [
+    "Sat",
+    "Sun"
+   ],
+   "id": "e156",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "4:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-24",
+   "end": "2026-11-22",
+   "time": "9:30 AM",
+   "title": "Carolina Renaissance Festival",
+   "venue": "16445 Poplar Tent Rd",
+   "area": "Huntersville",
+   "cat": "festival",
+   "tag": "Festival",
+   "price": "$37.99 adult",
+   "free": false,
+   "note": "Weekends only. Jousting, falconry, artisans",
+   "url": "https://www.charlotteonthecheap.com/october-things-to-do/",
+   "onDays": [
+    "Sat",
+    "Sun"
+   ],
+   "id": "e157",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "nearby"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Opens Oct 24",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "end": "2027-01-17",
+   "time": "Museum hours",
+   "title": "Julia Child: A Recipe for Life",
+   "venue": "Discovery Place Science",
+   "area": "Uptown",
+   "url": "https://www.charlotteonthecheap.com/discovery-place-science-anniversary/",
+   "ongoing": true,
+   "kids": true,
+   "id": "e158"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Opens Oct 24",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "end": "2027-07-03",
+   "time": "Museum hours",
+   "title": "Brilliant by Design: The Handbags of Judith Leiber",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "url": "https://www.mintmuseum.org/exhibition/brilliant-by-design",
+   "ongoing": true,
+   "id": "e159"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "4:00 PM",
+   "title": "Halloween in Huntersville",
+   "venue": "Huntersville Athletic Park",
+   "area": "Huntersville",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "Costume contest, drone show",
+   "url": "https://www.charlotteonthecheap.com/october-things-to-do/",
+   "id": "e160",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "nearby",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "4:00 PM",
+   "title": "NoDa Candy Crawl",
+   "venue": "Downtown NoDa",
+   "area": "NoDa",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e161",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "1:00 PM",
+   "title": "Panthers vs. Buccaneers",
+   "venue": "Bank of America Stadium",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NFL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wbtv.com/2026/05/14/carolina-panthers-play-3-prime-time-games-2026-see-full-schedule-here/",
+   "id": "e162",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "1:00 PM",
+   "title": "Party in the Park: 90 Years of the Mint",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "Free",
+   "free": true,
+   "note": "Music, food trucks and hands-on activities.",
+   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
+   "id": "e163",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "endTime": "5:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-11-01",
+   "time": "6:00 PM",
+   "title": "Great Pumpkin Wall",
+   "venue": "Laurel St",
+   "area": "Elizabeth",
+   "cat": "festival",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e164",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-25",
+   "end": "2026-12-20",
+   "time": "Time TBA",
+   "title": "SUNDAYS at Atherton Maker Market",
+   "venue": "Atherton Mill",
+   "area": "South End",
+   "cat": "market",
+   "tag": "Maker Market",
+   "price": "Free to browse",
+   "free": true,
+   "note": "60+ local makers, select Sundays",
+   "url": "https://cltguide.beehiiv.com/p/charlotte-fall-activities",
+   "onDays": [
+    "Sun"
+   ],
+   "id": "e165",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "time": "11:00 AM",
+   "title": "Tricks and Treats on 7th Street",
+   "venue": "224 E. 7th St",
+   "area": "Uptown",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e166",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Wizards",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e167",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-27",
+   "end": "2026-10-27",
+   "time": "7:00 PM",
+   "title": "Traitors: Live Game",
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "cat": "games",
+   "tag": "Game Night",
+   "price": "See venue",
+   "free": false,
+   "note": "Real-life Traitors vs. Faithfuls competition",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e168",
+   "checked": "2026-10-18",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-27",
+   "end": "2026-10-27",
+   "time": "7:30 PM",
+   "title": "sombr: You Are The Reason Tour",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "id": "e169",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "7:00 PM",
+   "title": "Golden Girls Pub Trivia",
+   "venue": "Triple C Brewing",
+   "area": "Wesley Heights",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e170",
+   "dogs": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed",
+   "host": "Mindless Minutia"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "8:00 PM",
+   "title": "Victoria Monét: Frequency of Love Tour",
+   "venue": "Skyla Credit Union Amphitheatre",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Resale from $59",
+   "free": false,
+   "note": "",
+   "url": "https://www.eventworld.com/victoria-monet-charlotte-tickets-10-28-2026/event/558999",
+   "id": "e171",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "7:30 PM",
+   "title": "Charlotte FC vs. CF Montréal",
+   "venue": "Bank of America Stadium",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "MLS",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://cltguide.beehiiv.com/p/charlotte-fall-activities",
+   "id": "e172",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "10:00 AM",
+   "title": "Little Learners: Monster Mash",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "$5 per child",
+   "free": false,
+   "note": "Drop-in until 11 AM; register by 5 PM the day before",
+   "url": "https://whitewater.org/little-learners/",
+   "id": "e173",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "11:00 AM",
+   "ages": "1–5"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "6:00 PM",
+   "title": "Zipline and Dine",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "outdoors",
+   "tag": "Adventure",
+   "price": "$85",
+   "free": false,
+   "note": "Check-in 6 PM at The Hub; dinner 7:15 PM at River's Edge",
+   "url": "https://whitewater.org/dining/zipline-and-dine/",
+   "id": "e174",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "See venue",
+   "free": false,
+   "note": "During Free Wednesday Evening.",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-28",
+   "time": "5:00 PM",
+   "title": "Wine on Wednesdays",
+   "venue": "Mint Museum Uptown",
+   "area": "Uptown",
+   "url": "https://mintmuseum.org/events/",
+   "end": "2026-10-28",
+   "id": "e175",
+   "endTime": "8:30 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "time": "7:00 PM",
+   "title": "Gavin Adcock",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.tickpick.com/buy-gavin-adcock-tickets-bojangles-coliseum-10-29-26-7pm/7806866/",
+   "id": "e176",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "See venue",
+   "free": false,
+   "note": "Levine Museum of the New South event.",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-10-29",
+   "time": "6:30 PM",
+   "title": "Eve of the Dead Dinner",
+   "venue": "Latin American Coalition",
+   "area": "Central Ave",
+   "url": "https://www.museumofthenewsouth.org/events/",
+   "season": "halloween",
+   "end": "2026-10-29",
+   "id": "e177",
+   "endTime": "8:30 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "7:00 PM",
+   "title": "Horror Movie Trivia",
+   "venue": "Suffolk Punch",
+   "area": "South End",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e178",
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "gameKind": "Themed"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "6:30 PM",
+   "title": "Joseph Sheridan Comedy: Halloween",
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "cat": "music",
+   "tag": "Comedy",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "id": "e179",
+   "checked": "2026-10-18",
+   "priceTier": "varies",
+   "season": "halloween",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "5:00 PM",
+   "title": "Candy Crawl & Monster Market",
+   "venue": "Urban District Market",
+   "area": "NoDa",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e180",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "4:00 PM",
+   "title": "Tricks-N-Treats at The Arboretum",
+   "venue": "The Arboretum",
+   "area": "South Charlotte",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e181",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "time": "4:00 PM",
+   "title": "Trick-or-Treat on Main Street",
+   "venue": "Harrisburg Town Center, 4100 Main St",
+   "area": "Harrisburg",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "Games, inflatables, candy, food trucks.",
+   "url": "https://www.harrisburgnc.gov/417/Trick-or-Treat-in-the-Park",
+   "id": "e182",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "8:00 PM"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "College Football",
+   "price": "Tickets",
+   "free": false,
+   "note": "Friday night game on ESPN2",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-30",
+   "time": "7:00 PM",
+   "title": "Charlotte 49ers vs. Tulane",
+   "venue": "Jerry Richardson Stadium",
+   "area": "University City",
+   "url": "https://seatgeek.com/charlotte-49ers-football-tickets/schedule",
+   "outdoor": true,
+   "end": "2026-10-30",
+   "id": "e183"
+  },
+  {
+   "kind": "dated",
+   "cat": "festival",
+   "tag": "Halloween",
+   "price": "Free entry",
+   "free": true,
+   "note": "",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "start": "2026-10-30",
+   "time": "5:00 PM",
+   "title": "Spookeasy Pop-Up (21+)",
+   "venue": "Daniel Stowe Conservancy",
+   "area": "Belmont",
+   "url": "https://danielstoweconservancy.org/events/",
+   "season": "halloween",
+   "end": "2026-10-30",
+   "id": "e184",
+   "endTime": "7:00 PM",
+   "ages": "21+",
+   "kids": false
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-10-31",
+   "time": "6:00 PM",
+   "title": "Official Halloween Bar Crawl",
+   "venue": "Uptown bars (starts at Tattoos & Booz)",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Bar Crawl",
+   "price": "Tickets",
+   "free": false,
+   "note": "21+. Costume contest, drink specials",
+   "url": "https://uptowncharlotte.com/do/charlotte-official-halloween-bar-crawl-2026-by-bar-crawl-live",
+   "id": "e185",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "season": "halloween",
+   "zone": "charlotte",
+   "ages": "21+",
+   "kids": false
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Comedy",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-30",
+   "time": "7:00 PM",
+   "title": "Kevin Nealon",
+   "venue": "The Comedy Zone",
+   "area": "Uptown",
+   "url": "https://theater.guide/venue/the-comedy-zone-charlotte/",
+   "end": "2026-10-31",
+   "id": "e186",
+   "timesByDay": {
+    "Fri": [
+     "7:00 PM",
+     "9:45 PM"
+    ],
+    "Sat": [
+     "6:00 PM",
+     "8:45 PM"
+    ]
+   }
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-30",
+   "end": "2026-11-15",
+   "time": "7:30 PM",
+   "title": "Frankenstein",
+   "venue": "Theatre Charlotte",
+   "area": "Myers Park",
+   "cat": "music",
+   "tag": "Theater",
+   "price": "$24–$39.50",
+   "free": false,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e187",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "season": "halloween",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "7:00 PM",
+   "title": "Hawthorne Heights: 20th Anniversary",
+   "venue": "The Underground",
+   "area": "NC Music Factory",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.tickpick.com/buy-hawthorne-heights-tickets-the-underground-charlotte-10-31-26-7pm/7815669/",
+   "id": "e188",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "10:00 AM",
+   "title": "Trick or Treat at Birkdale Village",
+   "venue": "Birkdale Village",
+   "area": "Huntersville",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e189",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "nearby",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "9:30 AM",
+   "title": "Running Scared 5 Miler & Monster Mile",
+   "venue": "MOTION Fitness, Rexford Rd",
+   "area": "SouthPark",
+   "cat": "family",
+   "tag": "Run",
+   "price": "Varies",
+   "free": false,
+   "note": "",
+   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
+   "id": "e190",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "6:00 PM",
+   "title": "Hornets vs. 76ers",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://qclife.wbtv.com/2026/08/28/charlotte-hornets-release-highly-anticipated-2026-27-schedule/",
+   "id": "e191",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "All day",
+   "title": "Eastbound Half Marathon & 5K",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "outdoors",
+   "tag": "Trail Race",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://whitewater.org/calendar/",
+   "id": "e192",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "10:00 AM",
+   "title": "Halloween at Wildwoods",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "See venue",
+   "free": false,
+   "note": "Activities until 6 PM",
+   "url": "https://whitewater.org/calendar/",
+   "id": "e193",
+   "kids": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "6:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": "All day",
+   "title": "Off Leash: Trick & Treat",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "cat": "outdoors",
+   "tag": "Dog Event",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://whitewater.org/calendar/",
+   "id": "e194",
+   "dogs": true,
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "MLS",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-10-31",
+   "time": "1:00 PM",
+   "title": "Charlotte FC vs. Orlando City",
+   "venue": "Bank of America Stadium",
+   "area": "Uptown",
+   "url": "https://www.charlottefootballclub.com/schedule/2026",
+   "end": "2026-10-31",
+   "id": "e195"
+  },
+  {
+   "kind": "dated",
+   "cat": "family",
+   "tag": "Halloween",
+   "price": "Free",
+   "free": true,
+   "note": "Pickin' on the Porch 2–4 PM, also free",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "start": "2026-10-31",
+   "time": "9:30 AM",
+   "title": "Cars + Coffee Trunk-or-Treat",
+   "venue": "Daniel Stowe Conservancy",
+   "area": "Belmont",
+   "url": "https://danielstoweconservancy.org/events/",
+   "kids": true,
+   "outdoor": true,
+   "season": "halloween",
+   "end": "2026-10-31",
+   "id": "e196",
+   "endTime": "11:00 AM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "time": "12:00 PM",
+   "title": "Day of the Dead Celebration",
+   "venue": "Camp North End",
+   "area": "Camp North End",
+   "cat": "festival",
+   "tag": "Cultural Festival",
+   "price": "Free",
+   "free": true,
+   "note": "Altar exhibit, Catrina parade.",
+   "url": "https://www.charlotteonthecheap.com/charlotte-halloween-fall-festivals-parties-trunk-treat/",
+   "id": "e197",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "season": "halloween",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "6:00 PM"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "From $64",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-01",
+   "time": "8:00 PM",
+   "title": "Young Miko",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-11-01",
+   "id": "e198"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-02",
+   "end": "2026-11-02",
+   "time": "7:30 PM",
+   "title": "Hornets vs. Pistons",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e199",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-03",
+   "end": "2026-11-03",
+   "time": "8:30 PM",
+   "title": "Rod Wave",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "id": "e200",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-03",
+   "end": "2026-11-08",
+   "time": "7:30 PM",
+   "title": "Dirty Dancing: The Musical",
+   "venue": "Belk Theater, Blumenthal",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Theater",
+   "price": "Tickets",
+   "free": false,
+   "note": "Tue–Fri 7:30 PM; Sat 2 & 7:30 PM; Sun 1 & 6:30 PM",
+   "url": "https://www.blumenthalarts.org/events/detail/dirty-dancing-2",
+   "id": "e201",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "timesByDay": {
+    "Tue": [
+     "7:30 PM"
+    ],
+    "Wed": [
+     "7:30 PM"
+    ],
+    "Thu": [
+     "7:30 PM"
+    ],
+    "Fri": [
+     "7:30 PM"
+    ],
+    "Sat": [
+     "2:00 PM",
+     "7:30 PM"
+    ],
+    "Sun": [
+     "1:00 PM",
+     "6:30 PM"
+    ]
+   }
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "time": "7:30 PM",
+   "title": "Hornets vs. Nets",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e202",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-05",
+   "end": "2026-11-05",
+   "time": "7:00 PM",
+   "title": "Nature Themed Trivia",
+   "venue": "Free Range Brewing",
+   "area": "Optimist Park",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "id": "e203",
+   "kids": true,
+   "checked": "2026-10-18",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "Themed"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-06",
+   "end": "2026-11-06",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Celtics",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e204",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-06",
+   "time": "7:00 PM",
+   "title": "Checkers vs. Wilkes-Barre/Scranton Penguins",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "end": "2026-11-06",
+   "id": "e205"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "Featuring Troy Conn",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-06",
+   "time": "6:00 PM",
+   "title": "Jazz at the Bechtler: Tribute to Pat Metheny",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "url": "https://www.bechtler.org/events/calendar",
+   "end": "2026-11-06",
+   "id": "e206"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "Time TBA",
+   "title": "EpicFest Literary Festival",
+   "venue": "ImaginOn",
+   "area": "Uptown",
+   "cat": "family",
+   "tag": "Book Festival",
+   "price": "Free",
+   "free": true,
+   "note": "Author visits for kids and teens",
+   "url": "https://www.charlotteonthecheap.com/fall-festivals/",
+   "id": "e207",
+   "kids": true,
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "10:00 AM",
+   "title": "Harrisburg Multicultural Festival",
+   "venue": "Harrisburg Park, 191 Sims Pkwy",
+   "area": "Harrisburg",
+   "cat": "festival",
+   "tag": "Cultural Festival",
+   "price": "Free",
+   "free": true,
+   "note": "Art, music, fashion, games and food.",
+   "url": "https://www.charlotteonthecheap.com/fall-festivals/",
+   "id": "e208",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "2:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "10:00 AM",
+   "title": "Pawsitively Matthews",
+   "venue": "Stumptown Park",
+   "area": "Matthews",
+   "cat": "festival",
+   "tag": "Dog Event",
+   "price": "Free",
+   "free": true,
+   "note": "Pet festival with demos, music and a beer 'pawvilion'.",
+   "url": "https://www.charlotteonthecheap.com/fall-festivals/",
+   "id": "e209",
+   "dogs": true,
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "nearby",
+   "outdoor": true,
+   "endTime": "3:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "12:00 PM",
+   "title": "CLT Ciderfest",
+   "venue": "Armored Cow Brewing",
+   "area": "University City",
+   "cat": "festival",
+   "tag": "Food & Drink",
+   "price": "$35",
+   "free": false,
+   "note": "",
+   "url": "https://www.cltciderfest.com/event-details/clt-ciderfest-2026",
+   "id": "e210",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "endTime": "4:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "Time TBA",
+   "title": "Filipino Festival at Urban District Market",
+   "venue": "Urban District Market",
+   "area": "NoDa",
+   "cat": "festival",
+   "tag": "Food Festival",
+   "price": "See event",
+   "free": false,
+   "note": "Time not posted yet",
+   "url": "https://www.thecraftmap.com/fair/2026-filipino-festival-at-urban-district-market-charlotte-nc",
+   "id": "e211",
+   "checked": "2026-10-19",
+   "unconfirmedTime": true,
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": "11:00 AM",
+   "title": "Carolinas Veterans Day Festival",
+   "venue": "Romare Bearden Park",
+   "area": "Uptown",
+   "cat": "festival",
+   "tag": "Community",
+   "price": "See event",
+   "free": false,
+   "note": "Free food while supplies last",
+   "url": "https://sharecharlotte.org/events/veterans-bridge-home/2026-carolinas-veterans-day-festival",
+   "id": "e212",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "outdoor": true,
+   "endTime": "2:00 PM"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-07",
+   "time": "6:00 PM",
+   "title": "Checkers vs. Wilkes-Barre/Scranton Penguins",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "end": "2026-11-07",
+   "id": "e213"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Symphony",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-07",
+   "time": "8:00 PM",
+   "title": "Charlotte Symphony Gala: Joshua Bell Plays Bruch",
+   "venue": "Knight Theater",
+   "area": "Uptown",
+   "url": "https://www.charlottesymphony.org/cms_files/File/26-27-concert-listing-final.pdf",
+   "end": "2026-11-07",
+   "id": "e214"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "From $21",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-07",
+   "time": "Time TBA",
+   "title": "Little Big Town",
+   "venue": "Ovens Auditorium",
+   "area": "East Charlotte",
+   "url": "https://www.eventworld.com/charlotte-nc/concerts/november",
+   "end": "2026-11-07",
+   "unconfirmedTime": true,
+   "id": "e215"
+  },
+  {
+   "kind": "dated",
+   "cat": "festival",
+   "tag": "Tree Lighting",
+   "price": "See town",
+   "free": false,
+   "note": "On the town's 2026 special events calendar",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-11-07",
+   "time": "Time TBA",
+   "title": "Harrisburg Christmas Tree Lighting",
+   "venue": "Harrisburg Park",
+   "area": "Harrisburg",
+   "url": "https://www.harrisburgnc.gov/DocumentCenter/View/12094/2026-Special-Events-Calendar",
+   "kids": true,
+   "outdoor": true,
+   "season": "holidays",
+   "end": "2026-11-07",
+   "unconfirmedTime": true,
+   "id": "e216"
+  },
+  {
+   "kind": "dated",
+   "cat": "outdoors",
+   "tag": "Garden Tour",
+   "price": "$15 ($5 members)",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "start": "2026-11-07",
+   "time": "10:30 AM",
+   "title": "Garden Discovery Tour",
+   "venue": "Wing Haven",
+   "area": "Myers Park",
+   "url": "https://winghavengardens.org/events-calendar/garden-discovery-tour-nov",
+   "outdoor": true,
+   "end": "2026-11-07",
+   "id": "e217",
+   "endTime": "11:30 AM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "time": "All day",
+   "title": "Bank of America Museums on Us",
+   "venue": "Mint, Bechtler, Gantt and Charlotte Museum of History",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Free Days",
+   "price": "Free with BofA card",
+   "free": true,
+   "note": "Free admission with a Bank of America card and photo ID",
+   "url": "https://www.ashevilleart.org/event/free-museums-on-us-weekend/2026-11-07/",
+   "id": "e218",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": "1:00 PM",
+   "title": "Panthers vs. Broncos",
+   "venue": "Bank of America Stadium",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NFL",
+   "price": "Tickets",
+   "free": false,
+   "note": "On CBS",
+   "url": "https://www.sportbusy.com/nfl-schedule-2026/panthers/",
+   "id": "e219",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-09",
+   "end": "2026-11-09",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Cavaliers",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e220",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "Two games: Tue and Wed",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-10",
+   "end": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Checkers vs. Providence Bruins",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "id": "e221"
+  },
+  {
+   "kind": "dated",
+   "cat": "festival",
+   "tag": "Holiday Market",
+   "price": "Tickets",
+   "free": false,
+   "note": "Thu–Sat until 9 PM; Sun–Wed until 6 PM",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-11",
+   "end": "2026-11-22",
+   "time": "10:00 AM",
+   "title": "Southern Christmas Show",
+   "venue": "Park Expo and Conference Center",
+   "area": "East Charlotte",
+   "url": "https://www.southernchristmasshow.com/attendee-info/show-info",
+   "season": "holidays",
+   "id": "e222"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "12:00 PM",
+   "title": "ArtBreak at the Bechtler",
+   "venue": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "url": "https://www.bechtler.org/event-details-registration/artbreak-2026-11-12-12-00",
+   "id": "e223",
+   "checked": "2026-10-18",
+   "priceTier": "varies",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Suns",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e224",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-12",
+   "time": "8:00 PM",
+   "title": "Zayn",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-11-12",
+   "id": "e225"
+  },
+  {
+   "kind": "dated",
+   "cat": "outdoors",
+   "tag": "Trail Race",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-11-13",
+   "time": "Time TBA",
+   "title": "A Shot in the Dark Night Trail Race",
+   "venue": "U.S. National Whitewater Center",
+   "area": "West Charlotte",
+   "url": "https://whitewater.org/calendar/",
+   "outdoor": true,
+   "end": "2026-11-13",
+   "unconfirmedTime": true,
+   "id": "e226"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "7:10 AM",
+   "title": "Charlotte Marathon",
+   "venue": "Uptown and neighborhoods",
+   "area": "Uptown",
+   "cat": "outdoors",
+   "tag": "Run",
+   "price": "Registration",
+   "free": false,
+   "note": "5K at 7:10 AM; marathon and half at 7:20 AM. Start at 525 S. Tryon St. Free to cheer",
+   "url": "https://charlottesports.org/event/charlotte-marathon/runner-info/",
+   "id": "e227",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "College Football",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-14",
+   "time": "Time TBA",
+   "title": "Charlotte 49ers vs. East Carolina",
+   "venue": "Jerry Richardson Stadium",
+   "area": "University City",
+   "url": "https://seatgeek.com/charlotte-49ers-football-tickets/schedule",
+   "outdoor": true,
+   "end": "2026-11-14",
+   "unconfirmedTime": true,
+   "id": "e228"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "John Summit",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-11-14",
+   "id": "e229"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Museum Event",
+   "price": "See venue",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "start": "2026-11-14",
+   "time": "1:00 PM",
+   "title": "The Green Book: Screening",
+   "venue": "Charlotte Museum of History",
+   "area": "East Charlotte",
+   "url": "https://charlottemuseum.org",
+   "end": "2026-11-14",
+   "id": "e230",
+   "endTime": "4:00 PM"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "7:30 PM",
+   "title": "Hornets vs. Clippers",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e231",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Doja Cat",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-11-18",
+   "id": "e232"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Disney's Descendants & Zombies: Worlds Collide Tour",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "kids": true,
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "end": "2026-11-19",
+   "id": "e233"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Hawks",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e234",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "time": "7:30 PM",
+   "title": "Charlotte Symphony: Strauss & Beethoven",
+   "venue": "Belk Theater, Blumenthal",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Symphony",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.charlottesymphony.org/cms_files/File/26-27-concert-listing-final.pdf",
+   "id": "e235",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "Two shows: Fri Nov 20 and Sun Nov 22. Buy early",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "onDays": [
+    "Fri",
+    "Sun"
+   ],
+   "time": "7:30 PM",
+   "title": "Rush",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
+   "id": "e236"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-20",
+   "end": "2027-01-03",
+   "time": "6:00 PM",
+   "title": "Speedway Christmas",
+   "venue": "Charlotte Motor Speedway",
+   "area": "Concord",
+   "cat": "festival",
+   "tag": "Holiday Lights",
+   "price": "Per car",
+   "free": false,
+   "note": "Drive-through, 6–10 PM, rain or shine; per-vehicle pricing",
+   "url": "https://www.explorecabarrus.com/events/speedway-christmas-charlotte-motor-speedway/",
+   "id": "e237",
+   "checked": "2026-10-19",
+   "priceTier": "varies",
+   "zone": "nearby"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Theater",
+   "price": "Tickets",
+   "free": false,
+   "note": "Children's Theatre of Charlotte, McColl Family Theatre",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-21",
+   "end": "2026-12-23",
+   "time": "Time TBA",
+   "title": "How the Grinch Stole Christmas! The Musical",
+   "venue": "ImaginOn",
+   "area": "Uptown",
+   "kids": true,
+   "url": "https://ctcharlotte.org/Online/article/grinchmas",
+   "season": "holidays",
+   "unconfirmedTime": true,
+   "id": "e238"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "NFL",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-22",
+   "time": "1:00 PM",
+   "title": "Panthers vs. Ravens",
+   "venue": "Bank of America Stadium",
+   "area": "Uptown",
+   "url": "https://www.sportbusy.com/nfl-schedule-2026/panthers/",
+   "end": "2026-11-22",
+   "id": "e239"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Grizzlies",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e240",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "time": "7:30 PM",
+   "title": "Hornets vs. Bulls",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e241",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "time": "5:30 PM",
+   "title": "Novant Health Thanksgiving Eve Parade",
+   "venue": "Tryon St, 9th St to Good Samaritan Way",
+   "area": "Uptown",
+   "cat": "festival",
+   "tag": "Parade",
+   "price": "Free",
+   "free": true,
+   "note": "Rain or shine. Airs live on WCCB at 6 PM",
+   "url": "https://www.novanthealththanksgivingparade.com/parade-info",
+   "id": "e242",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "cat": "outdoors",
+   "tag": "Run",
+   "price": "$35",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-26",
+   "time": "8:00 AM",
+   "title": "University City Turkey Trot",
+   "venue": "3024 Prosperity Church Rd",
+   "area": "Highland Creek",
+   "url": "https://www.endurancegrid.com/race/2026-university-city-turkey-trot-charlotte-nc-17800",
+   "outdoor": true,
+   "season": "thanksgiving",
+   "end": "2026-11-26",
+   "id": "e243"
+  },
+  {
+   "kind": "dated",
+   "cat": "outdoors",
+   "tag": "Run",
+   "price": "$27–$37; Tot Trot free",
+   "free": false,
+   "note": "Tot Trot heats 8:30–9:30 AM",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-26",
+   "time": "Time TBA",
+   "title": "CPI Security Charlotte Turkey Trot",
+   "venue": "SouthPark Mall",
+   "area": "SouthPark",
+   "url": "https://www.endurancegrid.com/race/cpi-security-charlotte-turkey-trot-nc-98403",
+   "outdoor": true,
+   "kids": true,
+   "season": "thanksgiving",
+   "end": "2026-11-26",
+   "unconfirmedTime": true,
+   "id": "e244"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "AHL",
+   "price": "Tickets",
+   "free": false,
+   "note": "Thanksgiving weekend pair: Fri and Sat",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-27",
+   "end": "2026-11-28",
+   "time": "4:00 PM",
+   "title": "Checkers vs. Hershey Bears",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
+   "kids": true,
+   "id": "e245"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Symphony",
+   "price": "Tickets",
+   "free": false,
+   "note": "Charlotte Symphony",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-27",
+   "time": "7:30 PM",
+   "title": "How the Grinch Stole Christmas in Concert",
+   "venue": "Ovens Auditorium",
+   "area": "East Charlotte",
+   "kids": true,
+   "url": "https://www.charlottesymphony.org/cms_files/File/26-27-concert-listing-final.pdf",
+   "end": "2026-11-28",
+   "id": "e246",
+   "timesByDay": {
+    "Fri": [
+     "7:30 PM"
+    ],
+    "Sat": [
+     "3:00 PM"
+    ]
+   }
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "time": "Time TBA",
+   "title": "A Beautiful Noise: The Neil Diamond Musical",
+   "venue": "Belk Theater, Blumenthal",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Theater",
+   "price": "Tickets",
+   "free": false,
+   "note": "Sun Nov 29 matinee at 1 PM; check other times with Blumenthal",
+   "url": "https://qclife.wbtv.com/2026/04/21/blumenthal-arts-next-broadway-season-brings-harry-potter-cursed-child-phantom-oh-mary-charlotte/",
+   "id": "e247",
+   "checked": "2026-10-19",
+   "unconfirmedTime": true,
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-27",
+   "end": "2026-12-30",
+   "time": "5:30 PM",
+   "title": "Carolina Holiday Light Spectacular",
+   "venue": "Ballantyne's Backyard",
+   "area": "Ballantyne",
+   "cat": "festival",
+   "tag": "Holiday Lights",
+   "price": "From $20 ($10 twilight)",
+   "free": false,
+   "note": "11611 N. Community House Rd. Select nights; closed Nov 30. Last entry 9 PM. Free parking. Kids 2 and under free",
+   "url": "https://ncholidaylights.com/",
+   "id": "e248",
+   "checked": "2026-10-19",
+   "priceTier": "under20",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-27",
+   "end": "2027-01-03",
+   "time": "Evening",
+   "title": "WinterFest at Carowinds",
+   "venue": "Carowinds",
+   "area": "South Charlotte",
+   "cat": "festival",
+   "tag": "Holiday Lights",
+   "price": "Tickets",
+   "free": false,
+   "note": "Weekends and select weekdays. Tree lighting, skating, shows",
+   "url": "https://www.waywardblog.com/charlotte-area-holiday-events/",
+   "id": "e249",
+   "checked": "2026-10-18",
+   "unconfirmedTime": true,
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "outdoor": true
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "6:00 PM",
+   "title": "Hornets vs. Nets",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e250",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  },
+  {
+   "kind": "dated",
+   "cat": "sports",
+   "tag": "College Football",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-28",
+   "time": "Time TBA",
+   "title": "Charlotte 49ers vs. Navy",
+   "venue": "Jerry Richardson Stadium",
+   "area": "University City",
+   "url": "https://seatgeek.com/charlotte-49ers-football-tickets/schedule",
+   "outdoor": true,
+   "end": "2026-11-28",
+   "unconfirmedTime": true,
+   "id": "e251"
+  },
+  {
+   "kind": "dated",
+   "cat": "festival",
+   "tag": "Holiday Lights",
+   "price": "From $24 adult (Mon–Thu)",
+   "free": false,
+   "note": "Last entry 9 PM. Fri–Sun $28 adult / $25 child",
+   "zone": "nearby",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-28",
+   "end": "2026-12-30",
+   "time": "5:00 PM",
+   "title": "Holidays at the Garden",
+   "venue": "Daniel Stowe Conservancy",
+   "area": "Belmont",
+   "url": "https://danielstoweconservancy.org/visit/holidays/",
+   "outdoor": true,
+   "kids": true,
+   "season": "holidays",
+   "id": "e252"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Symphony",
+   "price": "From $31.26",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-29",
+   "time": "7:30 PM",
+   "title": "Charlotte Symphony: Majestic Brass",
+   "venue": "First United Methodist Church",
+   "area": "Uptown",
+   "url": "https://www.blumenthalarts.org/events/detail/charlotte-symphony-majestic-brass-2",
+   "end": "2026-11-29",
+   "id": "e253"
+  },
+  {
+   "kind": "dated",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "zone": "charlotte",
+   "checked": "2026-10-19",
+   "priceTier": "ticketed",
+   "start": "2026-11-29",
+   "time": "Time TBA",
+   "title": "Amy Grant, Michael W. Smith & CeCe Winans",
+   "venue": "Bojangles Coliseum",
+   "area": "East Charlotte",
+   "url": "https://songkick.com/venues/4722-bojangles-coliseum",
+   "end": "2026-11-29",
+   "unconfirmedTime": true,
+   "id": "e254"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "time": "7:00 PM",
+   "title": "Hornets vs. Wizards",
+   "venue": "Spectrum Center",
+   "area": "Uptown",
+   "cat": "sports",
+   "tag": "NBA",
+   "price": "Tickets",
+   "free": false,
+   "note": "",
+   "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
+   "id": "e255",
+   "checked": "2026-10-18",
+   "priceTier": "ticketed",
+   "zone": "charlotte"
+  }
+ ],
+ "deals": [
+  {
+   "days": [
+    "Mon"
+   ],
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "deal": "$5 mugs and select seasonals",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Tue"
+   ],
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "deal": "$5 pints and select seasonals",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Wed"
+   ],
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "deal": "$5 off pitchers",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Thu"
+   ],
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "deal": "$8 draft cocktails",
+   "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Mon"
+   ],
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "deal": "$1 wings 4–10 PM, $8 Moscow Mules",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Tue"
+   ],
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "deal": "Kids eat free",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Wed"
+   ],
+   "venue": "Town Brewing",
+   "area": "Wesley Heights",
+   "deal": "Half-off wine bottles from 4 PM",
+   "url": "https://www.charlotteonthecheap.com/town-brewing/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Mon"
+   ],
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "deal": "Mug Club: $5 20 oz pours on select beers",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Wed"
+   ],
+   "venue": "Heist Brewery",
+   "area": "NoDa",
+   "deal": "Half off whiskey and bourbon",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Thu"
+   ],
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "deal": "$2 off can pours",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Sun"
+   ],
+   "venue": "Heist Barrel Arts",
+   "area": "North End",
+   "deal": "$4 cheese slices, $5 pepperoni",
+   "url": "https://heistbrewery.com/events/upcoming-events/",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Tue"
+   ],
+   "venue": "Club West Brewing",
+   "area": "South End",
+   "deal": "$8 pizza, $5 IPAs, half-off wine",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Wed"
+   ],
+   "venue": "Club West Brewing",
+   "area": "South End",
+   "deal": "Half-off apps 5–8 PM, $5 pints",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Tue"
+   ],
+   "venue": "Burial Beer Co.",
+   "area": "Plaza Midwood",
+   "deal": "$5 featured pints at trivia",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-18"
+  },
+  {
+   "days": [
+    "Thu"
+   ],
+   "venue": "Edge City Brewery",
+   "area": "East Charlotte",
+   "deal": "$6 Guinness at trivia",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-18"
+  }
+ ],
+ "freeSpots": [
+  {
+   "name": "Rail Trail stroll",
+   "area": "South End",
+   "vibes": [
+    "social",
+    "city"
+   ],
+   "idea": "Walk the Rail Trail from Bland St toward Atherton Mill and vote on the best mural along the way.",
+   "when": "any",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "Romare Bearden Park at night",
+   "area": "Uptown",
+   "vibes": [
+    "chill",
+    "city"
+   ],
+   "idea": "Grab a bench facing the skyline after dark. The waterfall wall and city lights do the work.",
+   "when": "evening",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "Freedom Park loop",
+   "area": "Dilworth",
+   "vibes": [
+    "outdoors",
+    "chill"
+   ],
+   "idea": "Loop the lake, feed nothing to the ducks, and claim a spot on the hill for a packed picnic.",
+   "when": "day",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "Little Sugar Creek Greenway",
+   "area": "Midtown",
+   "vibes": [
+    "outdoors",
+    "active"
+   ],
+   "idea": "Walk or bike the greenway from Midtown toward Freedom Park and stop wherever looks good.",
+   "when": "day",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "Reedy Creek Nature Preserve",
+   "area": "East Charlotte",
+   "vibes": [
+    "outdoors",
+    "active"
+   ],
+   "idea": "Pick a trail you have never done, then swap a 'best moment of the week' at the lake.",
+   "when": "day",
+   "indoor": false,
+   "stroller": false
+  },
+  {
+   "name": "McGill Rose Garden",
+   "area": "Optimist Park",
+   "vibes": [
+    "chill",
+    "romantic"
+   ],
+   "idea": "Small, quiet, and pretty. Bring a thermos of coffee and take your time.",
+   "when": "day",
+   "indoor": false,
+   "stroller": false
+  },
+  {
+   "name": "Camp North End wander",
+   "area": "Camp North End",
+   "vibes": [
+    "social",
+    "city"
+   ],
+   "idea": "Browse the murals and courtyards, then sit by the fire pits if they are lit.",
+   "when": "any",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "NoDa mural walk",
+   "area": "NoDa",
+   "vibes": [
+    "city",
+    "social"
+   ],
+   "idea": "Walk N. Davidson and 36th St and photograph each other in front of three murals.",
+   "when": "any",
+   "indoor": false,
+   "stroller": false
+  },
+  {
+   "name": "Optimist Hall people-watching",
+   "area": "Optimist Park",
+   "vibes": [
+    "social",
+    "city"
+   ],
+   "idea": "Window-shop the stalls and play 'guess their order' from the upstairs railing.",
+   "when": "any",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Saturday farmers market date",
+   "area": "Uptown",
+   "vibes": [
+    "social",
+    "chill"
+   ],
+   "idea": "Browse a Saturday morning market, sample what is offered, and plan a dinner you will cook together from what you already have.",
+   "when": "day",
+   "indoor": false,
+   "stroller": true
+  },
+  {
+   "name": "At-home Charlotte tasting night",
+   "area": "Home",
+   "vibes": [
+    "chill",
+    "romantic"
+   ],
+   "idea": "Use what you already have: make a mini tasting board, put on a playlist, and play a card game.",
+   "when": "evening",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Backyard movie night",
+   "area": "Home",
+   "vibes": [
+    "chill",
+    "romantic"
+   ],
+   "idea": "Project or prop a laptop outside, blankets on the grass, popcorn from the pantry.",
+   "when": "evening",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Library book swap date",
+   "area": "Uptown",
+   "vibes": [
+    "chill",
+    "city"
+   ],
+   "idea": "At the Main Library, each of you picks a book for the other in under 15 minutes. Check hours before you go.",
+   "when": "day",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Living room trivia night",
+   "area": "Home",
+   "vibes": [
+    "social",
+    "chill"
+   ],
+   "idea": "Steal the brewery format: five rounds, ten questions each, loser does dishes. Pull questions from a free trivia app.",
+   "when": "evening",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Pantry cook-off",
+   "area": "Home",
+   "vibes": [
+    "romantic",
+    "chill"
+   ],
+   "idea": "Each of you gets 30 minutes and only what is already in the kitchen. Judge on taste and presentation.",
+   "when": "evening",
+   "indoor": true,
+   "stroller": true
+  },
+  {
+   "name": "Optimist Hall rainy-day hang",
+   "area": "Optimist Park",
+   "vibes": [
+    "social",
+    "city"
+   ],
+   "idea": "It is all under one roof, so it works in the rain. Wander, pick a table, and people-watch.",
+   "when": "any",
+   "indoor": true,
+   "stroller": true
+  }
+ ],
+ "trails": [
+  {
+   "name": "Little Sugar Creek Greenway",
+   "area": "Midtown",
+   "type": "Greenway",
+   "miles": "19+ total; pick a segment",
+   "surface": "Paved, mostly flat",
+   "stroller": true,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "Lots at 1116 Metropolitan Ave and 1910 Freedom Park Service Rd, among others",
+   "cost": "Free",
+   "note": "Runs past Freedom Park and the Metropolitan. Some dips under bridges and mud after heavy rain.",
+   "url": "https://www.traillink.com/trail/little-sugar-creek-greenway/",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Charlotte Rail Trail",
+   "area": "South End",
+   "type": "Urban trail",
+   "miles": "3.5",
+   "surface": "Asphalt, brick and concrete; fully paved south of E. Carson Blvd",
+   "stroller": true,
+   "dogs": "Not posted; people walk dogs here",
+   "parking": "210 S. Brevard St, 300 E. 9th St, or any of 9 Blue Line stations",
+   "cost": "Free",
+   "note": "Start at E. Carson Blvd for the smoothest stretch. Check for the closure between Poindexter Dr and New Bern St.",
+   "url": "https://www.traillink.com/trail/charlotte-rail-trail",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Mallard Creek & Clark's Creek Greenway",
+   "area": "University City",
+   "type": "Greenway",
+   "miles": "7.4",
+   "surface": "Not posted",
+   "stroller": null,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "Kirk Farm Fields Park, 201 E. Mallard Creek Church Rd",
+   "cost": "Free",
+   "note": "Connects to the Toby Creek trail toward UNC Charlotte.",
+   "url": "https://www.axios.com/local/charlotte/sponsored/complete-guide-charlottes-greenways-92571",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Campbell Creek & Upper McAlpine Greenway",
+   "area": "East Charlotte",
+   "type": "Greenway",
+   "miles": "4.76",
+   "surface": "Not posted",
+   "stroller": null,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "McAlpine Creek Park, 8711 Monroe Rd; James Boyce Park",
+   "cost": "Free",
+   "note": "",
+   "url": "https://www.axios.com/local/charlotte/sponsored/complete-guide-charlottes-greenways-92571",
+   "zone": "charlotte"
+  },
+  {
+   "name": "McAlpine, McMullen & Four Mile Creek Greenway",
+   "area": "South Charlotte",
+   "type": "Greenway",
+   "miles": "5.8",
+   "surface": "Not posted",
+   "stroller": null,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "8135 Pineville-Matthews Rd; 11823 Johnston Rd",
+   "cost": "Free",
+   "note": "Runs under I-485.",
+   "url": "https://www.axios.com/local/charlotte/sponsored/complete-guide-charlottes-greenways-92571",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Irwin & Stewart Creek Greenway",
+   "area": "Wesley Heights",
+   "type": "Greenway",
+   "miles": "2.7",
+   "surface": "Not posted",
+   "stroller": null,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "Frazier Park, 1123 Greenleaf Ave",
+   "cost": "Free",
+   "note": "Close to Uptown and Third Ward.",
+   "url": "https://www.axios.com/local/charlotte/sponsored/complete-guide-charlottes-greenways-92571",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Four Mile Creek Greenway",
+   "area": "Matthews",
+   "type": "Greenway",
+   "miles": "2.26",
+   "surface": "Not posted",
+   "stroller": null,
+   "dogs": "Leashed dogs OK (6 ft max, county greenway rule)",
+   "parking": "1631 Pleasant Plains Rd; street parking on Council Pl",
+   "cost": "Free",
+   "note": "Squirrel Lake Park to Matthews Community Center.",
+   "url": "https://www.axios.com/local/charlotte/sponsored/complete-guide-charlottes-greenways-92571",
+   "zone": "nearby"
+  },
+  {
+   "name": "Reedy Creek Nature Preserve",
+   "area": "East Charlotte",
+   "type": "Nature preserve",
+   "miles": "1.9–2.9 (Big Oak, Umbrella & Dragonfly loop)",
+   "surface": "Dirt with roots and rocks; muddy after rain",
+   "stroller": false,
+   "dogs": "Check posted rules; there is a dog park in the park",
+   "parking": "Lots by the nature center, 2900 Rocky River Rd",
+   "cost": "Free; nature center free",
+   "note": "Easy to moderate. Nature center open 9–5 Mon–Sat, 1–5 Sun.",
+   "url": "https://hikingproject.com/trail/7088454/reedy-creek-big-oak-umbrella-and-dragonfly-loop",
+   "zone": "charlotte"
+  },
+  {
+   "name": "McDowell Nature Preserve",
+   "area": "Steele Creek",
+   "type": "Nature preserve",
+   "miles": "About 7 of trails; Kingfisher loop 0.9",
+   "surface": "Natural trails",
+   "stroller": false,
+   "dogs": "Leashed dogs OK (6 ft max)",
+   "parking": "15222 York Rd",
+   "cost": "Free; nature center free",
+   "note": "On Lake Wylie. Kingfisher Trail is easy and good for kids. No bikes on preserve trails.",
+   "url": "https://n2backpacking.com/hikes/north-carolina/mcdowell-nature-preserve-kingfisher-trail/",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Stevens Creek Nature Preserve",
+   "area": "Mint Hill",
+   "type": "Nature preserve",
+   "miles": "Not posted",
+   "surface": "Natural trails",
+   "stroller": false,
+   "dogs": "Check posted rules",
+   "parking": "15700 Thompson Rd",
+   "cost": "Free; nature center free",
+   "note": "Weekly Thursday bird walks. Nature center open 9–5 Mon–Sat, 1–5 Sun.",
+   "url": "https://www.charlotteonthecheap.com/free-events-mecklenburg-county-nature-centers/",
+   "zone": "nearby"
+  },
+  {
+   "name": "Latta Nature Preserve",
+   "area": "Huntersville",
+   "type": "Nature preserve",
+   "miles": "Not posted",
+   "surface": "Natural trails",
+   "stroller": false,
+   "dogs": "Check posted rules",
+   "parking": "Quest nature center, 6345 Sample Rd",
+   "cost": "Free; nature center free",
+   "note": "Guided hikes and nature crafts at Quest.",
+   "url": "https://www.charlotteonthecheap.com/free-events-mecklenburg-county-nature-centers/",
+   "zone": "nearby"
+  },
+  {
+   "name": "Whitewater Center trails",
+   "area": "West Charlotte",
+   "type": "Trail network",
+   "miles": "Not posted",
+   "surface": "Natural and gravel trails",
+   "stroller": false,
+   "dogs": "Check posted rules",
+   "parking": "Parking fee (listed at $13 for the film series)",
+   "cost": "Trails open 6 AM–11 PM; activities need a pass",
+   "note": "Enter only at official trailheads. Trails close in bad weather.",
+   "url": "https://whitewater.org/calendar/",
+   "zone": "charlotte"
+  }
+ ],
+ "museums": [
+  {
+   "name": "Mint Museum Uptown",
+   "area": "Uptown",
+   "type": "Art museum",
+   "address": "500 S. Tryon St",
+   "freeTimes": "Free Wednesdays 5–9 PM; always free for ages 18 and under",
+   "cost": "Admission; special exhibits may cost extra",
+   "kids": true,
+   "highlight": "Caravaggio | Revolution closes Oct 25; Corey Pemberton and Grace Stott shows on now",
+   "url": "https://mintmuseum.org/exhibitions",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "type": "Art museum",
+   "address": "2370 Randolph Rd",
+   "freeTimes": "Free Wednesdays 5–9 PM; always free for ages 18 and under",
+   "cost": "Admission",
+   "kids": true,
+   "highlight": "Brilliant by Design: The Handbags of Judith Leiber opens Oct 24; Weaving Joy, Woven Resistance through Jan 17",
+   "url": "https://www.mintmuseum.org/exhibition/brilliant-by-design",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Harvey B. Gantt Center",
+   "area": "Uptown",
+   "type": "Art & culture center",
+   "address": "551 S. Tryon St",
+   "freeTimes": "Free Wednesdays 5–9 PM",
+   "cost": "Admission",
+   "kids": null,
+   "highlight": "Repossessions; Yashua Klos: Cornerstones; Sown Together (textiles). Closed Mondays",
+   "url": "https://ganttcenter.org/exhibitions",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Bechtler Museum of Modern Art",
+   "area": "Uptown",
+   "type": "Art museum",
+   "address": "420 S. Tryon St",
+   "freeTimes": "Free Wednesdays 5–9 PM; free for military families",
+   "cost": "Admission",
+   "kids": null,
+   "highlight": "Latin American printmakers (to Feb 1); Jiha Moon closes Nov 9",
+   "url": "https://bechtler.org/currentexhibitions",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Discovery Place Science",
+   "area": "Uptown",
+   "type": "Science center",
+   "address": "301 N. Tryon St",
+   "freeTimes": "$3 per person with EBT or WIC; 45% off Oct 31 with code DPS45",
+   "cost": "Admission",
+   "kids": true,
+   "highlight": "Julia Child: A Recipe for Life opens Oct 24 (to Jan 17); Mending the Wild to Jan 3",
+   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
+   "zone": "charlotte"
+  },
+  {
+   "name": "McColl Center",
+   "area": "Uptown",
+   "type": "Art center",
+   "address": "721 N. Tryon St",
+   "freeTimes": "Always free",
+   "cost": "Free",
+   "kids": null,
+   "highlight": "Artist studios; check open hours",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Charlotte Museum of History",
+   "area": "East Charlotte",
+   "type": "History museum",
+   "address": "3500 Shamrock Dr",
+   "freeTimes": "Free days through the year; Bank of America Museums on Us",
+   "cost": "Admission",
+   "kids": true,
+   "highlight": "American Revolution: The Augmented Exhibition; History through Horror night Oct 22",
+   "url": "https://charlottemuseum.org",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Levine Museum of the New South",
+   "area": "South End",
+   "type": "History museum",
+   "address": "1800 South Blvd",
+   "freeTimes": "",
+   "cost": "Event pricing",
+   "kids": null,
+   "highlight": "This is Our New South; Eve of the Dead Dinner Oct 29",
+   "url": "https://www.museumofthenewsouth.org/events/",
+   "zone": "charlotte"
+  },
+  {
+   "name": "Matthews Heritage Museum",
+   "area": "Matthews",
+   "type": "History museum",
+   "address": "232 N. Trade St",
+   "freeTimes": "Always free",
+   "cost": "Free",
+   "kids": true,
+   "highlight": "Open Thu–Sat, 10 AM–4:30 PM",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "zone": "nearby"
+  },
+  {
+   "name": "President James K. Polk Historic Site",
+   "area": "Pineville",
+   "type": "Historic site",
+   "address": "12031 Lancaster Hwy",
+   "freeTimes": "Always free",
+   "cost": "Free",
+   "kids": true,
+   "highlight": "Living history events through the year",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "zone": "nearby"
+  },
+  {
+   "name": "Schiele Museum of Natural History",
+   "area": "Gastonia",
+   "type": "Natural history museum",
+   "address": "1500 E. Garrison Blvd",
+   "freeTimes": "Free 2nd Tuesday of each month, 4–8 PM",
+   "cost": "Admission",
+   "kids": true,
+   "highlight": "",
+   "url": "https://www.charlotteonthecheap.com/free-days-at-charlotte-museums/",
+   "zone": "region"
+  }
+ ],
+ "places": {
+  "venues": {
+   "100 E. McDowell St": {
+    "lat": 35.11464,
+    "lon": -80.72477,
+    "approx": true
+   },
+   "16445 Poplar Tent Rd": {
+    "lat": 35.42926,
+    "lon": -80.77135
+   },
+   "1801 Yorkmont Rd": {
+    "lat": 35.18703,
+    "lon": -80.90935
+   },
+   "188 N. Trade St": {
+    "lat": 35.11617,
+    "lon": -80.72194
+   },
+   "224 E. 7th St": {
+    "lat": 35.22743,
+    "lon": -80.83833,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.3
+    }
+   },
+   "300 S. Davidson St": {
+    "lat": 35.2216,
+    "lon": -80.84136,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.2
+    }
+   },
+   "3024 Prosperity Church Rd": {
+    "lat": 35.34352,
+    "lon": -80.76957
+   },
+   "938 S. Kings Dr": {
+    "lat": 35.20576,
+    "lon": -80.8362
+   },
+   "9855 Sandy Rock Pl": {
+    "lat": 35.05233,
+    "lon": -80.77342
+   },
+   "Amos' Southend": {
+    "lat": 35.21678,
+    "lon": -80.85516,
+    "rail": {
+     "st": "Bland Street",
+     "mi": 0.1
+    }
+   },
+   "Armored Cow Brewing": {
+    "lat": 35.31356,
+    "lon": -80.7532,
+    "rail": {
+     "st": "JW Clay Boulevard/UNC Charlotte",
+     "mi": 0.6
+    }
+   },
+   "Atherton Mill": {
+    "lat": 35.2093,
+    "lon": -80.86068,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.3
+    }
+   },
+   "Ballantyne Village": {
+    "lat": 35.05372,
+    "lon": -80.85144
+   },
+   "Ballantyne's Backyard": {
+    "lat": 35.0594,
+    "lon": -80.84129
+   },
+   "Bank of America Stadium": {
+    "lat": 35.22577,
+    "lon": -80.85283,
+    "rail": {
+     "st": "Carson",
+     "mi": 0.6
+    }
+   },
+   "Bechtler Museum of Modern Art": {
+    "lat": 35.22459,
+    "lon": -80.8474,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.3
+    }
+   },
+   "Belk Theater, Blumenthal": {
+    "lat": 35.22739,
+    "lon": -80.84165,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.2
+    }
+   },
+   "Birdsong Brewing": {
+    "lat": 35.23065,
+    "lon": -80.82653,
+    "rail": {
+     "st": "Parkwood",
+     "mi": 0.6
+    }
+   },
+   "Birkdale Village": {
+    "lat": 35.44563,
+    "lon": -80.8794
+   },
+   "Bojangles Coliseum": {
+    "lat": 35.20502,
+    "lon": -80.79517
+   },
+   "Brewers at 4001 Yancey": {
+    "lat": 35.18667,
+    "lon": -80.87797,
+    "rail": {
+     "st": "Scaleybark",
+     "mi": 0.4
+    }
+   },
+   "Burial Beer Co.": {
+    "lat": 35.2192,
+    "lon": -80.8119
+   },
+   "Camp North End": {
+    "lat": 35.24678,
+    "lon": -80.83321
+   },
+   "Carowinds": {
+    "lat": 35.10292,
+    "lon": -80.94166
+   },
+   "Caswell Station": {
+    "lat": 35.21202,
+    "lon": -80.81844
+   },
+   "Charlotte Motor Speedway": {
+    "lat": 35.35186,
+    "lon": -80.68234
+   },
+   "Charlotte Museum of History": {
+    "lat": 35.23354,
+    "lon": -80.76655
+   },
+   "Club West Brewing": {
+    "lat": 35.20866,
+    "lon": -80.86214,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.4
+    }
+   },
+   "Commonwealth": {
+    "lat": 35.21896,
+    "lon": -80.81501
+   },
+   "Discovery Place Science": {
+    "lat": 35.22962,
+    "lon": -80.8412,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.4
+    }
+   },
+   "Divine Barrel Brewing": {
+    "lat": 35.25037,
+    "lon": -80.7964,
+    "rail": {
+     "st": "Sugar Creek",
+     "mi": 0.3
+    }
+   },
+   "Ed's Tavern Dilworth": {
+    "lat": 35.20043,
+    "lon": -80.85251
+   },
+   "Edge City Brewery": {
+    "lat": 35.17746,
+    "lon": -80.75629
+   },
+   "First United Methodist Church": {
+    "lat": 35.2308,
+    "lon": -80.83904,
+    "rail": {
+     "st": "9th Street",
+     "mi": 0.3
+    }
+   },
+   "Free Range Brewing": {
+    "lat": 35.24045,
+    "lon": -80.81321,
+    "rail": {
+     "st": "25th Street",
+     "mi": 0.3
+    }
+   },
+   "Freedom Park": {
+    "lat": 35.19154,
+    "lon": -80.84344
+   },
+   "Freemore Tavern": {
+    "lat": 35.22943,
+    "lon": -80.86564
+   },
+   "Giddy Goat Coffee": {
+    "lat": 35.21888,
+    "lon": -80.81107
+   },
+   "Gilde Brewery": {
+    "lat": 35.1942,
+    "lon": -80.87629,
+    "rail": {
+     "st": "Scaleybark",
+     "mi": 0.3
+    }
+   },
+   "Great Wagon Road Distilling": {
+    "lat": 35.24931,
+    "lon": -80.79667,
+    "rail": {
+     "st": "Sugar Creek",
+     "mi": 0.3
+    }
+   },
+   "Harrisburg Park": {
+    "lat": 35.31753,
+    "lon": -80.66021
+   },
+   "Harrisburg Park, 191 Sims Pkwy": {
+    "lat": 35.3182,
+    "lon": -80.65891
+   },
+   "Hawthorne's Pizza": {
+    "lat": 35.21259,
+    "lon": -80.85883,
+    "approx": true,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.0
+    }
+   },
+   "Heist Brewery": {
+    "lat": 35.24554,
+    "lon": -80.80948,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.4
+    }
+   },
+   "Hopfly Brewing": {
+    "lat": 35.22051,
+    "lon": -80.85755,
+    "rail": {
+     "st": "Bland Street",
+     "mi": 0.4
+    }
+   },
+   "Horseshoe": {
+    "lat": 35.21868,
+    "lon": -80.86103,
+    "rail": {
+     "st": "Bland Street",
+     "mi": 0.5
+    }
+   },
+   "Huntersville Athletic Park": {
+    "lat": 35.38915,
+    "lon": -80.84426
+   },
+   "ImaginOn": {
+    "lat": 35.22694,
+    "lon": -80.83768,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.3
+    }
+   },
+   "Jerry Richardson Stadium": {
+    "lat": 35.31047,
+    "lon": -80.74008,
+    "rail": {
+     "st": "JW Clay Boulevard/UNC Charlotte",
+     "mi": 0.4
+    }
+   },
+   "Jinya Ramen Bar Uptown": {
+    "lat": 35.22266,
+    "lon": -80.84921,
+    "rail": {
+     "st": "Carson",
+     "mi": 0.4
+    }
+   },
+   "Knight Theater": {
+    "lat": 35.2249,
+    "lon": -80.84787,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.4
+    }
+   },
+   "Legion Brewing SouthPark": {
+    "lat": 35.15403,
+    "lon": -80.83862
+   },
+   "Lenny Boy Brewing": {
+    "lat": 35.20146,
+    "lon": -80.87362,
+    "rail": {
+     "st": "New Bern",
+     "mi": 0.4
+    }
+   },
+   "Levine Museum of the New South": {
+    "lat": 35.21181,
+    "lon": -80.8582,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.1
+    }
+   },
+   "McColl Center": {
+    "lat": 35.23276,
+    "lon": -80.83623,
+    "rail": {
+     "st": "9th Street",
+     "mi": 0.3
+    }
+   },
+   "McLawland Farms": {
+    "lat": 35.26243,
+    "lon": -80.66322
+   },
+   "Mint Museum": {
+    "lat": 35.2246,
+    "lon": -80.84845,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.4
+    }
+   },
+   "Mint Museum Randolph": {
+    "lat": 35.19737,
+    "lon": -80.81467
+   },
+   "Mint Museum Uptown": {
+    "lat": 35.2246,
+    "lon": -80.84845,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.4
+    }
+   },
+   "Monday Night Brewing": {
+    "lat": 35.20885,
+    "lon": -80.86651,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.6
+    }
+   },
+   "NoDa": {
+    "lat": 35.24699,
+    "lon": -80.80578,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.2
+    }
+   },
+   "NoDa Brewing": {
+    "lat": 35.2515,
+    "lon": -80.81226,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.5
+    }
+   },
+   "Not Just Coffee": {
+    "lat": 35.2275,
+    "lon": -80.83812,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.3
+    }
+   },
+   "Olde Mecklenburg Brewery": {
+    "lat": 35.18745,
+    "lon": -80.88198,
+    "rail": {
+     "st": "Scaleybark",
+     "mi": 0.6
+    }
+   },
+   "Optimist Hall": {
+    "lat": 35.23433,
+    "lon": -80.82728,
+    "rail": {
+     "st": "Parkwood",
+     "mi": 0.4
+    }
+   },
+   "Ovens Auditorium": {
+    "lat": 35.20385,
+    "lon": -80.79427
+   },
+   "Percent Tap House": {
+    "lat": 35.32656,
+    "lon": -80.64664
+   },
+   "Promenade on Providence": {
+    "lat": 35.06276,
+    "lon": -80.77267
+   },
+   "Resident Culture": {
+    "lat": 35.22021,
+    "lon": -80.80552
+   },
+   "Romare Bearden Park": {
+    "lat": 35.22684,
+    "lon": -80.84762,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.4
+    }
+   },
+   "Seaboard South End": {
+    "lat": 35.19601,
+    "lon": -80.87182,
+    "rail": {
+     "st": "New Bern",
+     "mi": 0.4
+    }
+   },
+   "SouthBound": {
+    "lat": 35.20342,
+    "lon": -80.86419,
+    "rail": {
+     "st": "New Bern",
+     "mi": 0.5
+    }
+   },
+   "SouthPark Mall": {
+    "lat": 35.15138,
+    "lon": -80.83206
+   },
+   "Spectrum Center": {
+    "lat": 35.2251,
+    "lon": -80.83915,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.1
+    }
+   },
+   "Stallings Municipal Park": {
+    "lat": 35.0867,
+    "lon": -80.69252
+   },
+   "Stevens Creek Nature Center": {
+    "lat": 35.14421,
+    "lon": -80.64351
+   },
+   "Stumptown Park": {
+    "lat": 35.11551,
+    "lon": -80.72353
+   },
+   "Suffolk Punch": {
+    "lat": 35.20049,
+    "lon": -80.86911,
+    "rail": {
+     "st": "New Bern",
+     "mi": 0.1
+    }
+   },
+   "Sugar Creek Brewing": {
+    "lat": 35.18555,
+    "lon": -80.88084,
+    "rail": {
+     "st": "Scaleybark",
+     "mi": 0.6
+    }
+   },
+   "Tavern on the Tracks": {
+    "lat": 35.21693,
+    "lon": -80.85483,
+    "rail": {
+     "st": "Bland Street",
+     "mi": 0.1
+    }
+   },
+   "The Comedy Zone": {
+    "lat": 35.23937,
+    "lon": -80.84482
+   },
+   "The Fillmore": {
+    "lat": 35.23918,
+    "lon": -80.84504
+   },
+   "The Penguin": {
+    "lat": 35.19983,
+    "lon": -80.84119
+   },
+   "The Underground": {
+    "lat": 35.23918,
+    "lon": -80.84504
+   },
+   "The Vine Church, 2101 Belvedere Ave": {
+    "lat": 35.22753,
+    "lon": -80.80328
+   },
+   "Theatre Charlotte": {
+    "lat": 35.20724,
+    "lon": -80.82738
+   },
+   "Town Brewing": {
+    "lat": 35.23015,
+    "lon": -80.86555
+   },
+   "Triple C Brewing": {
+    "lat": 35.2011,
+    "lon": -80.86957,
+    "rail": {
+     "st": "New Bern",
+     "mi": 0.1
+    }
+   },
+   "Trolley Barn": {
+    "lat": 35.20869,
+    "lon": -80.86158,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.4
+    }
+   },
+   "Tryon St, 9th St to Good Samaritan Way": {
+    "lat": 35.22738,
+    "lon": -80.84337,
+    "approx": true,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.2
+    }
+   },
+   "U.S. National Whitewater Center": {
+    "lat": 35.29196,
+    "lon": -80.98468
+   },
+   "Urban District Market": {
+    "lat": 35.24081,
+    "lon": -80.81447,
+    "rail": {
+     "st": "25th Street",
+     "mi": 0.2
+    }
+   },
+   "Vaulted Oak Brewing": {
+    "lat": 35.19947,
+    "lon": -80.79646
+   },
+   "Vintner's Hill": {
+    "lat": 35.17653,
+    "lon": -80.65338
+   },
+   "Wing Haven": {
+    "lat": 35.17919,
+    "lon": -80.84087
+   },
+   "Wooden Robot Brewery": {
+    "lat": 35.21697,
+    "lon": -80.85703,
+    "rail": {
+     "st": "Bland Street",
+     "mi": 0.2
+    }
+   },
+   "Canteen at Camp North End": {
+    "lat": 35.24678,
+    "lon": -80.83321
+   },
+   "Commonwealth Ave": {
+    "lat": 35.21896,
+    "lon": -80.81501
+   },
+   "Downtown NoDa": {
+    "lat": 35.24699,
+    "lon": -80.80578,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.2
+    }
+   },
+   "Suffolk Punch Birkdale": {
+    "lat": 35.44563,
+    "lon": -80.8794,
+    "approx": true
+   },
+   "Skyla Credit Union Amphitheatre": {
+    "lat": 35.23918,
+    "lon": -80.84504,
+    "approx": true
+   },
+   "Heist Barrel Arts": {
+    "lat": 35.24678,
+    "lon": -80.83321,
+    "approx": true
+   },
+   "Hi-Wire Brewing": {
+    "lat": 35.21259,
+    "lon": -80.85883,
+    "approx": true,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.0
+    }
+   },
+   "Petty Thieves Brewing": {
+    "lat": 35.21259,
+    "lon": -80.85883,
+    "approx": true,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.0
+    }
+   },
+   "Tremont Music Hall": {
+    "lat": 35.21259,
+    "lon": -80.85883,
+    "approx": true,
+    "rail": {
+     "st": "East/West Boulevard",
+     "mi": 0.0
+    }
+   },
+   "Monarch Market": {
+    "lat": 35.22717,
+    "lon": -80.84308,
+    "approx": true,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.2
+    }
+   },
+   "Clutch": {
+    "lat": 35.22717,
+    "lon": -80.84308,
+    "approx": true,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.2
+    }
+   },
+   "Rosie's Wine Garden": {
+    "lat": 35.24699,
+    "lon": -80.80578,
+    "approx": true,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.2
+    }
+   },
+   "Ed's Tavern LKN": {
+    "lat": 35.4817,
+    "lon": -80.859,
+    "approx": true
+   },
+   "Harp & Crown LKN": {
+    "lat": 35.4817,
+    "lon": -80.859,
+    "approx": true
+   },
+   "Downtown Mount Holly": {
+    "lat": 35.29763,
+    "lon": -81.01617,
+    "approx": true
+   },
+   "Uptown bars (starts at Tattoos & Booz)": {
+    "lat": 35.22717,
+    "lon": -80.84308,
+    "approx": true,
+    "rail": {
+     "st": "CTC/Arena",
+     "mi": 0.2
+    }
+   },
+   "Latin American Coalition": {
+    "lat": 35.20676,
+    "lon": -80.75238,
+    "approx": true
+   },
+   "Daniel Stowe Conservancy": {
+    "lat": 35.16709,
+    "lon": -81.05739
+   },
+   "Harrisburg Town Center, 4100 Main St": {
+    "lat": 35.32569,
+    "lon": -80.64512,
+    "approx": true
+   },
+   "Harvey B. Gantt Center": {
+    "lat": 35.22324,
+    "lon": -80.84803,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.4
+    }
+   },
+   "Laurel St": {
+    "lat": 35.20744,
+    "lon": -80.81673,
+    "approx": true
+   },
+   "MOTION Fitness, Rexford Rd": {
+    "lat": 35.15808,
+    "lon": -80.83169,
+    "approx": true
+   },
+   "Matthews Heritage Museum": {
+    "lat": 35.11775,
+    "lon": -80.72042
+   },
+   "OMB Ballantyne": {
+    "lat": 35.05666,
+    "lon": -80.84557
+   },
+   "Park Expo and Conference Center": {
+    "lat": 35.20607,
+    "lon": -80.79923
+   },
+   "President James K. Polk Historic Site": {
+    "lat": 35.07822,
+    "lon": -80.88248
+   },
+   "Schiele Museum of Natural History": {
+    "lat": 35.25327,
+    "lon": -81.15833
+   },
+   "Wooden Robot NoDa Chamber": {
+    "lat": 35.24887,
+    "lon": -80.80609,
+    "rail": {
+     "st": "36th Street",
+     "mi": 0.0
+    }
+   },
+   "Blackfinn Ameripub Ballantyne": {
+    "lat": 35.05397,
+    "lon": -80.85135
+   },
+   "Highland Creek Golf Club": {
+    "lat": 35.38563,
+    "lon": -80.75114
+   }
+  },
+  "stations": [
+   {
+    "name": "I-485/South Boulevard",
+    "lat": 35.10659,
+    "lon": -80.88284
+   },
+   {
+    "name": "Sharon Road West",
+    "lat": 35.11952,
+    "lon": -80.88205
+   },
+   {
+    "name": "Arrowood",
+    "lat": 35.1356,
+    "lon": -80.87638
+   },
+   {
+    "name": "Archdale",
+    "lat": 35.15289,
+    "lon": -80.87753
+   },
+   {
+    "name": "Tyvola",
+    "lat": 35.163,
+    "lon": -80.87754
+   },
+   {
+    "name": "Woodlawn",
+    "lat": 35.17584,
+    "lon": -80.87912
+   },
+   {
+    "name": "Scaleybark",
+    "lat": 35.19098,
+    "lon": -80.87491
+   },
+   {
+    "name": "New Bern",
+    "lat": 35.1997,
+    "lon": -80.86908
+   },
+   {
+    "name": "East/West Boulevard",
+    "lat": 35.21221,
+    "lon": -80.85893
+   },
+   {
+    "name": "Bland Street",
+    "lat": 35.21578,
+    "lon": -80.85519
+   },
+   {
+    "name": "Carson",
+    "lat": 35.21882,
+    "lon": -80.85088
+   },
+   {
+    "name": "3rd Street/Convention Center",
+    "lat": 35.22376,
+    "lon": -80.84302
+   },
+   {
+    "name": "CTC/Arena",
+    "lat": 35.22534,
+    "lon": -80.84087
+   },
+   {
+    "name": "9th Street",
+    "lat": 35.22961,
+    "lon": -80.83506
+   },
+   {
+    "name": "Parkwood",
+    "lat": 35.23688,
+    "lon": -80.82332
+   },
+   {
+    "name": "25th Street",
+    "lat": 35.24176,
+    "lon": -80.81705
+   },
+   {
+    "name": "36th Street",
+    "lat": 35.24913,
+    "lon": -80.80619
+   },
+   {
+    "name": "Sugar Creek",
+    "lat": 35.25141,
+    "lon": -80.7929
+   },
+   {
+    "name": "Old Concord Road",
+    "lat": 35.25995,
+    "lon": -80.77277
+   },
+   {
+    "name": "Tom Hunter",
+    "lat": 35.27794,
+    "lon": -80.76627
+   },
+   {
+    "name": "University City Boulevard",
+    "lat": 35.28678,
+    "lon": -80.76087
+   },
+   {
+    "name": "McCullough",
+    "lat": 35.30112,
+    "lon": -80.75288
+   },
+   {
+    "name": "JW Clay Boulevard/UNC Charlotte",
+    "lat": 35.31071,
+    "lon": -80.74523
+   },
+   {
+    "name": "UNC Charlotte-Main",
+    "lat": 35.31217,
+    "lon": -80.73371
+   }
+  ],
+  "homes": {
+   "Ballantyne": {
+    "lat": 35.05466,
+    "lon": -80.85025
+   },
+   "Belmont": {
+    "lat": 35.24383,
+    "lon": -81.03773
+   },
+   "Camp North End": {
+    "lat": 35.24678,
+    "lon": -80.83321
+   },
+   "Dilworth": {
+    "lat": 35.20661,
+    "lon": -80.85091
+   },
+   "Eastover": {
+    "lat": 35.19918,
+    "lon": -80.81891
+   },
+   "Elizabeth": {
+    "lat": 35.21577,
+    "lon": -80.82212
+   },
+   "Harrisburg": {
+    "lat": 35.32583,
+    "lon": -80.6455
+   },
+   "Highland Creek": {
+    "lat": 35.38668,
+    "lon": -80.76024
+   },
+   "Huntersville": {
+    "lat": 35.41083,
+    "lon": -80.84293
+   },
+   "Matthews": {
+    "lat": 35.11595,
+    "lon": -80.72244
+   },
+   "Midtown": {
+    "lat": 35.21482,
+    "lon": -80.83445
+   },
+   "Mint Hill": {
+    "lat": 35.17354,
+    "lon": -80.65704
+   },
+   "Mount Holly": {
+    "lat": 35.29763,
+    "lon": -81.01617
+   },
+   "Myers Park": {
+    "lat": 35.19169,
+    "lon": -80.83346
+   },
+   "NC Music Factory": {
+    "lat": 35.2383,
+    "lon": -80.84361
+   },
+   "NoDa": {
+    "lat": 35.24699,
+    "lon": -80.80578
+   },
+   "Optimist Park": {
+    "lat": 35.23642,
+    "lon": -80.82291
+   },
+   "Pineville": {
+    "lat": 35.08554,
+    "lon": -80.88713
+   },
+   "Plaza Midwood": {
+    "lat": 35.22027,
+    "lon": -80.81085
+   },
+   "South End": {
+    "lat": 35.21259,
+    "lon": -80.85883
+   },
+   "SouthPark": {
+    "lat": 35.14846,
+    "lon": -80.8309
+   },
+   "Stallings": {
+    "lat": 35.10836,
+    "lon": -80.66356
+   },
+   "University City": {
+    "lat": 35.31711,
+    "lon": -80.75294
+   },
+   "Uptown": {
+    "lat": 35.22717,
+    "lon": -80.84308
+   },
+   "Wesley Heights": {
+    "lat": 35.23287,
+    "lon": -80.86436
+   }
+  },
+  "source": "Coordinates from OpenStreetMap (Nominatim); approx = neighborhood or town center"
+ }
+}
