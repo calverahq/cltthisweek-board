@@ -639,7 +639,7 @@ footer .sign a{color:var(--teal)}
       <div id="savedList"></div>
     </section>
 
-    <div class="callout">On your phone: open this page, tap Share, then <b>Add to Home Screen</b> to use it like an app. It refreshes every Monday and Thursday morning. Spot a wrong time or a closed venue? Tap <b>Report a problem</b> on the listing and the next refresh will check it.</div>
+    <div class="callout">On your phone: open this page, tap Share, then <b>Add to Home Screen</b> to use it like an app. It's rechecked every morning, with a full sweep on Mondays and Thursdays. Spot a wrong time or a closed venue? Tap <b>Report a problem</b> on the listing to let us know.</div>
     <footer id="foot"></footer>
   </div>
 </main>
@@ -1100,7 +1100,7 @@ function openReport(e){if(!e)return;sheetEvent=e;
   const q=new URLSearchParams({event:e.title+" at "+e.venue+", "+e.area+" ("+when+") ["+e.id+"]"});
   $("sheet").innerHTML=`<button class="ghost x" type="button" id="shClose">Close</button><h2 id="shTitle">Report a problem</h2><p class="lede" style="margin:0">${esc(e.title)}, ${esc(e.venue)}</p>
   <iframe class="repframe" title="Report a problem with this listing" src="${REPORT_FORM}?${q.toString()}" loading="lazy"></iframe>
-  <p class="lede" style="font-size:13px;margin:0">Reports are checked on the next morning refresh.</p>`;
+  <p class="lede" style="font-size:13px;margin:0">Reports go straight to the CLT This Week team.</p>`;
   $("scrim").hidden=false;document.body.style.overflow="hidden";
   $("shClose").onclick=closeSheet;$("shClose").focus()}
 document.addEventListener("click",ev=>{const t=ev.target.closest("[data-rep]");if(!t)return;ev.preventDefault();ev.stopPropagation();openReport(EVK.get(t.dataset.rep))},true);
