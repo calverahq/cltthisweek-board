@@ -454,3 +454,11 @@ footer .sign a{color:var(--teal)}
   .hact .stamp{flex-basis:100%}
   .hbtn{padding:6px 10px}
 }
+
+/* This weekend */
+.wkndwx{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px}
+.wkndwx .wxday{padding:10px 6px}
+.wkndtiles{margin-top:14px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.wkndtiles .tile{background:var(--surface);border:1px solid var(--line)}
+.wkndtiles .tile:hover{border-color:var(--crown)}
+@media (max-width:560px){.wkndtiles{grid-template-columns:repeat(2,minmax(0,1fr))}}

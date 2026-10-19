@@ -145,6 +145,31 @@ function renderPicks(){if(wkOff){$("picksWrap").innerHTML="";return}const ids=(D
   const ps=ids.map(id=>DATA.events.find(e=>e.id===id)).filter(e=>e&&ds.some(d=>onDate(e,d)));
   $("picksWrap").innerHTML=ps.length?`<h3 class="group">This week's picks</h3><div class="picks" style="margin-top:8px">${ps.map(e=>{const d=ds.find(x=>onDate(e,x));return `<button class="pick" type="button" data-ek="${hk(e)}"><span class="k">${d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} · ${esc(e.time)}</span><span class="t">${esc(e.title)}</span><span class="v">${esc(e.venue)} · ${esc(e.area)}</span></button>`}).join("")}</div>`:""}
 
+/* This weekend: Friday night through Sunday */
+function weekendDays(){const t=new Date();t.setHours(12,0,0,0);const dw=t.getDay();
+  const fri=new Date(t);fri.setDate(t.getDate()+(dw===6?-1:dw===0?-2:(5-dw+7)%7));
+  return [0,1,2].map(i=>{const x=new Date(fri);x.setDate(fri.getDate()+i);return x}).filter(d=>ymd(d)>=ymd(t))}
+function renderWeekend(){const el=$("wkndList");if(!el)return;const ds=weekendDays();const all=[0,1,2];
+  const fri=ds.find(d=>d.getDay()===5);
+  const evs=d=>DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing&&!(d.getDay()===5&&ymd(d)!==ymd(new Date())&&mins(tOn(e,d))<16*60)).sort(sorter(d));
+  const per=ds.map(d=>({d,items:evs(d)}));
+  const span=ds.length?`${ds[0].toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} – ${ds[ds.length-1].toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}`:"";
+  let h=`<h2>This weekend</h2><p class="lede">${span}. ${fri?"Friday from 4 PM, then all of Saturday and Sunday.":"What's left of the weekend."} Filters above still apply.</p>`;
+  h+=`<div class="wkndwx">${ds.map(d=>{const f=wx(d);return `<div class="wxday"><b>${DOW[d.getDay()]}</b><span>${f&&f.hi!=null?f.hi+"°":"–"}</span><em>${f?esc(f.sky.split(",")[0]):"No forecast yet"}</em><em>${f&&f.rain?"Rain "+f.rain+"%":"&nbsp;"}</em><em>Sunset ${sunset(d)}</em></div>`}).join("")}</div>`;
+  const ids=[...((DATA.meta&&DATA.meta.picks)||[]),...Object.values((DATA.meta&&DATA.meta.featured)||{}).flat().map(x=>x.id)];
+  const seen=new Set();const ps=[];for(const id of ids){if(seen.has(id))continue;seen.add(id);const e=DATA.events.find(x=>x.id===id);if(!e||e.kidsOnly)continue;const d=ds.find(x=>onDate(e,x));if(d)ps.push({e,d})}
+  if(ps.length)h+=`<h3 class="group">Worth planning around</h3><div class="picks" style="margin-top:8px">${ps.slice(0,6).map(({e,d})=>`<button class="pick" type="button" data-ek="${hk(e)}"><span class="k">${DOW[d.getDay()]} · ${esc(tOn(e,d))}</span><span class="t">${esc(e.title)}</span><span class="v">${esc(e.venue)} · ${esc(e.area)}</span></button>`).join("")}</div>`;
+  const flat=per.flatMap(x=>x.items);const free=new Set(flat.filter(e=>e.free).map(key)).size;
+  const games=per.reduce((n,x)=>n+x.items.filter(e=>e.cat==="games").length,0);
+  let kids=0;KIDS_VIEW=true;try{kids=ds.reduce((n,d)=>n+DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).length,0)}finally{KIDS_VIEW=false}
+  const trucks=TRUCKS?ds.reduce((n,d)=>{const x=TRUCKS.days.find(t=>t.date===ymd(d));return n+(x?x.stops.length:0)},0):0;
+  h+=`<div class="tiles wkndtiles"><button class="tile f" type="button" data-wk-go="free"><b>${free}</b><span>free thing${free===1?"":"s"}</span></button><button class="tile g" type="button" data-wk-go="games"><b>${games}</b><span>game night${games===1?"":"s"}</span></button><button class="tile d" type="button" data-wk-go="food"><b>${trucks}</b><span>food truck stop${trucks===1?"":"s"}</span></button><button class="tile n" type="button" data-wk-go="kids"><b>${kids}</b><span>kids' event${kids===1?"":"s"}</span></button></div>`;
+  for(const {d,items} of per){const f=wx(d);
+    h+=`<h2 class="dayh" style="margin-top:26px">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}${d.getDay()===5&&ymd(d)!==ymd(new Date())?" night":""}</h2><div class="wxline">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}</div>`;
+    h+=dealBlock(d)+timeline(items,d);if(!items.length)h+=emptyMsg()}
+  el.innerHTML=h;
+  el.querySelectorAll("[data-wk-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.wkGo;if(g==="free"){F.price="free";$("price").value="free";renderLists()}else setTab(g)})}
+
 /* Kids */
 function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<14;i++){const x=new Date(t);x.setDate(t.getDate()+i);ds.push(x)}
   let h="";for(const d of ds){const it=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).sort(sorter(d));if(!it.length)continue;
@@ -576,7 +601,7 @@ document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[.
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
-function renderLists(){renderKids();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
+function renderLists(){renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -619,7 +644,7 @@ function boot(data){DATA=data;const m=data.meta||{};
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab(store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
+  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t)}
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
