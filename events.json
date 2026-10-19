@@ -5615,14 +5615,13 @@
    "tag": "Food Trucks",
    "price": "Free to attend",
    "free": true,
-   "note": "Trucks park around the brewery. Every Friday through Dec. 11. This Friday (Oct 23): Luna Pizza Truck and A Tana Empanada.",
+   "note": "Trucks park around the brewery. Every Friday through Dec. 11.",
    "url": "https://www.univcityfoodtruckfridays.com/",
    "checked": "2026-10-19",
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e258",
-   "truckSrc": "https://foodtruckscharlotte.org/"
+   "id": "e258"
   },
   {
    "kind": "dated",
@@ -5640,14 +5639,13 @@
    "tag": "Food Trucks",
    "price": "Free to attend",
    "free": true,
-   "note": "Rotating trucks at the Plaza Midwood taproom, 2101 Central Ave; Leroy's Snack Shack is a regular. Season wraps in late November. This Friday (Oct 23): Tiny Biscuit and Deejai Food Truck.",
+   "note": "Rotating trucks at the Plaza Midwood taproom, 2101 Central Ave; Leroy's Snack Shack is a regular. Season wraps in late November.",
    "url": "https://residentculturebrewing.com/events/",
    "checked": "2026-10-19",
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e259",
-   "truckSrc": "https://foodtruckscharlotte.org/"
+   "id": "e259"
   },
   {
    "kind": "dated",

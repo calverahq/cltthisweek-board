@@ -110,7 +110,7 @@ function row(e,opt={}){const d=opt.date;const k=key(e);const on=saved.has(k);
   const stale=(ageDays(e.checked)||0)>10;
   return `<div class="row${stale?" stale":""}"><div class="time${e.unconfirmedTime?" tba":""}">${timeCell(e,d)}</div><div style="min-width:0">
   <div class="head"><p class="t"><button class="tlink" type="button" data-ek="${hk(e)}">${esc(e.title)}</button></p><button class="star" type="button" data-k="${esc(k)}" aria-pressed="${on}" aria-label="${on?"Remove from saved":"Save"} ${esc(e.title)}">${on?"★":"☆"}</button></div>
-  <div class="v"><button class="vlink" type="button" data-venue="${esc(e.venue)}">${esc(e.venue)}</button> · ${esc(e.area)}</div>${when}${e.note?`<div class="n">${esc(e.note)}</div>`:""}
+  <div class="v"><button class="vlink" type="button" data-venue="${esc(e.venue)}">${esc(e.venue)}</button> · ${esc(e.area)}</div>${when}${e.note?`<div class="n">${esc(e.note)}</div>`:""}${e.cat==="food"&&d?lineup(e,d):""}
   <div class="chips">${chips(e,d)}</div>
   <div class="acts"><a href="${esc(maps(e))}" target="_blank" rel="noopener">Map</a><a href="${esc(gcal(e,d))}" target="_blank" rel="noopener">Add to calendar</a><a href="${esc(e.url)}" target="_blank" rel="noopener">Source</a>${ckText(e)}<button class="linkbtn" type="button" data-rep="${hk(e)}">Report a problem</button></div></div></div>`}
 function groupBlock(title,items,opt){if(!items.length)return"";return `<h3 class="group">${esc(title)} <i>${items.length}</i></h3><div class="list">${items.map(e=>row(e,opt)).join("")}</div>`}
@@ -153,7 +153,29 @@ function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHou
   $("kidsList").innerHTML=h||`<p class="empty">Nothing for kids matches${anyFilter()?" these filters. Try clearing one":" in the next two weeks yet"}.</p>`}finally{KIDS_VIEW=false}}
 
 /* Food trucks */
-function renderFood(){const g=DATA.events.filter(e=>e.cat==="food"&&passes(e));const ds=days();let h="";
+let TRUCKS=null, truckSel=0;
+function truckDays(){if(!TRUCKS)return[];const t=ymd(new Date());return TRUCKS.days.filter(x=>x.date>=t).slice(0,7)}
+function trucksAt(e,d){if(!TRUCKS||!d)return[];const g=geoOf(e);if(!g)return[];const day=TRUCKS.days.find(x=>x.date===ymd(d));if(!day)return[];
+  const lim=g.approx?0.6:0.35, st=mins(tOn(e,d));
+  return day.stops.filter(s=>kmBetween(g,{lat:s.lat,lon:s.lon})<=lim&&(st>=2000||Math.abs(mins(s.start)-st)<=150))}
+function lineup(e,d){const ts=[...new Set(trucksAt(e,d).map(s=>s.truck))];return ts.length?`<div class="n"><b>Trucks ${d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}:</b> ${ts.map(esc).join(", ")}</div>`:""}
+function renderTrucks(){const el=$("truckList");if(!el)return;const ds=truckDays();
+  if(!TRUCKS){el.innerHTML=`<p class="empty">Loading truck schedules…</p>`;$("truckDays").innerHTML="";return}
+  if(!ds.length){el.innerHTML=`<p class="empty">No truck schedules posted for the coming week yet.</p>`;$("truckDays").innerHTML="";return}
+  if(truckSel>=ds.length)truckSel=0;
+  $("truckDays").innerHTML=ds.map((x,i)=>{const d=parseYmd(x.date);return `<button class="tog" type="button" data-td="${i}" aria-pressed="${i===truckSel}">${i===0&&x.date===ymd(new Date())?"Today":d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} <span style="opacity:.7">${x.stops.length}</span></button>`}).join("");
+  $("truckDays").querySelectorAll("[data-td]").forEach(b=>b.onclick=()=>{truckSel=+b.dataset.td;renderTrucks()});
+  const h0=homePt();let stops=ds[truckSel].stops.slice();
+  stops.sort((a,b)=>(F.near&&h0)?kmBetween(h0,a)-kmBetween(h0,b):mins(a.start)-mins(b.start));
+  const part=s=>{const m=mins(s.start);return m<12*60?0:m<17*60?1:2};
+  const one=s=>{const dm=h0?kmBetween(h0,{lat:s.lat,lon:s.lon})*0.6214:null;const cu=(s.cuisine||"").split(",").map(x=>x.trim()).filter(Boolean).slice(0,2);
+    return `<div class="row"><div class="time">${esc(s.start)}${s.end?`<small>to ${esc(shortT(s.end))}</small>`:""}</div><div style="min-width:0">
+    <p class="t"><a href="${esc(s.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(s.truck)}</a></p>
+    <div class="v">${esc(s.spot)}${s.street&&s.street!==s.spot?`, ${esc(s.street)}`:""}${s.city&&s.city!=="Charlotte"?`, ${esc(s.city)}`:""}</div>
+    <div class="chips">${cu.map(c=>`<span class="chip">${esc(c)}</span>`).join("")}${dm!=null?`<span class="chip dist">≈${fmtMi(dm)} mi</span>`:""}</div>
+    <div class="acts"><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((s.street||s.spot)+" "+(s.city||"Charlotte")+" NC")}" target="_blank" rel="noopener">Map</a><a href="${esc(s.url)}" target="_blank" rel="noopener">Truck's schedule</a></div></div></div>`};
+  el.innerHTML=(F.near&&h0)?`<div class="list">${stops.map(one).join("")}</div>`:["Morning","Afternoon","Evening"].map((p,i)=>{const it=stops.filter(s=>part(s)===i);return it.length?`<h3 class="group">${p} <i>${it.length}</i></h3><div class="list">${it.map(one).join("")}</div>`:""}).join("")}
+function renderFood(){renderTrucks();const g=DATA.events.filter(e=>e.cat==="food"&&passes(e));const ds=days();let h="";
   for(const dw of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]){const d=ds.find(x=>DOW[x.getDay()]===dw);h+=groupBlock(DAYNAMES[dw],g.filter(e=>e.kind==="weekly"&&e.days.includes(dw)).sort(sorter(d)),{date:d})}
   h+=groupBlock("Coming up",g.filter(e=>e.kind==="dated").sort((a,b)=>a.start.localeCompare(b.start)||mins(a.time)-mins(b.time)),{showDate:true});
   $("foodList").innerHTML=h||emptyMsg()}
@@ -601,5 +623,6 @@ function boot(data){DATA=data;const m=data.meta||{};
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t)}
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
+fetch("trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
 fetch("events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(boot).catch(()=>{$("stamp").textContent="Couldn't load this week's events. Refresh to try again.";$("dayList").innerHTML=`<p class="empty">The event list didn't load. Refresh the page to try again.</p>`});
 })();
