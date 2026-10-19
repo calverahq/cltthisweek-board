@@ -5539,6 +5539,30 @@
    "checked": "2026-10-18",
    "priceTier": "ticketed",
    "zone": "charlotte"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Tue"
+   ],
+   "time": "6:00 PM",
+   "endTime": "8:00 PM",
+   "title": "Trivia Night",
+   "venue": "Rhino Market SouthPark",
+   "area": "SouthPark",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "note": "Free to play, prizes for winners.",
+   "url": "https://www.charlotteonthecheap.com/rhino-market/",
+   "id": "e256",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "gameKind": "General knowledge",
+   "host": "Mindless Minutia",
+   "hostSrc": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia"
   }
  ],
  "deals": [
@@ -6948,6 +6972,10 @@
    "Highland Creek Golf Club": {
     "lat": 35.38563,
     "lon": -80.75114
+   },
+   "Rhino Market SouthPark": {
+    "lat": 35.15481,
+    "lon": -80.83791
    }
   },
   "stations": [
