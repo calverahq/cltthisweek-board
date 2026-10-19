@@ -2,9 +2,9 @@
 const REPORT_FORM="https://api.leadconnectorhq.com/widget/form/JY95HYe038jUmrF47JH9";
 const DOW=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const DAYNAMES={Mon:"Mondays",Tue:"Tuesdays",Wed:"Wednesdays",Thu:"Thursdays",Fri:"Fridays",Sat:"Saturdays",Sun:"Sundays"};
-const CATS={arts:"Museums & Arts",outdoors:"Outdoors",games:"Bar Games",music:"Concerts & Nightlife",festival:"Festivals & Community",community:"Festivals & Community",market:"Markets",family:"Family",sports:"Sports",food:"Food & Drink"};
-const CAT_ORDER=["games","music","arts","festival","outdoors","market","family","sports"];
-const CAT_COLOR={games:"var(--teal)",music:"var(--ember)",arts:"var(--plum)",festival:"var(--gold)",community:"var(--gold)",outdoors:"var(--free)",market:"var(--free)",family:"var(--sky)",sports:"var(--ink)"};
+const CATS={arts:"Museums & Arts",outdoors:"Outdoors",games:"Bar Games",music:"Concerts & Nightlife",festival:"Festivals & Community",community:"Festivals & Community",market:"Markets",family:"Family",sports:"Sports",food:"Food Trucks"};
+const CAT_ORDER=["games","food","music","arts","festival","outdoors","market","family","sports"];
+const CAT_COLOR={games:"var(--teal)",food:"var(--gold)",music:"var(--ember)",arts:"var(--plum)",festival:"var(--gold)",community:"var(--gold)",outdoors:"var(--free)",market:"var(--free)",family:"var(--sky)",sports:"var(--ink)"};
 let DATA=null, selDay=0, gameF="All", catF="All", kindF="All";
 let KIDS_VIEW=false;
 const F={zone:"nearby",hood:"",price:"",daytime:false,late:false,kids:false,dogs:false,baby:false,rail:false,near:false,home:""};
@@ -151,6 +151,12 @@ function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHou
     h+=`<h2 class="dayh">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2>`+timeline(it,d)}
   const ong=DATA.events.filter(e=>e.ongoing&&passes(e));if(ong.length)h+=groupBlock("Running now",ong,{});
   $("kidsList").innerHTML=h||`<p class="empty">Nothing for kids matches${anyFilter()?" these filters. Try clearing one":" in the next two weeks yet"}.</p>`}finally{KIDS_VIEW=false}}
+
+/* Food trucks */
+function renderFood(){const g=DATA.events.filter(e=>e.cat==="food"&&passes(e));const ds=days();let h="";
+  for(const dw of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]){const d=ds.find(x=>DOW[x.getDay()]===dw);h+=groupBlock(DAYNAMES[dw],g.filter(e=>e.kind==="weekly"&&e.days.includes(dw)).sort(sorter(d)),{date:d})}
+  h+=groupBlock("Coming up",g.filter(e=>e.kind==="dated").sort((a,b)=>a.start.localeCompare(b.start)||mins(a.time)-mins(b.time)),{showDate:true});
+  $("foodList").innerHTML=h||emptyMsg()}
 
 /* Bar games */
 function renderGames(){const tags=["All","Trivia","Survey Says","Music Bingo","Game Night","Other"];
@@ -548,7 +554,7 @@ document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[.
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
-function renderLists(){renderKids();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
+function renderLists(){renderKids();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -591,7 +597,7 @@ function boot(data){DATA=data;const m=data.meta||{};
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab(store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","calendar","map","games","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
+  if(["week","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t)}
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}

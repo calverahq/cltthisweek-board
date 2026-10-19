@@ -5578,6 +5578,50 @@
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
    "hostSrc": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Fri"
+   ],
+   "time": "5:30 PM",
+   "endTime": "9:00 PM",
+   "title": "South End Food Truck Friday",
+   "venue": "Hi-Wire Brewing",
+   "area": "South End",
+   "cat": "food",
+   "tag": "Food Trucks",
+   "price": "Free to attend",
+   "free": true,
+   "note": "4–8 rotating trucks in the lot next to Hi-Wire, 340 W. Tremont Ave. Year-round. The week's lineup goes up on Instagram @southendfoodtruckfriday.",
+   "url": "https://www.cltbucketlist.com/events/south-end-food-truck-friday",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "id": "e257"
+  },
+  {
+   "kind": "weekly",
+   "days": [
+    "Fri"
+   ],
+   "time": "5:00 PM",
+   "endTime": "9:00 PM",
+   "title": "University City Food Truck Friday",
+   "venue": "Armored Cow Brewing",
+   "area": "University City",
+   "cat": "food",
+   "tag": "Food Trucks",
+   "price": "Free to attend",
+   "free": true,
+   "note": "Trucks park around the brewery. Weekly through the 2026 season.",
+   "url": "https://fun4charlottekids.com/calendar/eventdetail/487586/-/food-truck-friday-at-armored-cow-brewing-co",
+   "checked": "2026-10-19",
+   "priceTier": "free",
+   "zone": "charlotte",
+   "outdoor": true,
+   "id": "e258"
   }
  ],
  "deals": [
