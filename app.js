@@ -593,15 +593,35 @@ function applyTheme(){const r=document.documentElement;if(theme==="system")r.rem
 $("hTheme").onclick=()=>{theme=THEMES[(THEMES.indexOf(theme)+1)%3];store.set("cltTheme",theme);applyTheme()};applyTheme();
 
 /* Wiring */
-function setTab(t){document.querySelectorAll(".tab").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
-document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+function setTab(t){setTimeout(fitTabs,0);document.querySelectorAll(".tab").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
+document.querySelectorAll(".tab[data-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+/* Tab bar: show what fits, tuck the rest under More */
+function fitTabs(){const nav=document.querySelector("nav.tabs"),more=$("moreBtn");if(!nav||!more)return;
+  const tabs=[...nav.querySelectorAll(".tab[data-tab]")].filter(b=>!b.hidden);
+  tabs.forEach(b=>b.classList.remove("over"));more.hidden=true;
+  if(nav.scrollWidth<=nav.clientWidth+1){$("moreMenu").hidden=true;return}
+  more.hidden=false;
+  for(let i=tabs.length-1;i>0;i--){updateMore();if(nav.scrollWidth<=nav.clientWidth+1)break;tabs[i].classList.add("over")}
+  updateMore()}
+function updateMore(){const more=$("moreBtn");if(!more)return;const over=[...document.querySelectorAll(".tab.over")];
+  const cur=over.find(b=>b.getAttribute("aria-selected")==="true");
+  $("moreLbl").textContent=cur?cur.textContent.replace(/\d+$/,"").trim():"More";more.setAttribute("aria-selected",cur?"true":"false");
+  $("moreMenu").innerHTML=over.map(b=>`<button type="button" data-mt="${b.dataset.tab}" aria-current="${b.getAttribute("aria-selected")==="true"}">${esc(b.textContent.replace(/\d+$/,"").trim())}${b.dataset.tab==="saved"&&!$("savedCt").hidden?` <i>${$("savedCt").textContent}</i>`:""}</button>`).join("");
+  $("moreMenu").querySelectorAll("[data-mt]").forEach(x=>x.onclick=()=>{closeMore();setTab(x.dataset.mt);window.scrollTo({top:Math.min(window.scrollY,document.querySelector("main").offsetTop),behavior:"smooth"})})}
+function closeMore(){$("moreMenu").hidden=true;$("moreBtn").setAttribute("aria-expanded","false")}
+$("moreBtn").onclick=ev=>{ev.stopPropagation();const m=$("moreMenu");m.hidden=!m.hidden;$("moreBtn").setAttribute("aria-expanded",String(!m.hidden))};
+document.addEventListener("click",ev=>{if(!$("moreMenu").hidden&&!ev.target.closest("#moreMenu"))closeMore()});
+document.addEventListener("keydown",ev=>{if(ev.key==="Escape")closeMore()});
+window.addEventListener("resize",()=>{clearTimeout(window.__ft);window.__ft=setTimeout(fitTabs,80)});
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitTabs);
+fitTabs();
 document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[...document.querySelectorAll("nav.tabs .tab:not([hidden])")];const i=tabs.indexOf(document.activeElement);if(i<0)return;
   const j=ev.key==="ArrowRight"?(i+1)%tabs.length:ev.key==="ArrowLeft"?(i-1+tabs.length)%tabs.length:ev.key==="Home"?0:ev.key==="End"?tabs.length-1:null;if(j==null)return;
   ev.preventDefault();tabs[j].focus();tabs[j].scrollIntoView({block:"nearest",inline:"nearest"});setTab(tabs[j].dataset.tab)});
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
-function renderLists(){renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
+function renderLists(){renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
