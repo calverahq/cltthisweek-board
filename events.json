@@ -2819,7 +2819,8 @@
    "priceTier": "under20",
    "zone": "charlotte",
    "endTime": "11:00 AM",
-   "ages": "1–5"
+   "ages": "1–5",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3037,7 +3038,8 @@
    "checked": "2026-10-19",
    "priceTier": "free",
    "season": "halloween",
-   "zone": "charlotte"
+   "zone": "charlotte",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3325,7 +3327,8 @@
    "checked": "2026-10-19",
    "priceTier": "free",
    "zone": "nearby",
-   "endTime": "11:30 AM"
+   "endTime": "11:30 AM",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3459,7 +3462,8 @@
    "season": "halloween",
    "zone": "charlotte",
    "outdoor": true,
-   "endTime": "5:00 PM"
+   "endTime": "5:00 PM",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3592,7 +3596,8 @@
    "priceTier": "free",
    "season": "halloween",
    "zone": "charlotte",
-   "outdoor": true
+   "outdoor": true,
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3698,7 +3703,8 @@
    "checked": "2026-10-19",
    "priceTier": "free",
    "season": "halloween",
-   "zone": "charlotte"
+   "zone": "charlotte",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -3840,7 +3846,8 @@
    "zone": "charlotte",
    "outdoor": true,
    "endTime": "11:00 AM",
-   "ages": "1–5"
+   "ages": "1–5",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4004,7 +4011,8 @@
    "checked": "2026-10-19",
    "priceTier": "free",
    "season": "halloween",
-   "zone": "charlotte"
+   "zone": "charlotte",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4027,7 +4035,8 @@
    "season": "halloween",
    "zone": "nearby",
    "outdoor": true,
-   "endTime": "8:00 PM"
+   "endTime": "8:00 PM",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4182,7 +4191,8 @@
    "priceTier": "free",
    "season": "halloween",
    "zone": "nearby",
-   "outdoor": true
+   "outdoor": true,
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4265,7 +4275,8 @@
    "season": "halloween",
    "zone": "charlotte",
    "outdoor": true,
-   "endTime": "6:00 PM"
+   "endTime": "6:00 PM",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4329,7 +4340,8 @@
    "season": "halloween",
    "end": "2026-10-31",
    "id": "e196",
-   "endTime": "11:00 AM"
+   "endTime": "11:00 AM",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -4567,7 +4579,8 @@
    "checked": "2026-10-18",
    "unconfirmedTime": true,
    "priceTier": "free",
-   "zone": "charlotte"
+   "zone": "charlotte",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -5086,7 +5099,8 @@
    "kids": true,
    "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
    "end": "2026-11-19",
-   "id": "e233"
+   "id": "e233",
+   "kidsOnly": true
   },
   {
    "kind": "dated",
@@ -5188,7 +5202,8 @@
    "url": "https://ctcharlotte.org/Online/article/grinchmas",
    "season": "holidays",
    "unconfirmedTime": true,
-   "id": "e238"
+   "id": "e238",
+   "kidsOnly": true
   },
   {
    "kind": "dated",

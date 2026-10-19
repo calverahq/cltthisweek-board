@@ -457,6 +457,8 @@ select{border-radius:10px;font:500 15px var(--body)}
 .mk-games{fill:var(--teal)}.mk-music{fill:var(--ember)}.mk-sports{fill:var(--night)}
 .mk-home{fill:var(--crown);stroke:var(--night)}
 .bm-label{font:600 11px/1 var(--body)}
+#dayList h3.group,#kidsList h3.group{font:400 22px/1.2 var(--display);margin-top:22px}
+#dayList h3.group i,#kidsList h3.group i{font:600 12px var(--body)}
 .repframe{width:100%;height:470px;border:0;border-radius:12px;background:var(--surface)}
 
 /* Footer */
@@ -496,6 +498,7 @@ footer .sign a{color:var(--teal)}
       <button class="tab" role="tab" aria-selected="false" data-tab="season" id="seasonTab" hidden>Season</button>
       <button class="tab" role="tab" aria-selected="false" data-tab="venues">Venues</button>
       <button class="tab" role="tab" aria-selected="false" data-tab="all">All Events</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="kids">Kids</button>
       <button class="tab" role="tab" aria-selected="false" data-tab="saved">Saved<span class="ct" id="savedCt" hidden>0</span></button>
     </nav>
   </div>
@@ -506,7 +509,7 @@ footer .sign a{color:var(--teal)}
     <div class="filterbar" id="filterbar">
       <select id="zone" aria-label="How far" style="flex:0 1 210px"><option value="nearby">Charlotte + nearby towns</option><option value="charlotte">Charlotte only</option><option value="region">Whole region</option></select>
       <select id="hood" aria-label="Neighborhood"><option value="">All of Charlotte</option></select>
-      <button class="tog" type="button" data-f="late" aria-pressed="false">After 6 PM</button>
+      <button class="tog" type="button" data-f="daytime" aria-pressed="false" title="Starts before 5 PM">Daytime</button><button class="tog" type="button" data-f="late" aria-pressed="false">After 6 PM</button>
       <select id="price" aria-label="Price" style="flex:0 1 150px"><option value="">Any price</option><option value="free">Free</option><option value="under20">Under $20</option><option value="ticketed">Ticketed</option></select>
       <button class="tog" type="button" data-f="kids" aria-pressed="false">Kid-friendly</button>
       <button class="tog" type="button" data-f="dogs" aria-pressed="false">Dog-friendly</button>
@@ -633,6 +636,11 @@ footer .sign a{color:var(--teal)}
       <div id="allList"></div>
     </section>
 
+    <section data-panel="kids" class="stack" hidden>
+      <p class="lede">Storytimes, toddler programs, trick-or-treats, children's theater and other things made for kids. Family events everyone can enjoy, like festivals and holiday lights, stay on the main board.</p>
+      <div id="kidsList"></div>
+    </section>
+
     <section data-panel="saved" class="stack" hidden>
       <div class="helper" id="mePrefs"></div>
       <p class="lede">Starred events and saved plans live on this device.</p>
@@ -656,7 +664,8 @@ const CATS={arts:"Museums & Arts",outdoors:"Outdoors",games:"Bar Games",music:"C
 const CAT_ORDER=["games","music","arts","festival","outdoors","market","family","sports"];
 const CAT_COLOR={games:"var(--teal)",music:"var(--ember)",arts:"var(--plum)",festival:"var(--gold)",community:"var(--gold)",outdoors:"var(--free)",market:"var(--free)",family:"var(--sky)",sports:"var(--ink)"};
 let DATA=null, selDay=0, gameF="All", catF="All", kindF="All";
-const F={zone:"nearby",hood:"",price:"",late:false,kids:false,dogs:false,baby:false,rail:false,near:false,home:""};
+let KIDS_VIEW=false;
+const F={zone:"nearby",hood:"",price:"",daytime:false,late:false,kids:false,dogs:false,baby:false,rail:false,near:false,home:""};
 const RAIL=new Set(["Uptown","South End","Lower South End","NoDa","Optimist Park","University City","Dilworth","North End"]);
 let NEWK=new Set(), EVK=new Map(), newOnly=false;
 let venueSel=null, wkOff=0; let DB=null, USER=null, REPORTED=new Map(), REPORT_N=0; const freeNights=new Set(store0("cltNights",[]));
@@ -699,6 +708,7 @@ function slug(v){return "v-"+v.toLowerCase().replace(/&/g,"and").replace(/[^a-z0
 function dealsFor(venue,d){return (DATA.deals||[]).filter(x=>x.venue===venue&&x.days.includes(DOW[d.getDay()]))}
 
 function passes(e){
+  if(!!e.kidsOnly!==KIDS_VIEW)return false;
   if(!zoneOk(e))return false;
   if(F.hood&&e.area!==F.hood)return false;
   if(F.price&&(e.priceTier||(e.free?"free":"varies"))!==F.price)return false;
@@ -707,10 +717,11 @@ function passes(e){
   if(F.kids&&!e.kids)return false;
   if(F.dogs&&!e.dogs)return false;
   if(F.late){const m=mins(e.time);if(m<18*60||m>=2000)return false}
+  if(F.daytime){const m=mins(e.time);if(m>=17*60)return false}
   if(F.rail&&!railOk(e))return false;
   return true}
 function zoneOk(e){const z=e.zone||"charlotte";return F.zone==="region"||(F.zone==="charlotte"?z==="charlotte":z!=="region")}
-function anyFilter(){return !!(F.zone!=="nearby"||F.hood||F.price||F.late||F.kids||F.dogs||F.baby||F.rail||F.near)}
+function anyFilter(){return !!(F.zone!=="nearby"||F.hood||F.price||F.daytime||F.late||F.kids||F.dogs||F.baby||F.rail||F.near)}
 function hk(e){const s=key(e);let h=5381;for(let i=0;i<s.length;i++)h=((h<<5)+h+s.charCodeAt(i))>>>0;return "e-"+h.toString(36)}
 function nowMin(){const n=new Date();return n.getHours()*60+n.getMinutes()}
 function liveLabel(e,d){if(!d||ymd(d)!==ymd(new Date())||e.unconfirmedTime)return"";const n=nowMin();
@@ -778,9 +789,11 @@ function renderDays(){const ds=stripDays();
 function dayBlock(d,heading){const items=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).sort(sorter(d));
   const f=wx(d);
   let h=`<h2 class="dayh">${heading||d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2><div class="wxline">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}${f&&f.night?" · Tonight: "+esc(f.night):""}</div>${f&&f.detail?`<div class="wxdetail">NWS: ${esc(f.detail)}</div>`:(!f&&wkOff?`<div class="wxdetail">Forecast covers the next 7 days only.</div>`:"")}`;
-  h+=dealBlock(d);const seen=new Set();
-  for(const c of CAT_ORDER){const label=CATS[c];if(seen.has(label))continue;seen.add(label);h+=groupBlock(label,items.filter(e=>CATS[e.cat]===label),{date:d})}
+  h+=dealBlock(d);h+=timeline(items,d);
   if(!items.length)h+=emptyMsg();return h}
+function partOfDay(e,d){const m=mins(tOn(e,d));if(m>=2000||!/\d/.test(tOn(e,d)))return 3;return m<12*60?0:m<17*60?1:2}
+function timeline(items,d){const parts=["Morning","Afternoon","Evening","Any time"];
+  return parts.map((p,i)=>groupBlock(p,items.filter(e=>partOfDay(e,d)===i),{date:d})).join("")}
 function renderDay(){const ds=stripDays();
   if(selDay==="wk"){const w=ds.filter(d=>[5,6,0].includes(d.getDay()));
     $("dayList").innerHTML=w.map(d=>dayBlock(d)).join("")}
@@ -789,6 +802,13 @@ function renderDay(){const ds=stripDays();
 function renderPicks(){if(wkOff){$("picksWrap").innerHTML="";return}const ids=(DATA.meta&&DATA.meta.picks)||[];const ds=days();
   const ps=ids.map(id=>DATA.events.find(e=>e.id===id)).filter(e=>e&&ds.some(d=>onDate(e,d)));
   $("picksWrap").innerHTML=ps.length?`<h3 class="group">This week's picks</h3><div class="picks" style="margin-top:8px">${ps.map(e=>{const d=ds.find(x=>onDate(e,x));return `<button class="pick" type="button" data-ek="${hk(e)}"><span class="k">${d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} · ${esc(e.time)}</span><span class="t">${esc(e.title)}</span><span class="v">${esc(e.venue)} · ${esc(e.area)}</span></button>`}).join("")}</div>`:""}
+
+/* Kids */
+function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<14;i++){const x=new Date(t);x.setDate(t.getDate()+i);ds.push(x)}
+  let h="";for(const d of ds){const it=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).sort(sorter(d));if(!it.length)continue;
+    h+=`<h2 class="dayh">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2>`+timeline(it,d)}
+  const ong=DATA.events.filter(e=>e.ongoing&&passes(e));if(ong.length)h+=groupBlock("Running now",ong,{});
+  $("kidsList").innerHTML=h||`<p class="empty">Nothing for kids matches${anyFilter()?" these filters. Try clearing one":" in the next two weeks yet"}.</p>`}finally{KIDS_VIEW=false}}
 
 /* Bar games */
 function renderGames(){const tags=["All","Trivia","Survey Says","Music Bingo","Game Night","Other"];
@@ -1186,7 +1206,7 @@ document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[.
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
-function renderLists(){if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
+function renderLists(){renderKids();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F)}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -1214,7 +1234,7 @@ function boot(data){DATA=data;const m=data.meta||{};
   $("home").onchange=()=>setHome($("home").value);
   $("teamNew").onclick=newTeam;$("teamCopy").onclick=()=>{const t=$("teamName").textContent;try{navigator.clipboard.writeText(t).then(()=>toast("Team name copied")).catch(()=>fallbackCopy(t))}catch(e){fallbackCopy(t)}};newTeam();
   document.querySelectorAll("#filterbar .tog").forEach(b=>{b.setAttribute("aria-pressed",!!F[b.dataset.f]);b.onclick=()=>{if(b.dataset.f==="near"&&!F.home&&!F.near){toast("Pick a home base in “Distance from” first");$("home").focus();return}F[b.dataset.f]=!F[b.dataset.f];b.setAttribute("aria-pressed",F[b.dataset.f]);renderLists()}});
-  $("clearF").onclick=()=>{Object.assign(F,{zone:"nearby",hood:"",price:"",late:false,kids:false,dogs:false,baby:false,rail:false,near:false});$("zone").value="nearby";$("zone").onchange();$("price").value="";document.querySelectorAll("#filterbar .tog").forEach(b=>b.setAttribute("aria-pressed","false"));renderLists()};
+  $("clearF").onclick=()=>{Object.assign(F,{zone:"nearby",hood:"",price:"",daytime:false,late:false,kids:false,dogs:false,baby:false,rail:false,near:false});$("zone").value="nearby";$("zone").onchange();$("price").value="";document.querySelectorAll("#filterbar .tog").forEach(b=>b.setAttribute("aria-pressed","false"));renderLists()};
   $("stamp").textContent=`Updated ${fmtD(m.updated)} · ${data.events.length} listings`;
   $("dnDay").innerHTML=days().map((d,i)=>`<option value="${i}">${i===0?"Tonight":d.toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})}</option>`).join("");
   $("dnGo").onclick=()=>{locks.spot=false;locks.event=false;genPlan()};
@@ -1229,7 +1249,7 @@ function boot(data){DATA=data;const m=data.meta||{};
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab(store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","calendar","map","games","date","outdoors","arts","season","venues","all","saved"].includes(h))t=h;else t=store.get("cltTab","week");
+  if(["week","calendar","map","games","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t)}
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
