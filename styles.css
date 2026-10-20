@@ -497,3 +497,8 @@ nav.tabs{overflow:hidden}
 .seolinks{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--line);padding-top:14px;margin-top:8px;font:500 13.5px/1.4 var(--body)}
 .seolinks a{color:var(--teal);text-decoration:none}
 .seolinks a:hover{text-decoration:underline}
+.pnext{border-top-color:#0085CA}
+.pnext .pk{font:600 13px/1.2 var(--body);color:#0085CA}
+:root[data-theme="dark"] .pnext .pk{color:#5BB8EA}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pnext .pk{color:#5BB8EA}}
+.pnext h2{margin:4px 0 2px}

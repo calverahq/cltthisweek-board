@@ -172,6 +172,31 @@ function renderWeekend(){const el=$("wkndList");if(!el)return;const ds=weekendDa
   el.innerHTML=h;
   el.querySelectorAll("[data-wk-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.wkGo;if(g==="free"){F.price="free";$("price").value="free";renderLists()}else setTab(g)})}
 
+/* Panthers */
+let PAN=null;
+function renderPanthers(){const el=$("pNext");if(!el)return;if(!PAN){el.innerHTML=`<p class="empty">Loading the schedule…</p>`;return}
+  const t0=ymd(new Date());const short=o=>o.split(" ").slice(-1)[0];
+  const games=PAN.games||[];const up=games.filter(g=>!g.date||g.date>=t0);const nx=up.find(g=>g.date);
+  const dlab=g=>g.date?parseYmd(g.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}):"Date TBD";
+  if(nx){const d=parseYmd(nx.date);const days=Math.round((d-parseYmd(t0))/864e5);
+    const when=days===0?"Today":days===1?"Tomorrow":days<7?d.toLocaleDateString("en-US",{weekday:"long"}):`In ${days} days`;
+    el.innerHTML=`<div class="tonight pnext"><span class="pk">Next up · Week ${nx.week} · ${esc(when)}</span><h2>${nx.home?"vs.":"at"} ${esc(nx.opp)}</h2>
+      <div class="wxline">${esc(d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"}))} · ${esc(nx.time)} · ${esc(nx.tv)}${nx.home?" · Bank of America Stadium":""}</div>
+      <p style="margin:8px 0 0">${nx.home?"Home game. Tailgates and fan zones are below, and the lots fill early.":"Away game. Here's where Charlotte watches it."}</p>
+      <div class="btns" style="margin-top:10px"><button class="go" type="button" data-pgo="${nx.home?"pDay":"pWatch"}">${nx.home?"Game day spots":"Where to watch"}</button><a class="ghost" href="${esc(gcalGame(nx))}" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center">Add to calendar</a></div></div>`;
+    el.querySelectorAll("[data-pgo]").forEach(b=>b.onclick=()=>$(b.dataset.pgo).scrollIntoView({behavior:"smooth",block:"start"}))}
+  else el.innerHTML=`<div class="tonight pnext"><span class="pk">Panthers</span><h2>That's the season</h2></div>`;
+  const evs=DATA.events.filter(e=>/panthers/i.test(e.title+" "+(e.note||""))&&!e.ongoing&&(e.kind==="weekly"||e.end>=t0)).filter(e=>!(e.kind==="dated"&&e.venue==="Bank of America Stadium"&&/^Panthers vs\./.test(e.title)));
+  $("pEvents").innerHTML=evs.length?groupBlock("Panthers events and watch parties",evs,{showDate:true}):"";
+  const row=g=>`<div class="row"><div class="time">${esc(g.date?parseYmd(g.date).toLocaleDateString("en-US",{month:"short",day:"numeric"}):"TBD")}<small>${esc(g.date?parseYmd(g.date).toLocaleDateString("en-US",{weekday:"short"}):"Week "+g.week)}</small></div><div style="min-width:0"><p class="t">${g.home?"vs.":"at"} ${esc(g.opp)}${g.result?` <span class="chip">${esc(g.result)}</span>`:""}</p><div class="v">Week ${g.week} · ${esc(g.time)}${g.tv&&g.tv!=="TBD"?" · "+esc(g.tv):""}</div><div class="chips"><span class="chip ${g.home?"free":""}">${g.home?"Home":"Away"}</span></div>${g.date?`<div class="acts"><a href="${esc(gcalGame(g))}" target="_blank" rel="noopener">Add to calendar</a></div>`:""}</div></div>`;
+  const past=games.filter(g=>g.date&&g.date<t0&&g.result);
+  $("pSched").innerHTML=`<div class="list">${up.map(row).join("")}</div>`+(past.length?`<h3 class="group">Results <i>${past.length}</i></h3><div class="list">${past.map(row).join("")}</div>`:"")+`<p class="lede" style="margin-top:8px"><a href="${esc(PAN.schedule)}" target="_blank" rel="noopener">Official schedule</a></p>`;
+  const card=x=>`<div class="trail"><b>${esc(x.name)}</b><span class="meta">${esc(x.area||x.where||"")}${x.address?" · "+esc(x.address):""}</span><span>${esc(x.what)}</span><div class="acts">${x.address||x.where?`<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(x.name+" "+(x.address||x.where||"")+" Charlotte NC")}" target="_blank" rel="noopener">Map</a>`:""}<a href="${esc(x.url)}" target="_blank" rel="noopener">Source</a></div></div>`;
+  $("pWatch").innerHTML=(PAN.watch||[]).map(card).join("");$("pDay").innerHTML=(PAN.gameday||[]).map(card).join("")}
+function gcalGame(g){const m=mins(g.time);const ds=g.date.replace(/-/g,"");const pad=n=>String(n).padStart(2,"0");let dates;
+  if(m<2000){const em=Math.min(m+210,23*60+59);dates=`${ds}T${pad(Math.floor(m/60))}${pad(m%60)}00/${ds}T${pad(Math.floor(em/60))}${pad(em%60)}00`}else{const n=parseYmd(g.date);n.setDate(n.getDate()+1);dates=`${ds}/${ymd(n).replace(/-/g,"")}`}
+  return "https://calendar.google.com/calendar/render?"+new URLSearchParams({action:"TEMPLATE",text:`Panthers ${g.home?"vs.":"at"} ${g.opp}`,dates,ctz:"America/New_York",location:g.home?"Bank of America Stadium, Charlotte NC":"",details:(g.tv&&g.tv!=="TBD"?"TV: "+g.tv:"")}).toString()}
+
 /* Play: disc golf + leagues */
 let DG=null,PLAY=null;
 function renderPlay(){const el=$("dgList");if(!el)return;
@@ -614,7 +639,7 @@ function applyTheme(){const r=document.documentElement;if(theme==="system")r.rem
 $("hTheme").onclick=()=>{theme=THEMES[(THEMES.indexOf(theme)+1)%3];store.set("cltTheme",theme);applyTheme()};applyTheme();
 
 /* Wiring */
-function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues"||t==="play");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
+function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues"||t==="play"||t==="panthers");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
 document.querySelectorAll(".tab[data-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 /* Tab bar: show what fits, tuck the rest under More */
 function fitTabs(){const nav=document.querySelector("nav.tabs"),more=$("moreBtn");if(!nav||!more)return;
@@ -650,7 +675,7 @@ function filterSummary(){const on=[];if(F.zone==="charlotte")on.push("Charlotte 
 function setFilters(open){$("filterbar").classList.toggle("open",open);$("fToggle").setAttribute("aria-expanded",String(open))}
 $("fToggle").onclick=()=>setFilters(!$("filterbar").classList.contains("open"));
 $("fDone").onclick=()=>{setFilters(false);$("fToggle").focus()};
-function renderLists(){filterSummary();renderPlay();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
+function renderLists(){filterSummary();renderPlay();renderPanthers();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -694,13 +719,14 @@ function route(h,first){let t="week";
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab((document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","weekend","calendar","map","games","food","date","outdoors","play","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=(document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week");
+  if(["week","weekend","calendar","map","games","food","date","outdoors","play","panthers","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=(document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week");
   else if(!first)return;
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t);if(!first)window.scrollTo({top:0})}
 addEventListener("hashchange",()=>{if(DATA)route((location.hash||"").slice(1),false)});
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
 fetch("/discgolf.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{DG=x||{tournaments:[],leagues:[]};if(DATA)renderPlay()}).catch(()=>{DG={tournaments:[],leagues:[]};if(DATA)renderPlay()});
+fetch("/panthers.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{PAN=x||{games:[]};if(DATA)renderPanthers()}).catch(()=>{PAN={games:[]};if(DATA)renderPanthers()});
 fetch("/play.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{PLAY=x||{leagues:[]};if(DATA)renderPlay()}).catch(()=>{});
 fetch("/trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
 fetch("/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(boot).catch(()=>{$("stamp").textContent="Couldn't load this week's events. Refresh to try again.";$("dayList").innerHTML=`<p class="empty">The event list didn't load. Refresh the page to try again.</p>`});

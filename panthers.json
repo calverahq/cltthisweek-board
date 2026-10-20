@@ -1,0 +1,184 @@
+{
+ "updated": "2026-10-20",
+ "source": "https://www.cabletv.com/nfl/carolina-panthers/schedule",
+ "schedule": "https://www.panthers.com/schedule/",
+ "games": [
+  {
+   "week": 7,
+   "date": "2026-10-25",
+   "time": "1:00 PM",
+   "opp": "Tampa Bay Buccaneers",
+   "home": true,
+   "tv": "FOX",
+   "result": ""
+  },
+  {
+   "week": 8,
+   "date": "2026-10-29",
+   "time": "8:15 PM",
+   "opp": "Green Bay Packers",
+   "home": false,
+   "tv": "Prime Video",
+   "result": ""
+  },
+  {
+   "week": 9,
+   "date": "2026-11-08",
+   "time": "1:00 PM",
+   "opp": "Denver Broncos",
+   "home": true,
+   "tv": "CBS",
+   "result": ""
+  },
+  {
+   "week": 10,
+   "date": "2026-11-15",
+   "time": "1:00 PM",
+   "opp": "New Orleans Saints",
+   "home": false,
+   "tv": "FOX",
+   "result": ""
+  },
+  {
+   "week": 11,
+   "date": "2026-11-22",
+   "time": "1:00 PM",
+   "opp": "Baltimore Ravens",
+   "home": true,
+   "tv": "FOX",
+   "result": ""
+  },
+  {
+   "week": 12,
+   "date": "2026-11-30",
+   "time": "8:15 PM",
+   "opp": "Tampa Bay Buccaneers",
+   "home": false,
+   "tv": "ESPN",
+   "result": ""
+  },
+  {
+   "week": 13,
+   "date": "2026-12-06",
+   "time": "4:25 PM",
+   "opp": "Minnesota Vikings",
+   "home": false,
+   "tv": "CBS",
+   "result": ""
+  },
+  {
+   "week": 14,
+   "date": "2026-12-13",
+   "time": "1:00 PM",
+   "opp": "New Orleans Saints",
+   "home": true,
+   "tv": "CBS",
+   "result": ""
+  },
+  {
+   "week": 15,
+   "date": "2026-12-20",
+   "time": "1:00 PM",
+   "opp": "Cincinnati Bengals",
+   "home": true,
+   "tv": "FOX",
+   "result": ""
+  },
+  {
+   "week": 16,
+   "date": "",
+   "time": "TBD",
+   "opp": "Pittsburgh Steelers",
+   "home": false,
+   "tv": "TBD",
+   "result": ""
+  },
+  {
+   "week": 17,
+   "date": "2027-01-03",
+   "time": "1:00 PM",
+   "opp": "Seattle Seahawks",
+   "home": true,
+   "tv": "FOX",
+   "result": ""
+  },
+  {
+   "week": 18,
+   "date": "",
+   "time": "TBD",
+   "opp": "Atlanta Falcons",
+   "home": true,
+   "tv": "TBD",
+   "result": ""
+  }
+ ],
+ "watch": [
+  {
+   "name": "Slate Billiards",
+   "area": "South End",
+   "address": "200 E Bland St",
+   "what": "Billed as a Panthers game day headquarters, with big screens and pool tables.",
+   "url": "https://watchpartyradar.com/nfl/charlotte/"
+  },
+  {
+   "name": "Dilworth Grille",
+   "area": "Dilworth",
+   "address": "911 E Morehead St",
+   "what": "Longtime Panthers bar: fans rally here before home games and pack it for away games.",
+   "url": "https://watchpartyradar.com/nfl/charlotte/"
+  },
+  {
+   "name": "Graham Street Pub & Patio",
+   "area": "Uptown",
+   "address": "",
+   "what": "Sunday game-day parties with the game audio on and a DJ before and after.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "Ten58 Sports Bar & Lounge",
+   "area": "Uptown",
+   "address": "",
+   "what": "Owned by former Panthers linebacker Thomas Davis; known for its wings.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "Clutch Kitchen & Pour House",
+   "area": "Wesley Heights",
+   "address": "",
+   "what": "Sports bar with 20+ TVs, a short walk to the stadium on the Wesley Heights greenway.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  }
+ ],
+ "gameday": [
+  {
+   "name": "Roaring Riot \"Tailgate with a Purpose\"",
+   "where": "Lot at 520 Elliott St",
+   "what": "Free food for members and guests, drinks for purchase; proceeds go to the Roaring Riot Foundation.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "WFNZ's The Dog House",
+   "where": "Mint St & Morehead St lot",
+   "what": "Full bar, live entertainment, TVs and a live WFNZ broadcast.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "Carolina Blue Zone",
+   "where": "1049 Winnifred St",
+   "what": "Ticketed tailgate opening three hours before kickoff: buffet, drinks, games and entertainment.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "PantherFanz Tailgating Club",
+   "where": "Pecan lot B-3, off Cedar St",
+   "what": "Fan club tailgate in the lots behind the stadium.",
+   "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "Parking and GameDay Express",
+   "where": "panthers.com",
+   "what": "Official parking, shuttle and stadium info.",
+   "url": "https://www.panthers.com/schedule/"
+  }
+ ]
+}
