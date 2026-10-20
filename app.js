@@ -419,7 +419,7 @@ function renderTonight(){const el=$("tonight");if(selDay!==0||wkOff!==0){el.inne
   const deals=(DATA.deals||[]).filter(x=>x.days.includes(DOW[d.getDay()])&&dealZone(x)).length;
   const late=n>=21*60+30;
   el.innerHTML=`<div class="tonight"><div class="hd"><h2>${late?"Late night in CLT":n<12*60?"Today in CLT":"Tonight in CLT"}</h2><span class="wxline" style="margin:0">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}</span></div>
-  <div class="tiles"><button class="tile g" type="button" data-go="games"><b>${games}</b><span>game nights left today</span></button><button class="tile f" type="button" data-go="free"><b>${free}</b><span>free things today</span></button><button class="tile d" type="button" data-go="deals"><b>${deals}</b><span>deals today</span></button>${NEWK.size?`<button class="tile n" type="button" data-go="new"><b>${NEWK.size}</b><span>new since last visit</span></button>`:""}</div>
+  <div class="tiles"><button class="tile g" type="button" data-go="games"><b>${games}</b><span>game night${games===1?"":"s"} left today</span></button><button class="tile f" type="button" data-go="free"><b>${free}</b><span>free thing${free===1?"":"s"} today</span></button><button class="tile d" type="button" data-go="deals"><b>${deals}</b><span>deal${deals===1?"":"s"} today</span></button>${NEWK.size?`<button class="tile n" type="button" data-go="new"><b>${NEWK.size}</b><span>new since last visit</span></button>`:""}</div>
   ${ahead.length?`<div class="upnext"><h3 class="group" style="margin:0">Up next</h3>${ahead.slice(0,5).map(e=>`<div class="u"><span class="tm">${esc(tOn(e,d))}</span><span><button class="tlink" type="button" data-ek="${hk(e)}"><b>${esc(e.title)}</b></button> <span style="color:var(--muted)">· ${esc(e.venue)}</span>${liveLabel(e,d)?` <span class="chip live">${liveLabel(e,d)}</span>`:""}</span></div>`).join("")}</div>`:`<p class="lede" style="margin:0">Things are winding down for today. Tap a day below to plan ahead.</p>`}
   <div class="btns"><button class="go" type="button" id="surprise">Surprise me</button><button class="ghost" type="button" data-go="date">Free date idea</button><button class="ghost" type="button" data-go="weekend">Plan my weekend</button></div></div>`;
   el.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.go;
@@ -623,7 +623,15 @@ document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[.
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
-function renderLists(){renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
+/* Phones: filters fold into one button */
+function filterSummary(){const on=[];if(F.zone==="charlotte")on.push("Charlotte only");if(F.zone==="region")on.push("Whole region");if(F.hood)on.push(F.hood);
+  if(F.price)on.push({free:"Free",under20:"Under $20",ticketed:"Ticketed"}[F.price]);
+  [["daytime","Daytime"],["late","After 6 PM"],["kids","Kid-friendly"],["dogs","Dog-friendly"],["baby","Baby mode"],["rail","Near light rail"],["near","Nearest first"]].forEach(([k,l])=>{if(F[k])on.push(l)});
+  $("fCount").textContent=on.length;$("fCount").hidden=!on.length;$("fSum").textContent=on.length?on.join(" · "):"Area, time, price, kids, dogs";}
+function setFilters(open){$("filterbar").classList.toggle("open",open);$("fToggle").setAttribute("aria-expanded",String(open))}
+$("fToggle").onclick=()=>setFilters(!$("filterbar").classList.contains("open"));
+$("fDone").onclick=()=>{setFilters(false);$("fToggle").focus()};
+function renderLists(){filterSummary();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});

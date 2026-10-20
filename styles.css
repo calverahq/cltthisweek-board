@@ -477,3 +477,20 @@ nav.tabs{overflow:hidden}
 .moremenu button[aria-current="true"]{background:var(--night);color:#F4F1FF}
 .moremenu i{font:700 11px var(--body);font-style:normal;background:var(--crown);color:var(--night);border-radius:99px;padding:2px 6px;margin-left:4px}
 @media (max-width:480px){.tab{padding:12px 9px 13px;font-size:14px}.tab.more{gap:4px}}
+
+/* Filters fold into one button on phones */
+.ftoggle,.fdone{display:none}
+@media (max-width:640px){
+  .filterbar{padding:6px}
+  .filterbar:not(.open)>:not(.ftoggle){display:none!important}
+  .ftoggle{display:flex;align-items:center;gap:8px;width:100%;appearance:none;border:0;background:none;color:var(--ink);font:600 15px/1.2 var(--body);padding:8px 6px;cursor:pointer;text-align:left;min-width:0}
+  .ftoggle span{flex:none}
+  .ftoggle i{font:700 11px var(--body);font-style:normal;background:var(--crown);color:var(--night);border-radius:99px;padding:2px 7px;flex:none}
+  .ftoggle em{font:500 13px/1.3 var(--body);font-style:normal;color:var(--muted);flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ftoggle .chev{flex:none;margin-left:auto;transition:transform .15s}
+  .filterbar.open .ftoggle{border-bottom:1px solid var(--line);margin-bottom:4px;padding-bottom:10px}
+  .filterbar.open .ftoggle .chev{transform:rotate(180deg)}
+  .filterbar.open .fdone{display:block;width:100%;appearance:none;border:0;border-radius:10px;background:var(--night);color:#F4F1FF;font:700 15px/1 var(--body);padding:12px;margin-top:4px;cursor:pointer}
+  :root[data-theme="dark"] .filterbar.open .fdone{background:var(--crown);color:#1A1433}
+}
+@media (max-width:640px) and (prefers-color-scheme: dark){:root:not([data-theme="light"]) .filterbar.open .fdone{background:var(--crown);color:#1A1433}}
