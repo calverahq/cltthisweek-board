@@ -68,63 +68,62 @@
   ],
   "forecast": [
    {
-    "date": "2026-10-19",
-    "hi": 68,
-    "lo": 44,
-    "sky": "Sunny",
-    "wind": "NNE 10 mph",
-    "gust": 20,
-    "detail": "Sunny, with a high near 68. North northeast wind around 10 mph, with gusts as high as 20 mph.",
-    "night": "Clear, low 44°"
-   },
-   {
     "date": "2026-10-20",
-    "hi": 74,
-    "lo": 46,
+    "hi": 75,
+    "lo": 48,
     "sky": "Sunny",
-    "wind": "N 6–9 mph",
-    "detail": "Sunny, with a high near 74. North wind 6 to 9 mph.",
-    "night": "Clear, low 46°"
+    "wind": "NNE 9 mph",
+    "detail": "Sunny, with a high near 75. North northeast wind around 9 mph.",
+    "night": "Clear, low 48°"
    },
    {
     "date": "2026-10-21",
-    "hi": 71,
-    "lo": 44,
+    "hi": 72,
+    "lo": 46,
     "sky": "Sunny",
-    "wind": "NNE 8 mph",
-    "detail": "Sunny, with a high near 71. North northeast wind around 8 mph.",
-    "night": "Clear, low 44°"
+    "wind": "NNE 6–8 mph",
+    "detail": "Sunny, with a high near 72. North northeast wind 6 to 8 mph.",
+    "night": "Clear, low 46°"
    },
    {
     "date": "2026-10-22",
-    "hi": 73,
-    "lo": 45,
+    "hi": 74,
+    "lo": 48,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 73.",
-    "night": "Clear, low 45°"
+    "wind": "N 6 mph",
+    "detail": "Sunny, with a high near 74. Calm wind becoming north around 6 mph in the afternoon.",
+    "night": "Clear, low 48°"
    },
    {
     "date": "2026-10-23",
-    "hi": 71,
-    "lo": 44,
+    "hi": 70,
+    "lo": 43,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 71.",
-    "night": "Clear, low 44°"
+    "detail": "Sunny, with a high near 70.",
+    "night": "Clear, low 43°"
    },
    {
     "date": "2026-10-24",
-    "hi": 67,
-    "lo": 43,
+    "hi": 65,
+    "lo": 41,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 67.",
-    "night": "Clear, low 43°"
+    "detail": "Sunny, with a high near 65.",
+    "night": "Clear, low 41°"
    },
    {
     "date": "2026-10-25",
     "hi": 70,
+    "lo": 44,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 70.",
+    "night": "Mostly clear, low 44°"
+   },
+   {
+    "date": "2026-10-26",
+    "hi": 75,
     "lo": null,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 70."
+    "detail": "Sunny, with a high near 75."
    }
   ],
   "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
@@ -565,7 +564,7 @@
    "note": "",
    "url": "https://hopclt.com/trivia-nights-charlotte",
    "id": "e019",
-   "checked": "2026-10-19",
+   "checked": "2026-10-20",
    "priceTier": "free",
    "zone": "charlotte"
   },

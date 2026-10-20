@@ -138,6 +138,18 @@
      "url": "https://foodtruckscharlotte.org/member/macookerbbq"
     },
     {
+     "truck": "Hibachi By Isabella",
+     "cuisine": "Asian Fusion, Latin American, Japanese",
+     "spot": "8 Metro Station",
+     "street": "5025 Wembley Central Ln",
+     "city": "Charlotte",
+     "start": "4:00 PM",
+     "end": "7:00 PM",
+     "lat": 35.28758,
+     "lon": -80.75914,
+     "url": "https://foodtruckscharlotte.org/member/hibachibyisabella"
+    },
+    {
      "truck": "Tacos Las Catrinas",
      "cuisine": "Mexican",
      "spot": "Infinity 260",
@@ -1707,6 +1719,18 @@
      "lat": 35.15058,
      "lon": -80.83899,
      "url": "https://foodtruckscharlotte.org/member/SandraLees"
+    },
+    {
+     "truck": "Ma Cooker Mobile BBQ",
+     "cuisine": "Barbeque, American, Seafood",
+     "spot": "QuikTrip",
+     "street": "8325 W W.T.Harris Blvd",
+     "city": "Charlotte",
+     "start": "12:00 PM",
+     "end": "5:00 PM",
+     "lat": 35.35205,
+     "lon": -80.86643,
+     "url": "https://foodtruckscharlotte.org/member/macookerbbq"
     }
    ]
   }
