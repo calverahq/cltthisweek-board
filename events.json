@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "weekOf": "2026-10-19",
   "coverage": "2026-10-19 to 2026-11-30",
   "featured": {
@@ -2552,25 +2552,6 @@
    "checked": "2026-10-18",
    "priceTier": "free",
    "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "zone": "charlotte",
-   "checked": "2026-10-19",
-   "priceTier": "ticketed",
-   "start": "2026-10-19",
-   "time": "6:00 PM",
-   "title": "The Sound of Print: Bechtler Ensemble",
-   "venue": "Bechtler Museum of Modern Art",
-   "area": "Uptown",
-   "url": "https://www.bechtler.org/events/calendar",
-   "end": "2026-10-19",
-   "id": "e112"
   },
   {
    "kind": "dated",
