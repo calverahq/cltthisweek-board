@@ -473,7 +473,7 @@ function initMap(){if(MAP||!window.L)return;
   MAP=L.map("map",{zoomControl:true,attributionControl:true,minZoom:9,maxZoom:16,zoomSnap:.5}).setView([35.24,-80.84],11);
   MAP.attributionControl.setPrefix(false);MAP.attributionControl.addAttribution("Base: US Census TIGER/Line · Places: © OpenStreetMap contributors");
   MAP.createPane("labels");MAP.getPane("labels").style.zIndex=450;MAP.getPane("labels").style.pointerEvents="none";
-  fetch("basemap.json").then(r=>r.ok?r.json():null).then(gj=>{if(!gj)return;BASE_OK=true;const order={place:0,water:1,county:2,road:3,hwy:4};
+  fetch("/basemap.json").then(r=>r.ok?r.json():null).then(gj=>{if(!gj)return;BASE_OK=true;const order={place:0,water:1,county:2,road:3,hwy:4};
     const fs=gj.features.slice().sort((a,b)=>(order[a.properties.k]??9)-(order[b.properties.k]??9));
     L.geoJSON({type:"FeatureCollection",features:fs},{interactive:false,style:f=>({className:"bm-"+f.properties.k+(f.properties.k==="place"&&f.properties.n===F.home?" home-town":""),weight:1})}).addTo(MAP).bringToBack();
     fs.filter(f=>f.properties.k==="place"&&f.properties.lx).forEach(f=>{const big=f.properties.n==="Charlotte";L.tooltip({permanent:true,direction:"center",className:"bm-label",pane:"labels"}).setLatLng(big?[35.30,-80.90]:[f.properties.ly,f.properties.lx]).setContent(esc(f.properties.n)).addTo(MAP)})
@@ -670,17 +670,17 @@ function boot(data){DATA=data;const m=data.meta||{};
   $("wkGo").onclick=buildWeekend;renderMe();renderScores();
   renderWkSwitch();renderDays();renderLists();genPlan();buildWeekend();injectLd();
   renderFoot();
-  route((location.hash||"").slice(1),true)}
+  const mt=document.querySelector('meta[name="clt-tab"]');route((location.hash||"").slice(1)||(mt?mt.content:""),true)}
 function route(h,first){let t="week";
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
-  if(h.startsWith("e-")&&EVK.get(h)){setTab(store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=store.get("cltTab","week");
+  if(h.startsWith("e-")&&EVK.get(h)){setTab((document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week"));openSheet(EVK.get(h));return}
+  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=(document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week");
   else if(!first)return;
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t);if(!first)window.scrollTo({top:0})}
 addEventListener("hashchange",()=>{if(DATA)route((location.hash||"").slice(1),false)});
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
-fetch("trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
-fetch("events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(boot).catch(()=>{$("stamp").textContent="Couldn't load this week's events. Refresh to try again.";$("dayList").innerHTML=`<p class="empty">The event list didn't load. Refresh the page to try again.</p>`});
+fetch("/trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
+fetch("/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(boot).catch(()=>{$("stamp").textContent="Couldn't load this week's events. Refresh to try again.";$("dayList").innerHTML=`<p class="empty">The event list didn't load. Refresh the page to try again.</p>`});
 })();

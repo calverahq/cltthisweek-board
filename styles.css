@@ -494,3 +494,6 @@ nav.tabs{overflow:hidden}
   :root[data-theme="dark"] .filterbar.open .fdone{background:var(--crown);color:#1A1433}
 }
 @media (max-width:640px) and (prefers-color-scheme: dark){:root:not([data-theme="light"]) .filterbar.open .fdone{background:var(--crown);color:#1A1433}}
+.seolinks{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--line);padding-top:14px;margin-top:8px;font:500 13.5px/1.4 var(--body)}
+.seolinks a{color:var(--teal);text-decoration:none}
+.seolinks a:hover{text-decoration:underline}
