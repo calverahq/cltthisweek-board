@@ -49,17 +49,18 @@ function rainy(f){return !!f&&((f.rain!=null&&f.rain>=50)||/rain|storm|shower/i.
 function slug(v){return "v-"+v.toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
 function dealsFor(venue,d){return (DATA.deals||[]).filter(x=>x.venue===venue&&x.days.includes(DOW[d.getDay()]))}
 
-function passes(e){
+function allTimes(e,d){if(d)return timesOn(e,d);const t=[e.time,...(e.times||[])];if(e.timesByDay)Object.values(e.timesByDay).forEach(x=>t.push(...x));return t}
+function passes(e,d){
   if(!!e.kidsOnly!==KIDS_VIEW)return false;
   if(!zoneOk(e))return false;
   if(F.hood&&e.area!==F.hood)return false;
   if(F.price&&(e.priceTier||(e.free?"free":"varies"))!==F.price)return false;
   if((F.baby||F.kids)&&adultOnly(e))return false;
-  if(F.baby&&!((e.kids||e.cat==="family"||e.cat==="market"||toddlerOk(e))&&mins(e.time)<19*60))return false;
+  if(F.baby&&!((e.kids||e.cat==="family"||e.cat==="market"||toddlerOk(e))&&allTimes(e,d).some(t=>mins(t)<19*60)))return false;
   if(F.kids&&!e.kids)return false;
   if(F.dogs&&!e.dogs)return false;
-  if(F.late){const m=mins(e.time);if(m<18*60||m>=2000)return false}
-  if(F.daytime){const m=mins(e.time);if(m>=17*60)return false}
+  if(F.late&&!allTimes(e,d).some(t=>{const m=mins(t);return m>=18*60&&m<2000}))return false;
+  if(F.daytime&&!allTimes(e,d).some(t=>mins(t)<17*60))return false;
   if(F.rail&&!railOk(e))return false;
   return true}
 function zoneOk(e){const z=e.zone||"charlotte";return F.zone==="region"||(F.zone==="charlotte"?z==="charlotte":z!=="region")}
@@ -73,15 +74,15 @@ function liveLabel(e,d){if(!d||ymd(d)!==ymd(new Date())||e.unconfirmedTime)retur
   return""}
 
 function gcal(e,d){
-  const date=e.kind==="dated"?(d&&onDate(e,d)?d:parseYmd(e.start)):(d||nextOcc(e));
+  const date=d&&onDate(e,d)?d:nextOcc(e);const span=!d&&e.kind==="dated"&&!e.onDays&&e.end>ymd(date);
   const st=tOn(e,date);const m=mins(st);const ds=ymd(date).replace(/-/g,"");
   let dates;
   if(m<2000&&/\d/.test(st)){const pad=n=>String(n).padStart(2,"0");const sh=Math.floor(m/60),sm=m%60;let em=endM(e,date)||m+120;if(em>23*60+59)em=23*60+59;dates=`${ds}T${pad(sh)}${pad(sm)}00/${ds}T${pad(Math.floor(em/60))}${pad(em%60)}00`}
-  else{const n=new Date(date);n.setDate(n.getDate()+1);dates=`${ds}/${ymd(n).replace(/-/g,"")}`}
+  else{const n=span?parseYmd(e.end):new Date(date);n.setDate(n.getDate()+1);dates=`${ds}/${ymd(n).replace(/-/g,"")}`}
   const p=new URLSearchParams({action:"TEMPLATE",text:e.title+" @ "+e.venue,dates,ctz:"America/New_York",location:e.venue+", "+e.area+", Charlotte NC",details:(e.note?e.note+"\n":"")+"Source: "+e.url});
-  if(e.kind==="weekly")p.set("recur","RRULE:FREQ=WEEKLY");
+  if(e.kind==="weekly")p.set("recur","RRULE:FREQ=WEEKLY;BYDAY="+e.days.map(x=>x.slice(0,2).toUpperCase()).join(","));
   return "https://calendar.google.com/calendar/render?"+p.toString()}
-function nextOcc(e){const ds=days();return ds.find(d=>onDate(e,d))||ds[0]}
+function nextOcc(e){const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<400;i++){const d=new Date(t);d.setDate(t.getDate()+i);if(onDate(e,d))return d;if(e.kind==="dated"&&ymd(d)>e.end)break}return e.kind==="dated"?parseYmd(e.start):t}
 function maps(e){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(e.venue+" "+e.area+" Charlotte NC")}
 
 function chips(e,d){let h="";const lv=liveLabel(e,d);if(lv)h+=`<span class="chip live">${lv}</span>`;if(NEWK.has(key(e)))h+=`<span class="chip new">New</span>`;
@@ -128,7 +129,7 @@ function renderDays(){const ds=stripDays();
   h+=`<button class="day wk" type="button" aria-pressed="${selDay==="wk"}" data-i="wk"><b>Fri–Sun</b><span>Weekend</span></button>`;
   $("days").innerHTML=h;
   $("days").querySelectorAll(".day").forEach(b=>b.onclick=()=>{selDay=b.dataset.i==="wk"?"wk":+b.dataset.i;renderDays();renderDay();renderTonight()})}
-function dayBlock(d,heading){const items=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).sort(sorter(d));
+function dayBlock(d,heading){const items=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing).sort(sorter(d));
   const f=wx(d);
   let h=`<h2 class="dayh">${heading||d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2><div class="wxline">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}${f&&f.night?" · Tonight: "+esc(f.night):""}</div>${f&&f.detail?`<div class="wxdetail">NWS: ${esc(f.detail)}</div>`:(!f&&wkOff?`<div class="wxdetail">Forecast covers the next 7 days only.</div>`:"")}`;
   h+=dealBlock(d);h+=timeline(items,d);
@@ -142,7 +143,7 @@ function renderDay(){const ds=stripDays();
   else $("dayList").innerHTML=dayBlock(ds[selDay]);
   renderPicks()}
 function renderPicks(){if(wkOff){$("picksWrap").innerHTML="";return}const ids=(DATA.meta&&DATA.meta.picks)||[];const ds=days();
-  const ps=ids.map(id=>DATA.events.find(e=>e.id===id)).filter(e=>e&&ds.some(d=>onDate(e,d)));
+  const ps=ids.map(id=>DATA.events.find(e=>e.id===id)).filter(e=>e&&!e.ongoing&&ds.some(d=>onDate(e,d)&&passes(e,d)));
   $("picksWrap").innerHTML=ps.length?`<h3 class="group">This week's picks</h3><div class="picks" style="margin-top:8px">${ps.map(e=>{const d=ds.find(x=>onDate(e,x));return `<button class="pick" type="button" data-ek="${hk(e)}"><span class="k">${d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} · ${esc(e.time)}</span><span class="t">${esc(e.title)}</span><span class="v">${esc(e.venue)} · ${esc(e.area)}</span></button>`}).join("")}</div>`:""}
 
 /* This weekend: Friday night through Sunday */
@@ -151,34 +152,35 @@ function weekendDays(){const t=new Date();t.setHours(12,0,0,0);const dw=t.getDay
   return [0,1,2].map(i=>{const x=new Date(fri);x.setDate(fri.getDate()+i);return x}).filter(d=>ymd(d)>=ymd(t))}
 function renderWeekend(){const el=$("wkndList");if(!el)return;const ds=weekendDays();const all=[0,1,2];
   const fri=ds.find(d=>d.getDay()===5);
-  const evs=d=>DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing&&!(d.getDay()===5&&ymd(d)!==ymd(new Date())&&mins(tOn(e,d))<16*60)).sort(sorter(d));
+  const early=(e,d)=>{if(d.getDay()!==5)return false;const t=tOn(e,d);if(!/\d/.test(t))return false;const end=endM(e,d);return end?end<=16*60:mins(t)<16*60};
+  const evs=d=>DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing&&!early(e,d)).sort(sorter(d));
   const per=ds.map(d=>({d,items:evs(d)}));
   const span=ds.length?`${ds[0].toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} – ${ds[ds.length-1].toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}`:"";
   let h=`<h2>This weekend</h2><p class="lede">${span}. ${fri?"Friday from 4 PM, then all of Saturday and Sunday.":"What's left of the weekend."} Filters above still apply.</p>`;
   h+=`<div class="wkndwx">${ds.map(d=>{const f=wx(d);return `<div class="wxday"><b>${DOW[d.getDay()]}</b><span>${f&&f.hi!=null?f.hi+"°":"–"}</span><em>${f?esc(f.sky.split(",")[0]):"No forecast yet"}</em><em>${f&&f.rain?"Rain "+f.rain+"%":"&nbsp;"}</em><em>Sunset ${sunset(d)}</em></div>`}).join("")}</div>`;
   const ids=[...((DATA.meta&&DATA.meta.picks)||[]),...Object.values((DATA.meta&&DATA.meta.featured)||{}).flat().map(x=>x.id)];
-  const seen=new Set();const ps=[];for(const id of ids){if(seen.has(id))continue;seen.add(id);const e=DATA.events.find(x=>x.id===id);if(!e||e.kidsOnly)continue;const d=ds.find(x=>onDate(e,x));if(d)ps.push({e,d})}
+  const seen=new Set();const ps=[];for(const id of ids){if(seen.has(id))continue;seen.add(id);const e=DATA.events.find(x=>x.id===id);if(!e||e.kidsOnly||e.ongoing)continue;const d=ds.find(x=>onDate(e,x)&&passes(e,x)&&!early(e,x));if(d)ps.push({e,d})}
   if(ps.length)h+=`<h3 class="group">Worth planning around</h3><div class="picks" style="margin-top:8px">${ps.slice(0,6).map(({e,d})=>`<button class="pick" type="button" data-ek="${hk(e)}"><span class="k">${DOW[d.getDay()]} · ${esc(tOn(e,d))}</span><span class="t">${esc(e.title)}</span><span class="v">${esc(e.venue)} · ${esc(e.area)}</span></button>`).join("")}</div>`;
   const flat=per.flatMap(x=>x.items);const free=new Set(flat.filter(e=>e.free).map(key)).size;
   const games=per.reduce((n,x)=>n+x.items.filter(e=>e.cat==="games").length,0);
-  let kids=0;KIDS_VIEW=true;try{kids=ds.reduce((n,d)=>n+DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).length,0)}finally{KIDS_VIEW=false}
-  const trucks=TRUCKS?ds.reduce((n,d)=>{const x=TRUCKS.days.find(t=>t.date===ymd(d));return n+(x?x.stops.length:0)},0):0;
+  let kids=0;KIDS_VIEW=true;try{kids=ds.reduce((n,d)=>n+DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing).length,0)}finally{KIDS_VIEW=false}
+  const trucks=TRUCKS?ds.reduce((n,d)=>{const x=TRUCKS.days.find(t=>t.date===ymd(d));return n+(x?x.stops.filter(s=>d.getDay()!==5||mins(s.start)>=16*60).length:0)},0):0;
   h+=`<div class="tiles wkndtiles"><button class="tile f" type="button" data-wk-go="free"><b>${free}</b><span>free thing${free===1?"":"s"}</span></button><button class="tile g" type="button" data-wk-go="games"><b>${games}</b><span>game night${games===1?"":"s"}</span></button><button class="tile d" type="button" data-wk-go="food"><b>${trucks}</b><span>food truck stop${trucks===1?"":"s"}</span></button><button class="tile n" type="button" data-wk-go="kids"><b>${kids}</b><span>kids' event${kids===1?"":"s"}</span></button></div>`;
   for(const {d,items} of per){const f=wx(d);
-    h+=`<h2 class="dayh" style="margin-top:26px">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}${d.getDay()===5&&ymd(d)!==ymd(new Date())?" night":""}</h2><div class="wxline">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}</div>`;
+    h+=`<h2 class="dayh" style="margin-top:26px">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}${d.getDay()===5?" night":""}</h2><div class="wxline">${f?esc(wxText(f))+" · ":""}Sunset ${sunset(d)}</div>`;
     h+=dealBlock(d)+timeline(items,d);if(!items.length)h+=emptyMsg()}
   el.innerHTML=h;
   el.querySelectorAll("[data-wk-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.wkGo;if(g==="free"){F.price="free";$("price").value="free";renderLists()}else setTab(g)})}
 
 /* Kids */
 function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<14;i++){const x=new Date(t);x.setDate(t.getDate()+i);ds.push(x)}
-  let h="";for(const d of ds){const it=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing).sort(sorter(d));if(!it.length)continue;
+  let h="";for(const d of ds){const it=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing).sort(sorter(d));if(!it.length)continue;
     h+=`<h2 class="dayh">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2>`+timeline(it,d)}
   const ong=DATA.events.filter(e=>e.ongoing&&passes(e));if(ong.length)h+=groupBlock("Running now",ong,{});
   $("kidsList").innerHTML=h||`<p class="empty">Nothing for kids matches${anyFilter()?" these filters. Try clearing one":" in the next two weeks yet"}.</p>`}finally{KIDS_VIEW=false}}
 
 /* Food trucks */
-let TRUCKS=null, truckSel=0;
+let TRUCKS=null, truckSel="";
 function truckDays(){if(!TRUCKS)return[];const t=ymd(new Date());return TRUCKS.days.filter(x=>x.date>=t).slice(0,7)}
 function trucksAt(e,d){if(!TRUCKS||!d)return[];const g=geoOf(e);if(!g)return[];const day=TRUCKS.days.find(x=>x.date===ymd(d));if(!day)return[];
   const lim=g.approx?0.6:0.35, st=mins(tOn(e,d));
@@ -187,10 +189,10 @@ function lineup(e,d){const ts=[...new Set(trucksAt(e,d).map(s=>s.truck))];return
 function renderTrucks(){const el=$("truckList");if(!el)return;const ds=truckDays();
   if(!TRUCKS){el.innerHTML=`<p class="empty">Loading truck schedules…</p>`;$("truckDays").innerHTML="";return}
   if(!ds.length){el.innerHTML=`<p class="empty">No truck schedules posted for the coming week yet.</p>`;$("truckDays").innerHTML="";return}
-  if(truckSel>=ds.length)truckSel=0;
-  $("truckDays").innerHTML=ds.map((x,i)=>{const d=parseYmd(x.date);return `<button class="tog" type="button" data-td="${i}" aria-pressed="${i===truckSel}">${i===0&&x.date===ymd(new Date())?"Today":d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} <span style="opacity:.7">${x.stops.length}</span></button>`}).join("");
-  $("truckDays").querySelectorAll("[data-td]").forEach(b=>b.onclick=()=>{truckSel=+b.dataset.td;renderTrucks()});
-  const h0=homePt();let stops=ds[truckSel].stops.slice();
+  if(!ds.some(x=>x.date===truckSel))truckSel=ds[0].date;const sel=ds.find(x=>x.date===truckSel);
+  $("truckDays").innerHTML=ds.map((x,i)=>{const d=parseYmd(x.date);return `<button class="tog" type="button" data-td="${x.date}" aria-pressed="${x.date===truckSel}">${i===0&&x.date===ymd(new Date())?"Today":d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})} <span style="opacity:.7">${x.stops.length}</span></button>`}).join("");
+  $("truckDays").querySelectorAll("[data-td]").forEach(b=>b.onclick=()=>{truckSel=b.dataset.td;renderTrucks()});
+  const h0=homePt();let stops=sel.stops.slice();
   stops.sort((a,b)=>(F.near&&h0)?kmBetween(h0,a)-kmBetween(h0,b):mins(a.start)-mins(b.start));
   const part=s=>{const m=mins(s.start);return m<12*60?0:m<17*60?1:2};
   const one=s=>{const dm=h0?kmBetween(h0,{lat:s.lat,lon:s.lon})*0.6214:null;const cu=(s.cuisine||"").split(",").map(x=>x.trim()).filter(Boolean).slice(0,2);
@@ -238,7 +240,7 @@ function renderNights(){const ds=days();
   $("nights").querySelectorAll(".tog").forEach(b=>b.onclick=()=>{const n=b.dataset.n;freeNights.has(n)?freeNights.delete(n):freeNights.add(n);store.set("cltNights",[...freeNights]);renderNights()});
   if(!freeNights.size){$("nightPlan").innerHTML=`<p class="empty" style="padding:4px 0">Pick at least one night.</p>`;return}
   let h="";for(const dw of ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]){if(!freeNights.has(dw))continue;const d=ds.find(x=>DOW[x.getDay()]===dw);
-    const it=DATA.events.filter(e=>e.cat==="games"&&passes(e)&&onDate(e,d)).sort((a,b)=>mins(a.time)-mins(b.time));
+    const it=DATA.events.filter(e=>e.cat==="games"&&passes(e,d)&&onDate(e,d)).sort((a,b)=>mins(a.time)-mins(b.time));
     h+=`<div style="display:grid;gap:4px"><b style="font:800 14px var(--display);font-stretch:110%">${d.toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})} <span class="wx">${it.length} games${wx(d)&&wx(d).hi!=null?" · "+wx(d).hi+"°":""}</span></b>${it.length?`<div style="font-size:14px;color:var(--muted)">${it.slice(0,8).map(e=>`${esc(e.time)} ${esc(e.tag)} at <button class="vlink" type="button" data-venue="${esc(e.venue)}">${esc(e.venue)}</button>`).join(" · ")}${it.length>8?` · +${it.length-8} more`:""}</div>`:`<div style="font-size:14px;color:var(--muted)">No games match your filters that night.</div>`}</div>`}
   $("nightPlan").innerHTML=`<div style="display:grid;gap:10px">${h}</div>`}
 
@@ -287,7 +289,7 @@ let trailF={stroller:false,dogs:false,paved:false,free:false};
 function renderOutdoors(){const ds=days();
   const scored=ds.map(d=>({d,f:wx(d),s:outdoorScore(wx(d))})).filter(x=>x.f);
   const best=scored.length?scored.reduce((a,b)=>b.s>a.s?b:a):null;
-  if(best){const evs=DATA.events.filter(e=>e.outdoor&&onDate(e,best.d)&&passes(e)&&e.kind==="dated");
+  if(best){const evs=DATA.events.filter(e=>e.outdoor&&onDate(e,best.d)&&passes(e,best.d)&&e.kind==="dated");
     $("bestDay").innerHTML=`<span class="k">Best outdoor day this week</span><h2>${best.d.toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})}</h2><div>${esc(wxText(best.f))} · sunset ${sunset(best.d)}</div>${evs.length?`<div style="font-size:14px;color:var(--muted)">Happening outside that day: ${evs.slice(0,4).map(e=>esc(e.title)).join(" · ")}</div>`:""}`}
   else $("bestDay").innerHTML=`<span class="k">Outdoors</span><h2>Forecast not posted yet</h2><div>Sunset today: ${sunset(ds[0])}</div>`;
   $("wxStrip").innerHTML=ds.map(d=>{const f=wx(d);return `<div class="wxday${best&&d===best.d?" top":""}"><b>${d===ds[0]?"Today":DOW[d.getDay()]}</b><span>${f&&f.hi!=null?f.hi+"°":"–"}</span><em>${f?esc(f.sky.split(",")[0]):""}</em><em>Sunset ${sunset(d).replace(" PM","")}</em></div>`}).join("");
@@ -330,7 +332,7 @@ function renderCalendar(){renderFeatured();
   const dim=new Date(m.getFullYear(),m.getMonth()+1,0).getDate();let h=DOW.map(d=>`<div class="dow">${d.slice(0,2)}</div>`).join("");
   for(let i=0;i<first.getDay();i++)h+=`<div class="cell blank" aria-hidden="true"></div>`;
   for(let day=1;day<=dim;day++){const d=new Date(m.getFullYear(),m.getMonth(),day,12);const k=ymd(d);
-    const ev=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing&&(calWeekly||e.kind==="dated"));
+    const ev=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing&&(calWeekly||e.kind==="dated"));
     const cats=[...new Set(ev.map(e=>e.cat))].sort((a,b)=>CAT_ORDER.indexOf(a)-CAT_ORDER.indexOf(b));cats.forEach(c=>used.add(c));
     const star=ev.some(e=>fids.has(e.id)&&(e.start===k||(day===1&&e.start<k)));
     h+=`<button class="cell${k<today?" past":""}${k===today?" today":""}" type="button" data-d="${k}" aria-pressed="${calSel===k}" aria-label="${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}, ${ev.length} events"><span class="n">${day}</span>${star?`<span class="st">★</span>`:""}<span class="dots">${cats.slice(0,6).map(c=>`<span class="dot" style="background:${CAT_COLOR[c]||"var(--muted)"}"></span>`).join("")}${ev.length?`<span class="ct">${ev.length}</span>`:""}</span></button>`}
@@ -340,8 +342,8 @@ function renderCalendar(){renderFeatured();
   if(!calSel){const sameMonth=today.slice(0,7)===mkey(m);calSel=sameMonth?today:ymd(first);
     $("calGrid").querySelector(`[data-d="${calSel}"]`)?.setAttribute("aria-pressed","true")}
   const d=parseYmd(calSel);
-  const items=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing&&(calWeekly||e.kind==="dated")).sort((a,b)=>mins(a.time)-mins(b.time));
-  const wk=calWeekly?0:DATA.events.filter(e=>e.kind==="weekly"&&onDate(e,d)&&passes(e)).length;
+  const items=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing&&(calWeekly||e.kind==="dated")).sort((a,b)=>mins(a.time)-mins(b.time));
+  const wk=calWeekly?0:DATA.events.filter(e=>e.kind==="weekly"&&onDate(e,d)&&passes(e,d)).length;
   let out=`<h2 class="dayh">${d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</h2>`;const seen=new Set();
   for(const c of CAT_ORDER){const label=CATS[c];if(seen.has(label))continue;seen.add(label);out+=groupBlock(label,items.filter(e=>CATS[e.cat]===label),{date:d,showDate:true})}
   if(!items.length)out+=`<p class="empty">No dated events${anyFilter()?" match your filters":""} on this day yet.</p>`;
@@ -361,7 +363,7 @@ function renderArts(){const ds=days();
 
 /* Saved */
 function renderSaved(){const ev=DATA.events.filter(e=>saved.has(key(e)));
-  const ct=$("savedCt");ct.textContent=saved.size+savedDates.length;ct.hidden=!(saved.size+savedDates.length);
+  const ct=$("savedCt");const n=ev.length+savedDates.length;ct.textContent=n;ct.hidden=!n;
   let h=groupBlock("Saved events",ev,{showDate:true});
   if(savedDates.length)h+=`<h3 class="group">Saved date plans <i>${savedDates.length}</i></h3><div class="stack" style="margin-top:8px">${savedDates.map((p,i)=>`<div class="saved-date"><span class="t">${esc(p.day)}</span><ol>${p.steps.map(s=>`<li><b>${esc(s.t)}</b> · ${esc(s.p)}</li>`).join("")}</ol><div class="btns" style="margin-top:6px"><button class="ghost" type="button" data-copy="${i}">Copy plan</button><button class="ghost" type="button" data-del="${i}">Remove</button></div></div>`).join("")}</div>`;
   $("savedList").innerHTML=h||`<p class="empty">Nothing saved yet. Tap ☆ on any event, or save a plan from Free Date Night.</p>`;
@@ -410,7 +412,7 @@ let tt;function toast(m){const el=$("toast");el.textContent=m;el.hidden=false;cl
 /* Tonight dashboard */
 function renderTonight(){const el=$("tonight");if(selDay!==0||wkOff!==0){el.innerHTML="";return}
   const d=days()[0];const n=nowMin();const f=wx(d);
-  const todays=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing);
+  const todays=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing);
   const ahead=todays.filter(e=>{const t=tOn(e,d);const m=mins(t);if(m>=2000||!/\d/.test(t))return false;const last=mins(timesOn(e,d).slice(-1)[0]);return (endM(e,d)||Math.max(m,last)+60)>n}).sort((a,b)=>mins(tOn(a,d))-mins(tOn(b,d)));
   const games=todays.filter(e=>e.cat==="games"&&mins(e.time)>=n-60).length;
   const free=todays.filter(e=>e.free).length;
@@ -460,8 +462,8 @@ document.addEventListener("keydown",ev=>{if(ev.key==="Escape"&&!$("scrim").hidde
 document.addEventListener("click",ev=>{const t=ev.target.closest("[data-ek]");if(!t)return;const e=EVK.get(t.dataset.ek);if(e){ev.stopPropagation();openSheet(e)}},true);
 
 /* Map */
-let MAP=null,MK=null,HOMEL=null,mapWeekly=true,BASE_OK=false,focusVenue=null;
-const MAPCATS={games:"Bar games",music:"Shows",arts:"Arts",festival:"Festivals",outdoors:"Outdoors",market:"Markets",family:"Family",sports:"Sports"};
+let MAP=null,MK=null,HOMEL=null,mapWeekly=true,BASE_OK=false,focusVenue=null,focusAt=0;
+const MAPCATS={games:"Bar games",food:"Food trucks",music:"Shows",arts:"Arts",festival:"Festivals",outdoors:"Outdoors",market:"Markets",family:"Family",sports:"Sports"};
 function mapDays(){const out=[];const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<14;i++){const d=new Date(t);d.setDate(t.getDate()+i);out.push(d)}return out}
 function fillHomeSelects(){const P=DATA.places||{};const hs=Object.keys(P.homes||{}).sort();
   const opts=`<option value="">Distance from…</option>`+hs.map(h=>`<option${h===F.home?" selected":""}>${esc(h)}</option>`).join("");
@@ -485,7 +487,7 @@ function renderMap(){if(!DATA)return;
   sel.innerHTML=ds.map((d,i)=>`<option value="${i}"${i===cur?" selected":""}>${i===0?"Today":i===1?"Tomorrow":d.toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})}</option>`).join("");
   $("mapWeekly").setAttribute("aria-pressed",mapWeekly);
   const d=ds[cur];
-  const evs=DATA.events.filter(e=>onDate(e,d)&&passes(e)&&!e.ongoing&&(mapWeekly||e.kind==="dated"));
+  const evs=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing&&(mapWeekly||e.kind==="dated"));
   const byV=new Map();const unm=[];
   evs.forEach(e=>{const g=geoOf(e);if(!g){unm.push(e);return}if(!byV.has(e.venue))byV.set(e.venue,{g,list:[]});byV.get(e.venue).list.push(e)});
   const used=new Set();byV.forEach(v=>{v.list.sort((a,b)=>mins(tOn(a,d))-mins(tOn(b,d)));const c={};v.list.forEach(e=>c[e.cat]=(c[e.cat]||0)+1);v.cat=Object.entries(c).sort((a,b)=>b[1]-a[1])[0][0];used.add(v.cat==="community"?"festival":v.cat)});
@@ -497,8 +499,8 @@ function renderMap(){if(!DATA)return;
       m.addTo(MK);m._venue=name;pts.push([v.g.lat,v.g.lon])});
     if(HOMEL){HOMEL.remove();HOMEL=null}const h=homePt();if(h){HOMEL=L.circleMarker([h.lat,h.lon],{radius:7,className:"mk-home"}).bindTooltip("Home base: "+esc(F.home),{direction:"top"}).addTo(MAP)}
     setTimeout(()=>{MAP.invalidateSize();
-      if(focusVenue){const g=(DATA.places.venues||{})[focusVenue];if(g){MAP.setView([g.lat,g.lon],14);MK.eachLayer(l=>{if(l._venue===focusVenue)l.openPopup()})}focusVenue=null}
-      else if(pts.length){const inner=pts.filter(p=>p[0]>34.95&&p[0]<35.45&&p[1]>-81.1&&p[1]<-80.6);MAP.fitBounds(L.latLngBounds(inner.length?inner:pts).pad(.08),{maxZoom:13})}},30)}
+      if(focusVenue){const g=(DATA.places.venues||{})[focusVenue];if(g){MAP.setView([g.lat,g.lon],14);MK.eachLayer(l=>{if(l._venue===focusVenue)l.openPopup()})}focusVenue=null;focusAt=Date.now()}
+      else if(pts.length&&Date.now()-focusAt>1500){const inner=pts.filter(p=>p[0]>34.95&&p[0]<35.45&&p[1]>-81.1&&p[1]<-80.6);MAP.fitBounds(L.latLngBounds(inner.length?inner:pts).pad(.08),{maxZoom:13})}},30)}
   const list=[...byV.values()].flatMap(v=>v.list).concat(unm);
   const sortF=homePt()?(a,b)=>byNear(a,b,d):(a,b)=>mins(tOn(a,d))-mins(tOn(b,d));
   $("mapList").innerHTML=groupBlock(homePt()?`Closest to ${F.home}`:"On the map",list.sort(sortF),{date:d})||`<p class="empty">Nothing matches on this day. Try another day or clear a filter.</p>`;
@@ -593,7 +595,7 @@ function applyTheme(){const r=document.documentElement;if(theme==="system")r.rem
 $("hTheme").onclick=()=>{theme=THEMES[(THEMES.indexOf(theme)+1)%3];store.set("cltTheme",theme);applyTheme()};applyTheme();
 
 /* Wiring */
-function setTab(t){setTimeout(fitTabs,0);document.querySelectorAll(".tab").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
+function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
 document.querySelectorAll(".tab[data-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 /* Tab bar: show what fits, tuck the rest under More */
 function fitTabs(){const nav=document.querySelector("nav.tabs"),more=$("moreBtn");if(!nav||!more)return;
@@ -610,14 +612,14 @@ function updateMore(){const more=$("moreBtn");if(!more)return;const over=[...doc
   $("moreMenu").querySelectorAll("[data-mt]").forEach(x=>x.onclick=()=>{closeMore();setTab(x.dataset.mt);window.scrollTo({top:Math.min(window.scrollY,document.querySelector("main").offsetTop),behavior:"smooth"})})}
 function closeMore(){$("moreMenu").hidden=true;$("moreBtn").setAttribute("aria-expanded","false")}
 $("moreBtn").onclick=ev=>{ev.stopPropagation();const m=$("moreMenu");m.hidden=!m.hidden;$("moreBtn").setAttribute("aria-expanded",String(!m.hidden))};
-document.addEventListener("click",ev=>{if(!$("moreMenu").hidden&&!ev.target.closest("#moreMenu"))closeMore()});
+document.addEventListener("click",ev=>{if(!$("moreMenu").hidden&&!ev.target.closest("#moreMenu,#moreBtn"))closeMore()},true);
 document.addEventListener("keydown",ev=>{if(ev.key==="Escape")closeMore()});
 window.addEventListener("resize",()=>{clearTimeout(window.__ft);window.__ft=setTimeout(fitTabs,80)});
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitTabs);
 fitTabs();
-document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[...document.querySelectorAll("nav.tabs .tab:not([hidden])")];const i=tabs.indexOf(document.activeElement);if(i<0)return;
+document.querySelector("nav.tabs").addEventListener("keydown",ev=>{const tabs=[...document.querySelectorAll("nav.tabs .tab:not([hidden]):not(.over)")];const i=tabs.indexOf(document.activeElement);if(i<0)return;
   const j=ev.key==="ArrowRight"?(i+1)%tabs.length:ev.key==="ArrowLeft"?(i-1+tabs.length)%tabs.length:ev.key==="Home"?0:ev.key==="End"?tabs.length-1:null;if(j==null)return;
-  ev.preventDefault();tabs[j].focus();tabs[j].scrollIntoView({block:"nearest",inline:"nearest"});setTab(tabs[j].dataset.tab)});
+  ev.preventDefault();tabs[j].focus();if(tabs[j].dataset.tab)setTab(tabs[j].dataset.tab)});
 function goTonight(){wkOff=0;selDay=0;setTab("week");renderWkSwitch();renderDays();renderDay();renderTonight();window.scrollTo(0,0)}
 $("hTonight").onclick=goTonight;
 (function(){const m=document.querySelector("header.mast");const setH=()=>document.documentElement.style.setProperty("--mastH",m.offsetHeight+"px");setH();try{new ResizeObserver(setH).observe(m)}catch(x){addEventListener("resize",setH)}})();
@@ -660,12 +662,15 @@ function boot(data){DATA=data;const m=data.meta||{};
   $("wkGo").onclick=buildWeekend;renderMe();renderScores();
   renderWkSwitch();renderDays();renderLists();genPlan();buildWeekend();injectLd();
   renderFoot();
-  let t="week";const h=(location.hash||"").slice(1);
+  route((location.hash||"").slice(1),true)}
+function route(h,first){let t="week";
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab(store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else t=store.get("cltTab","week");
-  if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t)}
+  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=store.get("cltTab","week");
+  else if(!first)return;
+  if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t);if(!first)window.scrollTo({top:0})}
+addEventListener("hashchange",()=>{if(DATA)route((location.hash||"").slice(1),false)});
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
 fetch("trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});

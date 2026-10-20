@@ -6,18 +6,6 @@
    "date": "2026-10-19",
    "stops": [
     {
-     "truck": "Tigers Halal",
-     "cuisine": "Halal, Greek, Mediterranean",
-     "spot": "Cresswind",
-     "street": "9304 Cresswind Blvd",
-     "city": "Charlotte",
-     "start": "4:30 PM",
-     "end": "7:30 PM",
-     "lat": 35.2278,
-     "lon": -80.64427,
-     "url": "https://foodtruckscharlotte.org/member/tigershalal"
-    },
-    {
      "truck": "A Tana Empanada",
      "cuisine": "Latin American, South American",
      "spot": "Birdsong Brewery",
@@ -28,30 +16,6 @@
      "lat": 35.23086,
      "lon": -80.82658,
      "url": "https://foodtruckscharlotte.org/member/atanafoodtruck"
-    },
-    {
-     "truck": "Pinoy Plates",
-     "cuisine": "Filipino, American",
-     "spot": "The Drake",
-     "street": "9905 University City Blvd",
-     "city": "Charlotte",
-     "start": "6:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.31089,
-     "lon": -80.71816,
-     "url": "https://foodtruckscharlotte.org/member/PinoyPlates"
-    },
-    {
-     "truck": "A Pinch of Soul",
-     "cuisine": "Soul Food, Seafood, Southern",
-     "spot": "Sardis Rd Appointments with Vista Auction",
-     "street": "2500 Sardis Rd N",
-     "city": "Charlotte",
-     "start": "11:15 PM",
-     "end": "11:30 PM",
-     "lat": 35.14356,
-     "lon": -80.72508,
-     "url": "https://foodtruckscharlotte.org/member/apinchofsoul"
     }
    ]
   },
@@ -167,6 +131,18 @@
      "url": "https://foodtruckscharlotte.org/member/bighomiecooks"
     },
     {
+     "truck": "Kabuto On Wheels",
+     "cuisine": "Asian Fusion, Japanese",
+     "spot": "Resource Square - Building 4",
+     "street": "Four Resource Square",
+     "city": "10735 David Taylor Dr, Charlotte",
+     "start": "11:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.33561,
+     "lon": -80.76633,
+     "url": "https://foodtruckscharlotte.org/member/KabutoOnWheels"
+    },
+    {
      "truck": "Charlotte Halal Guys",
      "cuisine": "Health Food, Greek, Halal",
      "spot": "Towers at SouthPark",
@@ -280,18 +256,6 @@
    "date": "2026-10-21",
    "stops": [
     {
-     "truck": "Kona Ice of Gaston County",
-     "cuisine": "American",
-     "spot": "Mecklenburg County",
-     "street": "3205 Freedom Dr",
-     "city": "Charlotte",
-     "start": "7:15 AM",
-     "end": "9:30 AM",
-     "lat": 35.24275,
-     "lon": -80.89432,
-     "url": "https://foodtruckscharlotte.org/member/KonaIceGaston"
-    },
-    {
      "truck": "XARAXPRESS",
      "cuisine": "Middle Eastern, American, Mexican",
      "spot": "3rd Phaze Body Oils",
@@ -350,6 +314,18 @@
      "lat": 35.15049,
      "lon": -80.84147,
      "url": "https://foodtruckscharlotte.org/member/CharlotteHalalGuys"
+    },
+    {
+     "truck": "Kabuto On Wheels",
+     "cuisine": "Asian Fusion, Japanese",
+     "spot": "SouthPark Eats",
+     "street": "5950 Fairview Rd",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.15056,
+     "lon": -80.84146,
+     "url": "https://foodtruckscharlotte.org/member/KabutoOnWheels"
     },
     {
      "truck": "Blasian Asian Way",
@@ -888,18 +864,6 @@
      "lat": 35.2189,
      "lon": -80.81814,
      "url": "https://foodtruckscharlotte.org/member/naturallysweetcafe"
-    },
-    {
-     "truck": "Kona Ice of Gaston County",
-     "cuisine": "American",
-     "spot": "Mecklenburg County",
-     "street": "3205 Freedom Dr",
-     "city": "Charlotte",
-     "start": "7:15 AM",
-     "end": "9:30 AM",
-     "lat": 35.24275,
-     "lon": -80.89432,
-     "url": "https://foodtruckscharlotte.org/member/KonaIceGaston"
     },
     {
      "truck": "Detour Coffeebar",
@@ -1564,18 +1528,6 @@
   {
    "date": "2026-10-26",
    "stops": [
-    {
-     "truck": "Kona Ice of Gaston County",
-     "cuisine": "American",
-     "spot": "Mecklenburg County",
-     "street": "3205 Freedom Dr",
-     "city": "Charlotte",
-     "start": "7:15 AM",
-     "end": "9:30 AM",
-     "lat": 35.24275,
-     "lon": -80.89432,
-     "url": "https://foodtruckscharlotte.org/member/KonaIceGaston"
-    },
     {
      "truck": "Just Juice CLT",
      "cuisine": "Juices, Drinks, Desserts",

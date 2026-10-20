@@ -5,7 +5,8 @@ Keeps stops that are open to the public and within about 14 miles of Uptown.
 Run from the repo root:  python3 tools/trucks.py
 """
 import html, json, math, re, sys, urllib.request
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 SRC = "https://foodtruckscharlotte.org/"
 UPTOWN = (35.2271, -80.8431)
@@ -23,11 +24,26 @@ def miles(a, b):
     h = math.sin(dla / 2) ** 2 + math.cos(a[0] * t) * math.cos(b[0] * t) * math.sin(dlo / 2) ** 2
     return 2 * R * math.asin(math.sqrt(h))
 
-def clock(tok):
-    """'11am' -> '11:00 AM', '5:30pm' -> '5:30 PM'"""
-    m = re.match(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)", tok.strip(), re.I)
-    if not m: return None
-    return f"{int(m[1])}:{m[2] or '00'} {m[3].upper()}"
+def clock(tok, ampm=None):
+    """'11am' -> '11:00 AM', '5:30pm' -> '5:30 PM'; ampm fills in a missing am/pm."""
+    m = re.match(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm|a\.m\.|p\.m\.)?", tok.strip(), re.I)
+    if not m or not (m[3] or ampm): return None
+    h = int(m[1])
+    if not 1 <= h <= 12: return None
+    return f"{h}:{m[2] or '00'} {(m[3] or ampm).replace('.', '').upper()}"
+
+def span(when):
+    """'11am-2pm', '11-2pm', '11:30 am – 2 pm', '5pm to 9pm' -> ('11:00 AM', '2:00 PM')"""
+    parts = [p for p in re.split(r"\s*(?:-|–|—|\bto\b)\s*", when, flags=re.I) if p.strip()]
+    if not parts: return None, None
+    end = clock(parts[1]) if len(parts) > 1 else None
+    start = clock(parts[0])
+    if not start and end:  # '11-2pm': borrow am/pm from the end, crossing noon when needed
+        e_ap = end[-2:]; sh = int(re.match(r"\d+", parts[0].strip())[0]); eh = int(end.split(":")[0])
+        # '11-2pm' and '10-12pm' start in the morning; '6-9pm' and '12-3pm' don't
+        ap = "AM" if e_ap == "PM" and sh != 12 and (sh > eh or eh == 12) else e_ap
+        start = clock(parts[0], ap)
+    return start, end
 
 def text(chunk, cls):
     m = re.search(r'class="%s"[^>]*>(.*?)</div>' % cls, chunk, re.S)
@@ -38,25 +54,27 @@ def main():
     req = urllib.request.Request(SRC, headers={"User-Agent": "Mozilla/5.0 (cltthisweek board)"})
     page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
     rows = re.split(r'(?=<div id="post_\d+" class="eve_row)', page)
-    eastern = timezone(timedelta(hours=-4))  # schedule start stamps are converted below
+    eastern = ZoneInfo("America/New_York")
     seen, days = set(), {}
     for r in rows[1:]:
         head = re.match(r'<div id="post_(\d+)"[^>]*\bst="(\d+)"[^>]*tname="([^"]*)"[^>]*lat="([-\d.]+)"[^>]*lng="([-\d.]+)"', r)
         if not head: continue
         pid, st, slug, lat, lng = head.groups()
-        name = html.unescape(re.sub(r"<[^>]+>", "", re.search(r'class="eve_name">(.*?)</h3>', r, re.S)[1])).strip()
+        nm = re.search(r'class="eve_name">(.*?)</h3>', r, re.S)
+        if not nm: continue
+        name = html.unescape(re.sub(r"<[^>]+>", "", nm[1])).strip()
+        if not name: continue
         spot = text(r, "eve_addy"); st1 = text(r, "eve_st1"); st2 = text(r, "eve_st2"); when = text(r, "eve_time")
         cuisine = text(r, "eve_cuis")
         lat, lng = float(lat), float(lng)
         if not (lat and lng) or miles(UPTOWN, (lat, lng)) > MAX_MI: continue
         if PRIVATE.search(spot) or PRIVATE.search(st1): continue
-        parts = [p for p in re.split(r"\s*-\s*", when) if p]
-        start = clock(parts[0]) if parts else None
-        end = clock(parts[1]) if len(parts) > 1 else None
+        if re.fullmatch(r"[\w .]+ county", spot.strip(), re.I): continue  # bare county name, usually a staff stop
+        start, end = span(when)
         if not start: continue
         if re.search(r"\bSC\b", st2): continue  # coverage is the North Carolina side
         h = int(start.split(":")[0]) % 12 + (12 if start.endswith("PM") else 0)
-        if h < 5: continue  # overnight times on the source are almost always entry errors
+        if h < 5 or h >= 22: continue  # overnight times on the source are almost always entry errors
         # the day attribute is the site's own local-day bucket, e.g. "Friday (10/23)"
         dm = re.search(r'day="[^"(]*\((\d{1,2})/(\d{1,2})\)"', r)
         now = datetime.now(eastern)
@@ -76,10 +94,10 @@ def main():
             "url": SRC.rstrip("/") + "/member/" + slug})
     out = {"updated": datetime.now(eastern).strftime("%Y-%m-%d"), "source": SRC,
            "days": [{"date": d, "stops": days[d]} for d in sorted(days)]}
-    json.dump(out, open("trucks.json", "w"), ensure_ascii=False, indent=1)
     total = sum(len(d["stops"]) for d in out["days"])
+    if total == 0: sys.exit("No stops parsed; the source page may have changed. trucks.json left as it was.")
+    json.dump(out, open("trucks.json", "w"), ensure_ascii=False, indent=1)
     print(f"trucks.json: {total} public stops over {len(out['days'])} days")
-    if total == 0: sys.exit("No stops parsed; the source page may have changed.")
 
 if __name__ == "__main__":
     main()
