@@ -1,24 +1,7 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "source": "https://foodtruckscharlotte.org/",
  "days": [
-  {
-   "date": "2026-10-19",
-   "stops": [
-    {
-     "truck": "A Tana Empanada",
-     "cuisine": "Latin American, South American",
-     "spot": "Birdsong Brewery",
-     "street": "1016 N Davidson St",
-     "city": "Charlotte",
-     "start": "5:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.23086,
-     "lon": -80.82658,
-     "url": "https://foodtruckscharlotte.org/member/atanafoodtruck"
-    }
-   ]
-  },
   {
    "date": "2026-10-20",
    "stops": [
@@ -69,18 +52,6 @@
      "lat": 35.19844,
      "lon": -80.91567,
      "url": "https://foodtruckscharlotte.org/member/tacoslascatrinas24"
-    },
-    {
-     "truck": "A Little Taste of Chicago",
-     "cuisine": "American, Comfort Food",
-     "spot": "Charlotte VA Health Center",
-     "street": "3506 W Tyvola Rd",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.19812,
-     "lon": -80.91257,
-     "url": "https://foodtruckscharlotte.org/member/alittletasteofchi"
     },
     {
      "truck": "Joejohn’s Burgers & Soul",
@@ -1611,6 +1582,18 @@
      "lat": 35.23086,
      "lon": -80.82658,
      "url": "https://foodtruckscharlotte.org/member/atanafoodtruck"
+    },
+    {
+     "truck": "Hustlin’ Hen",
+     "cuisine": "Southern, American, Wings",
+     "spot": "Hood inspection",
+     "street": "1100 Beatties Ford Rd",
+     "city": "Charlotte",
+     "start": "9:00 PM",
+     "end": "11:00 PM",
+     "lat": 35.25297,
+     "lon": -80.85595,
+     "url": "https://foodtruckscharlotte.org/member/HustlinHen"
     }
    ]
   }

@@ -22,6 +22,8 @@ PAGES = [
      "What's on at Charlotte's museums and galleries, current exhibits, free museum nights and arts events this week."),
     ("outdoors", "outdoors", "Outdoor things to do in Charlotte this week | CLT This Week",
      "Run clubs, nature walks, greenways, outdoor festivals and the best weather day this week around Charlotte."),
+    ("disc-golf", "play", "Disc golf tournaments and leagues near Charlotte | CLT This Week",
+     "Upcoming disc golf tournaments and weekly leagues around Charlotte, Huntersville, Matthews and Rock Hill, plus adult rec and social sports leagues to join. Updated every morning."),
     ("calendar", "calendar", "Charlotte events calendar this month and next | CLT This Week",
      "A two-month calendar of Charlotte festivals, concerts, holiday events, home games and museum days."),
 ]

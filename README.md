@@ -12,3 +12,6 @@ When you change `styles.css` or `app.js`, bump the `?v=` value on its tag in `in
 
 ## Section pages and search
 `/trivia/`, `/this-weekend/`, `/food-trucks/`, `/kids/`, `/museums/`, `/outdoors/` and `/calendar/` are copies of index.html that open on one section, each with its own title and description for search. After any change to index.html, run `python3 tools/pages.py` to rebuild them along with sitemap.xml and robots.txt.
+
+## Automatic feeds
+`python3 tools/update_feeds.py` refreshes trucks.json (foodtruckscharlotte.org) and discgolf.json (Disc Golf Scene). Each feed keeps its old file if its source fails. play.json is a hand-kept list of adult leagues.

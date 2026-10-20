@@ -1,0 +1,49 @@
+{
+ "note": "Hand-kept list of adult leagues. Check each link once a season.",
+ "leagues": [
+  {
+   "name": "Mecklenburg County Park & Rec",
+   "sports": [
+    "Basketball",
+    "Flag football",
+    "Kickball",
+    "Pickleball",
+    "Soccer",
+    "Softball",
+    "Volleyball"
+   ],
+   "what": "County-run adult leagues at parks and rec centers around Charlotte, usually the cheapest option. Seasons open for registration a few weeks ahead.",
+   "url": "https://parkandrec.mecknc.gov/Activities/athletics"
+  },
+  {
+   "name": "SportsLink",
+   "sports": [
+    "Kickball",
+    "Softball",
+    "Pickleball",
+    "Flag football",
+    "Soccer",
+    "Ultimate frisbee",
+    "Volleyball (indoor, grass, sand)"
+   ],
+   "what": "Charlotte's big social sports league: sign up solo or with a team, play one night a week, bar after. Sand volleyball in Charlotte and Belmont.",
+   "url": "https://sportslinkus.com/sports-leagues"
+  },
+  {
+   "name": "Goombay Charlotte",
+   "sports": [
+    "Kickball",
+    "Volleyball",
+    "Flag football",
+    "Basketball",
+    "Dodgeball"
+   ],
+   "what": "Social leagues with co-ed and women's kickball (recent seasons at Revolution Park and Hornets Nest). Check the page for the next season.",
+   "url": "https://goombaycharlotte.leagueapps.com/leagues"
+  }
+ ],
+ "discgolf": {
+  "udisc": "https://udisc.com/leagues",
+  "courses": "https://www.charlottemagazine.com/?p=107136"
+ }
+}

@@ -172,6 +172,25 @@ function renderWeekend(){const el=$("wkndList");if(!el)return;const ds=weekendDa
   el.innerHTML=h;
   el.querySelectorAll("[data-wk-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.wkGo;if(g==="free"){F.price="free";$("price").value="free";renderLists()}else setTab(g)})}
 
+/* Play: disc golf + leagues */
+let DG=null,PLAY=null;
+function renderPlay(){const el=$("dgList");if(!el)return;
+  if(!DG){el.innerHTML=`<p class="empty">Loading disc golf events…</p>`}
+  else{const t0=ymd(new Date());const ts=(DG.tournaments||[]).filter(t=>t.end>=t0);
+    const fmtD2=t=>{const a=parseYmd(t.start),b=parseYmd(t.end);const o={weekday:"short",month:"short",day:"numeric"};return t.end!==t.start?`${a.toLocaleDateString("en-US",o)} – ${b.toLocaleDateString("en-US",{weekday:"short",day:"numeric"})}`:a.toLocaleDateString("en-US",o)};
+    const row=t=>{const full=t.cap&&t.players>=t.cap;const spots=t.players!=null?(t.cap?`${t.players} / ${t.cap} signed up`:`${t.players} signed up`):"";
+      return `<div class="row"><div class="time">${esc(parseYmd(t.start).toLocaleDateString("en-US",{month:"short",day:"numeric"}))}<small>${esc(parseYmd(t.start).toLocaleDateString("en-US",{weekday:"short"}))}${t.end!==t.start?" – "+esc(parseYmd(t.end).toLocaleDateString("en-US",{weekday:"short"})):""}</small></div><div style="min-width:0">
+      <p class="t"><a href="${esc(t.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(t.name)}</a></p>
+      <div class="v">${esc(t.course)} · ${esc(t.city)}${t.state!=="NC"?", "+esc(t.state):""}</div>
+      <div class="chips"><span class="chip">Disc Golf</span>${t.tier?`<span class="chip kind">${esc(t.tier)}</span>`:""}${t.format?`<span class="chip">${esc(t.format)}</span>`:""}${full?`<span class="chip deal">Full · waitlist</span>`:t.regOpen?`<span class="chip free">Registration open</span>`:""}${spots&&!full?`<span class="chip">${esc(spots)}</span>`:""}</div>
+      <div class="acts"><a href="${esc(t.url)}" target="_blank" rel="noopener">Details & register</a><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t.course+" "+t.city+" "+t.state)}" target="_blank" rel="noopener">Map</a></div></div></div>`};
+    const months=new Map();ts.forEach(t=>{const k=parseYmd(t.start).toLocaleDateString("en-US",{month:"long"});if(!months.has(k))months.set(k,[]);months.get(k).push(t)});
+    let h=[...months].map(([m,it])=>`<h3 class="group">${esc(m)} <i>${it.length}</i></h3><div class="list">${it.map(row).join("")}</div>`).join("")||`<p class="empty">No tournaments posted for the next couple of months yet.</p>`;
+    const lg=DG.leagues||[];
+    h+=`<h3 class="group">Weekly leagues <i>${lg.length}</i></h3><div class="list">${lg.map(l=>`<div class="row"><div class="time">${esc((l.when||"").replace(/ at .*/,""))||"–"}<small>${esc((l.when||"").replace(/^.* at /,""))}</small></div><div style="min-width:0"><p class="t"><a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(l.name)}</a></p><div class="v">${esc(l.city)}${l.season?" · "+esc(l.season):""}</div><div class="chips">${l.format?`<span class="chip">${esc(l.format)}</span>`:""}</div><div class="acts"><a href="${esc(l.url)}" target="_blank" rel="noopener">League page</a></div></div></div>`).join("")}<div class="row"><div class="time">More</div><div><p class="t">Club doubles, tag rounds and weekly singles</p><div class="v">Most Charlotte clubs post their weekly rounds on UDisc.</div><div class="acts"><a href="https://udisc.com/leagues" target="_blank" rel="noopener">Find leagues on UDisc</a></div></div></div></div>`;
+    el.innerHTML=h}
+  const ll=$("leagueList");if(PLAY&&ll)ll.innerHTML=(PLAY.leagues||[]).map(l=>`<div class="trail"><b>${esc(l.name)}</b><span class="meta">${l.sports.map(esc).join(" · ")}</span><span>${esc(l.what)}</span><div class="acts"><a href="${esc(l.url)}" target="_blank" rel="noopener">See leagues and sign up</a></div></div>`).join("")}
+
 /* Kids */
 function renderKids(){KIDS_VIEW=true;try{const ds=[];const t=new Date();t.setHours(12,0,0,0);for(let i=0;i<14;i++){const x=new Date(t);x.setDate(t.getDate()+i);ds.push(x)}
   let h="";for(const d of ds){const it=DATA.events.filter(e=>onDate(e,d)&&passes(e,d)&&!e.ongoing).sort(sorter(d));if(!it.length)continue;
@@ -595,7 +614,7 @@ function applyTheme(){const r=document.documentElement;if(theme==="system")r.rem
 $("hTheme").onclick=()=>{theme=THEMES[(THEMES.indexOf(theme)+1)%3];store.set("cltTheme",theme);applyTheme()};applyTheme();
 
 /* Wiring */
-function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
+function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues"||t==="play");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
 document.querySelectorAll(".tab[data-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 /* Tab bar: show what fits, tuck the rest under More */
 function fitTabs(){const nav=document.querySelector("nav.tabs"),more=$("moreBtn");if(!nav||!more)return;
@@ -631,7 +650,7 @@ function filterSummary(){const on=[];if(F.zone==="charlotte")on.push("Charlotte 
 function setFilters(open){$("filterbar").classList.toggle("open",open);$("fToggle").setAttribute("aria-expanded",String(open))}
 $("fToggle").onclick=()=>setFilters(!$("filterbar").classList.contains("open"));
 $("fDone").onclick=()=>{setFilters(false);$("fToggle").focus()};
-function renderLists(){filterSummary();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
+function renderLists(){filterSummary();renderPlay();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -675,12 +694,14 @@ function route(h,first){let t="week";
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab((document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week"));openSheet(EVK.get(h));return}
-  if(["week","weekend","calendar","map","games","food","date","outdoors","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=(document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week");
+  if(["week","weekend","calendar","map","games","food","date","outdoors","play","arts","season","venues","all","kids","saved"].includes(h))t=h;else if(first)t=(document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week");
   else if(!first)return;
   if(t==="season"&&$("seasonTab").hidden)t="week";setTab(t);if(!first)window.scrollTo({top:0})}
 addEventListener("hashchange",()=>{if(DATA)route((location.hash||"").slice(1),false)});
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
+fetch("/discgolf.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{DG=x||{tournaments:[],leagues:[]};if(DATA)renderPlay()}).catch(()=>{DG={tournaments:[],leagues:[]};if(DATA)renderPlay()});
+fetch("/play.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{PLAY=x||{leagues:[]};if(DATA)renderPlay()}).catch(()=>{});
 fetch("/trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
 fetch("/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(boot).catch(()=>{$("stamp").textContent="Couldn't load this week's events. Refresh to try again.";$("dayList").innerHTML=`<p class="empty">The event list didn't load. Refresh the page to try again.</p>`});
 })();
