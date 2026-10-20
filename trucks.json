@@ -138,18 +138,6 @@
      "url": "https://foodtruckscharlotte.org/member/macookerbbq"
     },
     {
-     "truck": "Uptown Grill & Beatz",
-     "cuisine": "American, Cheesesteaks, Wings",
-     "spot": "8 Metro Station",
-     "street": "5025 Wembley Central Ln",
-     "city": "Charlotte",
-     "start": "4:00 PM",
-     "end": "7:00 PM",
-     "lat": 35.28681,
-     "lon": -80.75712,
-     "url": "https://foodtruckscharlotte.org/member/UptownGrillBeatz"
-    },
-    {
      "truck": "Tacos Las Catrinas",
      "cuisine": "Mexican",
      "spot": "Infinity 260",
@@ -1594,6 +1582,131 @@
      "lat": 35.25297,
      "lon": -80.85595,
      "url": "https://foodtruckscharlotte.org/member/HustlinHen"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "stops": [
+    {
+     "truck": "Kabuto On Wheels",
+     "cuisine": "Asian Fusion, Japanese",
+     "spot": "JGR",
+     "street": "13415 Reese Blvd W",
+     "city": "Huntersville",
+     "start": "10:00 AM",
+     "end": "1:45 PM",
+     "lat": 35.3967,
+     "lon": -80.86534,
+     "url": "https://foodtruckscharlotte.org/member/KabutoOnWheels"
+    },
+    {
+     "truck": "ShawermaG",
+     "cuisine": "Middle Eastern, Halal, Mediterranean",
+     "spot": "New Event",
+     "street": "Popp Martin",
+     "city": "9201 University City Blvd, Charlotte",
+     "start": "10:00 AM",
+     "end": "4:00 PM",
+     "lat": 35.30836,
+     "lon": -80.73371,
+     "url": "https://foodtruckscharlotte.org/member/ShawermaG"
+    },
+    {
+     "truck": "XARAXPRESS",
+     "cuisine": "Middle Eastern, American, Mexican",
+     "spot": "3rd Phaze Body Oils",
+     "street": "3300 N Graham St",
+     "city": "Charlotte",
+     "start": "10:00 AM",
+     "end": "6:30 PM",
+     "lat": 35.26179,
+     "lon": -80.81863,
+     "url": "https://foodtruckscharlotte.org/member/xaraxpressclt"
+    },
+    {
+     "truck": "Tacos Las Catrinas",
+     "cuisine": "Mexican",
+     "spot": "UDS",
+     "street": "3000 Tilley Morris Rd",
+     "city": "Weddington",
+     "start": "10:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.05725,
+     "lon": -80.73456,
+     "url": "https://foodtruckscharlotte.org/member/tacoslascatrinas24"
+    },
+    {
+     "truck": "A Tana Empanada",
+     "cuisine": "Latin American, South American",
+     "spot": "Duke Energy",
+     "street": "9642 David Taylor Dr",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "1:30 PM",
+     "lat": 35.32676,
+     "lon": -80.75519,
+     "url": "https://foodtruckscharlotte.org/member/atanafoodtruck"
+    },
+    {
+     "truck": "Joejohn’s Burgers & Soul",
+     "cuisine": "Armenian, Soul Food, Southern",
+     "spot": "Cascade",
+     "street": "2320 Cascade Pointe Boulevard",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.19844,
+     "lon": -80.91567,
+     "url": "https://foodtruckscharlotte.org/member/JoeJohnsBurgers"
+    },
+    {
+     "truck": "Queen City Cheesesteaks",
+     "cuisine": "Cheesesteaks, Wings, American",
+     "spot": "ThExchange",
+     "street": "5501 77 Center Dr",
+     "city": "Charlotte",
+     "start": "11:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.16659,
+     "lon": -80.88337,
+     "url": "https://foodtruckscharlotte.org/member/queencitycheesesteak"
+    },
+    {
+     "truck": "Pinoy Plates",
+     "cuisine": "Filipino, American",
+     "spot": "Innovation Park",
+     "street": "8505 IBM Dr",
+     "city": "Charlotte",
+     "start": "11:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.30863,
+     "lon": -80.76825,
+     "url": "https://foodtruckscharlotte.org/member/PinoyPlates"
+    },
+    {
+     "truck": "SkyView22 Food Truck",
+     "cuisine": "Southern, Fish & Chips, Wings",
+     "spot": "Resource Square - Building 4",
+     "street": "Four Resource Square",
+     "city": "10735 David Taylor Dr, Charlotte",
+     "start": "11:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.33561,
+     "lon": -80.76633,
+     "url": "https://foodtruckscharlotte.org/member/skyview22ft"
+    },
+    {
+     "truck": "Sandra Lee's Country Kitchen",
+     "cuisine": "Soul Food",
+     "spot": "Towers at SouthPark",
+     "street": "6000 Fairview Rd",
+     "city": "Charlotte",
+     "start": "11:30 AM",
+     "end": "2:30 PM",
+     "lat": 35.15058,
+     "lon": -80.83899,
+     "url": "https://foodtruckscharlotte.org/member/SandraLees"
     }
    ]
   }
