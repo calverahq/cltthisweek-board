@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Rock Hill",
    "state": "SC",
    "close": false,
-   "players": 24,
+   "players": 26,
    "cap": null,
    "regOpen": true
   },
