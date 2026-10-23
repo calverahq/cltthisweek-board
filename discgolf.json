@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Rock Hill",
    "state": "SC",
    "close": false,
-   "players": 27,
+   "players": 35,
    "cap": null,
    "regOpen": true
   },
@@ -58,7 +58,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 11,
+   "players": 13,
    "cap": 48,
    "regOpen": true
   },
@@ -82,13 +82,13 @@
    "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_4_Y5_atScrapyard_Driven_by_INNOVA_2026",
    "start": "2026-11-01",
    "end": "2026-11-01",
-   "tier": "",
+   "tier": "PDGA Flex C-tier",
    "format": "Flex start",
    "course": "Idlewild Park - The Scrapyard Disc Golf Course",
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 17,
+   "players": 23,
    "cap": null,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 75,
+   "players": 99,
    "cap": 180,
    "regOpen": true
   },

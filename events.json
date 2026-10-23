@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "weekOf": "2026-10-22",
   "coverage": "2026-10-22 to 2026-11-30",
   "featured": {
@@ -68,31 +68,22 @@
   ],
   "forecast": [
    {
-    "date": "2026-10-22",
-    "hi": 72,
-    "lo": 44,
-    "sky": "Sunny",
-    "wind": "N 5 to 7 mph",
-    "detail": "Sunny, with a high near 72. Calm wind becoming north 5 to 7 mph in the afternoon.",
-    "night": "Clear, low 44°"
-   },
-   {
     "date": "2026-10-23",
     "hi": 69,
-    "lo": 45,
+    "lo": 46,
     "sky": "Sunny",
-    "wind": "NE 6 to 9 mph",
-    "detail": "Sunny, with a high near 69. Northeast wind 6 to 9 mph.",
-    "night": "Clear, low 45°"
+    "wind": "NE 5 to 9 mph",
+    "detail": "Sunny, with a high near 69. Northeast wind 5 to 9 mph.",
+    "night": "Mostly clear, low 46°"
    },
    {
     "date": "2026-10-24",
-    "hi": 65,
+    "hi": 66,
     "lo": 43,
     "sky": "Sunny",
     "wind": "NE 9 to 11 mph",
-    "gust": 20,
-    "detail": "Sunny, with a high near 65. Northeast wind 9 to 11 mph, with gusts as high as 20 mph.",
+    "gust": 18,
+    "detail": "Sunny, with a high near 66. Northeast wind 9 to 11 mph, with gusts as high as 18 mph.",
     "night": "Clear, low 43°"
    },
    {
@@ -100,30 +91,40 @@
     "hi": 68,
     "lo": 43,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 68.",
+    "wind": "NE 9 to 11 mph",
+    "gust": 20,
+    "detail": "Sunny, with a high near 68. Northeast wind 9 to 11 mph, with gusts as high as 20 mph.",
     "night": "Clear, low 43°"
    },
    {
     "date": "2026-10-26",
-    "hi": 70,
-    "lo": 44,
+    "hi": 71,
+    "lo": 42,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 70.",
-    "night": "Clear, low 44°"
+    "detail": "Sunny, with a high near 71.",
+    "night": "Clear, low 42°"
    },
    {
     "date": "2026-10-27",
-    "hi": 73,
-    "lo": 48,
+    "hi": 74,
+    "lo": 46,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 73.",
-    "night": "Partly cloudy, low 48°"
+    "detail": "Sunny, with a high near 74.",
+    "night": "Mostly clear, low 46°"
    },
    {
     "date": "2026-10-28",
-    "hi": 73,
+    "hi": 70,
+    "lo": 47,
     "sky": "Mostly Sunny",
-    "detail": "Mostly sunny, with a high near 73."
+    "detail": "Mostly sunny, with a high near 70.",
+    "night": "Partly cloudy, low 47°"
+   },
+   {
+    "date": "2026-10-29",
+    "hi": 72,
+    "sky": "Mostly Sunny",
+    "detail": "Mostly sunny, with a high near 72."
    }
   ],
   "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
@@ -2908,105 +2909,6 @@
   },
   {
    "kind": "dated",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "time": "8:00 PM",
-   "title": "Steve Lacy: Oh Yeah? Tour",
-   "venue": "Skyla Credit Union Amphitheatre",
-   "area": "NC Music Factory",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
-   "id": "e128",
-   "checked": "2026-10-18",
-   "priceTier": "ticketed",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "time": "8:00 PM",
-   "title": "Scene Queen",
-   "venue": "The Fillmore",
-   "area": "NC Music Factory",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "url": "https://www.wccbcharlotte.com/2026/10/16/concerts-to-attend-this-week-around-charlotte-38/",
-   "id": "e129",
-   "checked": "2026-10-18",
-   "priceTier": "ticketed",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "time": "12:00 PM",
-   "title": "ArtBreak Lunchtime Tour",
-   "venue": "Mint Museum Randolph",
-   "area": "Myers Park",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "Free",
-   "free": true,
-   "note": "30-minute guided tour, no registration",
-   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
-   "id": "e130",
-   "checked": "2026-10-19",
-   "priceTier": "free",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-22",
-   "end": "2026-10-22",
-   "time": "4:30 PM",
-   "title": "Julia Child Exhibit Preview (18+)",
-   "venue": "Discovery Place Science",
-   "area": "Uptown",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "Tickets",
-   "free": false,
-   "note": "Adults-only preview.",
-   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
-   "id": "e131",
-   "checked": "2026-10-19",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "endTime": "7:00 PM",
-   "ages": "18+"
-  },
-  {
-   "kind": "dated",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "See venue",
-   "free": false,
-   "note": "Rock House Ghost Tours 7–10 PM same night",
-   "zone": "charlotte",
-   "checked": "2026-10-19",
-   "priceTier": "varies",
-   "start": "2026-10-22",
-   "time": "6:00 PM",
-   "title": "Charlotte History through Horror",
-   "venue": "Charlotte Museum of History",
-   "area": "East Charlotte",
-   "url": "https://charlottemuseum.org",
-   "season": "halloween",
-   "end": "2026-10-22",
-   "id": "e132",
-   "endTime": "9:00 PM"
-  },
-  {
-   "kind": "dated",
    "start": "2026-10-23",
    "end": "2026-10-23",
    "time": "7:00 PM",
@@ -3020,7 +2922,7 @@
    "note": "",
    "url": "https://hopclt.com/trivia-nights-charlotte",
    "id": "e133",
-   "checked": "2026-10-18",
+   "checked": "2026-10-23",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Themed"
