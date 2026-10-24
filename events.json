@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "weekOf": "2026-10-22",
   "coverage": "2026-10-22 to 2026-11-30",
   "featured": {
@@ -16,10 +16,6 @@
     {
      "id": "e166",
      "why": "Free, glowing and very Elizabeth; nightly walk-by"
-    },
-    {
-     "id": "e137",
-     "why": "Opening night at Spectrum Center"
     },
     {
      "id": "e165",
@@ -59,7 +55,6 @@
   },
   "nextUpdate": "Monday, Oct 26",
   "picks": [
-   "e137",
    "e148",
    "e165",
    "e144",
@@ -68,63 +63,63 @@
   ],
   "forecast": [
    {
-    "date": "2026-10-23",
-    "hi": 69,
-    "lo": 46,
-    "sky": "Sunny",
-    "wind": "NE 5 to 9 mph",
-    "detail": "Sunny, with a high near 69. Northeast wind 5 to 9 mph.",
-    "night": "Mostly clear, low 46°"
-   },
-   {
     "date": "2026-10-24",
-    "hi": 66,
-    "lo": 43,
+    "hi": 67,
+    "lo": 44,
     "sky": "Sunny",
-    "wind": "NE 9 to 11 mph",
+    "wind": "NE 8 to 11 mph",
     "gust": 18,
-    "detail": "Sunny, with a high near 66. Northeast wind 9 to 11 mph, with gusts as high as 18 mph.",
-    "night": "Clear, low 43°"
+    "detail": "Sunny, with a high near 67. Northeast wind 8 to 11 mph, with gusts as high as 18 mph.",
+    "night": "Mostly clear, low 44°"
    },
    {
     "date": "2026-10-25",
-    "hi": 68,
-    "lo": 43,
-    "sky": "Sunny",
-    "wind": "NE 9 to 11 mph",
+    "hi": 69,
+    "lo": 44,
+    "sky": "Mostly Sunny",
+    "wind": "NE 11 mph",
     "gust": 20,
-    "detail": "Sunny, with a high near 68. Northeast wind 9 to 11 mph, with gusts as high as 20 mph.",
-    "night": "Clear, low 43°"
+    "detail": "Mostly sunny, with a high near 69. Northeast wind around 11 mph, with gusts as high as 20 mph.",
+    "night": "Mostly clear, low 44°"
    },
    {
     "date": "2026-10-26",
-    "hi": 71,
-    "lo": 42,
+    "hi": 72,
+    "lo": 43,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 71.",
-    "night": "Clear, low 42°"
+    "wind": "NNE 3 to 6 mph",
+    "detail": "Sunny, with a high near 72. North northeast wind 3 to 6 mph.",
+    "night": "Clear, low 43°"
    },
    {
     "date": "2026-10-27",
-    "hi": 74,
+    "hi": 75,
     "lo": 46,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 74.",
+    "detail": "Sunny, with a high near 75.",
     "night": "Mostly clear, low 46°"
    },
    {
     "date": "2026-10-28",
     "hi": 70,
-    "lo": 47,
+    "lo": 48,
     "sky": "Mostly Sunny",
     "detail": "Mostly sunny, with a high near 70.",
-    "night": "Partly cloudy, low 47°"
+    "night": "Mostly cloudy, low 48°"
    },
    {
     "date": "2026-10-29",
-    "hi": 72,
+    "hi": 74,
+    "lo": 49,
     "sky": "Mostly Sunny",
-    "detail": "Mostly sunny, with a high near 72."
+    "detail": "Mostly sunny, with a high near 74.",
+    "night": "Mostly clear, low 49°"
+   },
+   {
+    "date": "2026-10-30",
+    "hi": 77,
+    "sky": "Sunny",
+    "detail": "Sunny, with a high near 77."
    }
   ],
   "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
@@ -2906,145 +2901,6 @@
    "unconfirmedTime": true,
    "priceTier": "varies",
    "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "7:00 PM",
-   "title": "Football Trivia",
-   "venue": "Suffolk Punch",
-   "area": "South End",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "note": "",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "id": "e133",
-   "checked": "2026-10-23",
-   "priceTier": "free",
-   "zone": "charlotte",
-   "gameKind": "Themed"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "7:00 PM",
-   "title": "Pints & Punchlines",
-   "venue": "Heist Brewery",
-   "area": "NoDa",
-   "cat": "music",
-   "tag": "Comedy",
-   "price": "See venue",
-   "free": false,
-   "note": "Charlotte Craft Beer Week show",
-   "url": "https://heistbrewery.com/events/upcoming-events/",
-   "id": "e134",
-   "checked": "2026-10-18",
-   "priceTier": "varies",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "8:00 PM",
-   "title": "21+ Bad Prom: Forbidden Forest Masquerade",
-   "venue": "Amos' Southend",
-   "area": "South End",
-   "cat": "music",
-   "tag": "Party",
-   "price": "$55 advance",
-   "free": false,
-   "note": "",
-   "url": "https://www.axios.com/local/charlotte/2026/10/01/charlotte-biggest-events-october-2026",
-   "id": "e135",
-   "checked": "2026-10-18",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "ages": "21+",
-   "kids": false
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "5:00 PM",
-   "title": "Goodies and Goblins",
-   "venue": "Promenade on Providence",
-   "area": "South Charlotte",
-   "cat": "family",
-   "tag": "Halloween",
-   "price": "Free",
-   "free": true,
-   "note": "",
-   "url": "https://fun4charlottekids.com/Whats-Happening/Halloween-Theme-Events/",
-   "id": "e136",
-   "kids": true,
-   "checked": "2026-10-19",
-   "priceTier": "free",
-   "season": "halloween",
-   "zone": "charlotte",
-   "kidsOnly": true
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "7:00 PM",
-   "title": "Hornets vs. Hawks: Home Opener",
-   "venue": "Spectrum Center",
-   "area": "Uptown",
-   "cat": "sports",
-   "tag": "NBA",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "url": "https://qclife.wbtv.com/2026/08/28/charlotte-hornets-release-highly-anticipated-2026-27-schedule/",
-   "id": "e137",
-   "checked": "2026-10-18",
-   "priceTier": "ticketed",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": "2:00 PM",
-   "title": "In Conversation: Brilliant by Design",
-   "venue": "Mint Museum Randolph",
-   "area": "Myers Park",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "Free",
-   "free": true,
-   "note": "Curator talk on the Judith Leiber handbags exhibit",
-   "url": "https://www.mintmuseum.org/events/category/free/2026-10/",
-   "id": "e138",
-   "checked": "2026-10-19",
-   "priceTier": "free",
-   "zone": "charlotte"
-  },
-  {
-   "kind": "dated",
-   "cat": "sports",
-   "tag": "AHL",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "zone": "charlotte",
-   "checked": "2026-10-19",
-   "priceTier": "ticketed",
-   "start": "2026-10-23",
-   "time": "7:00 PM",
-   "title": "Checkers vs. Springfield Thunderbirds",
-   "venue": "Bojangles Coliseum",
-   "area": "East Charlotte",
-   "url": "https://seatgeek.ca/charlotte-checkers-tickets/schedule",
-   "end": "2026-10-23",
-   "id": "e139"
   },
   {
    "kind": "dated",

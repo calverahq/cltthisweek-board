@@ -1,7 +1,22 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
+  {
+   "name": "Nevin Flex",
+   "url": "https://www.discgolfscene.com/tournaments/Triples_at_Nevin_2026",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "tier": "PDGA C-tier",
+   "format": "",
+   "course": "Nevin Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": 9,
+   "cap": null,
+   "regOpen": true
+  },
   {
    "name": "The Blazer at Boyd Hill presented by Innova Disc Golf",
    "url": "https://www.discgolfscene.com/tournaments/The_Blazer_at_Boyd_Hill_presented_by_Innova_Disc_Golf_2026",
@@ -13,24 +28,9 @@
    "city": "Rock Hill",
    "state": "SC",
    "close": false,
-   "players": 35,
+   "players": 37,
    "cap": null,
-   "regOpen": true
-  },
-  {
-   "name": "Triples at Nevin",
-   "url": "https://www.discgolfscene.com/tournaments/Triples_at_Nevin_2026",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "tier": "",
-   "format": "Teams",
-   "course": "Nevin Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 3,
-   "cap": null,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "ARDG Eastway PDGA Singles Week 6",
@@ -58,7 +58,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 13,
+   "players": 14,
    "cap": 48,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 3,
+   "players": 4,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 23,
+   "players": 28,
    "cap": null,
    "regOpen": true
   },
@@ -103,7 +103,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 15,
+   "players": 16,
    "cap": 72,
    "regOpen": true
   },
@@ -163,7 +163,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 3,
+   "players": 4,
    "cap": null,
    "regOpen": true
   },
