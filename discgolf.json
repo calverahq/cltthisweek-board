@@ -1,37 +1,7 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "Nevin Flex",
-   "url": "https://www.discgolfscene.com/tournaments/Triples_at_Nevin_2026",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Nevin Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 9,
-   "cap": null,
-   "regOpen": true
-  },
-  {
-   "name": "The Blazer at Boyd Hill presented by Innova Disc Golf",
-   "url": "https://www.discgolfscene.com/tournaments/The_Blazer_at_Boyd_Hill_presented_by_Innova_Disc_Golf_2026",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Boyd Hill",
-   "city": "Rock Hill",
-   "state": "SC",
-   "close": false,
-   "players": 37,
-   "cap": null,
-   "regOpen": false
-  },
   {
    "name": "ARDG Eastway PDGA Singles Week 6",
    "url": "https://www.discgolfscene.com/tournaments/ARDG_Eastway_PDGA_Singles_Week_1_2026",
@@ -58,7 +28,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 14,
+   "players": 16,
    "cap": 48,
    "regOpen": true
   },
@@ -75,7 +45,7 @@
    "close": true,
    "players": 4,
    "cap": null,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "Chain Reactions Fall Series #4 (Y5) @Scrapyard - Driven by INNOVA",
@@ -88,7 +58,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 28,
+   "players": 35,
    "cap": null,
    "regOpen": true
   },
@@ -148,7 +118,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 73,
+   "players": 72,
    "cap": 72,
    "regOpen": true
   },
@@ -223,7 +193,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": null,
+   "players": 2,
    "cap": null,
    "regOpen": true
   },
@@ -268,9 +238,9 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": null,
-   "cap": null,
-   "regOpen": false
+   "players": 2,
+   "cap": 105,
+   "regOpen": true
   }
  ],
  "leagues": [
