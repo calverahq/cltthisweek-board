@@ -2738,6 +2738,66 @@
      "rank": 3
     },
     {
+     "name": "McKoy's Smokehouse and Saloon",
+     "area": "York Rd, near the airport",
+     "address": "4630 Old Pineville Rd, Charlotte, NC 28217",
+     "website": "https://www.google.com/maps/search/?api=1&query=McKoy%27s%20Smokehouse%20and%20Saloon%20Charlotte",
+     "price": "$$",
+     "cuisine": "Barbecue, roadhouse",
+     "why": "Biker-friendly family roadhouse known for smoked wings, pit-smoked pot roast and big combo platters.",
+     "score": 3.5,
+     "threads": 0,
+     "guides": 3,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "label": "Time Out"
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "aol.com"
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "label": "barbecuebros.co"
+      }
+     ],
+     "rank": 4
+    },
+    {
+     "name": "Union Barbecue",
+     "area": "Food truck (rotating Charlotte locations)",
+     "address": "",
+     "website": "https://unionbarbecue.com/",
+     "price": "$$",
+     "cuisine": "Tex-Mex barbecue",
+     "why": "Barbecue writers' favorite truck for barbacoa, carnitas, al pastor sausage and brisket on house-made tortillas.",
+     "score": 3.5,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://bbqnewsletter.substack.com/p/charlotte-barbecue-restaurants",
+       "date": "2024-09",
+       "label": "bbqnewsletter.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/category/best-of-charlotte-barbecue/",
+       "date": "2024-11",
+       "label": "barbecuebros.co"
+      }
+     ],
+     "rank": 5
+    },
+    {
      "name": "Haberdish",
      "area": "NoDa",
      "address": "3106 N Davidson St, Charlotte, NC 28205",
@@ -2768,7 +2828,34 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 4
+     "rank": 6
+    },
+    {
+     "name": "Mert's Heart and Soul",
+     "area": "Uptown",
+     "address": "214 N College St, Charlotte, NC 28202",
+     "website": "https://mertscharlotte.com/",
+     "price": "$$",
+     "cuisine": "Soul food, Lowcountry",
+     "why": "Long-running uptown soul food institution known for Lowcountry/Gullah plates and its Soul Rolls.",
+     "score": 2,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "The Infatuation"
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/soul-food-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "Charlotte's Got A Lot"
+      }
+     ],
+     "rank": 7
     }
    ]
   },
@@ -2777,6 +2864,72 @@
    "name": "Tacos & Mexican",
    "blurb": "Taquerias and Mexican kitchens, from strip-mall spots to sit-down.",
    "places": [
+    {
+     "name": "Anita's Mexican Grill",
+     "area": "Yorkmont Rd, near the airport",
+     "address": "2904 Yorkmont Rd, Charlotte, NC 28208",
+     "website": "https://www.google.com/maps/search/?api=1&query=Anita%27s%20Mexican%20Grill%202904%20Yorkmont%20Rd%20Charlotte",
+     "price": "$",
+     "cuisine": "Mexican, no-frills",
+     "why": "No-frills airport-area spot that r/Charlotte keeps naming as the most authentic Mexican in town; the Speedy Gonzalez combo is a favorite.",
+     "score": 9.5,
+     "threads": 2,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 1
+    },
+    {
+     "name": "Azul Tacos and Beer",
+     "area": "Thrift Rd / Wesley Heights area",
+     "address": "2122 Thrift Rd, Charlotte, NC 28208",
+     "website": "https://azultacosandbeer.com/",
+     "price": "$",
+     "cuisine": "Mexican street tacos",
+     "why": "Casual street-taco counter with big aguas frescas, recommended by locals for straightforward, good tacos.",
+     "score": 7.5,
+     "threads": 2,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "forum",
+       "url": "https://www.foodtalkcentral.com/t/charlotte-recommendations/16646",
+       "date": "2025-09",
+       "label": "foodtalkcentral.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 2
+    },
     {
      "name": "Tacos El Nevado",
      "area": "Central Ave (east Charlotte) and South Blvd",
@@ -2802,7 +2955,7 @@
        "label": "Charlotte Magazine"
       }
      ],
-     "rank": 1
+     "rank": 3
     },
     {
      "name": "Tacos El Regio",
@@ -2835,7 +2988,109 @@
        "label": "Charlotte Magazine"
       }
      ],
-     "rank": 2
+     "rank": 4
+    },
+    {
+     "name": "Maria's Mexican Restaurant",
+     "area": "South Blvd near Tyvola",
+     "address": "5234 South Blvd, Charlotte, NC 28217",
+     "website": "http://ordermariasmexican.com/",
+     "price": "$",
+     "cuisine": "Mexican, birria",
+     "why": "Birria-focused South Blvd spot where the quesabirria is the move; also has a vegan menu.",
+     "score": 4.5,
+     "threads": 1,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 5
+    },
+    {
+     "name": "Paco's Tacos & Tequila",
+     "area": "SouthPark (Morrison Blvd)",
+     "address": "6401 Morrison Blvd, Charlotte, NC 28211",
+     "website": "https://www.pacostacosandtequila.com/",
+     "price": "$$",
+     "cuisine": "Tex-Mex",
+     "why": "Texas-style Tex-Mex with a deep tequila list; the Outlaw steak fajitas get the praise.",
+     "score": 3.0,
+     "threads": 1,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "label": "Axios Charlotte"
+      },
+      {
+       "type": "reddit",
+       "url": "https://lr.ggtyler.dev/r/Charlotte/comments/oku6m6/folks_in_charlotte_from_other_countriesfood/h5birou/?context=3",
+       "date": "2021-07",
+       "label": "r/Charlotte thread"
+      }
+     ],
+     "rank": 6
+    },
+    {
+     "name": "Taqueria Mal Pan",
+     "area": "SouthPark (Piedmont Row)",
+     "address": "",
+     "website": "https://eatmalpan.com/",
+     "price": "$$",
+     "cuisine": "Modern Mexican tacos",
+     "why": "Chef-driven taqueria praised for fresh tortillas and cochinita pibil on blue corn.",
+     "score": 2,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "The Infatuation"
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=142954",
+       "date": "2023-04",
+       "label": "Charlotte Magazine"
+      }
+     ],
+     "rank": 7
+    },
+    {
+     "name": "Que Fresa Taqueria & Bar",
+     "area": "Wesley Heights (W Morehead St)",
+     "address": "1500 W Morehead St A, Charlotte, NC 28208",
+     "website": "https://www.eatquefresa.com/",
+     "price": "$$",
+     "cuisine": "Taqueria and bar",
+     "why": "Lively taqueria and bar with a patio, known for shrimp dishes and margaritas.",
+     "score": 1.5,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 8
     }
    ]
   },
@@ -3094,6 +3349,39 @@
      "rank": 7
     },
     {
+     "name": "Geno D's Pizza",
+     "area": "Uptown/First Ward (Market at 7th St)",
+     "address": "224 E 7th St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Geno%20D%27s%20Pizza%20224%20E%207th%20St%20Charlotte",
+     "price": "$",
+     "cuisine": "Jersey Shore pizza",
+     "why": "Family-run Jersey-style shop best known for its square grandma pie.",
+     "score": 5,
+     "threads": 0,
+     "guides": 3,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "label": "Axios Charlotte"
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "Charlotte's Got A Lot"
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "label": "Charlotte Magazine"
+      }
+     ],
+     "rank": 8
+    },
+    {
      "name": "Luisa's Brick Oven Pizzeria",
      "area": "Park Rd / Abbey Place",
      "address": "",
@@ -3118,7 +3406,34 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 8
+     "rank": 9
+    },
+    {
+     "name": "PIE.ZAA",
+     "area": "South End",
+     "address": "",
+     "website": "https://piezaapizza.com/",
+     "price": "$",
+     "cuisine": "Pizza by the slice",
+     "why": "Asheville import with crispy cup-and-char pepperoni slices and the honey-pesto Sweet Caroline pie.",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://queencityhag.substack.com/p/19-slice-slice-baby",
+       "date": "2025-05",
+       "label": "queencityhag.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 10
     }
    ]
   },
@@ -3344,6 +3659,33 @@
      "rank": 6
     },
     {
+     "name": "Moo & Brew",
+     "area": "Plaza Midwood",
+     "address": "1300 Central Ave, Charlotte, NC 28204",
+     "website": "https://www.mooandbrew.com/",
+     "price": "$$",
+     "cuisine": "Burgers and beer",
+     "why": "Laid-back burgers-and-craft-beer bar with creative builds like the jalapeno Peter Piper.",
+     "score": 2,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "label": "Charlotte's Got A Lot"
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "label": "Charlotte Magazine"
+      }
+     ],
+     "rank": 7
+    },
+    {
      "name": "Surefire Market",
      "area": "Camp North End",
      "address": "",
@@ -3362,7 +3704,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -3726,6 +4068,33 @@
      "rank": 8
     },
     {
+     "name": "Musashi Japanese Restaurant",
+     "area": "South Charlotte (Johnston Rd)",
+     "address": "10110 Johnston Rd, Charlotte, NC 28210",
+     "website": "https://www.google.com/maps/search/?api=1&query=Musashi+Japanese+Restaurant+10110+Johnston+Rd+Charlotte+NC",
+     "price": "$$",
+     "cuisine": "Japanese, tonkatsu, ramen",
+     "why": "The top-voted answer when Charlotte redditors ask for 'real Japanese food' – homestyle dishes like tonkatsu and ramen in an unassuming spot (several say skip the sushi).",
+     "score": 6.5,
+     "threads": 1,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/news/looking-best-ramen-charlotte-area-103000619.html",
+       "date": "2024-02",
+       "label": "aol.com"
+      }
+     ],
+     "rank": 9
+    },
+    {
      "name": "Pho Hoa",
      "area": "Plaza Midwood",
      "address": "",
@@ -3750,7 +4119,34 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "Sheng Ramen",
+     "area": "Ballantyne",
+     "address": "15201 John J Delaney Dr, Ste B, Charlotte, NC 28277",
+     "website": "https://www.shengramennc.com/",
+     "price": "$$",
+     "cuisine": "Ramen",
+     "why": "Ballantyne ramen shop locals name alongside Menya when asked for authentic bowls.",
+     "score": 4.5,
+     "threads": 1,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/news/looking-best-ramen-charlotte-area-103000619.html",
+       "date": "2024-02",
+       "label": "aol.com"
+      }
+     ],
+     "rank": 11
     },
     {
      "name": "Sun's Kitchen",
@@ -3777,7 +4173,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Pepero Korean Restaurant",
@@ -3804,7 +4200,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "Ru San's",
@@ -3831,7 +4227,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 12
+     "rank": 14
     }
    ]
   },
@@ -3901,6 +4297,60 @@
      "rank": 2
     },
     {
+     "name": "Community Matters Cafe",
+     "area": "Third Ward / Uptown",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Community+Matters+Cafe+Charlotte",
+     "price": "$",
+     "cuisine": "Coffee, breakfast, lunch",
+     "why": "Social-mission cafe run by Charlotte Rescue Mission with house-roasted coffee and good food. Laptop-friendly: yes (strong wifi, ample outlets).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 3
+    },
+    {
+     "name": "HEX Coffee, Kitchen & Natural Wines",
+     "area": "Camp North End",
+     "address": "",
+     "website": "https://www.hexclt.com/",
+     "price": "$$",
+     "cuisine": "Coffee, Japanese-inspired food",
+     "why": "Bright, house-roasted coffee with a Japanese-inspired kitchen and natural wine. Laptop-friendly: yes (strong wifi, ample outlets; closes ~5pm).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 4
+    },
+    {
      "name": "Haraz Coffee House",
      "area": "Plaza Midwood + Lower South End",
      "address": "1204 Central Ave, Charlotte, NC",
@@ -3925,7 +4375,61 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 3
+     "rank": 5
+    },
+    {
+     "name": "Not Just Coffee",
+     "area": "South End (Jay St) + several locations",
+     "address": "",
+     "website": "",
+     "price": "$$",
+     "cuisine": "Specialty coffee",
+     "why": "Charlotte's original craft-coffee shop, known for silky microfoam and expert espresso. Laptop-friendly: yes at Jay St (seating, parking, outlets).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 6
+    },
+    {
+     "name": "Platform Coffee and Kitchen",
+     "area": "West Charlotte (Station West)",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Platform+Coffee+and+Kitchen+Charlotte",
+     "price": "$$",
+     "cuisine": "Coffee, breakfast, lunch",
+     "why": "House-roasted coffee with breakfast and lunch and free parking. Laptop-friendly: yes (great wifi; outlets missing at some tables).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 7
     },
     {
      "name": "Stable Hand",
@@ -3952,7 +4456,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 4
+     "rank": 8
     },
     {
      "name": "Sumaq Coffee",
@@ -3979,7 +4483,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 5
+     "rank": 9
     },
     {
      "name": "Summit Coffee",
@@ -4006,7 +4510,61 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 6
+     "rank": 10
+    },
+    {
+     "name": "The Giddy Goat Coffee Roasters",
+     "area": "Plaza Midwood (also South End, opened 2024)",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Giddy+Goat+Coffee+Roasters+Charlotte",
+     "price": "$$",
+     "cuisine": "Coffee roaster cafe",
+     "why": "Two-level roaster cafe with picnic tables that fills fast. Laptop-friendly: yes (reliable wifi, though not every seat has an outlet).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 11
+    },
+    {
+     "name": "Undercurrent Coffee",
+     "area": "Plaza Midwood (also Optimist Hall stall)",
+     "address": "",
+     "website": "https://www.undercurrentcoffee.com/",
+     "price": "$$",
+     "cuisine": "Specialty coffee",
+     "why": "Balanced espresso and house syrups around a big central bar from one of the city's craft-coffee pioneers. Laptop-friendly: yes (strong wifi, ample outlets).",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cathzine.substack.com/i/173857271/final-ranking-table",
+       "date": "2025",
+       "label": "cathzine.substack.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/03/top-charlotte-coffee-shops-to-work-from",
+       "date": "2025-03",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 12
     },
     {
      "name": "Vavela Cafe",
@@ -4033,7 +4591,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 7
+     "rank": 13
     }
    ]
   },
@@ -4157,6 +4715,33 @@
      "rank": 4
     },
     {
+     "name": "Korean food stall at Super G Mart",
+     "area": "East Independence Blvd",
+     "address": "",
+     "website": "https://www.supergmart.com/",
+     "price": "$",
+     "cuisine": "Korean home cooking",
+     "why": "Mother-daughter stall inside the Asian supermarket; locals go for hotplate dishes and dolsot bibimbap.",
+     "score": 4,
+     "threads": 1,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/02/05/6-must-try-korean-restaurants-in-charlotte-230156",
+       "date": "2022-02",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 5
+    },
+    {
      "name": "Crispy Banh Mi",
      "area": "South Blvd, Shamrock Dr, Ayrsley",
      "address": "5100 South Blvd, Charlotte, NC",
@@ -4175,7 +4760,28 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 5
+     "rank": 6
+    },
+    {
+     "name": "King of Spicy",
+     "area": "East Charlotte",
+     "address": "8829 E W.T. Harris Blvd #107, Charlotte, NC 28227",
+     "website": "https://www.google.com/maps/search/?api=1&query=King+of+Spicy+Charlotte+NC",
+     "price": "$",
+     "cuisine": "Nepali & Indian",
+     "why": "Low-cost East Charlotte spot for momo, chana masala and biryani.",
+     "score": 1,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/hidden-gem-restaurants-in-charlotte",
+       "date": "undated (site c.2026)",
+       "label": "Charlotte's Got A Lot"
+      }
+     ],
+     "rank": 7
     },
     {
      "name": "Malaya Kitchen",
@@ -4196,7 +4802,49 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 6
+     "rank": 8
+    },
+    {
+     "name": "Nile Ethiopian Restaurant & Grocery",
+     "area": "East Charlotte",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Nile+Ethiopian+Restaurant+Grocery+Charlotte",
+     "price": "$",
+     "cuisine": "Ethiopian",
+     "why": "Restaurant plus grocery serving vegan and meat dishes on injera; you can buy ingredients to cook at home.",
+     "score": 1,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/hidden-gem-restaurants-in-charlotte",
+       "date": "undated (site c.2026)",
+       "label": "Charlotte's Got A Lot"
+      }
+     ],
+     "rank": 9
+    },
+    {
+     "name": "Rice and Spice",
+     "area": "Pineville",
+     "address": "",
+     "website": "https://www.riceandspicethaistreetfood.com/",
+     "price": "$$",
+     "cuisine": "Thai",
+     "why": "Under-the-radar Pineville Thai spot that a Thai native called the most authentic in the area.",
+     "score": 1,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2021/08/20/best-thai-restaurants-in-charlotte-with-pad-thai-80400",
+       "date": "2021-08",
+       "label": "Axios Charlotte"
+      }
+     ],
+     "rank": 10
     },
     {
      "name": "Saigon Palace",
@@ -4217,146 +4865,16 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 7
+     "rank": 11
     }
    ]
   }
  ],
  "held": [
   {
-   "cat": "bbq",
-   "name": "Mert's Heart and Soul",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "bbq",
-   "name": "Bar-B-Q King",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "bbq",
-   "name": "McKoy's Smokehouse and Saloon",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "bbq",
-   "name": "Union Barbecue",
-   "status": "unverified (food truck; ranked #2 in nov 2024 roundup, no later status read)"
-  },
-  {
-   "cat": "tacos",
-   "name": "Anita's Mexican Grill",
-   "status": "likely open (still recommended in a mid-2025 r/charlotte thread; axios noted in may 2024 it had no active website); not "
-  },
-  {
-   "cat": "tacos",
-   "name": "Maria's Mexican Restaurant",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "tacos",
-   "name": "Azul Tacos and Beer",
-   "status": "likely open (recommended on food talk central in sep 2025); not confirmed on google listing"
-  },
-  {
-   "cat": "tacos",
-   "name": "Taqueria Mal Pan",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "tacos",
-   "name": "Que Fresa Taqueria & Bar",
-   "status": "likely open (wanderlog listing shows regular hours, no closure flag); not confirmed on official site"
-  },
-  {
-   "cat": "tacos",
-   "name": "Paco's Tacos & Tequila",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "pizza",
-   "name": "PIE.ZAA",
-   "status": "likely open (ranked #1 pepperoni slice after an in-person visit, may 2025); not confirmed on google listing"
-  },
-  {
-   "cat": "pizza",
-   "name": "Geno D's Pizza",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "burgers",
-   "name": "Moo & Brew",
-   "status": "unverified (no 2025-2026 status source read)"
-  },
-  {
-   "cat": "asian",
-   "name": "Musashi Japanese Restaurant",
-   "status": "likely open (heavily recommended apr 2025 thread; charlottefive 2024 nominee; could not verify via own site)"
-  },
-  {
-   "cat": "asian",
-   "name": "Sheng Ramen",
-   "status": "likely open (reddit apr 2025; not independently verified)"
-  },
-  {
-   "cat": "coffee",
-   "name": "The Giddy Goat Coffee Roasters",
-   "status": "likely open (2025 sources; own site not reachable from here)"
-  },
-  {
-   "cat": "coffee",
-   "name": "Platform Coffee and Kitchen",
-   "status": "likely open (2025 sources)"
-  },
-  {
-   "cat": "coffee",
-   "name": "Undercurrent Coffee",
-   "status": "likely open (2025 sources)"
-  },
-  {
-   "cat": "coffee",
-   "name": "HEX Coffee, Kitchen & Natural Wines",
-   "status": "likely open (2025 sources)"
-  },
-  {
-   "cat": "coffee",
-   "name": "Community Matters Cafe",
-   "status": "likely open (2025 sources)"
-  },
-  {
-   "cat": "coffee",
-   "name": "Not Just Coffee",
-   "status": "likely open (2025 sources)"
-  },
-  {
-   "cat": "coffee",
-   "name": "Change Please Coffee (Innovation Barn)",
-   "status": "likely open (reddit june 2025; org site live)"
-  },
-  {
-   "cat": "hidden-gems",
-   "name": "Korean food stall at Super G Mart",
-   "status": "unverified (stall status not confirmed; recommended apr 2025)"
-  },
-  {
    "cat": "hidden-gems",
    "name": "Hatoya",
    "status": "unverified (2 commenters, apr 2025)"
-  },
-  {
-   "cat": "hidden-gems",
-   "name": "King of Spicy",
-   "status": "unverified (single undated source)"
-  },
-  {
-   "cat": "hidden-gems",
-   "name": "Nile Ethiopian Restaurant & Grocery",
-   "status": "unverified (single undated source)"
-  },
-  {
-   "cat": "hidden-gems",
-   "name": "Rice and Spice",
-   "status": "unverified (single 2021 source)"
   }
  ]
 }
