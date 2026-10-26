@@ -1,180 +1,7 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "source": "https://foodtruckscharlotte.org/",
  "days": [
-  {
-   "date": "2026-10-25",
-   "stops": [
-    {
-     "truck": "Big Homie Cooks",
-     "cuisine": "Burgers, Wings, Hot Dogs",
-     "spot": "Panthers vs Bucs",
-     "street": "800 S Mint St",
-     "city": "Charlotte",
-     "start": "8:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.22583,
-     "lon": -80.85284,
-     "url": "https://foodtruckscharlotte.org/member/bighomiecooks"
-    },
-    {
-     "truck": "Flaming bird bbq",
-     "cuisine": "Burgers, American, Barbeque",
-     "spot": "Farmers Market",
-     "street": "1801 Yorkmont Rd",
-     "city": "Charlotte",
-     "start": "10:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.18677,
-     "lon": -80.91006,
-     "url": "https://foodtruckscharlotte.org/member/Falmingbirdbbq"
-    },
-    {
-     "truck": "Queen City Cheesesteaks",
-     "cuisine": "Cheesesteaks, Wings, American",
-     "spot": "Carolina Panthers Home Game",
-     "street": "410 S Mint St",
-     "city": "Charlotte",
-     "start": "10:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.22709,
-     "lon": -80.85059,
-     "url": "https://foodtruckscharlotte.org/member/queencitycheesesteak"
-    },
-    {
-     "truck": "Juiiced Up Reesy",
-     "cuisine": "Juices, Vegetarian, Smoothies",
-     "spot": "Juiiced Up Reesy (Suite 7)",
-     "street": "Johnston Rd Plaza",
-     "city": "10110 Johnston Rd, Charlotte",
-     "start": "10:00 AM",
-     "end": "4:00 PM",
-     "lat": 35.09218,
-     "lon": -80.85819,
-     "url": "https://foodtruckscharlotte.org/member/Juiicedupreesy"
-    },
-    {
-     "truck": "Sweet & Cozy Bakery, LLC",
-     "cuisine": "Breakfast, Desserts, Coffee",
-     "spot": "Hendrick Motorsports Museum",
-     "street": "Hendrick Motorsports Heliport",
-     "city": "4400 Papa Joe Hendrick Blvd, Concord",
-     "start": "11:00 AM",
-     "end": "3:00 PM",
-     "lat": 35.35754,
-     "lon": -80.70583,
-     "url": "https://foodtruckscharlotte.org/member/SweetandCozyBakery"
-    },
-    {
-     "truck": "Sully's Steamers",
-     "cuisine": "American, Sandwiches, Eclectic",
-     "spot": "760 Craft Works",
-     "street": "100 Gilead Rd",
-     "city": "Huntersville",
-     "start": "1:00 PM",
-     "end": "6:00 PM",
-     "lat": 35.41104,
-     "lon": -80.84365,
-     "url": "https://foodtruckscharlotte.org/member/SullysSteamers"
-    },
-    {
-     "truck": "La Señora De Hotdogs",
-     "cuisine": "Comfort Food, Breakfast, Spanish",
-     "spot": "Carolina Rent to Own",
-     "street": "3109 Freedom Dr",
-     "city": "Charlotte",
-     "start": "1:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.242,
-     "lon": -80.88921,
-     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
-    },
-    {
-     "truck": "Deejai Food Truck",
-     "cuisine": "Thai, Asian Fusion",
-     "spot": "The Chamber by Wooden Robot",
-     "street": "416 E 36th St Ste 100",
-     "city": "Charlotte",
-     "start": "2:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.24879,
-     "lon": -80.8062,
-     "url": "https://foodtruckscharlotte.org/member/Deejai"
-    },
-    {
-     "truck": "S&K Funnel Cakes",
-     "cuisine": "Desserts, American",
-     "spot": "Halloween in Huntersville",
-     "street": "11720 Verhoeff Dr",
-     "city": "Huntersville",
-     "start": "4:00 PM",
-     "end": "7:00 PM",
-     "lat": 35.39036,
-     "lon": -80.84491,
-     "url": "https://foodtruckscharlotte.org/member/skfunnelcake"
-    },
-    {
-     "truck": "A Little Taste of Chicago",
-     "cuisine": "American, Comfort Food",
-     "spot": "Halloween in Huntersville",
-     "street": "11836 Verhoeff Dr",
-     "city": "Huntersville",
-     "start": "4:00 PM",
-     "end": "7:00 PM",
-     "lat": 35.39146,
-     "lon": -80.8441,
-     "url": "https://foodtruckscharlotte.org/member/alittletasteofchi"
-    },
-    {
-     "truck": "RiQras de Empanadas R Us",
-     "cuisine": "Colombian, Comfort Food, Latin American",
-     "spot": "Halloween in Huntersville",
-     "street": "Huntersville Athletic Pk",
-     "city": "11720 Verhoeff Dr, Huntersville",
-     "start": "4:00 PM",
-     "end": "7:00 PM",
-     "lat": 35.3894,
-     "lon": -80.84342,
-     "url": "https://foodtruckscharlotte.org/member/RiQrasDeEmpanadasRUs"
-    },
-    {
-     "truck": "On the Block Foods & Catering",
-     "cuisine": "American, Vegan",
-     "spot": "Overlook airport",
-     "street": "CLT Airport overlook",
-     "city": "5130 Airport Overlook Dr, Charlotte",
-     "start": "4:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.22521,
-     "lon": -80.96198,
-     "url": "https://foodtruckscharlotte.org/member/ontheblockfoods"
-    },
-    {
-     "truck": "ITOT",
-     "cuisine": "Tacos, Mexican, Latin American",
-     "spot": "Matthew’s playhouse",
-     "street": "100 E McDowell St",
-     "city": "Matthews",
-     "start": "5:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.11315,
-     "lon": -80.72253,
-     "url": "https://foodtruckscharlotte.org/member/ITOFTACOS"
-    },
-    {
-     "truck": "Round The Way Eatery",
-     "cuisine": "Seafood, Fish & Chips, Southern",
-     "spot": "5407 Statesville Rd",
-     "street": "5407 Statesville Rd",
-     "city": "Charlotte",
-     "start": "7:30 PM",
-     "end": "4:00 AM",
-     "lat": 35.29359,
-     "lon": -80.83877,
-     "url": "https://foodtruckscharlotte.org/member/RoundTheWayEatery"
-    }
-   ]
-  },
   {
    "date": "2026-10-26",
    "stops": [
@@ -1171,18 +998,6 @@
      "url": "https://foodtruckscharlotte.org/member/alittletasteofchi"
     },
     {
-     "truck": "Roman’s All-Star Cafe",
-     "cuisine": "American, Burgers, Cheesesteaks",
-     "spot": "Roaming Hunger",
-     "street": "1100 Hawthorne Ln",
-     "city": "Charlotte",
-     "start": "12:00 PM",
-     "end": "2:00 PM",
-     "lat": 35.22252,
-     "lon": -80.81554,
-     "url": "https://foodtruckscharlotte.org/member/RomansASC"
-    },
-    {
      "truck": "Tasty Tre's Food Truck",
      "cuisine": "Breakfast, Brunch, Desserts",
      "spot": "October 30th 4:30pm-8:30pm?",
@@ -1430,7 +1245,7 @@
     {
      "truck": "A Little Taste of Chicago",
      "cuisine": "American, Comfort Food",
-     "spot": "Hel House Fall Festival",
+     "spot": "Heal House Fall Festival",
      "street": "2647 Freedom Dr",
      "city": "Charlotte",
      "start": "2:00 PM",
@@ -1474,6 +1289,119 @@
      "lat": 35.23705,
      "lon": -80.8803,
      "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "stops": [
+    {
+     "truck": "S&K Funnel Cakes",
+     "cuisine": "Desserts, American",
+     "spot": "Friendship MBC  Food Truck Rally",
+     "street": "3400 Beatties Ford Rd",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.28025,
+     "lon": -80.85551,
+     "url": "https://foodtruckscharlotte.org/member/skfunnelcake"
+    },
+    {
+     "truck": "Flaming bird bbq",
+     "cuisine": "Burgers, American, Barbeque",
+     "spot": "Farmers Market",
+     "street": "1801 Yorkmont Rd",
+     "city": "Charlotte",
+     "start": "10:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.18677,
+     "lon": -80.91006,
+     "url": "https://foodtruckscharlotte.org/member/Falmingbirdbbq"
+    },
+    {
+     "truck": "Kona Ice of Gaston County",
+     "cuisine": "American",
+     "spot": "Overlook Community",
+     "street": "3810 Mountain Cove Dr",
+     "city": "Charlotte",
+     "start": "11:15 AM",
+     "end": "1:15 PM",
+     "lat": 35.33899,
+     "lon": -80.94996,
+     "url": "https://foodtruckscharlotte.org/member/KonaIceGaston"
+    },
+    {
+     "truck": "Pinoy Plates",
+     "cuisine": "Filipino, American",
+     "spot": "Morrison YMCA Fall Festival",
+     "street": "9405 Bryant Farms Rd",
+     "city": "Charlotte",
+     "start": "11:30 AM",
+     "end": "1:30 PM",
+     "lat": 35.04049,
+     "lon": -80.8245,
+     "url": "https://foodtruckscharlotte.org/member/PinoyPlates"
+    },
+    {
+     "truck": "S&K Funnel Cakes",
+     "cuisine": "Desserts, American",
+     "spot": "Praising Place Fall Festival",
+     "street": "5268 N Sharon Amity Rd",
+     "city": "Charlotte",
+     "start": "1:00 PM",
+     "end": "4:00 PM",
+     "lat": 35.22868,
+     "lon": -80.74162,
+     "url": "https://foodtruckscharlotte.org/member/skfunnelcake"
+    },
+    {
+     "truck": "A Little Taste of Chicago",
+     "cuisine": "American, Comfort Food",
+     "spot": "Praising Place Fall Festival",
+     "street": "5268 N Sharon Amity Rd",
+     "city": "Charlotte",
+     "start": "1:00 PM",
+     "end": "4:00 PM",
+     "lat": 35.22868,
+     "lon": -80.74162,
+     "url": "https://foodtruckscharlotte.org/member/alittletasteofchi"
+    },
+    {
+     "truck": "La Señora De Hotdogs",
+     "cuisine": "Comfort Food, Breakfast, Spanish",
+     "spot": "Carolina Rent to Own",
+     "street": "3109 Freedom Dr",
+     "city": "Charlotte",
+     "start": "1:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.242,
+     "lon": -80.88921,
+     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    },
+    {
+     "truck": "Just Juice CLT",
+     "cuisine": "Juices, Drinks, Desserts",
+     "spot": "CLT Airport overlook",
+     "street": "5130 Airport Overlook Dr",
+     "city": "Charlotte",
+     "start": "4:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.22451,
+     "lon": -80.96224,
+     "url": "https://foodtruckscharlotte.org/member/justjuiceclt"
+    },
+    {
+     "truck": "Nacho Business Food Truck",
+     "cuisine": "Mediterranean, Asian Fusion, Mexican",
+     "spot": "Birdsong Brewing Co.",
+     "street": "1016 N Davidson St",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.23086,
+     "lon": -80.82658,
+     "url": "https://foodtruckscharlotte.org/member/NachoBusinessTruck"
     }
    ]
   }

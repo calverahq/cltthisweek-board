@@ -1,22 +1,7 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "ARDG Eastway PDGA Singles Week 6",
-   "url": "https://www.discgolfscene.com/tournaments/ARDG_Eastway_PDGA_Singles_Week_1_2026",
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "tier": "PDGA League",
-   "format": "",
-   "course": "Eastway Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": null,
-   "cap": null,
-   "regOpen": false
-  },
   {
    "name": "2026 Bradford MVP Space Race",
    "url": "https://www.discgolfscene.com/tournaments/2026_Bradford_MVP_Space_Race",
@@ -28,7 +13,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 16,
+   "players": 18,
    "cap": 48,
    "regOpen": true
   },
@@ -43,9 +28,9 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 4,
+   "players": 7,
    "cap": null,
-   "regOpen": false
+   "regOpen": true
   },
   {
    "name": "Chain Reactions Fall Series #4 (Y5) @Scrapyard - Driven by INNOVA",
@@ -58,7 +43,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 35,
+   "players": 47,
    "cap": null,
    "regOpen": true
   },
