@@ -502,3 +502,22 @@ nav.tabs{overflow:hidden}
 :root[data-theme="dark"] .pnext .pk{color:#5BB8EA}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pnext .pk{color:#5BB8EA}}
 .pnext h2{margin:4px 0 2px}
+
+/* Food: ranked lists */
+.foodswitch{margin-bottom:4px}
+.foodq{width:100%;box-sizing:border-box;font:500 15px var(--body);padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);margin:2px 0 4px}
+.fcats{display:flex;flex-wrap:wrap;gap:6px}
+.flist{display:grid}
+.frow{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.frank{font:400 28px/1 var(--display);color:var(--muted);text-align:center;padding-top:2px}
+.frank.top{color:var(--crown)}
+.frow .t{font:600 17px/1.3 var(--body);margin:0}
+.frow .n{margin-top:4px}
+.fcatlab{color:var(--teal)}
+.fsrc{display:inline-block}
+.fsrc summary{cursor:pointer;color:var(--teal);font:600 13px var(--body);list-style:none}
+.fsrc summary::-webkit-details-marker{display:none}
+.fsrc[open]{display:block;width:100%}
+.fsrc a{display:block;font:500 13px/1.6 var(--body);color:var(--muted)}
+.fmethod{margin-top:14px;font-size:14px;color:var(--muted)}
+.fmethod summary{cursor:pointer;font:600 14px var(--body);color:var(--ink)}

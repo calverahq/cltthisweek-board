@@ -15,3 +15,6 @@ When you change `styles.css` or `app.js`, bump the `?v=` value on its tag in `in
 
 ## Automatic feeds
 `python3 tools/update_feeds.py` refreshes trucks.json (foodtruckscharlotte.org) and discgolf.json (Disc Golf Scene). Each feed keeps its old file if its source fails. play.json is a hand-kept list of adult leagues.
+
+## Where to eat (food.json)
+Weekly research files live in tools/food_research/ (one JSON per research run). `python3 tools/food_rank.py tools/food_research/*.json` scores and ranks them into food.json; see the script's header for the scoring. Places not confirmed open wait in food.json's "held" list until a later run checks them.

@@ -1,0 +1,1321 @@
+{
+ "categories": [
+  {
+   "id": "brunch",
+   "places": [
+    {
+     "name": "Haberdish",
+     "area": "NoDa",
+     "address": "3106 N Davidson St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Haberdish+NoDa+NC",
+     "price": "$$",
+     "cuisine": "Southern comfort",
+     "why": "Scratch Southern brunch with fried chicken, homemade cinnamon rolls and deviled eggs in a warm, upcycled space.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 (Charlotte's Got A Lot) and 2026-03 (Axios))"
+    },
+    {
+     "name": "Caf\u00e9 Monte",
+     "area": "SouthPark",
+     "address": "6700 Fairview Rd #108, Charlotte, NC 28210",
+     "website": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Monte+SouthPark+NC",
+     "price": "$$",
+     "cuisine": "French bakery-bistro",
+     "why": "Reliable French cafe brunch: Benedict on a croissant, beignets, croque-madame and pastries.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "Easy Like Sunday",
+     "area": "Montford / Woodlawn",
+     "address": "1600 E Woodlawn Rd #100, Charlotte, NC 28209",
+     "website": "https://www.google.com/maps/search/?api=1&query=Easy+Like+Sunday+Montford+%2F+Woodlawn+NC",
+     "price": "$$",
+     "cuisine": "Southern brunch",
+     "why": "All-day brunch with cornmeal pancakes and fried chicken, Cajun shrimp and grits, and mimosa flights.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "Eddie's Place",
+     "area": "Cotswold",
+     "address": "617 S Sharon Amity Rd, Charlotte, NC 28211",
+     "website": "https://www.google.com/maps/search/?api=1&query=Eddie%27s+Place+Cotswold+NC",
+     "price": "$$",
+     "cuisine": "American, Cajun-leaning",
+     "why": "Long-running, affordable neighborhood favorite with oversized pancakes, Parmesan grits and cheap mimosas; expect weekend crowds.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "El Puro Cuban Restaurant",
+     "area": "Madison Park",
+     "address": "5033 South Blvd, Charlotte, NC 28217",
+     "website": "https://www.google.com/maps/search/?api=1&query=El+Puro+Cuban+Restaurant+Madison+Park+NC",
+     "price": "$$",
+     "cuisine": "Cuban",
+     "why": "Lively retro-Havana room with tres leches pancakes, empanadas and Cuban coffee, sometimes with live music.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "Supperland",
+     "area": "Plaza Midwood",
+     "address": "1212 The Plaza, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Supperland+Plaza+Midwood+NC",
+     "price": "$$$",
+     "cuisine": "Southern steakhouse",
+     "why": "Splurge brunch buffet inside a converted mid-century church, with tableside cinnamon rolls and standout cocktails.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "300 East",
+     "area": "Dilworth",
+     "address": "300 East Blvd, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=300+East+Dilworth+NC",
+     "price": "$$",
+     "cuisine": "New American",
+     "why": "Decades-old Dilworth staple in a Victorian house; custard French toast and crab cake Benedict.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "The Crunkleton",
+     "area": "Elizabeth",
+     "address": "1957 E 7th St, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Crunkleton+Elizabeth+NC",
+     "price": "$$$",
+     "cuisine": "Cocktail bar, American",
+     "why": "Serious brunch cocktails plus hearty plates like the Charlotte Hot Brown and steak and eggs.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "Uptown Yolk",
+     "area": "South End",
+     "address": "1220 S Tryon St Suite 500, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Uptown+Yolk+South+End+NC",
+     "price": "$$",
+     "cuisine": "Breakfast, Southern",
+     "why": "Breakfast-focused spot known for chicken and waffles, cheesy grits and the Mojo Hash.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (relocated from Uptown to South End in 2023 per WSOC; listed in Charlotte's Got A Lot guide updated 2026-09)"
+    },
+    {
+     "name": "Church and Union",
+     "area": "Uptown",
+     "address": "127 N Tryon St #8, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Church+and+Union+Uptown+NC",
+     "price": "$$$",
+     "cuisine": "Southern-Asian",
+     "why": "Dramatic church-inspired room from a Top Chef alum, with souffle pancakes and a fried chicken biscuit.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (OpenTable listing taking bookings with diner reviews dated Oct 2026; weekend brunch hours listed)"
+    },
+    {
+     "name": "Ruby Sunshine",
+     "area": "South End / Ballantyne",
+     "address": "332 W Bland St, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Ruby+Sunshine+South+End+%2F+Ballantyne+NC",
+     "price": "$$",
+     "cuisine": "New Orleans brunch",
+     "why": "Big New Orleans-style brunch menu with beignets, many Benedicts and bottomless chicory coffee.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 (Charlotte's Got A Lot))"
+    },
+    {
+     "name": "Lincoln Street Kitchen & Cocktails",
+     "area": "South End",
+     "address": "1320 S Church St #400, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Lincoln+Street+Kitchen+%26+Cocktails+South+End+NC",
+     "price": "$$",
+     "cuisine": "American, cocktails",
+     "why": "Rooftop brunch with skyline views, creative mimosas and an affordable, simple menu.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.tastingtable.com/2084760/charlotte-brunch-restaurants-local-favorites",
+       "date": "2026-02",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "Leroy Fox",
+     "area": "South End / Cotswold",
+     "address": "1616 Camden Rd Suite 150, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Leroy+Fox+South+End+%2F+Cotswold+NC",
+     "price": "$$",
+     "cuisine": "Southern comfort",
+     "why": "Fried chicken everything (Benedict, biscuits, waffles) with cozy patios.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/04/14/brunch-charlotte-nc-132274",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 and 2026-03)"
+    },
+    {
+     "name": "The Asbury",
+     "area": "Uptown",
+     "address": "235 N Tryon St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Asbury+Uptown+NC",
+     "price": "$$$",
+     "cuisine": "Modern Southern",
+     "why": "Polished hotel restaurant brunch with sticky biscuits, cheesecake pancakes and farm-to-table plates.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/charlottes-best-brunch-spots",
+       "date": "2026-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=154762",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-brunch-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-09 (Charlotte's Got A Lot))"
+    }
+   ]
+  },
+  {
+   "id": "patios",
+   "places": [
+    {
+     "name": "The Goodyear House",
+     "area": "NoDa",
+     "address": "3032 N Davidson St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Goodyear+House+NoDa+NC",
+     "price": "$$",
+     "cuisine": "Southern comfort",
+     "why": "Garden patio under a huge old tree, with igloos/greenhouse seating in cold months and a well-liked brunch buffet.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03/2026-04; Axios reported its new brunch buffet 2025-10)"
+    },
+    {
+     "name": "Hello, Sailor",
+     "area": "Cornelius (Lake Norman)",
+     "address": "20210 Henderson Rd, Cornelius, NC 28031",
+     "website": "https://www.google.com/maps/search/?api=1&query=Hello%2C+Sailor+Cornelius+%28Lake+Norman%29+NC",
+     "price": "$$",
+     "cuisine": "Seafood, tiki",
+     "why": "Big lakeside deck on Lake Norman with tiki drinks, popcorn shrimp and boat slips; worth the drive.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 (Axios, CGAL) and 2026-04 (Off the Eaten Path))"
+    },
+    {
+     "name": "Fahrenheit",
+     "area": "Uptown",
+     "address": "222 S Caldwell St, 21st Floor, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Fahrenheit+Uptown+NC",
+     "price": "$$$",
+     "cuisine": "Upscale American",
+     "why": "21st-floor wraparound terrace with fireplaces and panoramic skyline views; a special-occasion pick.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/11/best-rooftop-bars-in-charlotte-122690",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://qcitymetro.com/2025/07/10/charlotte-rooftop-bars",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-04 (Axios rooftops))"
+    },
+    {
+     "name": "Dilworth Tasting Room",
+     "area": "Dilworth",
+     "address": "300 E Tremont Ave, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Dilworth+Tasting+Room+Dilworth+NC",
+     "price": "$$",
+     "cuisine": "Wine bar, small plates",
+     "why": "Hidden garden patio with string lights and a koi pond; wine, cheese boards and now weekend brunch.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/04/29/5-best-patios-for-happy-hour-in-charlotte/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-04 (Scoop Charlotte); Axios reported its new brunch 2025-10)"
+    },
+    {
+     "name": "The Olde Mecklenburg Brewery",
+     "area": "LoSo / Ballantyne",
+     "address": "4150 Yancey Rd, Charlotte, NC 28217",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Olde+Mecklenburg+Brewery+LoSo+%2F+Ballantyne+NC",
+     "price": "$$",
+     "cuisine": "German beer hall",
+     "why": "One of the biggest beer gardens around, shaded picnic tables, German food and room for families.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03/2026-04)"
+    },
+    {
+     "name": "Chapter 6",
+     "area": "South End",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Chapter+6+South+End+NC",
+     "price": "$$",
+     "cuisine": "Mediterranean",
+     "why": "Large Rail Trail-facing patio with misters and heaters, good for people-watching over Mediterranean plates.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 (Axios, CGAL))"
+    },
+    {
+     "name": "The Fig Tree Restaurant",
+     "area": "Elizabeth",
+     "address": "1601 E 7th St, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Fig+Tree+Restaurant+Elizabeth+NC",
+     "price": "$$$$",
+     "cuisine": "French-Italian fine dining",
+     "why": "Romantic veranda and front porch of a 1913 bungalow for a special-occasion dinner outdoors.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 and 2026-04)"
+    },
+    {
+     "name": "Ru Ru's Tacos & Tequila",
+     "area": "Myers Park",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Ru+Ru%27s+Tacos+%26+Tequila+Myers+Park+NC",
+     "price": "$$",
+     "cuisine": "Mexican, tacos",
+     "why": "Courtyard patio and outdoor bar in a historic mansion; easygoing tacos and tequila.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 and 2026-04)"
+    },
+    {
+     "name": "The Waterman Fish Bar",
+     "area": "South End",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Waterman+Fish+Bar+South+End+NC",
+     "price": "$$",
+     "cuisine": "Seafood",
+     "why": "Rooftop bar (Topside) with skyline views, oyster happy hour and weekend brunch.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/11/best-rooftop-bars-in-charlotte-122690",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-04)"
+    },
+    {
+     "name": "The Artisan's Palate",
+     "area": "NoDa",
+     "address": "1218 E 36th St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Artisan%27s+Palate+NoDa+NC",
+     "price": "$$",
+     "cuisine": "New American, wine bar",
+     "why": "Woman-owned wine bar/restaurant with a front patio and quieter back patio; good for dates and groups.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/04/29/5-best-patios-for-happy-hour-in-charlotte/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-04 (Scoop Charlotte))"
+    },
+    {
+     "name": "Charlotte Beer Garden",
+     "area": "South End",
+     "address": "1300 S Tryon St, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Charlotte+Beer+Garden+South+End+NC",
+     "price": "$$",
+     "cuisine": "Pub food, beer hall",
+     "why": "Three-story beer hall with a greenhouse-style rooftop, hundreds of taps and a full food menu; packed on weekends.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/11/best-rooftop-bars-in-charlotte-122690",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://qcitymetro.com/2025/07/10/charlotte-rooftop-bars",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-04 (Axios rooftops))"
+    },
+    {
+     "name": "State of Confusion",
+     "area": "LoSo",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=State+of+Confusion+LoSo+NC",
+     "price": "$$",
+     "cuisine": "Latin, Lowcountry fusion",
+     "why": "Family-friendly spot with fire pits, yard games and a rooftop with partial skyline views.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/11/best-rooftop-bars-in-charlotte-122690",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 and 2026-04)"
+    },
+    {
+     "name": "Suffolk Punch",
+     "area": "South End / SouthPark",
+     "address": "4400 Sharon Rd, Charlotte, NC 28211",
+     "website": "https://www.google.com/maps/search/?api=1&query=Suffolk+Punch+South+End+%2F+SouthPark+NC",
+     "price": "$$",
+     "cuisine": "Brewpub, cafe",
+     "why": "Brewery-cafe with big patios at both locations; the SouthPark one sits next to the mall playground.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/03/09/best-patios-in-charlotte-nc",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/blog/things-to-do/charlottes-best-porches-patios-and-decks",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 and 2026-09)"
+    }
+   ]
+  },
+  {
+   "id": "kid-friendly",
+   "places": [
+    {
+     "name": "Suffolk Punch (SouthPark)",
+     "area": "SouthPark",
+     "address": "4400 Sharon Rd, Charlotte, NC 28211",
+     "website": "https://www.google.com/maps/search/?api=1&query=Suffolk+Punch+%28SouthPark%29+SouthPark+NC",
+     "price": "$$",
+     "cuisine": "Brewpub, cafe",
+     "why": "Patio opens onto the SouthPark Mall playground and there is a turfed kids' area, a kids menu and Sunday kids-eat-free deals.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2019/10/22/best-kid-friendly-restaurants-in-charlotte-that-parents-will-love-too-183279",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/best-family-friendly-patios-in-charlotte",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/where-to-take-out-of-town-guests-in-charlotte-with-kids",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://charlottemama.com/dine-and-play",
+       "date": "2026",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte Mama 2026 guide; Axios kid list updated 2025-07; CGAL 2026-09)"
+    },
+    {
+     "name": "The Olde Mecklenburg Brewery",
+     "area": "LoSo / Ballantyne",
+     "address": "4150 Yancey Rd, Charlotte, NC 28217",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Olde+Mecklenburg+Brewery+LoSo+%2F+Ballantyne+NC",
+     "price": "$$",
+     "cuisine": "German beer hall",
+     "why": "Huge biergartens where kids can run, with pretzels and frankfurters that kids like.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2019/10/22/best-kid-friendly-restaurants-in-charlotte-that-parents-will-love-too-183279",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/best-family-friendly-patios-in-charlotte",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/where-to-take-out-of-town-guests-in-charlotte-with-kids",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03 (Axios patios, CGAL))"
+    },
+    {
+     "name": "Seoul Food Meat Co. (Mill District)",
+     "area": "Optimist Park / NoDa edge",
+     "address": "421 E 26th St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Seoul+Food+Meat+Co.+%28Mill+District%29+Optimist+Park+%2F+NoDa+edge+NC",
+     "price": "$$",
+     "cuisine": "Korean-Southern BBQ",
+     "why": "Fenced outdoor courtyard with a playground and seasonal splash pad, so parents can eat while kids play.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2019/10/22/best-kid-friendly-restaurants-in-charlotte-that-parents-will-love-too-183279",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/best-family-friendly-patios-in-charlotte",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/where-to-take-out-of-town-guests-in-charlotte-with-kids",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in Axios patio guide updated 2026-03; CGAL listing with reviews describing playground/splash pad)"
+    },
+    {
+     "name": "Brixx Wood Fired Pizza",
+     "area": "Foxcroft / Birkdale / Blakeney",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Brixx+Wood+Fired+Pizza+Foxcroft+%2F+Birkdale+%2F+Blakeney+NC",
+     "price": "$$",
+     "cuisine": "Pizza",
+     "why": "Quick-service pizza with a kids menu and patios near fountains and open space for kids.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.houseofhensen.com/blog/best-family-friendly-patios-in-charlotte",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://charlottemama.com/dine-and-play",
+       "date": "2026",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte Mama 2026 guide)"
+    },
+    {
+     "name": "The Cowfish Sushi Burger Bar",
+     "area": "SouthPark",
+     "address": "4310 Sharon Rd, Charlotte, NC 28211",
+     "website": "https://thecowfish.com/",
+     "price": "$$",
+     "cuisine": "Burgers and sushi",
+     "why": "Playful menu with kids' bento boxes and PB&J sushi; a long-time parent favorite.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.offtheeatenpathblog.com/charlottes-best-patios/",
+       "date": "2026-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte location listed on thecowfish.com, no closure notice)"
+    },
+    {
+     "name": "Legion Brewing SouthPark",
+     "area": "SouthPark",
+     "address": "5610 Carnegie Blvd, Charlotte, NC 28209",
+     "website": "https://www.google.com/maps/search/?api=1&query=Legion+Brewing+SouthPark+SouthPark+NC",
+     "price": "$$",
+     "cuisine": "Brewpub",
+     "why": "Outdoor space with a kids' play area and kids menu; tied for most-recommended in a parent poll.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed with hours by SouthPark CLT and a 2026 dining-deal listing; no closure news found)"
+    },
+    {
+     "name": "Burtons Grill & Bar",
+     "area": "Park Road / Blakeney",
+     "address": "1601 E Woodlawn Rd, Charlotte, NC 28209",
+     "website": "https://www.google.com/maps/search/?api=1&query=Burtons+Grill+%26+Bar+Park+Road+%2F+Blakeney+NC",
+     "price": "$$",
+     "cuisine": "American",
+     "why": "Parents like the allergy-friendly, healthier kids menu; the most-recommended spot in a parent poll.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Park Road store active on Uber Eats with current hours)"
+    },
+    {
+     "name": "Bad Daddy's Burger Bar",
+     "area": "Dilworth / Ballantyne",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Bad+Daddy%27s+Burger+Bar+Dilworth+%2F+Ballantyne+NC",
+     "price": "$$",
+     "cuisine": "Burgers",
+     "why": "Loud, relaxed burger bar where kid noise isn't a problem; tater tots are a hit.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (NC chain, listed in current Charlotte Parent page; no closure news)"
+    },
+    {
+     "name": "Superica",
+     "area": "South End / Strawberry Hill",
+     "address": "101 W Worthington Ave, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Superica+South+End+%2F+Strawberry+Hill+NC",
+     "price": "$$",
+     "cuisine": "Tex-Mex",
+     "why": "Kids menu with drink and popsicle, arcade games and a big patio keep kids entertained.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottemama.com/dine-and-play",
+       "date": "2026",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte Mama 2026; CGAL brunch guide 2026-09)"
+    },
+    {
+     "name": "Kid Cashew",
+     "area": "Dilworth",
+     "address": "1608 East Blvd, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Kid+Cashew+Dilworth+NC",
+     "price": "$$",
+     "cuisine": "Mediterranean",
+     "why": "Big family- and dog-friendly patio with Mediterranean food parents enjoy too.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=165716",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlotteparent.com/family-friendly-restaurants-in-charlotte/",
+       "date": "unknown",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Wanderlog shows regular hours and Google reviews dated through Sep 2026)"
+    },
+    {
+     "name": "Hawthorne's New York Pizza & Bar",
+     "area": "Elizabeth",
+     "address": "1701 E 7th St, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Hawthorne%27s+New+York+Pizza+%26+Bar+Elizabeth+NC",
+     "price": "$$",
+     "cuisine": "Pizza, Italian-American",
+     "why": "Robust kids menu (pizza, ravioli, pasta) with a drink included, in a casual, noisy room.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2019/10/22/best-kid-friendly-restaurants-in-charlotte-that-parents-will-love-too-183279",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Wanderlog lists regular hours; Axios kid list updated 2025-07)"
+    },
+    {
+     "name": "Optimist Hall",
+     "area": "Optimist Park",
+     "address": "1115 N Brevard St, Charlotte, NC 28206",
+     "website": "https://www.google.com/maps/search/?api=1&query=Optimist+Hall+Optimist+Park+NC",
+     "price": "$$",
+     "cuisine": "Food hall",
+     "why": "Dozens of stalls so everyone picks their own meal, plus a big courtyard for eating outside.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2019/10/22/best-kid-friendly-restaurants-in-charlotte-that-parents-will-love-too-183279",
+       "date": "2025-07",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/kid-friendly-restaurants/",
+       "date": "2023-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (listed in an editorial guide updated 2026-03/2026-04)"
+    }
+   ]
+  }
+ ],
+ "notes": "Reddit could not be read at all: r/Charlotte search pages, thread URLs (old.reddit, www.reddit .json) and the lr.ggtyler mirror were all refused by the session's URL allowlist, and web search never surfaced reddit.com URLs. No reddit/forum source is recorded, so every 'top' is false. The only reddit evidence seen is secondhand: Tasting Table (2026-02) says locals on Reddit/Yelp informed its list and cites r/Charlotte thread 1nr1puk ('top brunch spots in charlotte') for Ever Andalo, and says Redditors praised Supperland and Cafe Monte. That thread was not read. Charlotte Parent's /charlotte-family-dining/ page was blocked by robots.txt. Tripadvisor forums and Nextdoor/Facebook did not turn up in search. Dates for Axios lists are the 'last updated' dates (originals: brunch 2023-04, patios 2023-03, rooftops 2023-05, kids 2019-10). Charlotte Magazine brunch and kid lists, Charlotte Parent and House of Hensen posts show no year ('unknown'). Charlotte Magazine's and Charlotte Parent's kid lists overlap heavily and may share an origin. northcarolinacharm.com (2023) built its list from a parent poll; it is recorded as an article. Closures found: Mattie's Diner (Plaza Midwood) closed Aug 2025 (WBTV), though Axios's kid list still had it in 2025-07. Village Tavern SouthPark closed Oct 2024 (Axios). Uptown Yolk left Uptown and reopened in South End (2023). Excluded as unverified or weak: Providence Road Sundries and Inizio Pizza (no 2026 confirmation), Cabo Fish Taco NoDa (status unclear). Excluded as unreliable: thequeencityscoop.com 2026 patio list (looked templated/SEO). Hello, Sailor is in Cornelius, which is outside the listed towns; it is kept because three patio guides recommend it. Price levels are estimates, and Google Maps search links are used where no official site was confirmed."
+}

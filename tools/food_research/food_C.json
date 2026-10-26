@@ -1,0 +1,1345 @@
+{
+ "categories": [
+  {
+   "id": "bbq",
+   "places": [
+    {
+     "name": "Sweet Lew's BBQ",
+     "area": "Belmont (Charlotte)",
+     "address": "923 Belmont Ave, Charlotte, NC 28205",
+     "website": "https://www.sweetlewsbbq.com/",
+     "price": "$$",
+     "cuisine": "Carolina barbecue",
+     "why": "Small counter-service joint praised for hickory-smoked chopped pork, brisket and ribs plus specials like Midlands-style hash and rice.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://bbqnewsletter.substack.com/p/charlotte-barbecue-restaurants",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/category/best-of-charlotte-barbecue/",
+       "date": "2024-11",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (Wanderlog listing shows regular daily hours, no closure flag; ranked in Nov 2024 roundup); not confirmed on official site"
+    },
+    {
+     "name": "Midwood Smokehouse",
+     "area": "Plaza Midwood (plus Park Rd, Ballantyne, other locations)",
+     "address": "1401 Central Ave, Charlotte, NC 28205",
+     "website": "https://midwoodsmokehouse.com/",
+     "price": "$$",
+     "cuisine": "Barbecue, Tex-Mex leaning",
+     "why": "The go-to sit-down barbecue pick locals send visitors to, known for brisket, ribs and its queso and brisket tacos.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/category/best-of-charlotte-barbecue/",
+       "date": "2024-11",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended by several r/Charlotte commenters in a mid-2025 thread); not confirmed on official site"
+    },
+    {
+     "name": "Noble Smoke",
+     "area": "Freedom Dr / Enderly Park, west Charlotte",
+     "address": "2216 Freedom Dr, Charlotte, NC 28208",
+     "website": "https://noblesmokebarbecue.com/",
+     "price": "$$",
+     "cuisine": "Craft barbecue",
+     "why": "Big, polished barbecue hall from chef Jim Noble, liked for hickory-smoked meats, strong sides and a good bar/wine program.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (mentioned as current in a mid-2025 r/Charlotte thread); not confirmed on official site"
+    },
+    {
+     "name": "Haberdish",
+     "area": "NoDa",
+     "address": "3106 N Davidson St, Charlotte, NC 28205",
+     "website": "http://haberdish.com/",
+     "price": "$$",
+     "cuisine": "Southern, fried chicken",
+     "why": "Family-style Southern spot people book for its fried chicken with house sauces, hushpuppies and cocktails.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.timeout.com/charlotte/restaurants/best-restaurants-in-charlotte",
+       "date": "2023-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/soul-food-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Wanderlog listing with regular hours, reservations, and a Google review dated 2026-03)"
+    },
+    {
+     "name": "Supperland",
+     "area": "Plaza Midwood",
+     "address": "1212 The Plaza, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Supperland%201212%20The%20Plaza%20Charlotte%20NC",
+     "price": "$$$",
+     "cuisine": "Southern steakhouse",
+     "why": "Southern steakhouse set in a restored 1950s church, loved for wood-grilled meats and potluck-style sides.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.timeout.com/charlotte/restaurants/best-restaurants-in-charlotte",
+       "date": "2023-04",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/soul-food-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read; listed on undated current guides)"
+    },
+    {
+     "name": "Mert's Heart and Soul",
+     "area": "Uptown",
+     "address": "214 N College St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Mert%27s%20Heart%20and%20Soul%20Charlotte",
+     "price": "$$",
+     "cuisine": "Soul food, Lowcountry",
+     "why": "Long-running uptown soul food institution known for Lowcountry/Gullah plates and its Soul Rolls.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/soul-food-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Mac's Speed Shop",
+     "area": "South End (South Blvd) and other locations",
+     "address": "2511 South Blvd, Charlotte, NC 28203",
+     "website": "https://macspeedshop.com/",
+     "price": "$$",
+     "cuisine": "Barbecue, beer bar",
+     "why": "Rowdy biker-bar barbecue with a big patio and beer list, liked for smoked wings, pulled pork and brisket.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (WBTV reviewed its South End location in Sep 2024; one 2025 r/Charlotte commenter mentioned it negatively); not confirmed on official site"
+    },
+    {
+     "name": "Bar-B-Q King",
+     "area": "Wilkinson Blvd, west Charlotte",
+     "address": "2900 Wilkinson Blvd, Charlotte, NC 28208",
+     "website": "https://www.facebook.com/barbqking/",
+     "price": "$",
+     "cuisine": "Drive-in barbecue",
+     "why": "Old-school 1959 drive-in where people go for nostalgia, slaw-topped barbecue sandwiches, dipped chicken and onion rings.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "McKoy's Smokehouse and Saloon",
+     "area": "York Rd, near the airport",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=McKoy%27s%20Smokehouse%20and%20Saloon%20Charlotte",
+     "price": "$$",
+     "cuisine": "Barbecue, roadhouse",
+     "why": "Biker-friendly family roadhouse known for smoked wings, pit-smoked pot roast and big combo platters.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
+       "date": "2023-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
+       "date": "2023-11",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Union Barbecue",
+     "area": "Food truck (rotating Charlotte locations)",
+     "address": null,
+     "website": "https://unionbarbecue.com",
+     "price": "$$",
+     "cuisine": "Tex-Mex barbecue",
+     "why": "Barbecue writers' favorite truck for barbacoa, carnitas, al pastor sausage and brisket on house-made tortillas.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://bbqnewsletter.substack.com/p/charlotte-barbecue-restaurants",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://barbecuebros.co/category/best-of-charlotte-barbecue/",
+       "date": "2024-11",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (food truck; ranked #2 in Nov 2024 roundup, no later status read)"
+    }
+   ]
+  },
+  {
+   "id": "tacos",
+   "places": [
+    {
+     "name": "Tacos El Nevado",
+     "area": "Central Ave (east Charlotte) and South Blvd",
+     "address": "4715 Central Ave, Charlotte, NC 28205",
+     "website": "https://www.tacoselnevadonc.com/",
+     "price": "$",
+     "cuisine": "Mexican taqueria",
+     "why": "Locals' default for cheap, authentic street tacos, with quesabirria and the borrego getting called out.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=142954",
+       "date": "2023-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Axios Charlotte, 2026-03, says the Central Ave location remains and the family expanded to South Blvd)"
+    },
+    {
+     "name": "Anita's Mexican Grill",
+     "area": "Yorkmont Rd, near the airport",
+     "address": "2904 Yorkmont Rd, Charlotte, NC 28208",
+     "website": "https://www.google.com/maps/search/?api=1&query=Anita%27s%20Mexican%20Grill%202904%20Yorkmont%20Rd%20Charlotte",
+     "price": "$",
+     "cuisine": "Mexican, no-frills",
+     "why": "No-frills airport-area spot that r/Charlotte keeps naming as the most authentic Mexican in town; the Speedy Gonzalez combo is a favorite.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (still recommended in a mid-2025 r/Charlotte thread; Axios noted in May 2024 it had no active website); not confirmed on Google listing"
+    },
+    {
+     "name": "Tacos El Regio",
+     "area": "East Charlotte (E W.T. Harris Blvd; also Monroe Rd area)",
+     "address": "8829 E W.T. Harris Blvd, Charlotte, NC 28227",
+     "website": "https://www.tacoselregionc.com/",
+     "price": "$",
+     "cuisine": "Monterrey-style tacos",
+     "why": "Known for trompo-carved pork tacos and gringas at very low prices.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=142954",
+       "date": "2023-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Wanderlog listing with regular hours and a Google review dated 2026-06)"
+    },
+    {
+     "name": "Maria's Mexican Restaurant",
+     "area": "South Blvd near Tyvola",
+     "address": "5234 South Blvd, Charlotte, NC 28217",
+     "website": "https://www.google.com/maps/search/?api=1&query=Maria%27s%20Mexican%20Restaurant%205234%20South%20Blvd%20Charlotte",
+     "price": "$",
+     "cuisine": "Mexican, birria",
+     "why": "Birria-focused South Blvd spot where the quesabirria is the move; also has a vegan menu.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Azul Tacos and Beer",
+     "area": "Thrift Rd / Wesley Heights area",
+     "address": "2122 Thrift Rd, Charlotte, NC 28208",
+     "website": "https://www.google.com/maps/search/?api=1&query=Azul%20Tacos%20and%20Beer%202122%20Thrift%20Rd%20Charlotte",
+     "price": "$",
+     "cuisine": "Mexican street tacos",
+     "why": "Casual street-taco counter with big aguas frescas, recommended by locals for straightforward, good tacos.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "forum",
+       "url": "https://www.foodtalkcentral.com/t/charlotte-recommendations/16646",
+       "date": "2025-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended on Food Talk Central in Sep 2025); not confirmed on Google listing"
+    },
+    {
+     "name": "Taqueria Mal Pan",
+     "area": "SouthPark (Piedmont Row)",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Taqueria%20Mal%20Pan%20Charlotte",
+     "price": "$$",
+     "cuisine": "Modern Mexican tacos",
+     "why": "Chef-driven taqueria praised for fresh tortillas and cochinita pibil on blue corn.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=142954",
+       "date": "2023-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Que Fresa Taqueria & Bar",
+     "area": "Wesley Heights (W Morehead St)",
+     "address": "1500 W Morehead St A, Charlotte, NC 28208",
+     "website": "https://www.eatquefresa.com/",
+     "price": "$$",
+     "cuisine": "Taqueria and bar",
+     "why": "Lively taqueria and bar with a patio, known for shrimp dishes and margaritas.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (Wanderlog listing shows regular hours, no closure flag); not confirmed on official site"
+    },
+    {
+     "name": "Superica",
+     "area": "South End and Strawberry Hill (Providence Rd)",
+     "address": "101 W Worthington Ave, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Superica%20Charlotte",
+     "price": "$$",
+     "cuisine": "Tex-Mex",
+     "why": "Atlanta-born Tex-Mex hit for its chile con queso, fajitas and margaritas.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://lr.in.psf.lt/r/Charlotte/comments/1ffgnhl/authentic_mexican_food",
+       "date": "2024-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Paco's Tacos & Tequila",
+     "area": "SouthPark (Morrison Blvd)",
+     "address": "6401 Morrison Blvd, Charlotte, NC 28211",
+     "website": "https://www.google.com/maps/search/?api=1&query=Paco%27s%20Tacos%20%26%20Tequila%20Charlotte",
+     "price": "$$",
+     "cuisine": "Tex-Mex",
+     "why": "Texas-style Tex-Mex with a deep tequila list; the Outlaw steak fajitas get the praise.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/05/04/best-mexican-restaurants-in-charlotte-nc",
+       "date": "2024-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://lr.ggtyler.dev/r/Charlotte/comments/oku6m6/folks_in_charlotte_from_other_countriesfood/h5birou/?context=3",
+       "date": "2021-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    }
+   ]
+  },
+  {
+   "id": "pizza",
+   "places": [
+    {
+     "name": "Inizio Pizza Napoletana",
+     "area": "Dilworth/Park Rd, Cotswold, Ballantyne, Huntersville, Fort Mill",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Inizio%20Pizza%20Napoletana%20Charlotte",
+     "price": "$$",
+     "cuisine": "Neapolitan pizza",
+     "why": "Strict wood-fired Neapolitan pies with imported ingredients; the pistachio pesto pie is the signature.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1ufou68/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (discussed as current in a March 2026 r/Charlotte thread); not confirmed on official site"
+    },
+    {
+     "name": "Bird Pizzeria",
+     "area": "Optimist Park",
+     "address": "510 E 15th St Ste A, Charlotte, NC 28206",
+     "website": "http://www.birdpizzeria.com/",
+     "price": "$$",
+     "cuisine": "East Coast pizza",
+     "why": "Hyped whole-pie spot (named by the NYT) known for a short menu and a standout white pie; some locals call it overrated.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (Wanderlog listing shows regular hours; debated as current in a March 2026 r/Charlotte thread)"
+    },
+    {
+     "name": "Pizza Baby",
+     "area": "Wesley Heights (West) and Elizabeth (East)",
+     "address": "2135 Thrift Rd Ste 101, Charlotte, NC 28208",
+     "website": "https://eatpizzababy.com/",
+     "price": "$$",
+     "cuisine": "NY-style and Roman pizza",
+     "why": "Big NY-style pies on the west side and Roman-style focaccia slices at the Elizabeth shop.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2024/04/04/top-dishes-charlotte-recommendations-march-2024",
+       "date": "2024-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (Wanderlog listing shows regular hours, no closure flag); note mixed reddit opinion in 2026"
+    },
+    {
+     "name": "Benny Pennello's",
+     "area": "NoDa (sister shop Benny Ferrovia's in South End)",
+     "address": "2909 N Davidson St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Benny%20Pennello%27s%20Charlotte",
+     "price": "$",
+     "cuisine": "Giant NY-style slices",
+     "why": "28-inch pies sold by the oversized slice; a cheap, filling late-night staple.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://queencityhag.substack.com/p/19-slice-slice-baby",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (reviewed in person May 2025); not confirmed on Google listing"
+    },
+    {
+     "name": "Zämbies",
+     "area": "NoDa",
+     "address": "3204 N Davidson St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Zambies%20pizza%20NoDa%20Charlotte",
+     "price": "$",
+     "cuisine": "Pizza by the slice",
+     "why": "Walk-up window serving huge, greasy-in-a-good-way slices to the NoDa late-night crowd.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://queencityhag.substack.com/p/19-slice-slice-baby",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (reviewed in person May 2025); not confirmed on Google listing"
+    },
+    {
+     "name": "PIE.ZAA",
+     "area": "South End",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=PIE.ZAA%20South%20End%20Charlotte",
+     "price": "$",
+     "cuisine": "Pizza by the slice",
+     "why": "Asheville import with crispy cup-and-char pepperoni slices and the honey-pesto Sweet Caroline pie.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://queencityhag.substack.com/p/19-slice-slice-baby",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (ranked #1 pepperoni slice after an in-person visit, May 2025); not confirmed on Google listing"
+    },
+    {
+     "name": "Geno D's Pizza",
+     "area": "Uptown/First Ward (Market at 7th St)",
+     "address": "224 E 7th St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Geno%20D%27s%20Pizza%20224%20E%207th%20St%20Charlotte",
+     "price": "$",
+     "cuisine": "Jersey Shore pizza",
+     "why": "Family-run Jersey-style shop best known for its square grandma pie.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Due Amici Pizza",
+     "area": "North Charlotte (Docia Crossing Rd)",
+     "address": "5346 Docia Crossing Rd, Charlotte, NC",
+     "website": "https://www.google.com/maps/search/?api=1&query=Due%20Amici%20Pizza%20Charlotte",
+     "price": "$",
+     "cuisine": "NY-style pizza",
+     "why": "Counter-service NY-style slices and pies with house-made dough and sauce that transplants vouch for.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1ufou68/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended as current in a March 2026 r/Charlotte thread)"
+    },
+    {
+     "name": "The Crust Pizza",
+     "area": "Montford (also south Charlotte)",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=The%20Crust%20Pizza%20Montford%20Charlotte",
+     "price": "$$",
+     "cuisine": "Midwest tavern-style pizza",
+     "why": "Thin, crispy, square-cut Midwest-style pizza that drew the most votes in a 2026 r/Charlotte pizza thread.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1ufou68/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-03",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended by 3 commenters in a March 2026 r/Charlotte thread)"
+    },
+    {
+     "name": "Stagioni",
+     "area": "Myers Park (Providence Rd)",
+     "address": "715 Providence Rd, Charlotte, NC 28207",
+     "website": "https://www.google.com/maps/search/?api=1&query=Stagioni%20715%20Providence%20Rd%20Charlotte",
+     "price": "$$$",
+     "cuisine": "Italian, wood-fired pizza",
+     "why": "Upscale Italian house with house-made mozzarella and sausage pies served with scissors, plus strong pastas.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1ufou68/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (mentioned as current in a March 2026 r/Charlotte thread)"
+    },
+    {
+     "name": "Hawthorne's New York Pizza & Bar",
+     "area": "Many locations (South End, Elizabeth, Mint Hill, Matthews, Huntersville, Concord, Harrisburg)",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Hawthorne%27s%20New%20York%20Pizza%20Charlotte",
+     "price": "$$",
+     "cuisine": "NY-style pizza, bar",
+     "why": "Local mini-chain for big NY and Sicilian pies to share, with the buffalo chicken Inducer as its signature.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/best-pizza-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=138034",
+       "date": "2024-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read; multiple locations)"
+    },
+    {
+     "name": "Luisa's Brick Oven Pizzeria",
+     "area": "Park Rd / Abbey Place",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Luisa%27s%20Brick%20Oven%20Pizzeria%20Charlotte",
+     "price": "$$",
+     "cuisine": "Brick-oven pizza",
+     "why": "Neighborhood favorite off Park Road with pies from an Italian-imported brick oven; build-your-own is the way.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1ufou68/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2023/09/25/best-pizza-in-charlotte-94019",
+       "date": "2025-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended as current in a March 2026 r/Charlotte thread)"
+    }
+   ]
+  },
+  {
+   "id": "burgers",
+   "places": [
+    {
+     "name": "Brooks' Sandwich House",
+     "area": "NoDa",
+     "address": "2710 N Brevard St, Charlotte, NC 28205",
+     "website": "https://m.facebook.com/BrooksSandwichHouse/",
+     "price": "$",
+     "cuisine": "Old-school burgers",
+     "why": "Cash-only walk-up since 1973; order it all the way with homemade chili; Reader's Digest's best burger in NC.",
+     "sources": [
+      {
+       "type": "forum",
+       "url": "https://www.foodtalkcentral.com/t/charlotte-recommendations/16646",
+       "date": "2025-09",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://wsoctv.com/news/local/beloved-charlotte-restaurant-gets-nod-best-burger-nc/T73XX2LTBNAPTKYPSEPVGYQTIY",
+       "date": "2022-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.aol.com/articles/9-unassuming-restaurants-north-carolina-040000994.html",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Wanderlog shows Mon-Fri hours; Google review dated Jan 2026 describes a visit the previous week); weekday lunch only, cash only"
+    },
+    {
+     "name": "Harriet's Hamburgers",
+     "area": "Optimist Hall (Optimist Park); new Plaza Midwood location",
+     "address": "1115 N Brevard St, Stall #6, Charlotte, NC 28206",
+     "website": "https://harrietshamburgers.com",
+     "price": "$",
+     "cuisine": "Smash burgers",
+     "why": "Short smash-burger menu at Optimist Hall known for crispy edges and very cheesy doubles (and a Juicy Lucy).",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.wbtv.com/2024/11/08/does-harriets-hamburgers-charlotte-live-up-hype",
+       "date": "2024-11",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (WBTV, 2026-03: opened a new Plaza Midwood restaurant; Optimist Hall stall listed with regular hours)"
+    },
+    {
+     "name": "Ace No. 3",
+     "area": "Belmont, Myers Park, Uptown, Concord",
+     "address": "1001 Belmont Ave, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Ace%20No.%203%20Charlotte",
+     "price": "$",
+     "cuisine": "Smash burgers",
+     "why": "Saucy double smash burger with comeback sauce and buttery buns that Charlotte raves about.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.wbtv.com/2024/08/19/is-ace-no-3-burger-best-charlotte/",
+       "date": "2024-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (WBTV QC Life search result, 2026-03: Ace No. 3 launched a weekday breakfast menu uptown; snippet only)"
+    },
+    {
+     "name": "Bang Bang Burgers",
+     "area": "South End and Elizabeth",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Bang%20Bang%20Burgers%20Charlotte",
+     "price": "$$",
+     "cuisine": "Burgers",
+     "why": "The burger most locals name first: balanced, fresh burgers with excellent fries, with the Bang sauce as the signature.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.wbtv.com/2025/03/06/how-bang-bang-burgers-fares-our-search-charlottes-best-hamburger/",
+       "date": "2025-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (reviewed in person by WBTV Mar 2025); not confirmed on Google listing"
+    },
+    {
+     "name": "Pinky's Westside Grill",
+     "area": "Wesley Heights / FreeMoreWest (also Huntersville)",
+     "address": "1600 W Morehead St, Charlotte, NC 28208",
+     "website": "https://www.google.com/maps/search/?api=1&query=Pinky%27s%20Westside%20Grill%20Charlotte",
+     "price": "$$",
+     "cuisine": "Burgers, dive grill",
+     "why": "Funky west-side grill famous for over-the-top burgers like the White Trash with fried pickles and onion rings.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wccbcharlotte.com/?p=889688",
+       "date": "2021-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (top-voted recommendation in a mid-2025 r/Charlotte thread)"
+    },
+    {
+     "name": "South 21 Drive In",
+     "area": "East Charlotte (E Independence Blvd)",
+     "address": "3101 E Independence Blvd, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=South%2021%20Drive%20In%20Charlotte",
+     "price": "$",
+     "cuisine": "Drive-in burgers",
+     "why": "1955 carhop drive-in for classic double-patty Super Boy burgers with chili and slaw.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended as current in a mid-2025 r/Charlotte thread)"
+    },
+    {
+     "name": "The Diamond",
+     "area": "Plaza Midwood",
+     "address": "1901 Commonwealth Ave, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=The%20Diamond%20restaurant%20Plaza%20Midwood%20Charlotte",
+     "price": "$$",
+     "cuisine": "Diner burgers",
+     "why": "Retro diner dating to 1945, known for stacked burgers like the Big Block and the triple-patty Full Blown Hemi.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Moo & Brew",
+     "area": "Plaza Midwood",
+     "address": "1300 Central Ave, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Moo%20and%20Brew%20Charlotte",
+     "price": "$$",
+     "cuisine": "Burgers and beer",
+     "why": "Laid-back burgers-and-craft-beer bar with creative builds like the jalapeno Peter Piper.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/eat-drink/the-15-best-burgers-in-charlotte",
+       "date": "n.d. (undated page, read 2026-10)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=12787",
+       "date": "2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "unverified (no 2025-2026 status source read)"
+    },
+    {
+     "name": "Surefire Market",
+     "area": "Camp North End",
+     "address": null,
+     "website": "https://www.google.com/maps/search/?api=1&query=Surefire%20Market%20Camp%20North%20End%20Charlotte",
+     "price": "$",
+     "cuisine": "Smash burgers, chicken",
+     "why": "Newcomer named one of 2025's best new restaurants for its smash burgers and fried chicken sandwiches.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/12/19/best-new-restaurants-charlotte-2025",
+       "date": "2025-12",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open as of 2025-12 (Axios best-new-restaurants list)"
+    }
+   ]
+  }
+ ],
+ "notes": "Reddit: direct reddit.com and old.reddit.com URLs (and .json) were refused by this session's fetch allowlist, so most threads could not be read. Three r/Charlotte threads were read through mirrors that appeared in search results: 'Authentic Mexican food?' (Sep 2024, lr.in.psf.lt), a 2025 business-trip food thread (reddit.sentinel-team.org snapshot, 17 of 35 comments), and '20 Best Pizza Places, per the Observer' (Mar 2026, sentinel snapshot, 45 of 94 comments). One 2021 thread was read via lr.ggtyler.dev. Comment scores came from the snapshots and may be partial. There were no readable reddit threads specifically about BBQ or burgers. Cardinal & Pine's 'best BBQ in Charlotte, according to Reddit' (Sep 2024) summarizes reddit thread mbpu5h, which I could not read; it is logged as an article. Blocked or failed: AOL reposts of Charlotte Observer/CharlotteFive pieces (BBQ guide, BBQ reader vote, chef's 24 days of pizza, 2025 openings and closings) returned errors. Infatuation and Charlotte's Got A Lot category pages outside search results were refused. The WebSearch budget ran out before every open_check was done, so places marked 'unverified' have no 2025-26 status source; check their Google listings before publishing. Undated sources: Infatuation best-restaurants guide, Charlotte's Got A Lot (burgers, pizza, soul food) and the AOL affordable-BBQ piece have no visible date. The CharlotteFive 2023 pizza reader poll lists only nominees, so it was not counted. Closures and exclusions: Leah & Louise (Camp North End, Southern) is permanently closed per Wanderlog, so it is excluded. Price's Chicken Coop closed in 2021. Noche Bruta (Camp North End, Mexican) has closed (Queen City Hag 'farewell' post title). Gravity Sourdough Pizza (Camp North End) was 'temporarily closed' per Axios's May 2025 update, so it is excluded. Kid Cashew got a lukewarm burger review from WBTV in Aug 2026, so it is excluded. Excluded for geography: Jon G's Barbecue (Peachland, Anson County, about an hour away) is the #1 pick in every barbecue source (Smoke Sheet 2024, Barbecue Bros Nov 2024, Time Out, Barbecue Bros Big Board) and could go in a road-trip note. Also outside the area: Aliño Pizzeria (Mooresville), Barcelona Burger (Mooresville), The Smoke Pit (Concord/Gastonia, 2021 reddit). Near-misses: Why Not Pizza (east Charlotte; Islands.com, Mar 2026, quotes r/Charlotte praise; 1 source); Luigi's Pizza (score-9 comment in the 2026 pizza thread); Zio and Sal's Pizza Factory; Tamales La Pasadita, Taqueria Los Altos and MAS (Axios only); Calle Sol (Cuban, 2 commenters in 2025); Comet Grill and Park Road Soda Shoppe (CGAL only)."
+}

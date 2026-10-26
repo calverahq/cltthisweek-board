@@ -1,0 +1,1256 @@
+{
+ "categories": [
+  {
+   "id": "date-night",
+   "places": [
+    {
+     "name": "McNinch House Restaurant",
+     "area": "Uptown (Fourth Ward)",
+     "address": "511 N Church St, Charlotte, NC 28202",
+     "website": "https://mcninchhouserestaurant.com",
+     "price": "$$$$",
+     "cuisine": "French-American tasting menu",
+     "why": "Multicourse tasting menu with wine pairings in a restored Victorian house; the city's go-to proposal and anniversary spot.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/things-to-do/charlotte-for-couples",
+       "date": "2026-10",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; included in Charlotte's Got A Lot couples guide updated Oct 2026)"
+    },
+    {
+     "name": "Restaurant Constance",
+     "area": "Wesley Heights",
+     "address": "2200 Thrift Rd, Charlotte, NC 28208",
+     "website": "https://restaurantconstance.com",
+     "price": "$$$$",
+     "cuisine": "Seasonal New American",
+     "why": "Tiny 38-seat room with a chef's counter and a seasonal menu that feels personal and special.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/perfect-for/date-night",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Infatuation listings updated Mar 2026)"
+    },
+    {
+     "name": "Counter-",
+     "area": "Wesley Heights",
+     "address": "",
+     "website": "https://counterclt.com",
+     "price": "$$$$",
+     "cuisine": "Tasting menu",
+     "why": "Michelin-starred multi-course tasting menu with optional pairings; a true splurge for a big occasion.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottesgotalot.com/articles/things-to-do/charlotte-for-couples",
+       "date": "2026-10",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Charlotte's Got A Lot Oct 2026 and Infatuation Mar 2026)"
+    },
+    {
+     "name": "Fin & Fino",
+     "area": "Uptown",
+     "address": "135 Levine Avenue of the Arts, Ste 100, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Fin+%26+Fino+135+Levine+Avenue+of+the+Arts+Charlotte",
+     "price": "$$$",
+     "cuisine": "Seafood, raw bar",
+     "why": "Polished raw bar with inventive cocktails and shareable seafood plates, a reliable pre-show or anniversary pick.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.northcarolinacharm.com/best-date-night-restaurants-in-charlotte-nc/",
+       "date": "2025-01",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/reviews/fin-and-fino",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation review and guide updated Mar 2026)"
+    },
+    {
+     "name": "Supperland",
+     "area": "Plaza Midwood",
+     "address": "1212 The Plaza, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Supperland+1212+The+Plaza+Charlotte",
+     "price": "$$$$",
+     "cuisine": "Southern steakhouse",
+     "why": "Steakhouse dinner inside a converted 1950s church with a moody, theatrical atmosphere and strong cocktails.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/perfect-for/date-night",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guides updated Mar 2026)"
+    },
+    {
+     "name": "The Fig Tree Restaurant",
+     "area": "Elizabeth",
+     "address": "1601 E 7th St, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Fig+Tree+Restaurant+1601+E+7th+St+Charlotte",
+     "price": "$$$$",
+     "cuisine": "Upscale American, wine",
+     "why": "Candlelit 1913 bungalow with elk chops, lamb carpaccio and a deep wine list; a long-standing special-occasion favorite.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://stacker.com/stories/north-carolina/charlotte/highest-rated-restaurants-special-occasions-charlotte-according-tripadvisor",
+       "date": "2023-01",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "forum",
+       "url": "https://www.fishbowlapp.com/post/just-moved-to-the-city-and-im-excited-to-get-out-and-try-some-new-restaurants-whats-your-all-time-favorite-spot-to-grab-a-bite",
+       "date": "c.2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended in a Jun 2025 r/Charlotte thread; could not re-verify in 2026 because search budget ran out)"
+    },
+    {
+     "name": "Mariposa",
+     "area": "Uptown (Mint Museum)",
+     "address": "500 S Tryon St, Charlotte, NC 28202",
+     "website": "https://mariposaclt.com",
+     "price": "$$$",
+     "cuisine": "Global small plates",
+     "why": "Restaurant inside the Mint Museum with skyline views, world-influenced dishes and a standout dessert.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live, describes restaurant at the Mint Museum)"
+    },
+    {
+     "name": "Yunta Nikkei",
+     "area": "South End",
+     "address": "",
+     "website": "https://yuntanikkei.com",
+     "price": "$$$",
+     "cuisine": "Peruvian-Japanese (Nikkei)",
+     "why": "Ceviche, sushi-style plates and pisco cocktails in a stylish room; made Yelp's national top date-night list in 2025.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/news/local/charlotte-restaurants-rated-among-best-date-night/S32GJ3IHXVFZLKPWOREEG6VYKQ",
+       "date": "2025-02",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live 2026)"
+    },
+    {
+     "name": "Beef 'N Bottle Steakhouse",
+     "area": "LoSo (South Blvd)",
+     "address": "4538 South Blvd, Charlotte, NC 28209",
+     "website": "https://www.google.com/maps/search/?api=1&query=Beef+N+Bottle+Steakhouse+4538+South+Blvd+Charlotte",
+     "price": "$$$",
+     "cuisine": "Classic steakhouse",
+     "why": "Dark, old-school steakhouse with thick cuts and stiff drinks; retro romance without the corporate feel.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/perfect-for/date-night",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guides updated Mar 2026)"
+    },
+    {
+     "name": "Sea Level NC",
+     "area": "Uptown",
+     "address": "129 E 5th St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Sea+Level+NC+129+E+5th+St+Charlotte",
+     "price": "$$$",
+     "cuisine": "Seafood, oysters",
+     "why": "Oysters and cocktails in a lively Uptown room; an easy, fun date before a show or game.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/perfect-for/date-night",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://stacker.com/stories/north-carolina/charlotte/highest-rated-restaurants-special-occasions-charlotte-according-tripadvisor",
+       "date": "2023-01",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation best-restaurants guide updated Mar 2026)"
+    },
+    {
+     "name": "Customshop",
+     "area": "Elizabeth",
+     "address": "1601 Elizabeth Ave, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Customshop+1601+Elizabeth+Ave+Charlotte",
+     "price": "$$$",
+     "cuisine": "Seasonal American",
+     "why": "Small, rustic-chic dining room with a seasonal menu; a quiet neighborhood date spot locals keep returning to.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guide updated Mar 2026)"
+    },
+    {
+     "name": "The Artisan's Palate",
+     "area": "NoDa",
+     "address": "1218 E 36th St, Ste A, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Artisan%27s+Palate+1218+E+36th+St+Charlotte",
+     "price": "$$",
+     "cuisine": "Tapas, cocktails",
+     "why": "String-lit patio, shareable tapas and creative cocktails; a lower-key date with real ambiance.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guide updated Mar 2026)"
+    },
+    {
+     "name": "Aqua e Vino",
+     "area": "Providence Rd (Myers Park area)",
+     "address": "4219 Providence Rd, Charlotte, NC 28211",
+     "website": "https://aquaevino.com",
+     "price": "$$$",
+     "cuisine": "Italian",
+     "why": "Very small, intimate Italian dining room with precise cooking; book well ahead.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site lists current fall/winter hours: dinner Tue-Sat)"
+    },
+    {
+     "name": "La Belle Hélène",
+     "area": "Uptown",
+     "address": "300 S Tryon St, Ste 100, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=La+Belle+Helene+300+S+Tryon+St+Charlotte",
+     "price": "$$$",
+     "cuisine": "French brasserie",
+     "why": "Grand Parisian-style brasserie with classics like steak tartare; good for impressing a date or visitors.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=151361",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=152859",
+       "date": "undated (>=2024; lists Hestia Rooftop)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.charlottemagazine.com/?p=133416",
+       "date": "undated (c.2019-2020)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (recommended in Jun 2025 r/Charlotte thread and recent Charlotte Magazine lists; not re-verified in 2026)"
+    }
+   ]
+  },
+  {
+   "id": "late-night",
+   "places": [
+    {
+     "name": "Midnight Diner",
+     "area": "Uptown",
+     "address": "420 E Trade St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Midnight+Diner+420+E+Trade+St+Charlotte",
+     "price": "$",
+     "cuisine": "Retro diner",
+     "why": "The default after-midnight move: a 24/7 '50s-style diner with breakfast, burgers and shrimp and grits. Open 24/7.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1uetvg4/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-02",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/late-night-restaurants-charlotte/",
+       "date": "2024-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte's Got A Lot late-night list updated Jun 2026; open 24 hours)"
+    },
+    {
+     "name": "RedEye Diner",
+     "area": "Uptown (Queen City Quarter)",
+     "address": "210 E Trade St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=RedEye+Diner+210+E+Trade+St+Charlotte",
+     "price": "$",
+     "cuisine": "Diner",
+     "why": "Second 24-hour Uptown diner, known for milkshakes and chicken and waffles. Open 24/7.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte's Got A Lot list updated Jun 2026)"
+    },
+    {
+     "name": "Benny Pennello's",
+     "area": "NoDa",
+     "address": "2909 N Davidson St, Charlotte, NC 28205",
+     "website": "https://bennypennellos.com",
+     "price": "$",
+     "cuisine": "Giant-slice pizza",
+     "why": "Huge cheap slices that soak up a night out in NoDa; sister shop Benny Ferrovia's covers South End. Until 2 AM Thu, 3 AM Fri-Sat.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/late-night-restaurants-charlotte/",
+       "date": "2024-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Charlotte's Got A Lot Jun 2026)"
+    },
+    {
+     "name": "Zämbies Pizza",
+     "area": "NoDa",
+     "address": "3204 N Davidson St, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Zambies+Pizza+3204+N+Davidson+St+Charlotte",
+     "price": "$",
+     "cuisine": "Oversized pizza slices",
+     "why": "Massive slices for the bar crowd. Midnight most nights, 1 AM Thu, 3 AM Fri-Sat.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open per Charlotte's Got A Lot list updated Jun 2026 (note: zambiespizza.com shows a 'Coming Soon' page; confirm hours before publishing)"
+    },
+    {
+     "name": "The Degenerate",
+     "area": "Villa Heights / NoDa",
+     "address": "2100 N Davidson St, Charlotte, NC 28205",
+     "website": "https://thedegenerateclt.com",
+     "price": "$$",
+     "cuisine": "Gastropub small plates",
+     "why": "Creative sandwiches and shareable plates served late with craft beer. Kitchen until about midnight Sun-Wed and 1 AM Thu-Sat.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/late-night-restaurants-charlotte/",
+       "date": "2024-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Charlotte's Got A Lot Jun 2026)"
+    },
+    {
+     "name": "Dish",
+     "area": "Plaza Midwood",
+     "address": "1220 Thomas Ave, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Dish+1220+Thomas+Ave+Charlotte",
+     "price": "$",
+     "cuisine": "Southern comfort food",
+     "why": "Twenty-plus-year Southern comfort spot with a late-night snack menu. Food until 1:30 AM Fri-Sun.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte's Got A Lot Jun 2026; Axios Aug 2025)"
+    },
+    {
+     "name": "Seoul Food Meat Company",
+     "area": "South End",
+     "address": "1400 S Church St, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Seoul+Food+Meat+Company+1400+S+Church+St+Charlotte",
+     "price": "$$",
+     "cuisine": "Korean-fusion BBQ",
+     "why": "Korean-inspired barbecue and fusion tacos like kimchi pork. Until midnight Sun-Thu and 2 AM Fri-Sat (South End).",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte's Got A Lot Jun 2026)"
+    },
+    {
+     "name": "Cook Out",
+     "area": "Multiple locations (e.g., Midtown)",
+     "address": "",
+     "website": "https://cookout.com",
+     "price": "$",
+     "cuisine": "Burgers, shakes",
+     "why": "Locals' cheapest late-night trays and milkshakes; many locations open until 3 or 4 AM.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1uetvg4/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-02",
+       "top": true,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (regional chain; Axios Aug 2025 and Feb 2026 r/Charlotte thread)"
+    },
+    {
+     "name": "Waffle House",
+     "area": "Multiple locations",
+     "address": "",
+     "website": "https://www.wafflehouse.com",
+     "price": "$",
+     "cuisine": "Diner breakfast",
+     "why": "The highest-voted answer in a 2026 r/Charlotte late-night thread; open 24 hours (one commenter noted some locations limit dine-in late).",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1uetvg4/snapshots/2026-06-26T20%3A21%3A16.3462Z",
+       "date": "2026-02",
+       "top": true,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (national chain, 24-hour locations)"
+    },
+    {
+     "name": "Halal Food Cart",
+     "area": "Uptown (Trade & Tryon); University City",
+     "address": "101 N Tryon St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Halal+Food+Cart+101+N+Tryon+St+Charlotte",
+     "price": "$",
+     "cuisine": "Halal platters",
+     "why": "Cheap chicken-and-lamb platters from a cart at the Square. Until 3 AM daily Uptown.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.waywardblog.com/?p=10013",
+       "date": "2022-01 (updated 2026-05)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Axios Aug 2025; Wayward blog update May 2026 lists it as open)"
+    },
+    {
+     "name": "Fuel Pizza",
+     "area": "Plaza Midwood",
+     "address": "1501 Central Ave, Charlotte, NC 28205",
+     "website": "https://fuelpizza.com",
+     "price": "$",
+     "cuisine": "NY-style pizza",
+     "why": "Pizza and wings in a converted vintage gas station. Until 2 AM Sun-Wed, 3 AM Thu-Sat.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Axios Aug 2025)"
+    },
+    {
+     "name": "Amélie's French Bakery & Café",
+     "area": "NoDa",
+     "address": "136 E 36th St, Charlotte, NC 28206",
+     "website": "https://ameliesfrenchbakery.com",
+     "price": "$",
+     "cuisine": "French bakery",
+     "why": "Late-night pastries and coffee, like salted caramel brownies. Until midnight Fri-Sat (no longer 24 hours).",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://charlottesgotalot.com/articles/eat-drink/charlotte-late-night-food",
+       "date": "2026-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://cardinalpine.com/community/late-night-restaurants-charlotte/",
+       "date": "2024-07",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live; Charlotte's Got A Lot Jun 2026)"
+    },
+    {
+     "name": "Chex Grill & Wings",
+     "area": "Multiple (Uptown, University, Albemarle Rd, Pineville)",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Chex+Grill+and+Wings+Charlotte",
+     "price": "$",
+     "cuisine": "Wings",
+     "why": "Cheap wings with lots of flavors. Until 2 AM on weekends at listed locations.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/08/21/late-night-food-munchies-midnight-charlotte",
+       "date": "2025-08",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Axios Aug 2025)"
+    }
+   ]
+  },
+  {
+   "id": "cheap-eats",
+   "places": [
+    {
+     "name": "Pinky's Westside Grill",
+     "area": "Wesley Heights / FreeMoreWest (also Huntersville)",
+     "address": "1600 W Morehead St, Charlotte, NC 28208",
+     "website": "https://pinkyswestsidegrill.com",
+     "price": "$",
+     "cuisine": "Burgers, dogs",
+     "why": "Funky former-garage burger joint with fried pickles and the Westside burger; fun and inexpensive.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": true,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live with Charlotte and Huntersville locations; Infatuation Mar 2026)"
+    },
+    {
+     "name": "The Diamond",
+     "area": "Plaza Midwood",
+     "address": "1901 Commonwealth Ave, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=The+Diamond+Restaurant+1901+Commonwealth+Ave+Charlotte",
+     "price": "$",
+     "cuisine": "Classic diner",
+     "why": "Decades-old neighborhood diner with cheap burgers and gyros and a patio.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guide, tagged cheap eats, updated Mar 2026)"
+    },
+    {
+     "name": "Lang Van",
+     "area": "East Charlotte",
+     "address": "3019 Shamrock Dr, Charlotte, NC 28215",
+     "website": "https://www.google.com/maps/search/?api=1&query=Lang+Van+3019+Shamrock+Dr+Charlotte",
+     "price": "$",
+     "cuisine": "Vietnamese",
+     "why": "Beloved family-run Vietnamese spot with huge menu, pho and curries at low prices.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://aol.com/best-restaurants-grab-cheap-dinner-100000975.html",
+       "date": "undated (syndicated local list)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "forum",
+       "url": "https://www.fishbowlapp.com/post/just-moved-to-the-city-and-im-excited-to-get-out-and-try-some-new-restaurants-whats-your-all-time-favorite-spot-to-grab-a-bite",
+       "date": "c.2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guide updated Mar 2026)"
+    },
+    {
+     "name": "Le's Sandwiches & Cafe",
+     "area": "Sugar Creek / North Tryon",
+     "address": "217 E Sugar Creek Rd, Unit 150, Charlotte, NC 28213",
+     "website": "https://www.google.com/maps/search/?api=1&query=Le%27s+Sandwiches+Cafe+217+E+Sugar+Creek+Rd+Charlotte",
+     "price": "$",
+     "cuisine": "Banh mi",
+     "why": "Cult-favorite grilled pork banh mi for well under $10.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.waywardblog.com/?p=10013",
+       "date": "2022-01 (updated 2026-05)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "forum",
+       "url": "https://www.fishbowlapp.com/post/just-moved-to-the-city-and-im-excited-to-get-out-and-try-some-new-restaurants-whats-your-all-time-favorite-spot-to-grab-a-bite",
+       "date": "c.2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (relocated across the lot from Asian Corner Mall; Wayward blog update May 2026 confirms reopening)"
+    },
+    {
+     "name": "Mert's Heart & Soul",
+     "area": "Uptown",
+     "address": "214 N College St, Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Mert%27s+Heart+and+Soul+214+N+College+St+Charlotte",
+     "price": "$$",
+     "cuisine": "Soul food",
+     "why": "Uptown soul-food institution; veggie plates with cornbread around $10.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
+       "date": "2026-03",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://aol.com/best-restaurants-grab-cheap-dinner-100000975.html",
+       "date": "undated (syndicated local list)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Infatuation guide updated Mar 2026)"
+    },
+    {
+     "name": "Dish",
+     "area": "Plaza Midwood",
+     "address": "1220 Thomas Ave, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Dish+1220+Thomas+Ave+Charlotte",
+     "price": "$",
+     "cuisine": "Southern comfort food",
+     "why": "Low-cost comfort food like chicken and dumplings and pimento cheese, also open late.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://aol.com/best-restaurants-grab-cheap-dinner-100000975.html",
+       "date": "undated (syndicated local list)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Charlotte's Got A Lot Jun 2026; Axios Aug 2025)"
+    },
+    {
+     "name": "Lupie's Cafe",
+     "area": "Grier Heights / Monroe Rd",
+     "address": "2718 Monroe Rd, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Lupie%27s+Cafe+2718+Monroe+Rd+Charlotte",
+     "price": "$",
+     "cuisine": "Diner comfort food",
+     "why": "Homey diner famous for chili (including Cincinnati-style over spaghetti) and cornbread.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://aol.com/best-restaurants-grab-cheap-dinner-100000975.html",
+       "date": "undated (syndicated local list)",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "forum",
+       "url": "https://www.fishbowlapp.com/post/just-moved-to-the-city-and-im-excited-to-get-out-and-try-some-new-restaurants-whats-your-all-time-favorite-spot-to-grab-a-bite",
+       "date": "c.2022",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "likely open (no closure found, but could not confirm in 2026; lupiescafe.com domain now points to an unrelated site)"
+    },
+    {
+     "name": "Curry Gate",
+     "area": "Optimist Park / North End",
+     "address": "630 W 24th St, Charlotte, NC 28206",
+     "website": "https://currygate.com",
+     "price": "$$",
+     "cuisine": "Nepali, Indian",
+     "why": "Flavorful Nepali curries around $14, recommended by multiple Redditors.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://aol.com/best-restaurants-grab-cheap-dinner-100000975.html",
+       "date": "undated (syndicated local list)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live with W 24th St address)"
+    },
+    {
+     "name": "Skrimp Shack",
+     "area": "Eastway (Central Ave)",
+     "address": "3718 Central Ave, Ste A, Charlotte, NC 28205",
+     "website": "https://skrimpshack.com",
+     "price": "$",
+     "cuisine": "Fried seafood",
+     "why": "Cheap fried whiting and shrimp sandwiches and baskets.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site lists Charlotte Central Ave location; the Pineville-Matthews Rd location was not listed)"
+    },
+    {
+     "name": "Rhino Market & Deli",
+     "area": "Multiple (Wesley Heights, Uptown, NoDa, South End)",
+     "address": "",
+     "website": "https://rhinomarket.com",
+     "price": "$",
+     "cuisine": "Deli sandwiches",
+     "why": "Neighborhood market-deli with big sandwiches and tortas at fair prices.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
+       "date": "2025-06",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site live, 5 Charlotte-area locations)"
+    },
+    {
+     "name": "Johnny Burrito",
+     "area": "Uptown",
+     "address": "301 S Tryon St (lower level), Charlotte, NC 28202",
+     "website": "https://www.google.com/maps/search/?api=1&query=Johnny+Burrito+301+S+Tryon+St+Charlotte",
+     "price": "$",
+     "cuisine": "Burritos",
+     "why": "Hidden basement burrito counter Uptown; big burritos around $9.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.waywardblog.com/?p=10013",
+       "date": "2022-01 (updated 2026-05)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open per Wayward blog update May 2026 (not marked closed)"
+    },
+    {
+     "name": "Common Market",
+     "area": "South End, Plaza Midwood, Oakwold",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Common+Market+Charlotte",
+     "price": "$",
+     "cuisine": "Deli, bottle shop",
+     "why": "Laid-back deli/bottle shop with cheap sandwiches and patio hangs.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2022/05/19/50-cheap-eats-charlotte-89766",
+       "date": "2022-05",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.waywardblog.com/?p=10013",
+       "date": "2022-01 (updated 2026-05)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open per Wayward blog update May 2026 (not marked closed)"
+    },
+    {
+     "name": "Kabab-Je Rotisserie & Grille",
+     "area": "Matthews",
+     "address": "2233 Matthews Township Pkwy, Unit E, Matthews, NC 28105",
+     "website": "https://kababje.com",
+     "price": "$",
+     "cuisine": "Lebanese",
+     "why": "Family-run Lebanese spot with inexpensive kafta sandwiches and kabobs.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.waywardblog.com/?p=10013",
+       "date": "2022-01 (updated 2026-05)",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site lists hours Tue-Sun 11 AM-9 PM)"
+    }
+   ]
+  }
+ ],
+ "notes": "Reddit: www.reddit.com and old.reddit.com returned 403 (blocked), the nyc1.lr.ggtyler.dev mirror would not connect, and Reddit search pages were not on the fetch allowlist. I did not try to work around that. The only Reddit threads I read were three r/Charlotte threads that search surfaced as archived snapshots on reddit.sentinel-team.org: 'what to do late night' (c.Feb 2026; Reddit id 1uetvg4), 'Got a 2 day business trip to Charlotte' (c.Jun 2025; id 1r6k63d) and 'AYCE sushi/date night spots rec' (c.Jun 2025; id 1r74gdz). The source URLs point to those snapshots. No public Tripadvisor or Nextdoor threads turned up in search. One Fishbowl (professional forum) Charlotte thread from c.2022 was readable. These were blocked or not fetchable: 6amcity/CLTtoday (redirect not on allowlist), Infatuation guide URLs I guessed, and AOL's '15 lunch spots under $15'. Some sources are undated or older: the Charlotte Magazine date-night, special-occasion and romantic lists have no dates (two name Hestia Rooftop, which places them in 2024 or later; the romantic survey looks c.2019-20), and the Axios cheap-eats list is from May 2022 (prices have risen). The Benable late-night list was skipped because it was undated and partly out of date (it said Amelie's is 24 hours). Closures and moves found: JJ's Red Hots, Green's Lunch, Derita Dairy Bar & Grill, Gus' Sir Beef and IndiGrille are all closed (per Wayward blog updates in 2026). Essex Bar & Bistro (Uptown), Mattie's Diner, The Bella Ciao (Uptown) and Mazi (South End) closed in Aug-Sep 2025 (WSOC/WBTV). Le's Sandwiches moved to 217 E Sugar Creek Rd. Midnight Diner moved from South End to Uptown in 2022. Amelie's NoDa is no longer 24 hours. Left out despite evidence: Kindred (Davidson, outside the allowed towns), Dot Dot Dot (members-only speakeasy), Good Food on Montford (strong date-night evidence, but goodfoodonmontford.com is a parked domain and I could not confirm it is open), Alexander Michael's and Catalina Kitchen (only one Reddit thread each). Open checks: the web search budget (200/turn, shared) ran out before every place could be checked against a Google listing. Checks rely on official sites that are live and on the most recent dated source. Places marked 'likely open' (Fig Tree, La Belle Helene, Lupie's) and Zämbies (its site shows 'Coming Soon') should be spot-checked before publishing."
+}

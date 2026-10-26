@@ -172,6 +172,33 @@ function renderWeekend(){const el=$("wkndList");if(!el)return;const ds=weekendDa
   el.innerHTML=h;
   el.querySelectorAll("[data-wk-go]").forEach(b=>b.onclick=()=>{const g=b.dataset.wkGo;if(g==="free"){F.price="free";$("price").value="free";renderLists()}else setTab(g)})}
 
+/* Food: ranked restaurant lists + food trucks */
+let FOOD=null,FOODVIEW=store.get("cltFoodView","eat"),FOODCAT=store.get("cltFoodCat","date-night");
+function setFoodView(v){FOODVIEW=v;$("foodEat").hidden=v!=="eat";$("foodTrucks").hidden=v!=="trucks";
+  document.querySelectorAll("#foodSwitch [data-fv]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.fv===v));
+  const fb=$("filterbar");if(fb&&!document.querySelector('[data-panel="food"]').hidden)fb.hidden=v==="eat";store.set("cltFoodView",v)}
+document.querySelectorAll("#foodSwitch [data-fv]").forEach(b=>b.onclick=()=>setFoodView(b.dataset.fv));
+function renderRestaurants(){const el=$("foodRank");if(!el)return;if(!FOOD){el.innerHTML=`<p class="empty">Loading…</p>`;return}
+  const cats=FOOD.categories.filter(c=>c.places.length);if(!cats.some(c=>c.id===FOODCAT))FOODCAT=cats[0].id;
+  const q=($("foodQ").value||"").trim().toLowerCase();
+  $("foodCats").innerHTML=cats.map(c=>`<button class="tog" type="button" data-fc="${c.id}" aria-pressed="${!q&&c.id===FOODCAT}">${esc(c.name)}</button>`).join("");
+  $("foodCats").querySelectorAll("[data-fc]").forEach(b=>b.onclick=()=>{FOODCAT=b.dataset.fc;$("foodQ").value="";store.set("cltFoodCat",FOODCAT);renderRestaurants()});
+  const card=(p,cat)=>{const why=[];if(p.threads)why.push(`${p.threads} r/Charlotte thread${p.threads>1?"s":""}`);if(p.guides)why.push(`${p.guides} local guide${p.guides>1?"s":""}`);
+    const site=/^https?:/.test(p.website||"")?p.website:"";
+    return `<div class="frow"><div class="frank${p.rank<=3?" top":""}">${p.rank}</div><div style="min-width:0">
+    <p class="t">${site?`<a href="${esc(site)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(p.name)}</a>`:esc(p.name)}</p>
+    <div class="v">${esc(p.area)}${p.price?" · "+esc(p.price):""}${p.cuisine?" · "+esc(p.cuisine):""}${cat?` · <span class="fcatlab">${esc(cat)}</span>`:""}</div>
+    ${p.why?`<div class="n">${esc(p.why)}</div>`:""}
+    <div class="chips"><span class="chip kind">Recommended in ${why.join(" and ")}</span></div>
+    <div class="acts"><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+" "+(p.address||p.area)+" Charlotte NC")}" target="_blank" rel="noopener">Map</a>${site&&!/google\.com\/maps/.test(site)?`<a href="${esc(site)}" target="_blank" rel="noopener">Website</a>`:""}
+    <details class="fsrc"><summary>Sources</summary>${p.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}${s.date&&s.date!=="n.d."?" ("+esc(String(s.date).slice(0,4))+")":""}</a>`).join("")}</details></div></div></div>`};
+  if(q){const hits=[];const seen=new Set();cats.forEach(c=>c.places.forEach(p=>{if([p.name,p.area,p.cuisine,p.why,c.name].join(" ").toLowerCase().includes(q)){const k=p.name+"|"+c.id;if(!seen.has(k)){seen.add(k);hits.push([p,c.name])}}}));
+    el.innerHTML=hits.length?`<h3 class="group">Matches <i>${hits.length}</i></h3><div class="flist">${hits.map(([p,c])=>card(p,c)).join("")}</div>`:`<p class="empty">No ranked places match “${esc(q)}” yet.</p>`;return}
+  const c=cats.find(x=>x.id===FOODCAT);
+  el.innerHTML=`<h3 class="group">${esc(c.name)} <i>${c.places.length}</i></h3><p class="lede" style="margin:4px 0 6px">${esc(c.blurb)}</p><div class="flist">${c.places.map(p=>card(p)).join("")}</div>${c.places.length<5?`<p class="lede" style="font-size:13.5px">More places are being checked and will be added to this list soon.</p>`:""}`;
+  $("foodMethod").querySelector("div").innerHTML=`<p>Each place earns points every time a different source recommends it. One thread or article counts once, no matter how many comments mention it.</p><ul><li>An r/Charlotte or local forum thread: 3 points, plus 2 when it was a top-voted pick or several people named it</li><li>A local food guide or article from the last two years: 2 points (older ones count less)</li></ul><p>Places have to be open, and the list is rechecked every week, so rankings move as new threads and guides come out. Last updated ${esc(fmtD(FOOD.updated))}.</p>`}
+$("foodQ").oninput=renderRestaurants;
+
 /* Panthers */
 let PAN=null;
 function renderPanthers(){const el=$("pNext");if(!el)return;if(!PAN){el.innerHTML=`<p class="empty">Loading the schedule…</p>`;return}
@@ -639,7 +666,7 @@ function applyTheme(){const r=document.documentElement;if(theme==="system")r.rem
 $("hTheme").onclick=()=>{theme=THEMES[(THEMES.indexOf(theme)+1)%3];store.set("cltTheme",theme);applyTheme()};applyTheme();
 
 /* Wiring */
-function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues"||t==="play"||t==="panthers");if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
+function setTab(t){if(!document.querySelector(`[data-panel="${t}"]`))t="week";setTimeout(fitTabs,0);document.querySelectorAll(".tab[data-tab]").forEach(b=>{b.setAttribute("aria-selected",b.dataset.tab===t);b.tabIndex=b.dataset.tab===t?0:-1});document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==t);$("filterbar").hidden=(t==="date"||t==="saved"||t==="venues"||t==="play"||t==="panthers");if(t==="food")setFoodView(FOODVIEW);if(t==="venues")renderVenues();if(t==="map")renderMap();store.set("cltTab",t)}
 document.querySelectorAll(".tab[data-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 /* Tab bar: show what fits, tuck the rest under More */
 function fitTabs(){const nav=document.querySelector("nav.tabs"),more=$("moreBtn");if(!nav||!more)return;
@@ -675,7 +702,7 @@ function filterSummary(){const on=[];if(F.zone==="charlotte")on.push("Charlotte 
 function setFilters(open){$("filterbar").classList.toggle("open",open);$("fToggle").setAttribute("aria-expanded",String(open))}
 $("fToggle").onclick=()=>setFilters(!$("filterbar").classList.contains("open"));
 $("fDone").onclick=()=>{setFilters(false);$("fToggle").focus()};
-function renderLists(){filterSummary();renderPlay();renderPanthers();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
+function renderLists(){filterSummary();renderRestaurants();renderPlay();renderPanthers();renderKids();renderWeekend();renderFood();if(document.querySelector('[data-panel="map"]')&&!document.querySelector('[data-panel="map"]').hidden)renderMap();renderTonight();renderForYou();renderOutdoors();renderCalendar();renderArts();renderDay();renderGames();renderNights();renderAll();renderSaved();renderSeason();$("clearF").hidden=!anyFilter();store.set("cltFilters",F);fitTabs()}
 document.addEventListener("click",ev=>{const vl=ev.target.closest("[data-venue]");if(vl){openVenue(vl.dataset.venue);return}});
 document.addEventListener("click",ev=>{const s=ev.target.closest(".star");if(!s)return;const k=s.dataset.k;if(saved.has(k))saved.delete(k);else saved.add(k);store.set("cltSaved",[...saved]);
   document.querySelectorAll(".star").forEach(b=>{if(b.dataset.k===k){const on=saved.has(k);b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆"}});renderSaved()});
@@ -715,7 +742,7 @@ function boot(data){DATA=data;const m=data.meta||{};
   renderWkSwitch();renderDays();renderLists();genPlan();buildWeekend();injectLd();
   renderFoot();
   const mt=document.querySelector('meta[name="clt-tab"]');route((location.hash||"").slice(1)||(mt?mt.content:""),true)}
-function route(h,first){let t="week";
+function route(h,first){let t="week";if(h==="food-trucks"||h==="restaurants"){setFoodView(h==="food-trucks"?"trucks":"eat");h="food"}
   if(h==="tonight"){goTonight();return}
   if(h.startsWith("v-")){const v=venues().find(x=>slug(x.name)===h);if(v){openVenue(v.name);return}}
   if(h.startsWith("e-")&&EVK.get(h)){setTab((document.querySelector('meta[name="clt-tab"]')||{}).content||store.get("cltTab","week"));openSheet(EVK.get(h));return}
@@ -726,6 +753,7 @@ addEventListener("hashchange",()=>{if(DATA)route((location.hash||"").slice(1),fa
 function renderFoot(){const m=DATA.meta||{};const src=m.sources||{};
   $("foot").innerHTML=`<div class="sign"><b>CLT This Week</b><span>Charlotte, NC. <a href="https://cltthisweek.com">cltthisweek.com</a></span></div>${REPORT_N?`<div style="color:var(--ember)">${REPORT_N} problem report${REPORT_N>1?"s":""} waiting for the next refresh.</div>`:""}<div>Covers ${esc(m.coverage||"")}: detailed for the next two weeks, big events through the end of next month. Next refresh: ${esc(m.nextUpdate||"")}.</div><div>Covers Charlotte plus nearby towns within about 10–13 miles (Harrisburg, Matthews, Mint Hill, Pineville, Huntersville, Belmont, Mount Holly). Switch to "Whole region" for the lake towns and beyond. Gathered from local listings (Mindless Minutia, HopCLT, Charlotte On The Cheap, Fun4Charlotte Kids, venue calendars). Kid- and dog-friendly tags come from <a href="${esc(src.kidsFriendly||"#")}" target="_blank" rel="noopener">local</a> <a href="${esc(src.dogsFriendly||"#")}" target="_blank" rel="noopener">guides</a>; policies change, so check with the venue. Times marked "to" are end times from the venue; faded listings haven't been rechecked in over 10 days. Distances are straight-line miles from the home base you pick; walks to Blue Line stations are estimates. Map: US Census TIGER/Line; venue locations © OpenStreetMap contributors.</div>`}
 fetch("/discgolf.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{DG=x||{tournaments:[],leagues:[]};if(DATA)renderPlay()}).catch(()=>{DG={tournaments:[],leagues:[]};if(DATA)renderPlay()});
+fetch("/food.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{FOOD=x||{categories:[]};if(DATA)renderRestaurants()}).catch(()=>{});
 fetch("/panthers.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{PAN=x||{games:[]};if(DATA)renderPanthers()}).catch(()=>{PAN={games:[]};if(DATA)renderPanthers()});
 fetch("/play.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(x=>{PLAY=x||{leagues:[]};if(DATA)renderPlay()}).catch(()=>{});
 fetch("/trucks.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(t=>{TRUCKS=t||{days:[]};if(DATA)renderLists()}).catch(()=>{TRUCKS={days:[]};if(DATA)renderLists()});
