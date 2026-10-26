@@ -9,7 +9,8 @@ Scoring (one entry per thread or article, never per comment):
   Sources more than 3 years old count half (threads too).
 Ties go to the place with more independent sources. Places not confirmed open are held back, unless someone recommended them in the last 12 months.
 Run from the repo root:  python3 tools/food_rank.py tools/food_research/*.json
-Each research file may also list {"closed": ["Place name", ...]} to drop places that closed."""
+Each research file may also list {"closed": [...]} to drop places that closed.
+tools/food_research/owner_exclusions.json lists places the owner removed by hand; they never come back."""
 import json, re, sys
 from datetime import date
 from urllib.parse import urlparse
@@ -68,7 +69,7 @@ def main(paths):
     # Newest research file last, so its descriptions and open checks win. A place marked closed in any later file drops out.
     for path in sorted(paths):
         data = json.load(open(path))
-        for n in data.get("closed", []): closed.add(norm(n))
+        for n in data.get("closed", []) + data.get("exclude", []): closed.add(norm(n))
         for c in data.get("categories", []):
             for p in c["places"]:
                 oc = (p.get("open_check") or "").lower()

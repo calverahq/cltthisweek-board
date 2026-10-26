@@ -2705,51 +2705,6 @@
      "rank": 2
     },
     {
-     "name": "Noble Smoke",
-     "area": "Freedom Dr / Enderly Park, west Charlotte",
-     "address": "2216 Freedom Dr, Charlotte, NC 28208",
-     "website": "https://noblesmokebarbecue.com/",
-     "price": "$$",
-     "cuisine": "Craft barbecue",
-     "why": "Big, polished barbecue hall from chef Jim Noble, liked for hickory-smoked meats, strong sides and a good bar/wine program.",
-     "score": 8.0,
-     "threads": 1,
-     "guides": 4,
-     "sources": [
-      {
-       "type": "reddit",
-       "url": "https://reddit.sentinel-team.org/posts/1r6k63d/snapshots/2026-02-21T00%3A02%3A37.13455Z",
-       "date": "2025-06",
-       "label": "r/Charlotte thread"
-      },
-      {
-       "type": "article",
-       "url": "https://cardinalpine.com/community/bbq-charlotte-reddit/",
-       "date": "2024-09",
-       "label": "cardinalpine.com"
-      },
-      {
-       "type": "article",
-       "url": "https://timeout.com/charlotte/restaurants/best-bbq-in-charlotte",
-       "date": "2023-05",
-       "label": "Time Out"
-      },
-      {
-       "type": "article",
-       "url": "https://barbecuebros.co/rankings/charlotte-rankings/",
-       "date": "2023-11",
-       "label": "barbecuebros.co"
-      },
-      {
-       "type": "article",
-       "url": "https://www.aol.com/articles/north-carolinas-5-best-affordable-120000318.html",
-       "date": "n.d. (undated page, read 2026-10)",
-       "label": "aol.com"
-      }
-     ],
-     "rank": 3
-    },
-    {
      "name": "Mac's Speed Shop",
      "area": "South End (South Blvd) and other locations",
      "address": "2511 South Blvd, Charlotte, NC 28203",
@@ -2780,7 +2735,7 @@
        "label": "aol.com"
       }
      ],
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "Haberdish",
@@ -2813,7 +2768,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 5
+     "rank": 4
     }
    ]
   },
