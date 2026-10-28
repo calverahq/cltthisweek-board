@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 20,
+   "players": 23,
    "cap": 48,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 11,
+   "players": 14,
    "cap": null,
    "regOpen": true
   },
@@ -43,7 +43,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 70,
+   "players": 89,
    "cap": null,
    "regOpen": true
   },
@@ -58,23 +58,8 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 17,
+   "players": 19,
    "cap": 72,
-   "regOpen": true
-  },
-  {
-   "name": "Birdie Derby at Renske",
-   "url": "https://www.discgolfscene.com/tournaments/Birdie_Derby_at_Renske_2026",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "tier": "",
-   "format": "Flex start",
-   "course": "Renaissance Park Renske DGC",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": null,
-   "cap": null,
    "regOpen": true
   },
   {
@@ -133,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 105,
+   "players": 113,
    "cap": 180,
    "regOpen": true
   },
@@ -165,6 +150,21 @@
    "close": false,
    "players": 2,
    "cap": 72,
+   "regOpen": true
+  },
+  {
+   "name": "Birdie Derby at Renske",
+   "url": "https://www.discgolfscene.com/tournaments/Birdie_Derby_at_Renske_2026",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "tier": "",
+   "format": "Flex start",
+   "course": "Renaissance Park Renske DGC",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": 2,
+   "cap": null,
    "regOpen": true
   },
   {
