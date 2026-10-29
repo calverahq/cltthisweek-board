@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-10-28",
-  "weekOf": "2026-10-26",
-  "coverage": "2026-10-26 to 2026-11-30",
+  "updated": "2026-10-29",
+  "weekOf": "2026-10-29",
+  "coverage": "2026-10-29 to 2026-11-30",
   "featured": {
    "2026-10": [
     {
@@ -10,11 +10,11 @@
      "why": "A week of costume runs, candy crawls and ghost tours in NoDa through Halloween"
     },
     {
-     "id": "e203",
+     "id": "e193",
      "why": "New Discovery Place exhibit on Julia Child, open now through January"
     },
     {
-     "id": "e244",
+     "id": "e217",
      "why": "McDowell marks 50 years of its old-growth forest with a free dedication Thursday"
     },
     {
@@ -22,62 +22,53 @@
      "why": "Free, glowing and very Elizabeth; nightly walk-by through Nov 1"
     },
     {
-     "id": "e261",
+     "id": "e235",
      "why": "Theatre Charlotte opens Frankenstein Oct 30, just in time for Halloween"
     }
    ],
    "2026-11": [
     {
-     "id": "e373",
+     "id": "e347",
      "why": "Drive-through lights open Nov 20 at the Speedway"
     },
     {
-     "id": "e337",
+     "id": "e311",
      "why": "Free Mint Museum weekend Nov 7–8 with a Bank of America card"
     },
     {
-     "id": "e332",
+     "id": "e306",
      "why": "Free Bison Day at McDowell Nature Center, Nov 7"
     },
     {
-     "id": "e375",
+     "id": "e349",
      "why": "Rush plays three Spectrum Center nights Nov 20–22; buy tickets early"
     },
     {
-     "id": "e326",
+     "id": "e300",
      "why": "Free food, music and fashion at Harrisburg Park, Nov 7"
     },
     {
-     "id": "e382",
+     "id": "e360",
      "why": "Free Uptown parade the night before Thanksgiving"
     }
    ]
   },
-  "nextUpdate": "Thursday, Oct 29",
+  "nextUpdate": "Monday, Nov 2",
   "picks": [
    "e206",
-   "e244",
-   "e287",
-   "e268",
-   "e233"
+   "e217",
+   "e242",
+   "e261",
+   "e235"
   ],
   "forecast": [
-   {
-    "date": "2026-10-28",
-    "hi": 71,
-    "lo": 55,
-    "sky": "Increasing clouds",
-    "wind": "NE 5-8 mph",
-    "detail": "Increasing clouds, with a high near 71. Light and variable wind becoming northeast 5 to 8 mph in the morning.",
-    "night": "Mostly cloudy, low 55°"
-   },
    {
     "date": "2026-10-29",
     "hi": 76,
     "lo": 51,
-    "sky": "Mostly cloudy, then sunny",
-    "wind": "NNE 3-6 mph",
-    "detail": "Mostly cloudy, then gradually becoming sunny, with a high near 76. North northeast wind 3 to 6 mph.",
+    "sky": "Mostly sunny",
+    "wind": "NNE 3-5 mph",
+    "detail": "Mostly sunny, with a high near 76. North northeast wind 3 to 5 mph.",
     "night": "Mostly clear, low 51°"
    },
    {
@@ -85,42 +76,51 @@
     "hi": 80,
     "lo": 55,
     "sky": "Sunny",
-    "wind": "NNW light",
-    "detail": "Sunny, with a high near 80. Light north northwest wind.",
+    "wind": "N 5 mph",
+    "detail": "Sunny, with a high near 80. Calm wind becoming north around 5 mph in the afternoon.",
     "night": "Partly cloudy, low 55°"
    },
    {
     "date": "2026-10-31",
-    "hi": 72,
-    "lo": 52,
+    "hi": 70,
+    "lo": 51,
     "sky": "Mostly cloudy",
-    "detail": "Mostly cloudy, with a high near 72.",
-    "night": "Mostly cloudy, low 52°"
+    "wind": "ENE 9 mph",
+    "detail": "Mostly cloudy, with a high near 70. East northeast wind around 9 mph.",
+    "night": "Mostly cloudy, low 51°"
    },
    {
     "date": "2026-11-01",
-    "hi": 68,
-    "lo": 55,
+    "hi": 69,
+    "lo": 52,
     "sky": "Mostly cloudy",
-    "rain": 40,
-    "detail": "A 40 percent chance of showers after 2pm.  Mostly cloudy, with a high near 68.",
-    "night": "Showers likely, low 55°"
+    "detail": "Mostly cloudy, with a high near 69.",
+    "night": "30% chance of showers after 2 AM, low 52°"
    },
    {
     "date": "2026-11-02",
     "hi": 71,
-    "lo": 55,
-    "sky": "Showers likely",
-    "rain": 60,
-    "detail": "Showers likely.  Mostly cloudy, with a high near 71. Chance of precipitation is 60%.",
-    "night": "Mostly cloudy, low 55°"
+    "lo": 53,
+    "sky": "Partly sunny",
+    "rain": 30,
+    "detail": "A 30 percent chance of showers before 8am. Partly sunny, with a high near 71.",
+    "night": "Partly cloudy, low 53°"
    },
    {
     "date": "2026-11-03",
+    "hi": 74,
+    "lo": 56,
+    "sky": "Partly sunny",
+    "detail": "Partly sunny, with a high near 74.",
+    "night": "Mostly cloudy, low 56°"
+   },
+   {
+    "date": "2026-11-04",
     "hi": 75,
     "lo": null,
     "sky": "Partly sunny",
-    "detail": "Partly sunny, with a high near 75."
+    "rain": 30,
+    "detail": "A 30 percent chance of showers. Partly sunny, with a high near 75."
    }
   ],
   "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
@@ -4540,6 +4540,49 @@
   },
   {
    "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Just opened",
+   "zone": "charlotte",
+   "checked": "2026-10-26",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "end": "2027-07-03",
+   "time": "Museum hours",
+   "title": "Brilliant by Design: The Handbags of Judith Leiber",
+   "venue": "Mint Museum Randolph",
+   "area": "Myers Park",
+   "url": "https://mintmuseum.org/exhibitions",
+   "ongoing": true,
+   "unconfirmedTime": true,
+   "id": "e192"
+  },
+  {
+   "kind": "dated",
+   "cat": "arts",
+   "tag": "Exhibit",
+   "price": "Admission",
+   "free": false,
+   "note": "Discovery Place's 45th-anniversary exhibit. Included with admission",
+   "zone": "charlotte",
+   "checked": "2026-10-26",
+   "priceTier": "varies",
+   "start": "2026-10-24",
+   "end": "2027-01-17",
+   "time": "Museum hours",
+   "title": "Julia Child: A Recipe for Life",
+   "venue": "Discovery Place Science",
+   "area": "Uptown",
+   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
+   "ongoing": true,
+   "kids": true,
+   "unconfirmedTime": true,
+   "id": "e193"
+  },
+  {
+   "kind": "dated",
    "start": "2026-10-19",
    "end": "2026-10-30",
    "time": "6:00 PM",
@@ -4559,7 +4602,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "endTime": "9:00 PM",
-   "id": "e192"
+   "id": "e194"
   },
   {
    "kind": "dated",
@@ -4580,7 +4623,7 @@
    "season": "halloween",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e193"
+   "id": "e195"
   },
   {
    "kind": "dated",
@@ -4604,7 +4647,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e194"
+   "id": "e196"
   },
   {
    "kind": "dated",
@@ -4627,7 +4670,7 @@
    "unconfirmedTime": true,
    "priceTier": "varies",
    "zone": "charlotte",
-   "id": "e195"
+   "id": "e197"
   },
   {
    "kind": "dated",
@@ -4651,7 +4694,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e196"
+   "id": "e198"
   },
   {
    "kind": "dated",
@@ -4675,7 +4718,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e197"
+   "id": "e199"
   },
   {
    "kind": "dated",
@@ -4698,7 +4741,7 @@
    "priceTier": "under20",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e198"
+   "id": "e200"
   },
   {
    "kind": "dated",
@@ -4722,7 +4765,7 @@
    "priceTier": "ticketed",
    "zone": "nearby",
    "endTime": "5:30 PM",
-   "id": "e199"
+   "id": "e201"
   },
   {
    "kind": "dated",
@@ -4747,7 +4790,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "endTime": "4:00 PM",
-   "id": "e200"
+   "id": "e202"
   },
   {
    "kind": "dated",
@@ -4775,49 +4818,6 @@
    "outdoor": true,
    "endTime": "5:00 PM",
    "kidsOnly": true,
-   "id": "e201"
-  },
-  {
-   "kind": "dated",
-   "cat": "arts",
-   "tag": "Exhibit",
-   "price": "Admission",
-   "free": false,
-   "note": "Just opened",
-   "zone": "charlotte",
-   "checked": "2026-10-26",
-   "priceTier": "varies",
-   "start": "2026-10-24",
-   "end": "2027-07-03",
-   "time": "Museum hours",
-   "title": "Brilliant by Design: The Handbags of Judith Leiber",
-   "venue": "Mint Museum Randolph",
-   "area": "Myers Park",
-   "url": "https://mintmuseum.org/exhibitions",
-   "ongoing": true,
-   "unconfirmedTime": true,
-   "id": "e202"
-  },
-  {
-   "kind": "dated",
-   "cat": "arts",
-   "tag": "Exhibit",
-   "price": "Admission",
-   "free": false,
-   "note": "Discovery Place's 45th-anniversary exhibit. Included with admission",
-   "zone": "charlotte",
-   "checked": "2026-10-26",
-   "priceTier": "varies",
-   "start": "2026-10-24",
-   "end": "2027-01-17",
-   "time": "Museum hours",
-   "title": "Julia Child: A Recipe for Life",
-   "venue": "Discovery Place Science",
-   "area": "Uptown",
-   "url": "https://discoveryplace.org/things-to-do/exhibitions/",
-   "ongoing": true,
-   "kids": true,
-   "unconfirmedTime": true,
    "id": "e203"
   },
   {
@@ -4934,105 +4934,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e209"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "9:30 AM",
-   "title": "Puppet Show and Fall Fest at Lake Park",
-   "venue": "Lake Park (Pineville)",
-   "area": "Pineville",
-   "zone": "nearby",
-   "cat": "family",
-   "tag": "Storytime",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Puppet show, crafts and activities by South County, Pineville and Steele Creek library staff; costumes welcome",
-   "url": "https://cmlibrary.bibliocommons.com/v2/events/6a29af7516554cd59fc7ceb0",
-   "checked": "2026-10-26",
-   "endTime": "10:30 AM",
-   "season": "halloween",
-   "outdoor": true,
-   "ages": "0–5",
-   "kidsOnly": true,
-   "kids": true,
-   "id": "e223"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "10:00 AM",
-   "title": "Itty Bitty Halloween Storytime & Costume Parade",
-   "venue": "Myers Park Library",
-   "area": "Myers Park",
-   "zone": "charlotte",
-   "cat": "family",
-   "tag": "Storytime",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Registration required (currently full)",
-   "url": "https://cmlibrary.bibliocommons.com/v2/events/6aa9a424f9ed2e003850e445",
-   "checked": "2026-10-26",
-   "endTime": "11:00 AM",
-   "season": "halloween",
-   "ages": "0–5",
-   "kidsOnly": true,
-   "kids": true,
-   "id": "e224"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "10:00 AM",
-   "title": "Little Learners: Monster Mash",
-   "venue": "U.S. National Whitewater Center",
-   "area": "West Charlotte",
-   "cat": "family",
-   "tag": "Halloween",
-   "price": "$5 per child",
-   "free": false,
-   "note": "Wildwoods; drop in 10–11 AM; register by 5 PM the day before. Kids free with an activity pass",
-   "url": "https://whitewater.org/little-learners/",
-   "kids": true,
-   "checked": "2026-10-26",
-   "priceTier": "under20",
-   "season": "halloween",
-   "zone": "charlotte",
-   "outdoor": true,
-   "endTime": "11:00 AM",
-   "ages": "1–5",
-   "kidsOnly": true,
-   "id": "e225"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "10:00 AM",
-   "title": "Storytime Trick-or-Treat!",
-   "venue": "South Boulevard Library",
-   "area": "South Boulevard",
-   "zone": "charlotte",
-   "cat": "family",
-   "tag": "Storytime",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Costumes, not-so-spooky stories and trick-or-treat practice. No registration",
-   "url": "https://cmlibrary.bibliocommons.com/v2/events/69274d62e80c50300038e36a",
-   "checked": "2026-10-26",
-   "endTime": "11:00 AM",
-   "season": "halloween",
-   "ages": "0–5",
-   "kidsOnly": true,
-   "kids": true,
-   "id": "e226"
+   "id": "e208"
   },
   {
    "kind": "dated",
@@ -5056,48 +4958,7 @@
    ],
    "kidsOnly": true,
    "kids": true,
-   "id": "e227"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "3:00 PM",
-   "endTime": "6:30 PM",
-   "title": "East Charlotte Farmers' Market",
-   "venue": "McLawland Farms",
-   "area": "East Charlotte",
-   "zone": "charlotte",
-   "cat": "market",
-   "tag": "Farmers Market",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Wednesday market's fall season runs through October; this is the last Wednesday",
-   "url": "https://www.charlotteonthecheap.com/charlotte-area-farmers-markets-3/",
-   "checked": "2026-10-26",
-   "outdoor": true,
-   "id": "e228"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "3:00 PM",
-   "title": "Meditation at the Mint: Quilt House",
-   "venue": "Mint Museum Uptown",
-   "area": "Uptown",
-   "zone": "charlotte",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "$15; free for members",
-   "free": false,
-   "priceTier": "under20",
-   "note": "20-minute guided meditation in the galleries, then a short discussion. Stools provided.",
-   "url": "https://www.mintmuseum.org/event/meditation-at-the-mint-27/",
-   "checked": "2026-10-26",
-   "endTime": "3:30 PM",
-   "id": "e229"
+   "id": "e209"
   },
   {
    "kind": "dated",
@@ -5120,109 +4981,7 @@
     "Wed"
    ],
    "endTime": "8:30 PM",
-   "id": "e230"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "6:00 PM",
-   "title": "Zipline and Dine",
-   "venue": "U.S. National Whitewater Center",
-   "area": "West Charlotte",
-   "cat": "outdoors",
-   "tag": "Adventure",
-   "price": "$85",
-   "free": false,
-   "note": "Check-in 6 PM at The Hub; dinner 7:15 PM at River's Edge",
-   "url": "https://whitewater.org/dining/zipline-and-dine/",
-   "checked": "2026-10-26",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "outdoor": true,
-   "id": "e231"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "6:30 PM",
-   "title": "Eve of the Dead Dinner",
-   "venue": "Latin American Coalition",
-   "area": "Central Ave",
-   "zone": "charlotte",
-   "cat": "arts",
-   "tag": "Museum Event",
-   "price": "See venue",
-   "free": false,
-   "priceTier": "varies",
-   "note": "Levine Museum of the New South event. Register online; free parking.",
-   "url": "https://www.museumofthenewsouth.org/lmns-events/eve-of-the-dead-dinner/",
-   "checked": "2026-10-26",
-   "season": "halloween",
-   "endTime": "8:30 PM",
-   "id": "e232"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "7:00 PM",
-   "title": "Golden Girls Pub Trivia",
-   "venue": "Triple C Brewing",
-   "area": "Wesley Heights",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Dorothy, Rose, Blanche and Sophia trivia; prizes",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-10-28",
-   "zone": "charlotte",
-   "endTime": "9:00 PM",
-   "gameKind": "Themed",
-   "dogs": true,
-   "id": "e233"
-  },
-  {
-   "kind": "dated",
-   "free": false,
-   "zone": "charlotte",
-   "checked": "2026-10-26",
-   "note": "",
-   "start": "2026-10-28",
-   "time": "7:00 PM",
-   "title": "John Splithoff: Stripped Tour",
-   "venue": "Booth Playhouse, Blumenthal",
-   "area": "Uptown",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "From $53.26",
-   "priceTier": "ticketed",
-   "url": "https://www.blumenthalarts.org/events/detail/john-splithoff-stripped-tour",
-   "end": "2026-10-28",
-   "id": "e234"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "7:30 PM",
-   "title": "Charlotte FC vs. CF Montréal",
-   "venue": "Bank of America Stadium",
-   "area": "Uptown",
-   "cat": "sports",
-   "tag": "MLS",
-   "price": "Tickets",
-   "free": false,
-   "note": "Regular-season home match",
-   "url": "https://www.charlottefootballclub.com/schedule/2026",
-   "checked": "2026-10-26",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "outdoor": true,
-   "id": "e235"
+   "id": "e210"
   },
   {
    "kind": "dated",
@@ -5263,47 +5022,7 @@
     ]
    },
    "url": "https://www.blumenthalarts.org/events/detail/clue-murder-on-the-menu",
-   "id": "e236"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "8:00 PM",
-   "title": "Victoria Monét: Frequency of Love Tour",
-   "venue": "Skyla Credit Union Amphitheatre",
-   "area": "NC Music Factory",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "Resale from $59",
-   "free": false,
-   "note": "",
-   "url": "https://www.eventworld.com/victoria-monet-charlotte-tickets-10-28-2026/event/558999",
-   "checked": "2026-10-19",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "id": "e237"
-  },
-  {
-   "kind": "dated",
-   "free": false,
-   "zone": "charlotte",
-   "checked": "2026-10-26",
-   "note": "With Paint Fumes. Doors 8 PM",
-   "start": "2026-10-28",
-   "time": "9:00 PM",
-   "title": "Jacuzzi Boys",
-   "venue": "Snug Harbor",
-   "area": "Plaza Midwood",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "Tickets",
-   "priceTier": "ticketed",
-   "ages": "18+",
-   "kids": false,
-   "url": "https://www.snugrock.com/",
-   "end": "2026-10-28",
-   "id": "e238"
+   "id": "e211"
   },
   {
    "kind": "dated",
@@ -5327,7 +5046,7 @@
    "ages": "0–5",
    "kidsOnly": true,
    "kids": true,
-   "id": "e239"
+   "id": "e212"
   },
   {
    "kind": "dated",
@@ -5351,7 +5070,7 @@
    "outdoor": true,
    "kidsOnly": true,
    "kids": true,
-   "id": "e240"
+   "id": "e213"
   },
   {
    "kind": "dated",
@@ -5375,7 +5094,7 @@
    "outdoor": true,
    "kidsOnly": true,
    "kids": true,
-   "id": "e241"
+   "id": "e214"
   },
   {
    "kind": "dated",
@@ -5399,7 +5118,7 @@
    "ages": "5 and under",
    "kidsOnly": true,
    "kids": true,
-   "id": "e242"
+   "id": "e215"
   },
   {
    "kind": "dated",
@@ -5422,7 +5141,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e243"
+   "id": "e216"
   },
   {
    "kind": "dated",
@@ -5443,7 +5162,7 @@
    "checked": "2026-10-26",
    "endTime": "5:00 PM",
    "outdoor": true,
-   "id": "e244"
+   "id": "e217"
   },
   {
    "kind": "dated",
@@ -5464,7 +5183,7 @@
    "zone": "charlotte",
    "endTime": "9:00 PM",
    "gameKind": "Survey Says",
-   "id": "e245"
+   "id": "e218"
   },
   {
    "kind": "dated",
@@ -5483,7 +5202,28 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e246"
+   "id": "e219"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "time": "7:00 PM",
+   "title": "Themed Trivia: Carolina Panthers",
+   "venue": "Royal Bliss Brewing",
+   "area": "Denver",
+   "cat": "games",
+   "tag": "Trivia",
+   "price": "Free",
+   "free": true,
+   "priceTier": "free",
+   "note": "Panthers-themed trivia before Thursday Night Football, then stay to watch the game.",
+   "url": "https://hopclt.com/trivia-nights-charlotte",
+   "checked": "2026-10-28",
+   "zone": "nearby",
+   "endTime": "9:00 PM",
+   "gameKind": "Themed",
+   "id": "e220"
   },
   {
    "kind": "dated",
@@ -5503,7 +5243,7 @@
    "url": "https://997thefox.iheart.com/calendar/content/2026-10-29-997-the-fox-panthers-watch-party-panthers-v-packers/",
    "checked": "2026-10-26",
    "outdoor": false,
-   "id": "e247"
+   "id": "e221"
   },
   {
    "kind": "dated",
@@ -5524,7 +5264,7 @@
    "priceTier": "ticketed",
    "outdoor": true,
    "url": "https://www.charlottemotorspeedway.com/events/world-short-track-championship",
-   "id": "e248"
+   "id": "e222"
   },
   {
    "kind": "dated",
@@ -5548,7 +5288,7 @@
    ],
    "endTime": "10:00 AM",
    "outdoor": true,
-   "id": "e249"
+   "id": "e223"
   },
   {
    "kind": "dated",
@@ -5572,7 +5312,7 @@
    ],
    "kidsOnly": true,
    "kids": true,
-   "id": "e250"
+   "id": "e224"
   },
   {
    "kind": "dated",
@@ -5598,7 +5338,7 @@
    "ages": "3–6",
    "kidsOnly": true,
    "kids": true,
-   "id": "e251"
+   "id": "e225"
   },
   {
    "kind": "dated",
@@ -5621,7 +5361,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "endTime": "8:00 PM",
-   "id": "e252"
+   "id": "e226"
   },
   {
    "kind": "dated",
@@ -5645,7 +5385,7 @@
    "outdoor": true,
    "endTime": "8:00 PM",
    "kidsOnly": true,
-   "id": "e253"
+   "id": "e227"
   },
   {
    "kind": "dated",
@@ -5668,7 +5408,7 @@
    "zone": "charlotte",
    "kidsOnly": true,
    "endTime": "6:00 PM",
-   "id": "e254"
+   "id": "e228"
   },
   {
    "kind": "dated",
@@ -5691,7 +5431,7 @@
    "endTime": "7:00 PM",
    "ages": "21+",
    "kids": false,
-   "id": "e255"
+   "id": "e229"
   },
   {
    "kind": "dated",
@@ -5711,7 +5451,7 @@
    "priceTier": "varies",
    "season": "halloween",
    "zone": "charlotte",
-   "id": "e256"
+   "id": "e230"
   },
   {
    "kind": "dated",
@@ -5731,7 +5471,7 @@
    "url": "https://charlotte49ers.com/sports/football/schedule/2026",
    "outdoor": true,
    "end": "2026-10-30",
-   "id": "e257"
+   "id": "e231"
   },
   {
    "kind": "dated",
@@ -5753,7 +5493,7 @@
    "endTime": "9:00 PM",
    "gameKind": "Themed",
    "season": "halloween",
-   "id": "e258"
+   "id": "e232"
   },
   {
    "kind": "dated",
@@ -5782,7 +5522,7 @@
      "8:45 PM"
     ]
    },
-   "id": "e259"
+   "id": "e233"
   },
   {
    "kind": "dated",
@@ -5802,7 +5542,7 @@
    "season": "halloween",
    "url": "https://www.blumenthalarts.org/events/detail/burlesque-3001",
    "end": "2026-10-30",
-   "id": "e260"
+   "id": "e234"
   },
   {
    "kind": "dated",
@@ -5840,7 +5580,7 @@
     ]
    },
    "kids": false,
-   "id": "e261"
+   "id": "e235"
   },
   {
    "kind": "dated",
@@ -5859,7 +5599,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-bruce-cockburn-tickets-the-carolina-theatre-at-belk-place-10-30-26-8pm/7753181/",
    "end": "2026-10-30",
-   "id": "e262"
+   "id": "e236"
   },
   {
    "kind": "dated",
@@ -5878,7 +5618,7 @@
    "priceTier": "under20",
    "url": "https://www.visulite.com/",
    "end": "2026-10-30",
-   "id": "e263"
+   "id": "e237"
   },
   {
    "kind": "dated",
@@ -5898,7 +5638,7 @@
    "priceTier": "ticketed",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e264"
+   "id": "e238"
   },
   {
    "kind": "dated",
@@ -5922,7 +5662,7 @@
    "end": "2026-10-31",
    "endTime": "11:00 AM",
    "kidsOnly": true,
-   "id": "e265"
+   "id": "e239"
   },
   {
    "kind": "dated",
@@ -5943,7 +5683,7 @@
    "priceTier": "varies",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e266"
+   "id": "e240"
   },
   {
    "kind": "dated",
@@ -5966,7 +5706,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e267"
+   "id": "e241"
   },
   {
    "kind": "dated",
@@ -5987,7 +5727,7 @@
    "checked": "2026-10-26",
    "kids": true,
    "endTime": "4:30 PM",
-   "id": "e268"
+   "id": "e242"
   },
   {
    "kind": "dated",
@@ -6010,7 +5750,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e269"
+   "id": "e243"
   },
   {
    "kind": "dated",
@@ -6034,7 +5774,7 @@
    "outdoor": true,
    "kidsOnly": true,
    "endTime": "12:00 PM",
-   "id": "e270"
+   "id": "e244"
   },
   {
    "kind": "dated",
@@ -6057,7 +5797,7 @@
     "Sat"
    ],
    "endTime": "11:00 AM",
-   "id": "e271"
+   "id": "e245"
   },
   {
    "kind": "dated",
@@ -6081,7 +5821,7 @@
    "ages": "0–5",
    "kidsOnly": true,
    "kids": true,
-   "id": "e272"
+   "id": "e246"
   },
   {
    "kind": "dated",
@@ -6102,7 +5842,7 @@
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
    "season": "halloween",
-   "id": "e273"
+   "id": "e247"
   },
   {
    "kind": "dated",
@@ -6126,7 +5866,7 @@
    "outdoor": true,
    "endTime": "2:00 PM",
    "kidsOnly": true,
-   "id": "e274"
+   "id": "e248"
   },
   {
    "kind": "dated",
@@ -6148,7 +5888,7 @@
    "endTime": "3:00 PM",
    "season": "halloween",
    "kids": true,
-   "id": "e275"
+   "id": "e249"
   },
   {
    "kind": "dated",
@@ -6170,7 +5910,7 @@
    "endTime": "12:00 PM",
    "kidsOnly": true,
    "kids": true,
-   "id": "e276"
+   "id": "e250"
   },
   {
    "kind": "dated",
@@ -6193,7 +5933,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e277"
+   "id": "e251"
   },
   {
    "kind": "dated",
@@ -6213,7 +5953,7 @@
    "url": "https://www.charlottefootballclub.com/schedule/2026",
    "end": "2026-10-31",
    "outdoor": true,
-   "id": "e278"
+   "id": "e252"
   },
   {
    "kind": "dated",
@@ -6236,7 +5976,7 @@
    "season": "halloween",
    "kidsOnly": true,
    "kids": true,
-   "id": "e279"
+   "id": "e253"
   },
   {
    "kind": "dated",
@@ -6259,7 +5999,7 @@
     "1:30 PM",
     "2:00 PM"
    ],
-   "id": "e280"
+   "id": "e254"
   },
   {
    "kind": "dated",
@@ -6282,7 +6022,7 @@
    "season": "halloween",
    "url": "https://app.discotech.me/events/38135523-charlotte-official-halloween-bar-crawl-at-halloween-parties",
    "checked": "2026-10-26",
-   "id": "e281"
+   "id": "e255"
   },
   {
    "kind": "dated",
@@ -6301,7 +6041,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e282"
+   "id": "e256"
   },
   {
    "kind": "dated",
@@ -6320,7 +6060,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e283"
+   "id": "e257"
   },
   {
    "kind": "dated",
@@ -6343,7 +6083,7 @@
     "Sat"
    ],
    "unconfirmedTime": true,
-   "id": "e284"
+   "id": "e258"
   },
   {
    "kind": "dated",
@@ -6366,7 +6106,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "unconfirmedTime": true,
-   "id": "e285"
+   "id": "e259"
   },
   {
    "kind": "dated",
@@ -6387,7 +6127,7 @@
    "checked": "2026-10-26",
    "endTime": "6:00 PM",
    "kids": true,
-   "id": "e286"
+   "id": "e260"
   },
   {
    "kind": "dated",
@@ -6409,7 +6149,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "endTime": "6:00 PM",
-   "id": "e287"
+   "id": "e261"
   },
   {
    "kind": "dated",
@@ -6432,7 +6172,7 @@
    "outdoor": true,
    "ages": "18+",
    "kids": false,
-   "id": "e288"
+   "id": "e262"
   },
   {
    "kind": "dated",
@@ -6454,7 +6194,7 @@
    "endTime": "4:30 PM",
    "kidsOnly": true,
    "kids": true,
-   "id": "e289"
+   "id": "e263"
   },
   {
    "kind": "dated",
@@ -6473,7 +6213,7 @@
    "priceTier": "ticketed",
    "url": "https://www.boplex.com/events/an-evening-with-david-sedaris",
    "end": "2026-11-01",
-   "id": "e290"
+   "id": "e264"
   },
   {
    "kind": "dated",
@@ -6492,7 +6232,7 @@
    "area": "Uptown",
    "url": "https://www.spectrumcentercharlotte.com/events",
    "end": "2026-11-01",
-   "id": "e291"
+   "id": "e265"
   },
   {
    "kind": "dated",
@@ -6515,7 +6255,7 @@
    "ages": "5+",
    "kidsOnly": true,
    "kids": true,
-   "id": "e292"
+   "id": "e266"
   },
   {
    "kind": "dated",
@@ -6538,7 +6278,7 @@
    "outdoor": true,
    "ages": "4+",
    "kids": true,
-   "id": "e293"
+   "id": "e267"
   },
   {
    "kind": "dated",
@@ -6560,7 +6300,7 @@
    "endTime": "7:00 PM",
    "kidsOnly": true,
    "kids": true,
-   "id": "e294"
+   "id": "e268"
   },
   {
    "kind": "dated",
@@ -6579,7 +6319,7 @@
    "priceTier": "ticketed",
    "url": "https://charlotte49ers.com/sports/womens-basketball/schedule/2026-27",
    "end": "2026-11-02",
-   "id": "e295"
+   "id": "e269"
   },
   {
    "kind": "dated",
@@ -6598,7 +6338,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e296"
+   "id": "e270"
   },
   {
    "kind": "dated",
@@ -6621,7 +6361,7 @@
    "ages": "7–12",
    "kidsOnly": true,
    "kids": true,
-   "id": "e297"
+   "id": "e271"
   },
   {
    "kind": "dated",
@@ -6645,7 +6385,7 @@
    "outdoor": true,
    "kidsOnly": true,
    "kids": true,
-   "id": "e298"
+   "id": "e272"
   },
   {
    "kind": "dated",
@@ -6668,7 +6408,7 @@
    "ages": "3–8",
    "kidsOnly": true,
    "kids": true,
-   "id": "e299"
+   "id": "e273"
   },
   {
    "kind": "dated",
@@ -6690,7 +6430,7 @@
    "endTime": "1:00 PM",
    "kidsOnly": true,
    "kids": true,
-   "id": "e300"
+   "id": "e274"
   },
   {
    "kind": "dated",
@@ -6713,7 +6453,7 @@
    "ages": "3–9",
    "kidsOnly": true,
    "kids": true,
-   "id": "e301"
+   "id": "e275"
   },
   {
    "kind": "dated",
@@ -6754,7 +6494,7 @@
      "6:30 PM"
     ]
    },
-   "id": "e302"
+   "id": "e276"
   },
   {
    "kind": "dated",
@@ -6773,7 +6513,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e303"
+   "id": "e277"
   },
   {
    "kind": "dated",
@@ -6792,7 +6532,7 @@
    "priceTier": "ticketed",
    "url": "https://www.blumenthalarts.org/events/detail/charlotte-symphony-on-tap-triple-c-brewing-1",
    "end": "2026-11-04",
-   "id": "e304"
+   "id": "e278"
   },
   {
    "kind": "dated",
@@ -6813,7 +6553,7 @@
    "priceTier": "ticketed",
    "outdoor": true,
    "url": "https://www.charlottemotorspeedway.com/events/",
-   "id": "e305"
+   "id": "e279"
   },
   {
    "kind": "dated",
@@ -6835,7 +6575,7 @@
    "endTime": "11:00 AM",
    "outdoor": true,
    "kids": true,
-   "id": "e306"
+   "id": "e280"
   },
   {
    "kind": "dated",
@@ -6857,7 +6597,7 @@
    "endTime": "12:00 PM",
    "kidsOnly": true,
    "kids": true,
-   "id": "e307"
+   "id": "e281"
   },
   {
    "kind": "dated",
@@ -6878,7 +6618,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Themed",
-   "id": "e308"
+   "id": "e282"
   },
   {
    "kind": "dated",
@@ -6897,7 +6637,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-switchfoot-tickets-the-fillmore-charlotte-11-5-26-7pm/7954589/",
    "end": "2026-11-05",
-   "id": "e309"
+   "id": "e283"
   },
   {
    "kind": "dated",
@@ -6917,7 +6657,7 @@
    "priceTier": "ticketed",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "end": "2026-11-05",
-   "id": "e310"
+   "id": "e284"
   },
   {
    "kind": "dated",
@@ -6940,7 +6680,7 @@
    "outdoor": true,
    "ages": "18+",
    "kids": false,
-   "id": "e311"
+   "id": "e285"
   },
   {
    "kind": "dated",
@@ -6964,7 +6704,7 @@
    "outdoor": true,
    "kidsOnly": true,
    "kids": true,
-   "id": "e312"
+   "id": "e286"
   },
   {
    "kind": "dated",
@@ -6990,7 +6730,7 @@
    "ages": "4–6",
    "kidsOnly": true,
    "kids": true,
-   "id": "e313"
+   "id": "e287"
   },
   {
    "kind": "dated",
@@ -7012,7 +6752,7 @@
    "endTime": "12:00 PM",
    "outdoor": true,
    "kids": true,
-   "id": "e314"
+   "id": "e288"
   },
   {
    "kind": "dated",
@@ -7033,7 +6773,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "kids": true,
-   "id": "e315"
+   "id": "e289"
   },
   {
    "kind": "dated",
@@ -7064,7 +6804,7 @@
     ]
    },
    "url": "https://www.blumenthalarts.org/events/detail/the-jinkx-dela-holiday-show",
-   "id": "e316"
+   "id": "e290"
   },
   {
    "kind": "dated",
@@ -7084,7 +6824,7 @@
    "url": "https://www.mintmuseum.org/event/artist-talk-constellation-clt-with-grace-stott/",
    "checked": "2026-10-26",
    "endTime": "8:00 PM",
-   "id": "e317"
+   "id": "e291"
   },
   {
    "kind": "dated",
@@ -7107,7 +6847,7 @@
     "6:00 PM",
     "8:15 PM"
    ],
-   "id": "e318"
+   "id": "e292"
   },
   {
    "kind": "dated",
@@ -7126,7 +6866,7 @@
    "area": "East Charlotte",
    "url": "https://charlottecheckers.com/schedule/promotions",
    "end": "2026-11-06",
-   "id": "e319"
+   "id": "e293"
   },
   {
    "kind": "dated",
@@ -7145,7 +6885,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e320"
+   "id": "e294"
   },
   {
    "kind": "dated",
@@ -7165,7 +6905,7 @@
    "checked": "2026-10-26",
    "zone": "charlotte",
    "endTime": "9:00 PM",
-   "id": "e321"
+   "id": "e295"
   },
   {
    "kind": "dated",
@@ -7184,7 +6924,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-judah-and-the-lion-tickets-the-fillmore-charlotte-11-6-26-7pm/8049254/",
    "end": "2026-11-06",
-   "id": "e322"
+   "id": "e296"
   },
   {
    "kind": "dated",
@@ -7203,7 +6943,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-mountain-grass-unit-tickets-the-underground-charlotte-11-6-26-8pm/8054571/",
    "end": "2026-11-06",
-   "id": "e323"
+   "id": "e297"
   },
   {
    "kind": "dated",
@@ -7224,7 +6964,7 @@
    "checked": "2026-10-26",
    "endTime": "3:00 PM",
    "season": "holidays",
-   "id": "e324"
+   "id": "e298"
   },
   {
    "kind": "dated",
@@ -7246,7 +6986,7 @@
    "zone": "charlotte",
    "kidsOnly": true,
    "endTime": "3:00 PM",
-   "id": "e325"
+   "id": "e299"
   },
   {
    "kind": "dated",
@@ -7267,7 +7007,7 @@
    "zone": "nearby",
    "outdoor": true,
    "endTime": "2:00 PM",
-   "id": "e326"
+   "id": "e300"
   },
   {
    "kind": "dated",
@@ -7289,7 +7029,7 @@
    "zone": "nearby",
    "outdoor": true,
    "endTime": "3:00 PM",
-   "id": "e327"
+   "id": "e301"
   },
   {
    "kind": "dated",
@@ -7310,7 +7050,7 @@
    "checked": "2026-10-26",
    "endTime": "11:30 AM",
    "outdoor": true,
-   "id": "e328"
+   "id": "e302"
   },
   {
    "kind": "dated",
@@ -7331,7 +7071,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "endTime": "2:00 PM",
-   "id": "e329"
+   "id": "e303"
   },
   {
    "kind": "dated",
@@ -7351,7 +7091,7 @@
    "priceTier": "ticketed",
    "zone": "charlotte",
    "endTime": "4:00 PM",
-   "id": "e330"
+   "id": "e304"
   },
   {
    "kind": "dated",
@@ -7372,7 +7112,7 @@
    "zone": "charlotte",
    "endTime": "8:00 PM",
    "outdoor": true,
-   "id": "e331"
+   "id": "e305"
   },
   {
    "kind": "dated",
@@ -7393,7 +7133,7 @@
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
    "kids": true,
-   "id": "e332"
+   "id": "e306"
   },
   {
    "kind": "dated",
@@ -7416,7 +7156,7 @@
    "ages": "4–8",
    "kidsOnly": true,
    "kids": true,
-   "id": "e333"
+   "id": "e307"
   },
   {
    "kind": "dated",
@@ -7435,7 +7175,7 @@
    "area": "East Charlotte",
    "url": "https://charlottecheckers.com/schedule/promotions",
    "end": "2026-11-07",
-   "id": "e334"
+   "id": "e308"
   },
   {
    "kind": "dated",
@@ -7454,7 +7194,7 @@
    "area": "East Charlotte",
    "url": "https://www.tickpick.com/buy-little-big-town-tickets-ovens-auditorium-11-7-26-7pm/8034499/",
    "end": "2026-11-07",
-   "id": "e335"
+   "id": "e309"
   },
   {
    "kind": "dated",
@@ -7473,7 +7213,7 @@
    "area": "Uptown",
    "url": "https://www.blumenthalarts.org/events/detail/charlotte-symphony-joshua-bell-plays-bruch",
    "end": "2026-11-07",
-   "id": "e336"
+   "id": "e310"
   },
   {
    "kind": "dated",
@@ -7493,7 +7233,7 @@
    "url": "https://www.mintmuseum.org/event/bank-of-america-museums-on-us/2026-11-07/",
    "checked": "2026-10-26",
    "unconfirmedTime": true,
-   "id": "e337"
+   "id": "e311"
   },
   {
    "kind": "dated",
@@ -7514,7 +7254,7 @@
    "url": "https://sixflags.com/carowinds/events/oktoberfest",
    "checked": "2026-10-26",
    "kids": true,
-   "id": "e338"
+   "id": "e312"
   },
   {
    "kind": "dated",
@@ -7534,7 +7274,7 @@
    "url": "https://www.eventbrite.com/e/fall-into-shopping-locals-vendor-market-tickets-2002821291397",
    "checked": "2026-10-26",
    "endTime": "3:00 PM",
-   "id": "e339"
+   "id": "e313"
   },
   {
    "kind": "dated",
@@ -7554,7 +7294,7 @@
    "url": "https://www.eventbrite.com/e/for-the-girls-vintage-market-x-monster-high-themed-tickets-2000187548802",
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
-   "id": "e340"
+   "id": "e314"
   },
   {
    "kind": "dated",
@@ -7576,7 +7316,7 @@
    "endTime": "2:00 PM",
    "outdoor": true,
    "kids": true,
-   "id": "e341"
+   "id": "e315"
   },
   {
    "kind": "dated",
@@ -7596,7 +7336,7 @@
    "priceTier": "ticketed",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e342"
+   "id": "e316"
   },
   {
    "kind": "dated",
@@ -7618,7 +7358,7 @@
    "endTime": "3:15 PM",
    "ages": "4+",
    "kids": true,
-   "id": "e343"
+   "id": "e317"
   },
   {
    "kind": "dated",
@@ -7637,7 +7377,7 @@
    "priceTier": "ticketed",
    "url": "https://www.spectrumcentercharlotte.com/events",
    "end": "2026-11-08",
-   "id": "e344"
+   "id": "e318"
   },
   {
    "kind": "dated",
@@ -7656,7 +7396,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e345"
+   "id": "e319"
   },
   {
    "kind": "dated",
@@ -7675,7 +7415,7 @@
    "venue": "Bojangles Coliseum",
    "area": "East Charlotte",
    "url": "https://charlottecheckers.com/schedule/promotions",
-   "id": "e346"
+   "id": "e320"
   },
   {
    "kind": "dated",
@@ -7695,7 +7435,7 @@
    "area": "East Charlotte",
    "url": "https://www.southernchristmasshow.com/attendee-info/show-info",
    "season": "holidays",
-   "id": "e347"
+   "id": "e321"
   },
   {
    "kind": "dated",
@@ -7714,7 +7454,7 @@
    "note": "Galleries open 5–9 PM; conversation 6–7:30 PM.",
    "url": "https://www.bechtler.org/wednesdaynightlive",
    "checked": "2026-10-26",
-   "id": "e348"
+   "id": "e322"
   },
   {
    "kind": "dated",
@@ -7734,7 +7474,7 @@
    "url": "https://www.bechtler.org/event-details-registration/artbreak-2026-11-12-12-00",
    "checked": "2026-10-26",
    "endTime": "12:30 PM",
-   "id": "e349"
+   "id": "e323"
   },
   {
    "kind": "dated",
@@ -7753,7 +7493,7 @@
    "area": "Uptown",
    "url": "https://seatgeek.ca/venues/spectrum-center-charlotte/tickets",
    "end": "2026-11-12",
-   "id": "e350"
+   "id": "e324"
   },
   {
    "kind": "dated",
@@ -7775,7 +7515,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e351"
+   "id": "e325"
   },
   {
    "kind": "dated",
@@ -7795,7 +7535,7 @@
    "url": "https://whitewater.org/race/a-shot-in-the-dark-night-trail-race/",
    "outdoor": true,
    "end": "2026-11-13",
-   "id": "e352"
+   "id": "e326"
   },
   {
    "kind": "dated",
@@ -7815,7 +7555,7 @@
    "priceTier": "varies",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e353"
+   "id": "e327"
   },
   {
    "kind": "dated",
@@ -7836,7 +7576,7 @@
    "checked": "2026-10-26",
    "endTime": "10:00 AM",
    "outdoor": true,
-   "id": "e354"
+   "id": "e328"
   },
   {
    "kind": "dated",
@@ -7857,7 +7597,7 @@
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
    "season": "holidays",
-   "id": "e355"
+   "id": "e329"
   },
   {
    "kind": "dated",
@@ -7882,7 +7622,7 @@
    ],
    "kidsOnly": true,
    "kids": true,
-   "id": "e356"
+   "id": "e330"
   },
   {
    "kind": "dated",
@@ -7903,7 +7643,7 @@
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
    "outdoor": true,
-   "id": "e357"
+   "id": "e331"
   },
   {
    "kind": "dated",
@@ -7923,7 +7663,7 @@
    "url": "https://charlottemuseum.org/programs-events/events/guidetofreedom/",
    "checked": "2026-10-26",
    "endTime": "4:00 PM",
-   "id": "e358"
+   "id": "e332"
   },
   {
    "kind": "dated",
@@ -7942,7 +7682,7 @@
    "area": "Uptown",
    "url": "https://www.wbtv.com/2026/05/26/john-summit-bringing-arena-tour-charlotte-promises-plenty-surprises/",
    "end": "2026-11-14",
-   "id": "e359"
+   "id": "e333"
   },
   {
    "kind": "dated",
@@ -7961,7 +7701,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-jack-white-tickets-the-fillmore-charlotte-11-14-26-8pm/7867859/",
    "end": "2026-11-14",
-   "id": "e360"
+   "id": "e334"
   },
   {
    "kind": "dated",
@@ -7982,7 +7722,7 @@
    "outdoor": true,
    "end": "2026-11-14",
    "unconfirmedTime": true,
-   "id": "e361"
+   "id": "e335"
   },
   {
    "kind": "dated",
@@ -8003,7 +7743,7 @@
    "url": "https://cltguide.beehiiv.com/p/charlotte-fall-activities",
    "checked": "2026-10-26",
    "outdoor": true,
-   "id": "e362"
+   "id": "e336"
   },
   {
    "kind": "dated",
@@ -8024,7 +7764,7 @@
    "checked": "2026-10-26",
    "endTime": "10:30 AM",
    "season": "holidays",
-   "id": "e363"
+   "id": "e337"
   },
   {
    "kind": "dated",
@@ -8044,7 +7784,7 @@
    "url": "https://www.mintmuseum.org/event/the-art-of-reading-theo-of-golden-2/",
    "checked": "2026-10-26",
    "endTime": "3:30 PM",
-   "id": "e364"
+   "id": "e338"
   },
   {
    "kind": "dated",
@@ -8065,7 +7805,7 @@
    "checked": "2026-10-26",
    "endTime": "10:00 AM",
    "outdoor": true,
-   "id": "e365"
+   "id": "e339"
   },
   {
    "kind": "dated",
@@ -8084,7 +7824,7 @@
    "note": "Bechtler Ensemble.",
    "url": "https://www.bechtler.org/musicmonday",
    "checked": "2026-10-26",
-   "id": "e366"
+   "id": "e340"
   },
   {
    "kind": "dated",
@@ -8107,7 +7847,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e367"
+   "id": "e341"
   },
   {
    "kind": "dated",
@@ -8127,7 +7867,7 @@
    "url": "https://www.mintmuseum.org/event/sound-bath-series-6/2026-11-17/",
    "checked": "2026-10-26",
    "endTime": "7:45 PM",
-   "id": "e368"
+   "id": "e342"
   },
   {
    "kind": "dated",
@@ -8146,7 +7886,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-blue-october-tickets-the-fillmore-charlotte-11-17-26-8pm/7827971/",
    "end": "2026-11-17",
-   "id": "e369"
+   "id": "e343"
   },
   {
    "kind": "dated",
@@ -8166,7 +7906,7 @@
    "url": "https://www.mintmuseum.org/event/let-the-music-play-steinway-residency-series-7/",
    "checked": "2026-10-26",
    "endTime": "6:45 PM",
-   "id": "e370"
+   "id": "e344"
   },
   {
    "kind": "dated",
@@ -8185,7 +7925,7 @@
    "area": "Uptown",
    "url": "https://www.stereoboard.com/doja-cat-tickets/charlotte/2026-11-18",
    "end": "2026-11-18",
-   "id": "e371"
+   "id": "e345"
   },
   {
    "kind": "dated",
@@ -8206,7 +7946,7 @@
    "url": "https://concertfix.com/concerts/charlotte-nc+spectrum-center",
    "end": "2026-11-19",
    "kidsOnly": true,
-   "id": "e372"
+   "id": "e346"
   },
   {
    "kind": "dated",
@@ -8227,7 +7967,7 @@
    "zone": "nearby",
    "season": "holidays",
    "outdoor": true,
-   "id": "e373"
+   "id": "e347"
   },
   {
    "kind": "dated",
@@ -8246,7 +7986,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e374"
+   "id": "e348"
   },
   {
    "kind": "dated",
@@ -8269,7 +8009,7 @@
    "venue": "Spectrum Center",
    "area": "Uptown",
    "url": "https://seatgeek.ca/venues/spectrum-center-charlotte/tickets",
-   "id": "e375"
+   "id": "e349"
   },
   {
    "kind": "dated",
@@ -8305,7 +8045,30 @@
      "2:00 PM"
     ]
    },
-   "id": "e376"
+   "id": "e350"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "11:00 AM",
+   "endTime": "1:00 PM",
+   "title": "Jingle Bowl",
+   "venue": "The Bowl at Ballantyne",
+   "area": "Ballantyne",
+   "cat": "family",
+   "tag": "Holiday Event",
+   "price": "See site",
+   "free": false,
+   "note": "Holiday kickoff at The Bowl, the day the ice rink opens",
+   "url": "https://qnotescarolinas.com/2026-holiday-events-in-charlotte/",
+   "checked": "2026-10-29",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "season": "holidays",
+   "outdoor": true,
+   "kids": true,
+   "id": "e351"
   },
   {
    "kind": "dated",
@@ -8324,7 +8087,7 @@
    "priceTier": "ticketed",
    "url": "https://www.tickpick.com/buy-beat-band-tickets-ovens-auditorium-11-21-26-8pm/8180046/",
    "end": "2026-11-21",
-   "id": "e377"
+   "id": "e352"
   },
   {
    "kind": "dated",
@@ -8343,7 +8106,30 @@
    "priceTier": "ticketed",
    "url": "https://www.visulite.com/",
    "end": "2026-11-21",
-   "id": "e378"
+   "id": "e353"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-21",
+   "end": "2027-01-10",
+   "time": "Varies",
+   "title": "Ice Skating at The Bowl",
+   "venue": "The Bowl at Ballantyne",
+   "area": "Ballantyne",
+   "cat": "outdoors",
+   "tag": "Ice Skating",
+   "price": "Tickets; reservations available",
+   "free": false,
+   "note": "Outdoor rink returns for the holidays",
+   "url": "https://qnotescarolinas.com/2026-holiday-events-in-charlotte/",
+   "checked": "2026-10-29",
+   "priceTier": "varies",
+   "zone": "charlotte",
+   "season": "holidays",
+   "outdoor": true,
+   "kids": true,
+   "unconfirmedTime": true,
+   "id": "e354"
   },
   {
    "kind": "dated",
@@ -8362,7 +8148,28 @@
    "area": "Uptown",
    "url": "https://www.sportbusy.com/nfl-schedule-2026/panthers/",
    "end": "2026-11-22",
-   "id": "e379"
+   "id": "e355"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "A Magical Cirque Christmas",
+   "venue": "Belk Theater, Blumenthal",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Theater",
+   "price": "From $40.13",
+   "free": false,
+   "note": "Holiday cirque show with acrobats and live music",
+   "url": "https://www.blumenthalarts.org/events/detail/a-magical-cirque-christmas-1",
+   "checked": "2026-10-29",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "season": "holidays",
+   "kids": true,
+   "id": "e356"
   },
   {
    "kind": "dated",
@@ -8381,7 +8188,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e380"
+   "id": "e357"
   },
   {
    "kind": "dated",
@@ -8401,7 +8208,29 @@
    "url": "https://www.mintmuseum.org/event/boomkack-a-community-dance-class-jazz-funk-dance/",
    "checked": "2026-10-26",
    "endTime": "8:00 PM",
-   "id": "e381"
+   "id": "e358"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-25",
+   "end": "2027-01-03",
+   "time": "5:00 PM",
+   "title": "Light the Knights Festival",
+   "venue": "Truist Field",
+   "area": "Uptown",
+   "cat": "festival",
+   "tag": "Holiday Lights",
+   "price": "Tickets; buy activities in advance",
+   "free": false,
+   "note": "Seventh year: tens of thousands of lights, ice skating, snow tubing and holiday shopping in the ballpark. Capacity is limited",
+   "url": "https://qnotescarolinas.com/2026-holiday-events-in-charlotte/",
+   "checked": "2026-10-29",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "season": "holidays",
+   "outdoor": true,
+   "kids": true,
+   "id": "e359"
   },
   {
    "kind": "dated",
@@ -8421,7 +8250,7 @@
    "priceTier": "free",
    "zone": "charlotte",
    "outdoor": true,
-   "id": "e382"
+   "id": "e360"
   },
   {
    "kind": "dated",
@@ -8440,7 +8269,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e383"
+   "id": "e361"
   },
   {
    "kind": "dated",
@@ -8461,7 +8290,7 @@
    "outdoor": true,
    "season": "thanksgiving",
    "end": "2026-11-26",
-   "id": "e384"
+   "id": "e362"
   },
   {
    "kind": "dated",
@@ -8484,7 +8313,7 @@
    "season": "thanksgiving",
    "end": "2026-11-26",
    "unconfirmedTime": true,
-   "id": "e385"
+   "id": "e363"
   },
   {
    "kind": "dated",
@@ -8504,7 +8333,7 @@
    "area": "East Charlotte",
    "url": "https://charlottecheckers.com/schedule/promotions",
    "kids": true,
-   "id": "e386"
+   "id": "e364"
   },
   {
    "kind": "dated",
@@ -8525,7 +8354,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "season": "holidays",
-   "id": "e387"
+   "id": "e365"
   },
   {
    "kind": "dated",
@@ -8557,7 +8386,27 @@
      "6:30 PM"
     ]
    },
-   "id": "e388"
+   "id": "e366"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "7:30 PM",
+   "title": "A Motown Christmas",
+   "venue": "Knight Theater",
+   "area": "Uptown",
+   "cat": "music",
+   "tag": "Concert",
+   "price": "From $70.77",
+   "free": false,
+   "note": "Motortown All-Stars, with former members of The Miracles and The Contours, and a live band with brass",
+   "url": "https://www.blumenthalarts.org/events/detail/a-motown-christmas-5",
+   "checked": "2026-10-29",
+   "priceTier": "ticketed",
+   "zone": "charlotte",
+   "season": "holidays",
+   "id": "e367"
   },
   {
    "kind": "dated",
@@ -8585,7 +8434,7 @@
      "3:00 PM"
     ]
    },
-   "id": "e389"
+   "id": "e368"
   },
   {
    "kind": "dated",
@@ -8607,7 +8456,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "season": "holidays",
-   "id": "e390"
+   "id": "e369"
   },
   {
    "kind": "dated",
@@ -8629,7 +8478,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e391"
+   "id": "e370"
   },
   {
    "kind": "dated",
@@ -8648,7 +8497,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e392"
+   "id": "e371"
   },
   {
    "kind": "dated",
@@ -8669,7 +8518,7 @@
    "outdoor": true,
    "end": "2026-11-28",
    "unconfirmedTime": true,
-   "id": "e393"
+   "id": "e372"
   },
   {
    "kind": "dated",
@@ -8690,7 +8539,7 @@
    "checked": "2026-10-26",
    "endTime": "5:00 PM",
    "season": "holidays",
-   "id": "e394"
+   "id": "e373"
   },
   {
    "kind": "dated",
@@ -8710,7 +8559,7 @@
    "url": "https://www.tickpick.com/buy-christmas-together-amy-grant-michael-w-smith-cece-winans-tickets-bojangles-coliseum-11-29-26-7pm/7908808/",
    "end": "2026-11-29",
    "season": "holidays",
-   "id": "e395"
+   "id": "e374"
   },
   {
    "kind": "dated",
@@ -8729,7 +8578,7 @@
    "area": "Uptown",
    "url": "https://www.blumenthalarts.org/events/detail/charlotte-symphony-majestic-brass-2",
    "end": "2026-11-29",
-   "id": "e396"
+   "id": "e375"
   },
   {
    "kind": "dated",
@@ -8748,68 +8597,7 @@
    "checked": "2026-10-26",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e397"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "7:00 PM",
-   "title": "Trivia: Halloween Style",
-   "venue": "Ghostface Brewing",
-   "area": "Mooresville",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Halloween-themed trivia night",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-10-28",
-   "zone": "nearby",
-   "gameKind": "Themed",
-   "id": "e398"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "7:00 PM",
-   "title": "Official Jeopardy! Bar League",
-   "venue": "Free Range Brewing",
-   "area": "Optimist Park",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Jeopardy-style bar league night",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-10-28",
-   "zone": "charlotte",
-   "gameKind": "Themed",
-   "id": "e399"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-10-29",
-   "end": "2026-10-29",
-   "time": "7:00 PM",
-   "title": "Themed Trivia: Carolina Panthers",
-   "venue": "Royal Bliss Brewing",
-   "area": "Denver",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Panthers-themed trivia before Thursday Night Football, then stay to watch the game.",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-10-28",
-   "zone": "nearby",
-   "endTime": "9:00 PM",
-   "gameKind": "Themed",
-   "id": "e400"
+   "id": "e376"
   }
  ],
  "deals": [
@@ -9614,14 +9402,6 @@
     "lat": 35.11617,
     "lon": -80.72194
    },
-   "224 E. 7th St": {
-    "lat": 35.22743,
-    "lon": -80.83833,
-    "rail": {
-     "st": "CTC/Arena",
-     "mi": 0.3
-    }
-   },
    "300 S. Davidson St": {
     "lat": 35.2216,
     "lon": -80.84136,
@@ -10047,18 +9827,9 @@
      "mi": 0.4
     }
    },
-   "Lake Park (Pineville)": {
-    "lat": 35.0777,
-    "lon": -80.89347
-   },
    "Lakeshore Learning Matthews": {
     "lat": 35.13259,
     "lon": -80.70823
-   },
-   "Latin American Coalition": {
-    "lat": 35.20676,
-    "lon": -80.75238,
-    "approx": true
    },
    "Latta Nature Preserve": {
     "lat": 35.35111,
@@ -10142,10 +9913,6 @@
      "st": "36th Street",
      "mi": 0.2
     }
-   },
-   "McLawland Farms": {
-    "lat": 35.26243,
-    "lon": -80.66322
    },
    "Mint Hill Library": {
     "lat": 35.17168,
@@ -10326,18 +10093,9 @@
      "mi": 0.4
     }
    },
-   "Skyla Credit Union Amphitheatre": {
-    "lat": 35.23918,
-    "lon": -80.84504,
-    "approx": true
-   },
    "Small Bar Matthews": {
     "lat": 35.08641,
     "lon": -80.6964
-   },
-   "Snug Harbor": {
-    "lat": 35.21997,
-    "lon": -80.81325
    },
    "South Boulevard Library": {
     "lat": 35.18301,
@@ -10623,14 +10381,22 @@
      "mi": 0.0
     }
    },
-   "Ghostface Brewing": {
-    "lat": 35.58163,
-    "lon": -80.81511
-   },
    "Royal Bliss Brewing": {
     "lat": 35.53125,
     "lon": -81.0298,
     "approx": true
+   },
+   "Truist Field": {
+    "lat": 35.22828,
+    "lon": -80.84877,
+    "rail": {
+     "st": "3rd Street/Convention Center",
+     "mi": 0.6
+    }
+   },
+   "The Bowl at Ballantyne": {
+    "lat": 35.05813,
+    "lon": -80.84607
    }
   },
   "stations": [
