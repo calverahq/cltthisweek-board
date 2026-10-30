@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 26,
+   "players": 28,
    "cap": 48,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 19,
+   "players": 26,
    "cap": null,
    "regOpen": true
   },
@@ -43,7 +43,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 102,
+   "players": 114,
    "cap": null,
    "regOpen": true
   },
@@ -58,7 +58,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 19,
+   "players": 23,
    "cap": 72,
    "regOpen": true
   },
@@ -103,7 +103,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 4,
+   "players": 7,
    "cap": null,
    "regOpen": true
   },
