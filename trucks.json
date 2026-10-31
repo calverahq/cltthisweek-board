@@ -1,312 +1,7 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "source": "https://foodtruckscharlotte.org/",
  "days": [
-  {
-   "date": "2026-10-30",
-   "stops": [
-    {
-     "truck": "Sirius Smoothies & Acai",
-     "cuisine": "Smoothies",
-     "spot": "Hendrick Honda",
-     "street": "8901 South Blvd",
-     "city": "Charlotte",
-     "start": "8:00 AM",
-     "end": "4:00 PM",
-     "lat": 35.11643,
-     "lon": -80.88232,
-     "url": "https://foodtruckscharlotte.org/member/SiriusSmoothies"
-    },
-    {
-     "truck": "Danny Dogs",
-     "cuisine": "American, Argentine",
-     "spot": "Lowe's Home Improvement",
-     "street": "1100 Chancellor Park Dr",
-     "city": "Charlotte",
-     "start": "9:00 AM",
-     "end": "3:00 PM",
-     "lat": 35.29202,
-     "lon": -80.74251,
-     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
-    },
-    {
-     "truck": "Tiny Biscuit",
-     "cuisine": "Southern, Brunch, Comfort Food",
-     "spot": "VCW",
-     "street": "3205 Freedom Dr",
-     "city": "Charlotte",
-     "start": "10:30 AM",
-     "end": "2:15 PM",
-     "lat": 35.24275,
-     "lon": -80.89432,
-     "url": "https://foodtruckscharlotte.org/member/TinyBiscuit"
-    },
-    {
-     "truck": "A Pinch of Soul",
-     "cuisine": "Soul Food, Seafood, Southern",
-     "spot": "Sardis Rd Appointments with Vista Auction",
-     "street": "2500 Sardis Rd N",
-     "city": "Charlotte",
-     "start": "2:45 PM",
-     "end": "3:00 PM",
-     "lat": 35.14356,
-     "lon": -80.72508,
-     "url": "https://foodtruckscharlotte.org/member/apinchofsoul"
-    },
-    {
-     "truck": "Benny’s Bodega",
-     "cuisine": "Spanish, Sandwiches",
-     "spot": "Cascade",
-     "street": "2320 Cascade Pointe Boulevard",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.19844,
-     "lon": -80.91567,
-     "url": "https://foodtruckscharlotte.org/member/Bennysbodega"
-    },
-    {
-     "truck": "On the Block Foods & Catering",
-     "cuisine": "American, Vegan",
-     "spot": "Valerie C. Woodard Community R",
-     "street": "3205 Freedom Dr",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.24275,
-     "lon": -80.89432,
-     "url": "https://foodtruckscharlotte.org/member/ontheblockfoods"
-    },
-    {
-     "truck": "Nacho Average Truck",
-     "cuisine": "Comfort Food, Mexican, American",
-     "spot": "Meck Co Courthouse",
-     "street": "832 E 4th St",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.21963,
-     "lon": -80.83688,
-     "url": "https://foodtruckscharlotte.org/member/NachoAverage"
-    },
-    {
-     "truck": "Funnel It Up, LLC",
-     "cuisine": "American, Comfort Food, Desserts",
-     "spot": "Atrium- Stalling",
-     "street": "1000 Healing Wy",
-     "city": "Matthews",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.0945,
-     "lon": -80.67621,
-     "url": "https://foodtruckscharlotte.org/member/funnelitupllc"
-    },
-    {
-     "truck": "22 Street Kitchen",
-     "cuisine": "Tacos, American, Cajun/Creole",
-     "spot": "Airport Overlook + Park",
-     "street": "5130 Airport Overlook Dr",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "3:00 PM",
-     "lat": 35.22451,
-     "lon": -80.96224,
-     "url": "https://foodtruckscharlotte.org/member/22StreetKitchen"
-    },
-    {
-     "truck": "A Little Taste of Chicago",
-     "cuisine": "American, Comfort Food",
-     "spot": "Harris YMCA Preschool's Fall Festival",
-     "street": "5900 Quail Hollow Rd",
-     "city": "Charlotte",
-     "start": "11:30 AM",
-     "end": "1:00 PM",
-     "lat": 35.1322,
-     "lon": -80.83968,
-     "url": "https://foodtruckscharlotte.org/member/alittletasteofchi"
-    },
-    {
-     "truck": "Chateau Creole NC",
-     "cuisine": "Caribbean, Seafood, Comfort Food",
-     "spot": "8101 University City Blvd",
-     "street": "8101 University City Blvd",
-     "city": "Charlotte",
-     "start": "1:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.29379,
-     "lon": -80.75124,
-     "url": "https://foodtruckscharlotte.org/member/chateaucreolenc"
-    },
-    {
-     "truck": "Tasty Tre's Food Truck",
-     "cuisine": "Breakfast, Brunch, Desserts",
-     "spot": "October 30th 4:30pm-8:30pm?",
-     "street": "832 Seigle Ave",
-     "city": "Charlotte",
-     "start": "3:00 PM",
-     "end": "8:30 PM",
-     "lat": 35.22557,
-     "lon": -80.82473,
-     "url": "https://foodtruckscharlotte.org/member/TastyTresFoodTruck"
-    },
-    {
-     "truck": "Chow A Belle",
-     "cuisine": "Soul Food",
-     "spot": "5130 Airport Overlook Dr",
-     "street": "5130 Airport Overlook Dr",
-     "city": "Charlotte",
-     "start": "3:30 PM",
-     "end": "8:00 PM",
-     "lat": 35.22451,
-     "lon": -80.96224,
-     "url": "https://foodtruckscharlotte.org/member/ChowABelle"
-    },
-    {
-     "truck": "Maki Taco",
-     "cuisine": "Asian Fusion",
-     "spot": "Trunk or Treat",
-     "street": "4100 Main St",
-     "city": "Harrisburg",
-     "start": "4:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.32598,
-     "lon": -80.64492,
-     "url": "https://foodtruckscharlotte.org/member/makitacotruck"
-    },
-    {
-     "truck": "GGC Smokehouse Food Truck",
-     "cuisine": "Barbeque",
-     "spot": "Harrisburg Trick or Treat on Main Street Town Center 4pm to 8pm",
-     "street": "4100 Main St",
-     "city": "Harrisburg",
-     "start": "4:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.32598,
-     "lon": -80.64492,
-     "url": "https://foodtruckscharlotte.org/member/ggcsmokehouse"
-    },
-    {
-     "truck": "La Señora De Hotdogs",
-     "cuisine": "Comfort Food, Breakfast, Spanish",
-     "spot": "Carolina Rent to Own",
-     "street": "3109 Freedom Dr",
-     "city": "Charlotte",
-     "start": "4:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.242,
-     "lon": -80.88921,
-     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
-    },
-    {
-     "truck": "Deejai Food Truck",
-     "cuisine": "Thai, Asian Fusion",
-     "spot": "Resident culture",
-     "street": "2101 Central Ave",
-     "city": "Charlotte",
-     "start": "5:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.22021,
-     "lon": -80.80553,
-     "url": "https://foodtruckscharlotte.org/member/Deejai"
-    },
-    {
-     "truck": "ShawermaG",
-     "cuisine": "Middle Eastern, Halal, Mediterranean",
-     "spot": "Armored Cow Brewing Co.",
-     "street": "8821 JW Clay Blvd #1",
-     "city": "Charlotte",
-     "start": "5:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.31352,
-     "lon": -80.75328,
-     "url": "https://foodtruckscharlotte.org/member/ShawermaG"
-    },
-    {
-     "truck": "Thai Smile Street Food",
-     "cuisine": "Thai, Asian Fusion",
-     "spot": "Armored Cow Brewing Co.",
-     "street": "8821 JW Clay Blvd",
-     "city": "Charlotte",
-     "start": "5:00 PM",
-     "end": "9:00 PM",
-     "lat": 35.3135,
-     "lon": -80.7531,
-     "url": "https://foodtruckscharlotte.org/member/thaismile"
-    },
-    {
-     "truck": "Plato Pronto food truck",
-     "cuisine": "Mexican",
-     "spot": "5800 Brookshire Blvd",
-     "street": "5800 Brookshire Blvd",
-     "city": "Charlotte",
-     "start": "6:00 PM",
-     "end": "10:00 PM",
-     "lat": 35.28292,
-     "lon": -80.90053,
-     "url": "https://foodtruckscharlotte.org/member/PlatoPronto"
-    },
-    {
-     "truck": "Qs Culinary Cart",
-     "cuisine": "American",
-     "spot": "727 W Trade St",
-     "street": "727 W Trade St",
-     "city": "Charlotte",
-     "start": "6:00 PM",
-     "end": "10:00 PM",
-     "lat": 35.23242,
-     "lon": -80.84993,
-     "url": "https://foodtruckscharlotte.org/member/qsculinarycart"
-    },
-    {
-     "truck": "Queen City Cheesesteaks",
-     "cuisine": "Cheesesteaks, Wings, American",
-     "spot": "Science on the Rocks",
-     "street": "168 W 6th St",
-     "city": "Charlotte",
-     "start": "6:00 PM",
-     "end": "10:00 PM",
-     "lat": 35.22944,
-     "lon": -80.84093,
-     "url": "https://foodtruckscharlotte.org/member/queencitycheesesteak"
-    },
-    {
-     "truck": "A Tana Empanada",
-     "cuisine": "Latin American, South American",
-     "spot": "Super Abari Bar",
-     "street": "1015 Seigle Ave",
-     "city": "Charlotte",
-     "start": "6:00 PM",
-     "end": "10:00 PM",
-     "lat": 35.22815,
-     "lon": -80.82294,
-     "url": "https://foodtruckscharlotte.org/member/atanafoodtruck"
-    },
-    {
-     "truck": "Round The Way Eatery",
-     "cuisine": "Seafood, Fish & Chips, Southern",
-     "spot": "5407 Statesville Rd",
-     "street": "5407 Statesville Rd",
-     "city": "Charlotte",
-     "start": "7:30 PM",
-     "end": "4:00 AM",
-     "lat": 35.29359,
-     "lon": -80.83877,
-     "url": "https://foodtruckscharlotte.org/member/RoundTheWayEatery"
-    },
-    {
-     "truck": "La Señora De Hotdogs",
-     "cuisine": "Comfort Food, Breakfast, Spanish",
-     "spot": "ALDI",
-     "street": "2526 Freedom Dr",
-     "city": "Charlotte",
-     "start": "8:30 PM",
-     "end": "5:30 AM",
-     "lat": 35.23705,
-     "lon": -80.8803,
-     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
-    }
-   ]
-  },
   {
    "date": "2026-10-31",
    "stops": [
@@ -477,6 +172,18 @@
      "lat": 35.23705,
      "lon": -80.8803,
      "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    },
+    {
+     "truck": "Tiny Biscuit",
+     "cuisine": "Southern, Brunch, Comfort Food",
+     "spot": "Charger cup!",
+     "street": "1355 Cox Mill Rd",
+     "city": "Concord",
+     "start": "9:00 PM",
+     "end": "10:00 PM",
+     "lat": 35.39516,
+     "lon": -80.72857,
+     "url": "https://foodtruckscharlotte.org/member/TinyBiscuit"
     }
    ]
   },
@@ -890,6 +597,18 @@
      "url": "https://foodtruckscharlotte.org/member/DusktoDawnNC"
     },
     {
+     "truck": "Lobster Dogs-Food Truck",
+     "cuisine": "Seafood",
+     "spot": "Sycamore at Tyvola",
+     "street": "707 Sycamore Centre Dr",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.16429,
+     "lon": -80.90651,
+     "url": "https://foodtruckscharlotte.org/member/lobsterdogstruck"
+    },
+    {
      "truck": "Deejai Food Truck",
      "cuisine": "Thai, Asian Fusion",
      "spot": "Vaulted Oak Brewing",
@@ -941,6 +660,18 @@
      "lat": 35.12824,
      "lon": -80.8072,
      "url": "https://foodtruckscharlotte.org/member/detourcoffeebar"
+    },
+    {
+     "truck": "Lobster Dogs-Food Truck",
+     "cuisine": "Seafood",
+     "spot": "Legacy Ballantyne time tba but think 5.",
+     "street": "9200 Otter Creek Dr",
+     "city": "Charlotte",
+     "start": "8:00 AM",
+     "end": "9:00 AM",
+     "lat": 35.05714,
+     "lon": -80.83238,
+     "url": "https://foodtruckscharlotte.org/member/lobsterdogstruck"
     },
     {
      "truck": "Danny Dogs",
@@ -1366,6 +1097,203 @@
      "lat": 35.28292,
      "lon": -80.90053,
      "url": "https://foodtruckscharlotte.org/member/PlatoPronto"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "stops": [
+    {
+     "truck": "Naturally Sweet Cafe",
+     "cuisine": "Coffee, Desserts",
+     "spot": "Coffee at Elizabeth Square",
+     "street": "730 Hawthorne Ln",
+     "city": "Charlotte",
+     "start": "6:30 AM",
+     "end": "11:00 AM",
+     "lat": 35.2189,
+     "lon": -80.81814,
+     "url": "https://foodtruckscharlotte.org/member/naturallysweetcafe"
+    },
+    {
+     "truck": "Detour Coffeebar",
+     "cuisine": "Coffee, Breakfast, Smoothies",
+     "spot": "Avalon Highland Creek",
+     "street": "4930 Goose Creek Dr",
+     "city": "Charlotte",
+     "start": "7:30 AM",
+     "end": "10:00 AM",
+     "lat": 35.37332,
+     "lon": -80.78275,
+     "url": "https://foodtruckscharlotte.org/member/detourcoffeebar"
+    },
+    {
+     "truck": "Danny Dogs",
+     "cuisine": "American, Argentine",
+     "spot": "Lowe's Home Improvement",
+     "street": "1100 Chancellor Park Dr",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.29202,
+     "lon": -80.74251,
+     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
+    },
+    {
+     "truck": "JRea Loaded Potato",
+     "cuisine": "Spanish",
+     "spot": "Cascade",
+     "street": "2320 Cascade Pointe Boulevard",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.19844,
+     "lon": -80.91567,
+     "url": "https://foodtruckscharlotte.org/member/JreaLoadedPotatoes"
+    },
+    {
+     "truck": "ShawermaG",
+     "cuisine": "Middle Eastern, Halal, Mediterranean",
+     "spot": "Shawerma G",
+     "street": "10830 Northlake Auto Plaza Blvd",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.36903,
+     "lon": -80.83169,
+     "url": "https://foodtruckscharlotte.org/member/ShawermaG"
+    },
+    {
+     "truck": "Joejohn’s Burgers & Soul",
+     "cuisine": "Armenian, Soul Food, Southern",
+     "spot": "Cambridge Acquisitions LLC",
+     "street": "10101 Claude Freeman Dr",
+     "city": "Charlotte",
+     "start": "11:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.33441,
+     "lon": -80.76215,
+     "url": "https://foodtruckscharlotte.org/member/JoeJohnsBurgers"
+    },
+    {
+     "truck": "Detour Coffeebar",
+     "cuisine": "Coffee, Breakfast, Smoothies",
+     "spot": "Miller McNeish & Breedlove",
+     "street": "4000 Park Rd",
+     "city": "Charlotte",
+     "start": "1:00 PM",
+     "end": "4:00 PM",
+     "lat": 35.17639,
+     "lon": -80.8514,
+     "url": "https://foodtruckscharlotte.org/member/detourcoffeebar"
+    },
+    {
+     "truck": "Just Juice CLT",
+     "cuisine": "Juices, Drinks, Desserts",
+     "spot": "CLT Airport overlook",
+     "street": "5130 Airport Overlook Dr",
+     "city": "Charlotte",
+     "start": "4:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.22451,
+     "lon": -80.96224,
+     "url": "https://foodtruckscharlotte.org/member/justjuiceclt"
+    },
+    {
+     "truck": "La Señora De Hotdogs",
+     "cuisine": "Comfort Food, Breakfast, Spanish",
+     "spot": "Carolina Rent to Own",
+     "street": "3109 Freedom Dr",
+     "city": "Charlotte",
+     "start": "4:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.242,
+     "lon": -80.88921,
+     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    },
+    {
+     "truck": "Muchachos Tacos LKN",
+     "cuisine": "Mexican, American, Latin American",
+     "spot": "760 Craft Works",
+     "street": "100 Gilead Rd",
+     "city": "Huntersville",
+     "start": "5:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.41104,
+     "lon": -80.84365,
+     "url": "https://foodtruckscharlotte.org/member/muchachostacoslkn"
+    },
+    {
+     "truck": "Deejai Food Truck",
+     "cuisine": "Thai, Asian Fusion",
+     "spot": "Birdsong",
+     "street": "1016 N Davidson St",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.23067,
+     "lon": -80.82652,
+     "url": "https://foodtruckscharlotte.org/member/Deejai"
+    },
+    {
+     "truck": "Lobster Dogs-Food Truck",
+     "cuisine": "Seafood",
+     "spot": "Resident Culture",
+     "street": "2101 Central Ave",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.22007,
+     "lon": -80.80543,
+     "url": "https://foodtruckscharlotte.org/member/lobsterdogstruck"
+    },
+    {
+     "truck": "Lobster Dogs-Food Truck",
+     "cuisine": "Seafood",
+     "spot": "Armored Cow",
+     "street": "8821 JW Clay Blvd #1",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "9:00 PM",
+     "lat": 35.31352,
+     "lon": -80.75328,
+     "url": "https://foodtruckscharlotte.org/member/lobsterdogstruck"
+    },
+    {
+     "truck": "Pinoy Plates",
+     "cuisine": "Filipino, American",
+     "spot": "Asian Night Market Urban District",
+     "street": "2315 N Davidson St",
+     "city": "Charlotte",
+     "start": "5:00 PM",
+     "end": "10:00 PM",
+     "lat": 35.24083,
+     "lon": -80.81465,
+     "url": "https://foodtruckscharlotte.org/member/PinoyPlates"
+    },
+    {
+     "truck": "Plato Pronto food truck",
+     "cuisine": "Mexican",
+     "spot": "5800 Brookshire Blvd",
+     "street": "5800 Brookshire Blvd",
+     "city": "Charlotte",
+     "start": "6:00 PM",
+     "end": "10:00 PM",
+     "lat": 35.28292,
+     "lon": -80.90053,
+     "url": "https://foodtruckscharlotte.org/member/PlatoPronto"
+    },
+    {
+     "truck": "La Señora De Hotdogs",
+     "cuisine": "Comfort Food, Breakfast, Spanish",
+     "spot": "ALDI",
+     "street": "2526 Freedom Dr",
+     "city": "Charlotte",
+     "start": "8:30 PM",
+     "end": "5:30 AM",
+     "lat": 35.23705,
+     "lon": -80.8803,
+     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
     }
    ]
   }

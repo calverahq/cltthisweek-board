@@ -1,22 +1,7 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "2026 Bradford MVP Space Race",
-   "url": "https://www.discgolfscene.com/tournaments/2026_Bradford_MVP_Space_Race",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "tier": "",
-   "format": "",
-   "course": "Bradford Park",
-   "city": "Huntersville",
-   "state": "NC",
-   "close": true,
-   "players": 28,
-   "cap": 48,
-   "regOpen": true
-  },
   {
    "name": "The Kilborne Classic-Halloween World",
    "url": "https://www.discgolfscene.com/tournaments/The_Kilborne_Classic_2026",
@@ -28,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 26,
+   "players": 35,
    "cap": null,
    "regOpen": true
   },
@@ -43,7 +28,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 114,
+   "players": 124,
    "cap": null,
    "regOpen": true
   },
@@ -58,7 +43,22 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 23,
+   "players": 25,
+   "cap": 72,
+   "regOpen": true
+  },
+  {
+   "name": "49ers Showdown",
+   "url": "https://www.discgolfscene.com/tournaments/49ers_Showdown_2026",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "tier": "PDGA Collegiate Teams XC-tier",
+   "format": "Teams",
+   "course": "Elon Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": 21,
    "cap": 72,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 73,
+   "players": 72,
    "cap": 72,
    "regOpen": true
   },
@@ -103,7 +103,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 7,
+   "players": 9,
    "cap": null,
    "regOpen": true
   },
@@ -223,7 +223,7 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": 2,
+   "players": 3,
    "cap": 105,
    "regOpen": true
   }
