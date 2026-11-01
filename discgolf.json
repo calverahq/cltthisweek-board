@@ -1,22 +1,7 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "The Kilborne Classic-Halloween World",
-   "url": "https://www.discgolfscene.com/tournaments/The_Kilborne_Classic_2026",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Kilborne District Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 35,
-   "cap": null,
-   "regOpen": true
-  },
   {
    "name": "Chain Reactions Fall Series #4 (Y5) @Scrapyard - Driven by INNOVA",
    "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_4_Y5_atScrapyard_Driven_by_INNOVA_2026",
@@ -28,8 +13,8 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 124,
-   "cap": null,
+   "players": 134,
+   "cap": 136,
    "regOpen": true
   },
   {
@@ -43,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 25,
+   "players": 26,
    "cap": 72,
    "regOpen": true
   },
@@ -58,7 +43,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 21,
+   "players": 33,
    "cap": 72,
    "regOpen": true
   },
@@ -93,6 +78,36 @@
    "regOpen": true
   },
   {
+   "name": "Chain Reactions Fall Series #5 (Y5) @RL Smith Gully - Driven by INNOVA",
+   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_5_Y5_atRL_Smith_Gully_Driven_by_INNOVA_2026",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "tier": "",
+   "format": "Flex start",
+   "course": "Robert L. Smith Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": null,
+   "cap": null,
+   "regOpen": true
+  },
+  {
+   "name": "Chain Reactions Fall Series #6 (Y5) @RL Smith Ravine - Driven by INNOVA",
+   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_6_Y5_atRL_Smith_Ravine_Driven_by_INNOVA_2026",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "tier": "",
+   "format": "Flex start",
+   "course": "Robert L. Smith Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": null,
+   "cap": null,
+   "regOpen": true
+  },
+  {
    "name": "Charlotte Masters Championship Presented by Innova",
    "url": "https://www.discgolfscene.com/tournaments/Charlotte_Masters_Championship_Presented_by_Innova_2026",
    "start": "2026-11-21",
@@ -103,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 9,
+   "players": 11,
    "cap": null,
    "regOpen": true
   },
@@ -133,7 +148,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 5,
+   "players": 6,
    "cap": null,
    "regOpen": true
   },
