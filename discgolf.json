@@ -1,22 +1,7 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "Chain Reactions Fall Series #4 (Y5) @Scrapyard - Driven by INNOVA",
-   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_4_Y5_atScrapyard_Driven_by_INNOVA_2026",
-   "start": "2026-11-01",
-   "end": "2026-11-01",
-   "tier": "PDGA Flex C-tier",
-   "format": "Flex start",
-   "course": "Idlewild Park - The Scrapyard Disc Golf Course",
-   "city": "Matthews",
-   "state": "NC",
-   "close": true,
-   "players": 134,
-   "cap": 136,
-   "regOpen": true
-  },
   {
    "name": "The Flight and The Feast: Friendsgiving",
    "url": "https://www.discgolfscene.com/tournaments/The_Flight_and_The_Feast_Friendsgiving_2026",
@@ -28,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 26,
+   "players": 33,
    "cap": 72,
    "regOpen": true
   },
@@ -88,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": null,
+   "players": 2,
    "cap": null,
    "regOpen": true
   },
@@ -103,7 +88,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": null,
+   "players": 2,
    "cap": null,
    "regOpen": true
   },
@@ -133,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 117,
+   "players": 122,
    "cap": 180,
    "regOpen": true
   },
@@ -148,7 +133,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 6,
+   "players": 7,
    "cap": null,
    "regOpen": true
   },

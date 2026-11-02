@@ -1,0 +1,356 @@
+{
+ "categories": [
+  {
+   "id": "date-night",
+   "places": [
+    {
+     "name": "Spaghett",
+     "area": "Uptown (Fourth Ward)",
+     "address": "224 W 10th St, Charlotte, NC 28202",
+     "website": "http://restaurantspaghett.com/",
+     "price": "$$",
+     "cuisine": "Italian, handmade pasta",
+     "why": "Sam Hart's (Counter-) pasta and cocktail house in a historic Fourth Ward home; newly added to Michelin's recommended list this fall, and pastas stay relatively affordable.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2026/10/22/north-carolina-michelin-stars-bib-gourmand-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": true
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC); official site listed on Charlotte's Got A Lot"
+    },
+    {
+     "name": "L'Ostrica",
+     "area": "Park Rd / Madison Park, near Montford",
+     "address": "4701 Park Rd Ste D, Charlotte, NC 28209",
+     "website": "https://www.lostricaclt.com/",
+     "price": "$$$$",
+     "cuisine": "Seasonal tasting menus",
+     "why": "Chef-driven tasting-menu spot with wine pairings and caviar service; picked up a new Michelin recommendation in October 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC); official site listed on Charlotte's Got A Lot"
+    },
+    {
+     "name": "Albertine",
+     "area": "Uptown (Duke Energy Plaza)",
+     "address": "525 S Tryon St Ste 125, Charlotte, NC 28202",
+     "website": "https://www.albertinerestaurant.com/",
+     "price": "$$$",
+     "cuisine": "Mediterranean with Southern influences",
+     "why": "The Kindred team's uptown dining room pairing Mediterranean cooking with Southern touches; newly Michelin-recommended in 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC); listed on uptowncharlotte.com"
+    },
+    {
+     "name": "Restaurant Constance",
+     "area": "Wesley Heights",
+     "address": "2200 Thrift Rd, Charlotte, NC 28208",
+     "website": "https://restaurantconstance.com",
+     "price": "$$$$",
+     "cuisine": "Seasonal New American",
+     "why": "Chef Sam Diminich's seasonal American restaurant kept its Michelin recommendation in the 2026 guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    },
+    {
+     "name": "Customshop",
+     "area": "Elizabeth",
+     "address": "1601 Elizabeth Ave, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Customshop+1601+Elizabeth+Ave+Charlotte",
+     "price": "$$$",
+     "cuisine": "Seasonal American",
+     "why": "Kept its Michelin recommendation in the 2026 American South guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    },
+    {
+     "name": "Supperland",
+     "area": "Plaza Midwood",
+     "address": "1212 The Plaza, Charlotte, NC 28205",
+     "website": "https://www.google.com/maps/search/?api=1&query=Supperland+1212+The+Plaza+Charlotte",
+     "price": "$$$$",
+     "cuisine": "Southern steakhouse",
+     "why": "Southern steakhouse that stayed on Michelin's recommended list for 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    },
+    {
+     "name": "Counter-",
+     "area": "Wesley Heights",
+     "address": "",
+     "website": "https://counterclt.com",
+     "price": "$$$$",
+     "cuisine": "Tasting menu",
+     "why": "Retained its Michelin star, still the city's only starred restaurant, in the 2026 guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    }
+   ]
+  },
+  {
+   "id": "tacos",
+   "places": [
+    {
+     "name": "The Story of Mi Cariño",
+     "area": "South End",
+     "address": "1440 S Tryon St Ste 100, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=The%20Story%20of%20Mi%20Cari%C3%B1o%20Charlotte",
+     "price": "$$",
+     "cuisine": "Mexican and Latin American gastro cantina, mezcaleria",
+     "why": "South End cantina and mezcal bar from the Vinyl team that opened in January 2026 and earned a Bib Gourmand on its first try; its chef also won Michelin's Young Chef Award.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2026/10/22/north-carolina-michelin-stars-bib-gourmand-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": true
+      }
+     ],
+     "open_check": "open (opened Jan 30 2026 per Axios; awarded Bib Gourmand 2026-10-22 per VisitNC and WSOC; address from Foodle and Axios 2026 openings list)"
+    }
+   ]
+  },
+  {
+   "id": "asian",
+   "places": [
+    {
+     "name": "Lang Van",
+     "area": "East Charlotte",
+     "address": "3019 Shamrock Dr, Charlotte, NC 28215",
+     "website": "https://langvanrestaurant.com/",
+     "price": "$",
+     "cuisine": "Vietnamese",
+     "why": "East Charlotte Vietnamese mainstay that held onto its Bib Gourmand in the 2026 Michelin guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    },
+    {
+     "name": "Prime Fish",
+     "area": "Ballantyne / Providence Park",
+     "address": "",
+     "website": "https://www.google.com/maps/search/?api=1&query=Prime+Fish+sushi+Charlotte+NC",
+     "price": "$$$",
+     "cuisine": "Edomae sushi, omakase",
+     "why": "Sushi spot that kept a Michelin recommendation in 2026, as did its separate omakase counter.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    }
+   ]
+  },
+  {
+   "id": "bbq",
+   "places": [
+    {
+     "name": "Haberdish",
+     "area": "NoDa",
+     "address": "3106 N Davidson St, Charlotte, NC 28205",
+     "website": "http://haberdish.com/",
+     "price": "$$",
+     "cuisine": "Southern comfort",
+     "why": "Southern kitchen that remained Michelin-recommended in the 2026 guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    }
+   ]
+  },
+  {
+   "id": "patios",
+   "places": [
+    {
+     "name": "Hello, Sailor",
+     "area": "Cornelius (Lake Norman)",
+     "address": "20210 Henderson Rd, Cornelius, NC 28031",
+     "website": "https://www.google.com/maps/search/?api=1&query=Hello%2C+Sailor+Cornelius+%28Lake+Norman%29+NC",
+     "price": "$$",
+     "cuisine": "Seafood, tiki",
+     "why": "Lakeside Kindred-team seafood spot that stayed on Michelin's recommended list in 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named in the 2026 Michelin Guide American South selection announced 2026-10-22, per VisitNC release and WSOC)"
+    }
+   ]
+  }
+ ],
+ "closed": []
+}
