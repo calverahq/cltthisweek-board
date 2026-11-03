@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 33,
+   "players": 44,
    "cap": 72,
    "regOpen": true
   },
@@ -43,7 +43,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 72,
+   "players": 73,
    "cap": 72,
    "regOpen": true
   },
@@ -118,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 122,
+   "players": 135,
    "cap": 180,
    "regOpen": true
   },
@@ -148,7 +148,7 @@
    "city": "Monroe",
    "state": "NC",
    "close": false,
-   "players": 2,
+   "players": 6,
    "cap": 72,
    "regOpen": true
   },
@@ -168,21 +168,6 @@
    "regOpen": true
   },
   {
-   "name": "Ulibarri Foundation Fundraiser",
-   "url": "https://www.discgolfscene.com/tournaments/Ulibarri_Foundation_Fundraiser_2026",
-   "start": "2026-12-05",
-   "end": "2026-12-05",
-   "tier": "",
-   "format": "",
-   "course": "Idlewild Road Park",
-   "city": "Matthews",
-   "state": "NC",
-   "close": true,
-   "players": 2,
-   "cap": null,
-   "regOpen": true
-  },
-  {
    "name": "The Hills of RL",
    "url": "https://www.discgolfscene.com/tournaments/The_Hills_of_RL_2026",
    "start": "2026-12-06",
@@ -193,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 2,
+   "players": 3,
    "cap": null,
    "regOpen": true
   },
@@ -204,11 +189,11 @@
    "end": "2026-12-19",
    "tier": "",
    "format": "",
-   "course": "Kilborne District Park",
+   "course": "Elon Park",
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": null,
+   "players": 1,
    "cap": null,
    "regOpen": true
   },
@@ -226,6 +211,21 @@
    "players": 3,
    "cap": 105,
    "regOpen": true
+  },
+  {
+   "name": "2027 Charlotte Roar - Presented by MVP Disc Sports and GMT, Powered by Infinite Discs",
+   "url": "https://www.discgolfscene.com/tournaments/2026_Charlotte_Roar_Presented_by_MVP_Discs_and_GMT_Powered_by_Infinite_Discs_2027",
+   "start": "2027-01-02",
+   "end": "2027-01-03",
+   "tier": "",
+   "format": "",
+   "course": "Hornets Nest Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": null,
+   "cap": null,
+   "regOpen": false
   }
  ],
  "leagues": [
