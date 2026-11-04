@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 44,
+   "players": 53,
    "cap": 72,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 2,
+   "players": 4,
    "cap": null,
    "regOpen": true
   },
@@ -103,7 +103,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 11,
+   "players": 14,
    "cap": null,
    "regOpen": true
   },
@@ -133,7 +133,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 7,
+   "players": 9,
    "cap": null,
    "regOpen": true
   },
@@ -172,13 +172,13 @@
    "url": "https://www.discgolfscene.com/tournaments/The_Hills_of_RL_2026",
    "start": "2026-12-06",
    "end": "2026-12-06",
-   "tier": "",
+   "tier": "PDGA C-tier",
    "format": "",
    "course": "Robert L. Smith Park",
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 3,
+   "players": 4,
    "cap": null,
    "regOpen": true
   },
@@ -187,7 +187,7 @@
    "url": "https://www.discgolfscene.com/tournaments/The_Charlotte_Charity_Classic_2026",
    "start": "2026-12-19",
    "end": "2026-12-19",
-   "tier": "",
+   "tier": "PDGA C-tier",
    "format": "",
    "course": "Elon Park",
    "city": "Charlotte",
@@ -208,7 +208,7 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": 3,
+   "players": 5,
    "cap": 105,
    "regOpen": true
   },
