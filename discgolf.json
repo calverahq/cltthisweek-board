@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 53,
+   "players": 60,
    "cap": 72,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 33,
+   "players": 37,
    "cap": 72,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 4,
+   "players": 8,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 2,
+   "players": 5,
    "cap": null,
    "regOpen": true
   },
@@ -217,15 +217,15 @@
    "url": "https://www.discgolfscene.com/tournaments/2026_Charlotte_Roar_Presented_by_MVP_Discs_and_GMT_Powered_by_Infinite_Discs_2027",
    "start": "2027-01-02",
    "end": "2027-01-03",
-   "tier": "",
+   "tier": "PDGA A-tier",
    "format": "",
    "course": "Hornets Nest Park",
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": null,
-   "cap": null,
-   "regOpen": false
+   "players": 12,
+   "cap": 216,
+   "regOpen": true
   }
  ],
  "leagues": [
