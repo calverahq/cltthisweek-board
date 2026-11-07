@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -15,7 +15,7 @@
    "close": true,
    "players": 72,
    "cap": 72,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "49ers Showdown",
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 10,
+   "players": 11,
    "cap": null,
    "regOpen": true
   },
@@ -223,7 +223,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 21,
+   "players": 26,
    "cap": 216,
    "regOpen": true
   }
