@@ -1,22 +1,7 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "The Flight and The Feast: Friendsgiving",
-   "url": "https://www.discgolfscene.com/tournaments/The_Flight_and_The_Feast_Friendsgiving_2026",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Hornets Nest Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 72,
-   "cap": 72,
-   "regOpen": false
-  },
   {
    "name": "49ers Showdown",
    "url": "https://www.discgolfscene.com/tournaments/49ers_Showdown_2026",
@@ -223,7 +208,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 26,
+   "players": 27,
    "cap": 216,
    "regOpen": true
   }
