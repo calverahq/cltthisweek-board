@@ -1,0 +1,53 @@
+{
+ "categories": [
+  {
+   "id": "asian",
+   "places": [
+    {
+     "name": "Open Rice",
+     "area": "Midtown (Metropolitan); second location in Blakeney",
+     "address": "1100 Metropolitan Ave Ste 100, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Open+Rice+1100+Metropolitan+Ave+Charlotte",
+     "price": "$$",
+     "cuisine": "Cantonese, dim sum",
+     "why": "One of the few places in town still running old-school push-cart dim sum on weekends, plus a rotating chef's-special menu with dishes like ginger scallion lobster; two locations (Metropolitan and Rea Rd in Blakeney).",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/open-rice-keeps-dim-sum-service-alive-in-charlotte/",
+       "date": "2026-10-26",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate feature 2026-10-26 describes current weekend cart service at both locations)"
+    }
+   ]
+  },
+  {
+   "id": "hidden-gems",
+   "places": [
+    {
+     "name": "Mano Bella",
+     "area": "SouthPark (Morrison Place); stall at The Market at 7th Street, Uptown",
+     "address": "721 Governor Morrison St Ste 150, Charlotte, NC 28211",
+     "website": "https://7thstreetpublicmarket.com/mano-bella-artisan-foods/",
+     "price": "$$",
+     "cuisine": "Italian, handmade pasta and sandwiches",
+     "why": "Small from-scratch pasta maker that has grown into a SouthPark eatery and an Uptown market counter; go for the beef ragu, ravioli or the house-smoked pancetta PLT, and watch for its pasta and mozzarella classes.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/mano-bella-keeps-evolving/",
+       "date": "2026-10-30",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate feature 2026-10-30 on both current locations; Toast ordering page live for SouthPark)"
+    }
+   ]
+  }
+ ],
+ "closed": []
+}

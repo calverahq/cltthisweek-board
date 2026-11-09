@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-09",
  "source": "https://www.cabletv.com/nfl/carolina-panthers/schedule",
  "schedule": "https://www.panthers.com/schedule/",
  "games": [
@@ -28,7 +28,7 @@
    "opp": "Denver Broncos",
    "home": true,
    "tv": "CBS",
-   "result": ""
+   "result": "L 21-26"
   },
   {
    "week": 10,

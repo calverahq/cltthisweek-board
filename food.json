@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "method": "(one entry per thread or article, never per comment):\n  Reddit or forum thread from locals ... 3 points, +2 if it was a top-voted pick or named by 3+ commenters\n  Local guide or article ............... 2 points if from the last ~2 years, 1.5 if 2-3 years old, 1 if older or undated\n  Seen only in a search snippet ........ half points\n  Sources more than 3 years old count half (threads too).\nTies go to the place with more independent sources. Places not confirmed open are held back, unless someone recommended them in the last 12 months.",
  "categories": [
   {
@@ -4444,6 +4444,27 @@
       }
      ],
      "rank": 14
+    },
+    {
+     "name": "Open Rice",
+     "area": "Midtown (Metropolitan); second location in Blakeney",
+     "address": "1100 Metropolitan Ave Ste 100, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Open+Rice+1100+Metropolitan+Ave+Charlotte",
+     "price": "$$",
+     "cuisine": "Cantonese, dim sum",
+     "why": "One of the few places in town still running old-school push-cart dim sum on weekends, plus a rotating chef's-special menu with dishes like ginger scallion lobster; two locations (Metropolitan and Rea Rd in Blakeney).",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/open-rice-keeps-dim-sum-service-alive-in-charlotte/",
+       "date": "2026-10-26",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 15
     }
    ]
   },
@@ -4958,6 +4979,27 @@
      "rank": 5
     },
     {
+     "name": "Mano Bella",
+     "area": "SouthPark (Morrison Place); stall at The Market at 7th Street, Uptown",
+     "address": "721 Governor Morrison St Ste 150, Charlotte, NC 28211",
+     "website": "https://7thstreetpublicmarket.com/mano-bella-artisan-foods/",
+     "price": "$$",
+     "cuisine": "Italian, handmade pasta and sandwiches",
+     "why": "Small from-scratch pasta maker that has grown into a SouthPark eatery and an Uptown market counter; go for the beef ragu, ravioli or the house-smoked pancetta PLT, and watch for its pasta and mozzarella classes.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/mano-bella-keeps-evolving/",
+       "date": "2026-10-30",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 6
+    },
+    {
      "name": "Crispy Banh Mi",
      "area": "South Blvd, Shamrock Dr, Ayrsley",
      "address": "5100 South Blvd, Charlotte, NC",
@@ -4976,7 +5018,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "King of Spicy",
@@ -4997,7 +5039,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Malaya Kitchen",
@@ -5018,7 +5060,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Nile Ethiopian Restaurant & Grocery",
@@ -5039,7 +5081,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Rice and Spice",
@@ -5060,7 +5102,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Saigon Palace",
@@ -5081,7 +5123,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 11
+     "rank": 12
     }
    ]
   }
