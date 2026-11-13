@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,9 +13,9 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 61,
+   "players": 59,
    "cap": 72,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "The Bradford Open Presented by Chris Hallberg State Farm Insurance Agency & Driven by Innova(MA2, MA3, MA50-65, Fa1-3,",
@@ -28,7 +28,7 @@
    "city": "Huntersville",
    "state": "NC",
    "close": true,
-   "players": 73,
+   "players": 72,
    "cap": 72,
    "regOpen": true
   },
@@ -58,7 +58,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 22,
+   "players": 24,
    "cap": null,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 13,
+   "players": 14,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 19,
+   "players": 23,
    "cap": null,
    "regOpen": true
   },
@@ -103,7 +103,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 141,
+   "players": 149,
    "cap": 180,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 3,
+   "players": 5,
    "cap": null,
    "regOpen": true
   },
@@ -208,7 +208,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 41,
+   "players": 44,
    "cap": 216,
    "regOpen": true
   }
