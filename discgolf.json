@@ -1,37 +1,7 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "49ers Showdown",
-   "url": "https://www.discgolfscene.com/tournaments/49ers_Showdown_2026",
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "tier": "PDGA Collegiate Teams XC-tier",
-   "format": "Teams",
-   "course": "Elon Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 53,
-   "cap": 72,
-   "regOpen": false
-  },
-  {
-   "name": "The Bradford Open Presented by Chris Hallberg State Farm Insurance Agency & Driven by Innova(MA2, MA3, MA50-65, Fa1-3,",
-   "url": "https://www.discgolfscene.com/tournaments/The_Bradford_Open_Presented_by_Chris_Hallberg_State_Farm_Insurance_Agency_and_Driven_by_Innova_MA2_MA3_MA50_65_Fa1_3_2026",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Bradford Park",
-   "city": "Huntersville",
-   "state": "NC",
-   "close": true,
-   "players": 72,
-   "cap": 72,
-   "regOpen": false
-  },
   {
    "name": "The Bradford Open Presented by Chris Hallberg State Farm Insurance Agency & Driven by Innova(Open Divisions, MA1, Ma40)",
    "url": "https://www.discgolfscene.com/tournaments/The_Bradford_Open_Presented_by_Chris_Hallberg_State_Farm_Insurance_Agency_and_Driven_by_Innova_Open_Divisions_MA1_Ma40_2026",
@@ -58,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 24,
+   "players": 29,
    "cap": null,
    "regOpen": true
   },
@@ -73,7 +43,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 17,
+   "players": 20,
    "cap": null,
    "regOpen": true
   },
@@ -208,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 44,
+   "players": 46,
    "cap": 216,
    "regOpen": true
   }
