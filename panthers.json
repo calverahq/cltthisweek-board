@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-16",
  "source": "https://www.cabletv.com/nfl/carolina-panthers/schedule",
  "schedule": "https://www.panthers.com/schedule/",
  "games": [
@@ -37,7 +37,7 @@
    "opp": "New Orleans Saints",
    "home": false,
    "tv": "FOX",
-   "result": ""
+   "result": "W 20-17"
   },
   {
    "week": 11,
@@ -147,6 +147,34 @@
    "address": "",
    "what": "Sports bar with 20+ TVs, a short walk to the stadium on the Wesley Heights greenway.",
    "url": "https://www.charlottesgotalot.com/articles/sports/tailgate-guide"
+  },
+  {
+   "name": "Market on Morehead",
+   "area": "South End",
+   "address": "1001 Morehead Square Dr #100",
+   "what": "Shows every Panthers game on a 25-foot LED screen on its covered patio with sound on, three blocks from the stadium.",
+   "url": "https://www.marketonmorehead.com/panthers-watch-parties"
+  },
+  {
+   "name": "NoDa Brewing Company",
+   "area": "NoDa",
+   "address": "150 W 32nd St",
+   "what": "Taproom shows every Panthers game on the big screen with full game sound.",
+   "url": "https://www.nodabrewing.com/events"
+  },
+  {
+   "name": "Streetcar Bar + Bites",
+   "area": "Wesley Heights",
+   "address": "2135 Thrift Rd #104",
+   "what": "Hosts watch parties for every Panthers game, with game-day specials.",
+   "url": "https://watchpartyradar.com/nfl/charlotte/"
+  },
+  {
+   "name": "Edge City Brewery",
+   "area": "East Charlotte",
+   "address": "6209 Old Post Rd Ste 109",
+   "what": "Sunday Panthers away-game parties with a DJ or live music, food trucks, drink specials and sound on.",
+   "url": "https://edgecitybrewery-clt.com/events"
   }
  ],
  "gameday": [

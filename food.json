@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "method": "(one entry per thread or article, never per comment):\n  Reddit or forum thread from locals ... 3 points, +2 if it was a top-voted pick or named by 3+ commenters\n  Local guide or article ............... 2 points if from the last ~2 years, 1.5 if 2-3 years old, 1 if older or undated\n  Seen only in a search snippet ........ half points\n  Sources more than 3 years old count half (threads too).\nTies go to the place with more independent sources. Places not confirmed open are held back, unless someone recommended them in the last 12 months.",
  "categories": [
   {
@@ -15,9 +15,9 @@
      "price": "$$$",
      "cuisine": "Seasonal American",
      "why": "Kept its Michelin recommendation in the 2026 American South guide.",
-     "score": 11,
+     "score": 13,
      "threads": 1,
-     "guides": 5,
+     "guides": 6,
      "sources": [
       {
        "type": "article",
@@ -54,6 +54,12 @@
        "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
        "date": "2026-10-22",
        "label": "WSOC"
+      },
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
       }
      ],
      "rank": 1
@@ -401,6 +407,72 @@
      "rank": 9
     },
     {
+     "name": "Albertine",
+     "area": "Uptown (Duke Energy Plaza)",
+     "address": "525 S Tryon St Ste 125, Charlotte, NC 28202",
+     "website": "https://www.albertinerestaurant.com/",
+     "price": "$$$",
+     "cuisine": "Mediterranean with Southern influences",
+     "why": "The Kindred team's uptown dining room pairing Mediterranean cooking with Southern touches; newly Michelin-recommended in 2026.",
+     "score": 6,
+     "threads": 0,
+     "guides": 3,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "label": "visitnc.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "label": "WSOC"
+      },
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 10
+    },
+    {
+     "name": "L'Ostrica",
+     "area": "Park Rd / Madison Park, near Montford",
+     "address": "4701 Park Rd Ste D, Charlotte, NC 28209",
+     "website": "https://www.lostricaclt.com/",
+     "price": "$$$$",
+     "cuisine": "Seasonal tasting menus",
+     "why": "Chef-driven tasting-menu spot with wine pairings and caviar service; picked up a new Michelin recommendation in October 2026.",
+     "score": 6,
+     "threads": 0,
+     "guides": 3,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "label": "visitnc.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "label": "WSOC"
+      },
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 11
+    },
+    {
      "name": "McNinch House Restaurant",
      "area": "Uptown (Fourth Ward)",
      "address": "511 N Church St, Charlotte, NC 28202",
@@ -437,7 +509,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Beef 'N Bottle Steakhouse",
@@ -470,7 +542,7 @@
        "label": "The Infatuation"
       }
      ],
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "Spaghett",
@@ -503,7 +575,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "The Artisan's Palate",
@@ -534,60 +606,6 @@
        "url": "https://www.theinfatuation.com/charlotte/guides/best-restaurants-charlotte",
        "date": "2026-03",
        "label": "The Infatuation"
-      }
-     ],
-     "rank": 13
-    },
-    {
-     "name": "Albertine",
-     "area": "Uptown (Duke Energy Plaza)",
-     "address": "525 S Tryon St Ste 125, Charlotte, NC 28202",
-     "website": "https://www.albertinerestaurant.com/",
-     "price": "$$$",
-     "cuisine": "Mediterranean with Southern influences",
-     "why": "The Kindred team's uptown dining room pairing Mediterranean cooking with Southern touches; newly Michelin-recommended in 2026.",
-     "score": 4,
-     "threads": 0,
-     "guides": 2,
-     "sources": [
-      {
-       "type": "article",
-       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
-       "date": "2026-10-22",
-       "label": "visitnc.com"
-      },
-      {
-       "type": "article",
-       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
-       "date": "2026-10-22",
-       "label": "WSOC"
-      }
-     ],
-     "rank": 14
-    },
-    {
-     "name": "L'Ostrica",
-     "area": "Park Rd / Madison Park, near Montford",
-     "address": "4701 Park Rd Ste D, Charlotte, NC 28209",
-     "website": "https://www.lostricaclt.com/",
-     "price": "$$$$",
-     "cuisine": "Seasonal tasting menus",
-     "why": "Chef-driven tasting-menu spot with wine pairings and caviar service; picked up a new Michelin recommendation in October 2026.",
-     "score": 4,
-     "threads": 0,
-     "guides": 2,
-     "sources": [
-      {
-       "type": "article",
-       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
-       "date": "2026-10-22",
-       "label": "visitnc.com"
-      },
-      {
-       "type": "article",
-       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
-       "date": "2026-10-22",
-       "label": "WSOC"
       }
      ],
      "rank": 15
@@ -651,6 +669,48 @@
       }
      ],
      "rank": 17
+    },
+    {
+     "name": "PostScript",
+     "area": "Plaza Shamrock (east of Plaza Midwood)",
+     "address": "2121 Shamrock Dr, Charlotte, NC 28205",
+     "website": "https://www.postscriptrestaurant.com/",
+     "price": "$$",
+     "cuisine": "French, Italian and American comfort food",
+     "why": "Husband-and-wife neighborhood spot in the old Letty's space doing seasonal European-leaning comfort dishes like chicken scarpariello and mushroom stroganoff cavatelli; warm, low-key room for a relaxed date.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 18
+    },
+    {
+     "name": "Seaboy",
+     "area": "Cornelius (Lake Norman)",
+     "address": "20822 N Main St, Cornelius, NC 28031",
+     "website": "https://www.seaboyrestaurant.com/",
+     "price": "$$$",
+     "cuisine": "Coastal seafood",
+     "why": "Tiny chef-run seafood room in a converted Cornelius house from Jonny Cox (ex-Fin & Fino, Chapter 6); seasonal coastal plates built on Carolina produce, with personal, small-room service. Reserve ahead.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 19
     }
    ]
   },
@@ -4032,10 +4092,10 @@
      "website": "https://www.google.com/maps/search/?api=1&query=Menya+Daruma+1941+E+7th+St+Charlotte+NC",
      "price": "$$",
      "cuisine": "Japanese ramen & soba",
-     "why": "Handmade noodles at an open counter that locals rate the most authentic ramen/soba in town, with a hidden omakase room inside.",
-     "score": 12.0,
+     "why": "Handmade noodles at an open counter that locals rate the most authentic ramen/soba in town, with a hidden omakase room inside; the tonkotsu ramen is a cold-weather standout.",
+     "score": 14.0,
      "threads": 1,
-     "guides": 4,
+     "guides": 5,
      "sources": [
       {
        "type": "reddit",
@@ -4066,6 +4126,12 @@
        "url": "https://www.aol.com/news/looking-best-ramen-charlotte-area-103000619.html",
        "date": "2024-02",
        "label": "aol.com"
+      },
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/qa-notable-soups-seoul-food-bankruptcy/",
+       "date": "2026-11-12",
+       "label": "Unpretentious Palate"
       }
      ],
      "rank": 3
@@ -4446,6 +4512,27 @@
      "rank": 14
     },
     {
+     "name": "Omakase Experience by Prime Fish",
+     "area": "Myers Park / Cotswold (Providence Rd)",
+     "address": "2907 Providence Rd Ste 101, Charlotte, NC 28211",
+     "website": "https://primefishclt.com/",
+     "price": "$$$$",
+     "cuisine": "Edomae sushi omakase",
+     "why": "Six-seat reservation-only sushi counter from chef Robin Anthony with fish flown in from Tokyo's Toyosu market and thoughtful wine and sake pairings; a splurge separate from the walk-in Prime Fish in Ballantyne.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      }
+     ],
+     "rank": 15
+    },
+    {
      "name": "Open Rice",
      "area": "Midtown (Metropolitan); second location in Blakeney",
      "address": "1100 Metropolitan Ave Ste 100, Charlotte, NC 28204",
@@ -4464,7 +4551,7 @@
        "label": "Unpretentious Palate"
       }
      ],
-     "rank": 15
+     "rank": 16
     }
    ]
   },

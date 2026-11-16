@@ -1,0 +1,148 @@
+{
+ "categories": [
+  {
+   "id": "date-night",
+   "places": [
+    {
+     "name": "Seaboy",
+     "area": "Cornelius (Lake Norman)",
+     "address": "20822 N Main St, Cornelius, NC 28031",
+     "website": "https://www.seaboyrestaurant.com/",
+     "price": "$$$",
+     "cuisine": "Coastal seafood",
+     "why": "Tiny chef-run seafood room in a converted Cornelius house from Jonny Cox (ex-Fin & Fino, Chapter 6); seasonal coastal plates built on Carolina produce, with personal, small-room service. Reserve ahead.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate named it 2026 Restaurant of the Year on 2026-11-09; official site live with online reservations)"
+    },
+    {
+     "name": "PostScript",
+     "area": "Plaza Shamrock (east of Plaza Midwood)",
+     "address": "2121 Shamrock Dr, Charlotte, NC 28205",
+     "website": "https://www.postscriptrestaurant.com/",
+     "price": "$$",
+     "cuisine": "French, Italian and American comfort food",
+     "why": "Husband-and-wife neighborhood spot in the old Letty's space doing seasonal European-leaning comfort dishes like chicken scarpariello and mushroom stroganoff cavatelli; warm, low-key room for a relaxed date.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate 2026 New Restaurant of the Year, 2026-11-09; official site says it is open, dinner Tue-Sat)"
+    },
+    {
+     "name": "Customshop",
+     "area": "Elizabeth",
+     "address": "1601 Elizabeth Ave, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Customshop+1601+Elizabeth+Ave+Charlotte",
+     "price": "$$$",
+     "cuisine": "Seasonal American",
+     "why": "Kept its Michelin recommendation in the 2026 American South guide.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (kitchen staff honored in Unpretentious Palate's 2026-11-09 awards as currently cooking there)"
+    },
+    {
+     "name": "Albertine",
+     "area": "Uptown (Duke Energy Plaza)",
+     "address": "525 S Tryon St Ste 125, Charlotte, NC 28202",
+     "website": "https://www.albertinerestaurant.com/",
+     "price": "$$$",
+     "cuisine": "Mediterranean with Southern influences",
+     "why": "The Kindred team's uptown dining room pairing Mediterranean cooking with Southern touches; newly Michelin-recommended in 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (GM honored for current service in Unpretentious Palate's 2026-11-09 awards)"
+    },
+    {
+     "name": "L'Ostrica",
+     "area": "Park Rd / Madison Park, near Montford",
+     "address": "4701 Park Rd Ste D, Charlotte, NC 28209",
+     "website": "https://www.lostricaclt.com/",
+     "price": "$$$$",
+     "cuisine": "Seasonal tasting menus",
+     "why": "Chef-driven tasting-menu spot with wine pairings and caviar service; picked up a new Michelin recommendation in October 2026.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (pastry chef honored in Unpretentious Palate's 2026-11-09 awards)"
+    }
+   ]
+  },
+  {
+   "id": "asian",
+   "places": [
+    {
+     "name": "Omakase Experience by Prime Fish",
+     "area": "Myers Park / Cotswold (Providence Rd)",
+     "address": "2907 Providence Rd Ste 101, Charlotte, NC 28211",
+     "website": "https://primefishclt.com/",
+     "price": "$$$$",
+     "cuisine": "Edomae sushi omakase",
+     "why": "Six-seat reservation-only sushi counter from chef Robin Anthony with fish flown in from Tokyo's Toyosu market and thoughtful wine and sake pairings; a splurge separate from the walk-in Prime Fish in Ballantyne.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate 2026-11-09 named its chef Chef of the Year and its sommelier Sommelier of the Year for current service; listed in the 2026 Michelin Guide)"
+    },
+    {
+     "name": "Menya Daruma",
+     "area": "Elizabeth",
+     "address": "1941 E 7th St, Charlotte, NC 28204",
+     "website": "https://www.google.com/maps/search/?api=1&query=Menya+Daruma+1941+E+7th+St+Charlotte+NC",
+     "price": "$$",
+     "cuisine": "Japanese ramen & soba",
+     "why": "Handmade noodles at an open counter that locals rate the most authentic ramen/soba in town, with a hidden omakase room inside; the tonkotsu ramen is a cold-weather standout.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/qa-notable-soups-seoul-food-bankruptcy/",
+       "date": "2026-11-12",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (recommended as a current soup pick by Unpretentious Palate 2026-11-12)"
+    }
+   ]
+  }
+ ],
+ "closed": []
+}

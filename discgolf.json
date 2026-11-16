@@ -1,22 +1,7 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "The Bradford Open Presented by Chris Hallberg State Farm Insurance Agency & Driven by Innova(Open Divisions, MA1, Ma40)",
-   "url": "https://www.discgolfscene.com/tournaments/The_Bradford_Open_Presented_by_Chris_Hallberg_State_Farm_Insurance_Agency_and_Driven_by_Innova_Open_Divisions_MA1_Ma40_2026",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "tier": "PDGA C-tier",
-   "format": "",
-   "course": "Bradford Park",
-   "city": "Huntersville",
-   "state": "NC",
-   "close": true,
-   "players": 72,
-   "cap": 72,
-   "regOpen": false
-  },
   {
    "name": "Chain Reactions Fall Series #5 (Y5) @RL Smith Gully - Driven by INNOVA",
    "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_5_Y5_atRL_Smith_Gully_Driven_by_INNOVA_2026",
@@ -28,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 29,
+   "players": 32,
    "cap": null,
    "regOpen": true
   },
@@ -43,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 20,
+   "players": 25,
    "cap": null,
    "regOpen": true
   },
@@ -58,7 +43,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 24,
+   "players": 23,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 13,
+   "players": 16,
    "cap": null,
    "regOpen": true
   },
@@ -163,7 +148,7 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": 7,
+   "players": 9,
    "cap": 105,
    "regOpen": true
   },
@@ -178,7 +163,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 46,
+   "players": 48,
    "cap": 216,
    "regOpen": true
   }
