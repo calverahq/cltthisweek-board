@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 45,
+   "players": 49,
    "cap": null,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 33,
+   "players": 31,
    "cap": null,
    "regOpen": true
   },
@@ -58,7 +58,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 149,
+   "players": 153,
    "cap": 180,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Monroe",
    "state": "NC",
    "close": false,
-   "players": 8,
+   "players": 10,
    "cap": 72,
    "regOpen": true
   },
@@ -148,9 +148,9 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": null,
-   "cap": null,
-   "regOpen": false
+   "players": 15,
+   "cap": 108,
+   "regOpen": true
   },
   {
    "name": "The Magic Of Christmas 2026",
@@ -163,7 +163,7 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": 9,
+   "players": 11,
    "cap": 105,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 49,
+   "players": 51,
    "cap": 216,
    "regOpen": true
   }
