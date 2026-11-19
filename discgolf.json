@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 49,
+   "players": 51,
    "cap": null,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 31,
+   "players": 42,
    "cap": null,
    "regOpen": true
   },
@@ -43,9 +43,9 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 24,
+   "players": 18,
    "cap": null,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "The Carolina Collegiate Championships sponsored by Discmania, Yeet Street Discs, and CDGC: A CDG Regional Qualifier",
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 18,
+   "players": 23,
    "cap": null,
    "regOpen": true
   },
@@ -148,7 +148,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 15,
+   "players": 20,
    "cap": 108,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 51,
+   "players": 52,
    "cap": 216,
    "regOpen": true
   }
