@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 51,
+   "players": 53,
    "cap": null,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 42,
+   "players": 45,
    "cap": null,
    "regOpen": true
   },
@@ -43,7 +43,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 18,
+   "players": 16,
    "cap": null,
    "regOpen": false
   },
@@ -58,9 +58,9 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 153,
+   "players": 149,
    "cap": 180,
-   "regOpen": true
+   "regOpen": false
   },
   {
    "name": "3rd Annual Renny PPC Holiday Flex",
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 23,
+   "players": 24,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Monroe",
    "state": "NC",
    "close": false,
-   "players": 10,
+   "players": 16,
    "cap": 72,
    "regOpen": true
   },
@@ -133,7 +133,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 5,
+   "players": 6,
    "cap": null,
    "regOpen": true
   },
@@ -148,7 +148,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 20,
+   "players": 21,
    "cap": 108,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 52,
+   "players": 53,
    "cap": 216,
    "regOpen": true
   }
