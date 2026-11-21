@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 53,
+   "players": 63,
    "cap": null,
    "regOpen": true
   },
@@ -28,7 +28,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 45,
+   "players": 53,
    "cap": null,
    "regOpen": true
   },
@@ -73,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 24,
+   "players": 26,
    "cap": null,
    "regOpen": true
   },
@@ -88,7 +88,7 @@
    "city": "Monroe",
    "state": "NC",
    "close": false,
-   "players": 16,
+   "players": 18,
    "cap": 72,
    "regOpen": true
   },
@@ -118,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 7,
+   "players": 8,
    "cap": null,
    "regOpen": true
   },
@@ -148,7 +148,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 21,
+   "players": 23,
    "cap": 108,
    "regOpen": true
   },
@@ -178,7 +178,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 53,
+   "players": 54,
    "cap": 216,
    "regOpen": true
   }
