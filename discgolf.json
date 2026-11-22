@@ -1,67 +1,7 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
-  {
-   "name": "Chain Reactions Fall Series #5 (Y5) @RL Smith Gully - Driven by INNOVA",
-   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_5_Y5_atRL_Smith_Gully_Driven_by_INNOVA_2026",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "tier": "PDGA Flex C-tier",
-   "format": "Flex start",
-   "course": "Robert L. Smith Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 63,
-   "cap": null,
-   "regOpen": true
-  },
-  {
-   "name": "Chain Reactions Fall Series #6 (Y5) @RL Smith Ravine - Driven by INNOVA",
-   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Fall_Series_6_Y5_atRL_Smith_Ravine_Driven_by_INNOVA_2026",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "tier": "PDGA Flex C-tier",
-   "format": "Flex start",
-   "course": "Robert L. Smith Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 53,
-   "cap": null,
-   "regOpen": true
-  },
-  {
-   "name": "Charlotte Masters Championship Presented by Innova",
-   "url": "https://www.discgolfscene.com/tournaments/Charlotte_Masters_Championship_Presented_by_Innova_2026",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "tier": "PDGA B-tier",
-   "format": "",
-   "course": "Eastway Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 16,
-   "cap": null,
-   "regOpen": false
-  },
-  {
-   "name": "The Carolina Collegiate Championships sponsored by Discmania, Yeet Street Discs, and CDGC: A CDG Regional Qualifier",
-   "url": "https://www.discgolfscene.com/tournaments/The_Carolina_Collegiate_Championships_sponsored_by_Discmania_and_Yeet_Street_Discs_A_CDG_Regional_Qualifer_2026",
-   "start": "2026-11-21",
-   "end": "2026-11-22",
-   "tier": "PDGA Collegiate Teams XC-tier",
-   "format": "Teams",
-   "course": "Hornets Nest Park",
-   "city": "Charlotte",
-   "state": "NC",
-   "close": true,
-   "players": 149,
-   "cap": 180,
-   "regOpen": false
-  },
   {
    "name": "3rd Annual Renny PPC Holiday Flex",
    "url": "https://www.discgolfscene.com/tournaments/3rd_Annual_Renny_PPC_Flex_2026",
@@ -73,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 26,
+   "players": 27,
    "cap": null,
    "regOpen": true
   },
@@ -133,7 +73,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 6,
+   "players": 8,
    "cap": null,
    "regOpen": true
   },
@@ -163,7 +103,7 @@
    "city": "Cornelius",
    "state": "NC",
    "close": false,
-   "players": 11,
+   "players": 13,
    "cap": 105,
    "regOpen": true
   },
@@ -178,7 +118,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 54,
+   "players": 55,
    "cap": 216,
    "regOpen": true
   }
