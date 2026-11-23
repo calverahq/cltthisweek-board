@@ -1,132 +1,7 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "source": "https://foodtruckscharlotte.org/",
  "days": [
-  {
-   "date": "2026-11-22",
-   "stops": [
-    {
-     "truck": "S&K Funnel Cakes",
-     "cuisine": "Desserts, American",
-     "spot": "Friendship MBC  Food Truck Rally",
-     "street": "3400 Beatties Ford Rd",
-     "city": "Charlotte",
-     "start": "9:00 AM",
-     "end": "3:00 PM",
-     "lat": 35.28025,
-     "lon": -80.85551,
-     "url": "https://foodtruckscharlotte.org/member/skfunnelcake"
-    },
-    {
-     "truck": "Flaming bird bbq",
-     "cuisine": "Burgers, American, Barbeque",
-     "spot": "Farmers Market",
-     "street": "1801 Yorkmont Rd",
-     "city": "Charlotte",
-     "start": "10:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.18677,
-     "lon": -80.91006,
-     "url": "https://foodtruckscharlotte.org/member/Falmingbirdbbq"
-    },
-    {
-     "truck": "Queen City Cheesesteaks",
-     "cuisine": "Cheesesteaks, Wings, American",
-     "spot": "Carolina Panthers Home Game",
-     "street": "410 S Mint St",
-     "city": "Charlotte",
-     "start": "10:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.22709,
-     "lon": -80.85059,
-     "url": "https://foodtruckscharlotte.org/member/queencitycheesesteak"
-    },
-    {
-     "truck": "Tiny Biscuit",
-     "cuisine": "Southern, Brunch, Comfort Food",
-     "spot": "☀️Sunday Brunch 🧇",
-     "street": "1009 N Caldwell St",
-     "city": "Charlotte",
-     "start": "11:00 AM",
-     "end": "2:00 PM",
-     "lat": 35.2325,
-     "lon": -80.82793,
-     "url": "https://foodtruckscharlotte.org/member/TinyBiscuit"
-    },
-    {
-     "truck": "ShawermaG",
-     "cuisine": "Middle Eastern, Halal, Mediterranean",
-     "spot": "New Event",
-     "street": "1016 N Davidson St",
-     "city": "Charlotte",
-     "start": "12:00 PM",
-     "end": "4:30 PM",
-     "lat": 35.23086,
-     "lon": -80.82658,
-     "url": "https://foodtruckscharlotte.org/member/ShawermaG"
-    },
-    {
-     "truck": "La Señora De Hotdogs",
-     "cuisine": "Comfort Food, Breakfast, Spanish",
-     "spot": "Carolina Rent to Own",
-     "street": "3109 Freedom Dr",
-     "city": "Charlotte",
-     "start": "1:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.242,
-     "lon": -80.88921,
-     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
-    },
-    {
-     "truck": "Deejai Food Truck",
-     "cuisine": "Thai, Asian Fusion",
-     "spot": "The Chamber by Wooden Robot",
-     "street": "416 E 36th St Ste 100",
-     "city": "Charlotte",
-     "start": "2:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.24879,
-     "lon": -80.8062,
-     "url": "https://foodtruckscharlotte.org/member/Deejai"
-    },
-    {
-     "truck": "Chutney Cat",
-     "cuisine": "Indian",
-     "spot": "Vaulted oak",
-     "street": "3726 Monroe Rd",
-     "city": "Charlotte",
-     "start": "3:00 PM",
-     "end": "7:00 PM",
-     "lat": 35.19946,
-     "lon": -80.79644,
-     "url": "https://foodtruckscharlotte.org/member/chutneycat313"
-    },
-    {
-     "truck": "On the Block Foods & Catering",
-     "cuisine": "American, Vegan",
-     "spot": "Overlook airport",
-     "street": "CLT Airport overlook",
-     "city": "5130 Airport Overlook Dr, Charlotte",
-     "start": "4:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.22521,
-     "lon": -80.96198,
-     "url": "https://foodtruckscharlotte.org/member/ontheblockfoods"
-    },
-    {
-     "truck": "Round The Way Eatery",
-     "cuisine": "Seafood, Fish & Chips, Southern",
-     "spot": "5407 Statesville Rd",
-     "street": "5407 Statesville Rd",
-     "city": "Charlotte",
-     "start": "7:30 PM",
-     "end": "4:00 AM",
-     "lat": 35.29359,
-     "lon": -80.83877,
-     "url": "https://foodtruckscharlotte.org/member/RoundTheWayEatery"
-    }
-   ]
-  },
   {
    "date": "2026-11-23",
    "stops": [
@@ -255,6 +130,18 @@
   {
    "date": "2026-11-24",
    "stops": [
+    {
+     "truck": "Danny Dogs",
+     "cuisine": "American, Argentine",
+     "spot": "Lowe's Home Improvement",
+     "street": "1100 Chancellor Park Dr",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.29202,
+     "lon": -80.74251,
+     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
+    },
     {
      "truck": "XARAXPRESS",
      "cuisine": "Middle Eastern, American, Mexican",
@@ -429,6 +316,18 @@
    "date": "2026-11-25",
    "stops": [
     {
+     "truck": "Danny Dogs",
+     "cuisine": "American, Argentine",
+     "spot": "Lowe's Home Improvement",
+     "street": "1100 Chancellor Park Dr",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.29202,
+     "lon": -80.74251,
+     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
+    },
+    {
      "truck": "Tacos Las Catrinas",
      "cuisine": "Mexican",
      "spot": "Microsoft 1",
@@ -566,6 +465,18 @@
    "date": "2026-11-26",
    "stops": [
     {
+     "truck": "Danny Dogs",
+     "cuisine": "American, Argentine",
+     "spot": "Lowe's Home Improvement",
+     "street": "1100 Chancellor Park Dr",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.29202,
+     "lon": -80.74251,
+     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
+    },
+    {
      "truck": "XARAXPRESS",
      "cuisine": "Middle Eastern, American, Mexican",
      "spot": "3rd Phaze Body Oils",
@@ -631,6 +542,18 @@
    "date": "2026-11-27",
    "stops": [
     {
+     "truck": "Danny Dogs",
+     "cuisine": "American, Argentine",
+     "spot": "Lowe's Home Improvement",
+     "street": "1100 Chancellor Park Dr",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.29202,
+     "lon": -80.74251,
+     "url": "https://foodtruckscharlotte.org/member/DannyDogs"
+    },
+    {
      "truck": "La Señora De Hotdogs",
      "cuisine": "Comfort Food, Breakfast, Spanish",
      "spot": "Carolina Rent to Own",
@@ -641,6 +564,18 @@
      "lat": 35.242,
      "lon": -80.88921,
      "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    },
+    {
+     "truck": "ITOT",
+     "cuisine": "Tacos, Mexican, Latin American",
+     "spot": "Carolina Holiday Light Spectacular",
+     "street": "Ballantyne's Backyard",
+     "city": "11611 N Community House Rd, Charlotte",
+     "start": "4:30 PM",
+     "end": "10:00 PM",
+     "lat": 35.06049,
+     "lon": -80.84096,
+     "url": "https://foodtruckscharlotte.org/member/ITOFTACOS"
     },
     {
      "truck": "TACO GREEN-GO!",
@@ -665,18 +600,6 @@
      "lat": 35.23077,
      "lon": -80.84556,
      "url": "https://foodtruckscharlotte.org/member/Deejai"
-    },
-    {
-     "truck": "ITOT",
-     "cuisine": "Tacos, Mexican, Latin American",
-     "spot": "Carolina Holiday Light Spectacular",
-     "street": "Ballantyne's Backyard",
-     "city": "11611 N Community House Rd, Charlotte",
-     "start": "5:00 PM",
-     "end": "8:00 PM",
-     "lat": 35.06049,
-     "lon": -80.84096,
-     "url": "https://foodtruckscharlotte.org/member/ITOFTACOS"
     },
     {
      "truck": "Praise Cheeses!",
@@ -833,8 +756,8 @@
      "spot": "Carolina Holiday Light Spectacular",
      "street": "Ballantyne's Backyard",
      "city": "11611 N Community House Rd, Charlotte",
-     "start": "5:00 PM",
-     "end": "8:00 PM",
+     "start": "4:30 PM",
+     "end": "10:00 PM",
      "lat": 35.06049,
      "lon": -80.84096,
      "url": "https://foodtruckscharlotte.org/member/ITOFTACOS"
@@ -910,6 +833,83 @@
      "lat": 35.23705,
      "lon": -80.8803,
      "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "stops": [
+    {
+     "truck": "S&K Funnel Cakes",
+     "cuisine": "Desserts, American",
+     "spot": "Friendship MBC  Food Truck Rally",
+     "street": "3400 Beatties Ford Rd",
+     "city": "Charlotte",
+     "start": "9:00 AM",
+     "end": "3:00 PM",
+     "lat": 35.28025,
+     "lon": -80.85551,
+     "url": "https://foodtruckscharlotte.org/member/skfunnelcake"
+    },
+    {
+     "truck": "Flaming bird bbq",
+     "cuisine": "Burgers, American, Barbeque",
+     "spot": "Farmers Market",
+     "street": "1801 Yorkmont Rd",
+     "city": "Charlotte",
+     "start": "10:00 AM",
+     "end": "2:00 PM",
+     "lat": 35.18677,
+     "lon": -80.91006,
+     "url": "https://foodtruckscharlotte.org/member/Falmingbirdbbq"
+    },
+    {
+     "truck": "La Señora De Hotdogs",
+     "cuisine": "Comfort Food, Breakfast, Spanish",
+     "spot": "Carolina Rent to Own",
+     "street": "3109 Freedom Dr",
+     "city": "Charlotte",
+     "start": "1:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.242,
+     "lon": -80.88921,
+     "url": "https://foodtruckscharlotte.org/member/SenoraDeHotdogs"
+    },
+    {
+     "truck": "Deejai Food Truck",
+     "cuisine": "Thai, Asian Fusion",
+     "spot": "The Chamber by Wooden Robot",
+     "street": "416 E 36th St Ste 100",
+     "city": "Charlotte",
+     "start": "2:00 PM",
+     "end": "8:00 PM",
+     "lat": 35.24879,
+     "lon": -80.8062,
+     "url": "https://foodtruckscharlotte.org/member/Deejai"
+    },
+    {
+     "truck": "Tacos Las Catrinas",
+     "cuisine": "Mexican",
+     "spot": "Carolina Holiday Light Spectacular",
+     "street": "11611 N Community House Rd",
+     "city": "Charlotte",
+     "start": "4:00 PM",
+     "end": "10:00 PM",
+     "lat": 35.06028,
+     "lon": -80.83908,
+     "url": "https://foodtruckscharlotte.org/member/tacoslascatrinas24"
+    },
+    {
+     "truck": "Queen City Cheesesteaks",
+     "cuisine": "Cheesesteaks, Wings, American",
+     "spot": "Daniel Stowe Conservatory",
+     "street": "6500 S New Hope Rd",
+     "city": "Belmont",
+     "start": "5:00 PM",
+     "end": "10:00 PM",
+     "lat": 35.16741,
+     "lon": -81.05684,
+     "url": "https://foodtruckscharlotte.org/member/queencitycheesesteak"
     }
    ]
   }

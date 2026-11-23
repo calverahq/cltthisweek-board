@@ -1,0 +1,301 @@
+{
+ "categories": [
+  {
+   "id": "date-night",
+   "places": [
+    {
+     "name": "Zamindar's Clubhouse",
+     "area": "South End",
+     "address": "155 New Bern St, Charlotte, NC 28203",
+     "website": "https://zamindarsclubhouse.com/",
+     "price": "$$$",
+     "cuisine": "Upscale Indian, cocktail lounge",
+     "why": "Dressed-up South End Indian dining room styled after old-world estate clubs, from a chef whose New York restaurant holds a Bib Gourmand; go for the chaat and seafood curries and pair them with spice-forward cocktails. Dinner only, closed Mondays.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Scoop Charlotte 2026-11-21 lists current hours; official site live with menu and Tue-Sun dinner hours)"
+    },
+    {
+     "name": "Guard & Grace",
+     "area": "South End (Queensbridge Collective, 10th floor)",
+     "address": "111 E Carson Blvd Ste 100, Charlotte, NC 28203",
+     "website": "https://guardandgrace.com/charlotte",
+     "price": "$$$$",
+     "cuisine": "Modern steakhouse",
+     "why": "Denver's high-rise steakhouse opened its Charlotte outpost this fall on the 10th floor of a new South End tower; the filet tasting flight is the signature order and the skyline views suit a special occasion.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened Oct 2026; Scoop Charlotte 2026-11-21 recommends its filet flight and lists Mon-Sat dinner hours)"
+    },
+    {
+     "name": "Deepwell",
+     "area": "Mooresville (Lake Norman)",
+     "address": "185 N Main St, Mooresville, NC 28115",
+     "website": "https://www.instagram.com/deepwellnc/",
+     "price": "$$$$",
+     "cuisine": "Steakhouse with New Orleans touches",
+     "why": "The Kindred team's steakhouse in a restored downtown Mooresville building, with in-house dry-aged beef and chef Craig Deihl running the kitchen; a handsome room for a splurge if you're up near the lake.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened Sept 2026; Scoop Charlotte 2026-11-21 lists current Wed-Sun dinner hours)"
+    },
+    {
+     "name": "Emmy Lou's",
+     "area": "Dilworth (Park Rd)",
+     "address": "2400 Park Rd Ste H, Charlotte, NC 28203",
+     "website": "https://emmylouswinebar.com/",
+     "price": "$$",
+     "cuisine": "Wine bar and small plates",
+     "why": "Small wine bar and bottle shop from the Customshop owners with communal tables, a seven-seat bar and a patio; seasonal snacks and light plates make it an easy, walk-in date. No reservations.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Scoop Charlotte 2026-11-21 lists daily hours; open since Dec 2025)"
+    },
+    {
+     "name": "Dressler's",
+     "area": "Midtown (The Metropolitan)",
+     "address": "1100 Metropolitan Ave Ste 125, Charlotte, NC 28204",
+     "website": "https://www.opentable.com/r/dresslers-charlotte",
+     "price": "$$$",
+     "cuisine": "Steakhouse and Southern-leaning American",
+     "why": "Long-running Midtown steakhouse that still earns praise for warm, regulars-style service, solid steaks and starters like pimento cheese and shrimp and grits, plus a strong cocktail bar. Valet helps with the tricky Metropolitan parking.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/dresslers/",
+       "date": "2026-11-17",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Unpretentious Palate review updated 2026-11-17 describes it as operating; OpenTable reservations listed)"
+    },
+    {
+     "name": "PostScript",
+     "area": "Plaza Shamrock (east of Plaza Midwood)",
+     "address": "2121 Shamrock Dr, Charlotte, NC 28205",
+     "website": "https://www.postscriptrestaurant.com/",
+     "price": "$$",
+     "cuisine": "French, Italian and American comfort food",
+     "why": "Husband-and-wife neighborhood spot in the old Letty's space doing seasonal European-leaning comfort dishes like chicken scarpariello and mushroom stroganoff cavatelli; warm, low-key room for a relaxed date.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (named among 2026 openings to try by Scoop Charlotte 2026-11-21; official site says dinner Tue-Sat)"
+    }
+   ]
+  },
+  {
+   "id": "asian",
+   "places": [
+    {
+     "name": "Uchi / Uchibā",
+     "area": "Plaza Midwood (Commonwealth)",
+     "address": "1720 Commonwealth Ave, Charlotte, NC 28205",
+     "website": "https://uchi.uchirestaurants.com/location/sushi-charlotte/",
+     "price": "$$$$",
+     "cuisine": "Japanese, sushi and izakaya",
+     "why": "Austin's celebrated modern-Japanese group opened its first Carolinas location this spring, with creative sushi and hot plates at Uchi and a more casual izakaya-style bar upstairs at Uchibā; readers voted it the top opening of the year. Save room for the fried milk dessert.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened April 2026; Scoop Charlotte 2026-11-21 lists current hours for both Uchi and Uchibā)"
+    },
+    {
+     "name": "Sharigato",
+     "area": "Optimist Park (The Joinery)",
+     "address": "420 E 22nd St, Charlotte, NC 28206",
+     "website": "https://www.sharigato.com/",
+     "price": "$$",
+     "cuisine": "Japanese hand rolls",
+     "why": "Counter-style hand-roll bar from chef Shari Robins where rolls come in sets or a la carte, alongside sashimi and snacks like truffle edamame; a quick, fun sushi stop in Optimist Park.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened May 2026; named among 2026 openings to try by Scoop Charlotte 2026-11-21)"
+    }
+   ]
+  },
+  {
+   "id": "cheap-eats",
+   "places": [
+    {
+     "name": "Mochi's Deli",
+     "area": "Dilworth (Dilworth Crossing)",
+     "address": "2216 Park Rd, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Mochi%27s+Deli+2216+Park+Rd+Charlotte",
+     "price": "$",
+     "cuisine": "New York-style deli sandwiches",
+     "why": "No-frills Dilworth deli piling up big, made-to-order New York-style sandwiches at fair prices; lines can be long, so call ahead. The chicken Italiano is the one to get.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Scoop Charlotte 2026-11-21 lists current Wed-Sun hours; Axios covered crowds there Sept 2026)"
+    },
+    {
+     "name": "Olivelli Deli",
+     "area": "NoDa",
+     "address": "3120 N Davidson St, Charlotte, NC 28205",
+     "website": "https://olivellideli.com/",
+     "price": "$",
+     "cuisine": "Walk-up deli sandwiches and soft serve",
+     "why": "Tiny walk-up window in NoDa from the Tonidandel-Brown group (Haberdish, Supperland) selling fresh sandwiches and soft serve; order at the window or online.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened July 2026; named among 2026 openings to try by Scoop Charlotte 2026-11-21)"
+    }
+   ]
+  },
+  {
+   "id": "brunch",
+   "places": [
+    {
+     "name": "Grey's Diner + Community Kitchen",
+     "area": "Plaza Midwood (The Plaza)",
+     "address": "3100 The Plaza, Charlotte, NC 28205",
+     "website": "https://greysdinerclt.com/",
+     "price": "$$",
+     "cuisine": "Modern American diner",
+     "why": "Chef Sam Diminich (Restaurant Constance) revived the old Mattie's Diner car on The Plaza with a chef-driven take on diner breakfasts, lunches and dinners; a good bet for a relaxed weekend breakfast.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (opened April 2026; named among 2026 openings to try by Scoop Charlotte 2026-11-21)"
+    }
+   ]
+  },
+  {
+   "id": "tacos",
+   "places": [
+    {
+     "name": "The Story of Mi Cariño",
+     "area": "South End",
+     "address": "1440 S Tryon St Ste 100, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=The%20Story%20of%20Mi%20Cari%C3%B1o%20Charlotte",
+     "price": "$$",
+     "cuisine": "Mexican and Latin American gastro cantina, mezcaleria",
+     "why": "South End cantina and mezcal bar from the Vinyl team that opened in January 2026 and earned a Bib Gourmand on its first try; the crispy fish tacos and rajas con crema are standout orders.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (Scoop Charlotte 2026-11-21 lists current nightly hours)"
+    }
+   ]
+  },
+  {
+   "id": "hidden-gems",
+   "places": [
+    {
+     "name": "DŌZO",
+     "area": "Dilworth (East Blvd)",
+     "address": "1419 East Blvd Ste A, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=DOZO+1419+East+Blvd+Charlotte",
+     "price": "$$",
+     "cuisine": "Japanese-American comfort food",
+     "why": "The former City Kitch counter grew into a full Dilworth restaurant with a patio in early 2026, still serving big, shareable Japanese comfort food like tonkatsu, crispy potatoes and smoked salmon dip.",
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (moved from City Kitch to 1419 East Blvd in Jan 2026; Scoop Charlotte 2026-11-21 lists Tue-Sat lunch and dinner hours)"
+    },
+    {
+     "name": "Hatoya",
+     "area": "Pineville",
+     "address": "605 N Polk St, Pineville, NC 28134",
+     "website": "https://hatoyamart.com/",
+     "price": "$$",
+     "cuisine": "Japanese grocery, sashimi",
+     "why": "Family-run Japanese grocery in Pineville since 1992 that locals point to for sashimi-grade fish and uni, plus pantry staples and snacks; best for takeaway rather than a sit-down meal.",
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "top": false,
+       "snippet": false
+      }
+     ],
+     "open_check": "open (official site hatoyamart.com live on 2026-11-23 showing daily 10am-6pm hours; consistent listings at 605 N Polk St, Pineville; no closure reports found)"
+    }
+   ]
+  }
+ ],
+ "closed": []
+}

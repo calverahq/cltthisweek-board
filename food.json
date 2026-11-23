@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "method": "(one entry per thread or article, never per comment):\n  Reddit or forum thread from locals ... 3 points, +2 if it was a top-voted pick or named by 3+ commenters\n  Local guide or article ............... 2 points if from the last ~2 years, 1.5 if 2-3 years old, 1 if older or undated\n  Seen only in a search snippet ........ half points\n  Sources more than 3 years old count half (threads too).\nTies go to the place with more independent sources. Places not confirmed open are held back, unless someone recommended them in the last 12 months.",
  "categories": [
   {
@@ -611,6 +611,33 @@
      "rank": 15
     },
     {
+     "name": "PostScript",
+     "area": "Plaza Shamrock (east of Plaza Midwood)",
+     "address": "2121 Shamrock Dr, Charlotte, NC 28205",
+     "website": "https://www.postscriptrestaurant.com/",
+     "price": "$$",
+     "cuisine": "French, Italian and American comfort food",
+     "why": "Husband-and-wife neighborhood spot in the old Letty's space doing seasonal European-leaning comfort dishes like chicken scarpariello and mushroom stroganoff cavatelli; warm, low-key room for a relaxed date.",
+     "score": 4,
+     "threads": 0,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
+       "date": "2026-11-09",
+       "label": "Unpretentious Palate"
+      },
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 16
+    },
+    {
      "name": "Mariposa",
      "area": "Uptown (Mint Museum)",
      "address": "500 S Tryon St, Charlotte, NC 28202",
@@ -641,7 +668,7 @@
        "label": "Charlotte Magazine"
       }
      ],
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Aqua e Vino",
@@ -668,28 +695,91 @@
        "label": "Charlotte Magazine"
       }
      ],
-     "rank": 17
+     "rank": 18
     },
     {
-     "name": "PostScript",
-     "area": "Plaza Shamrock (east of Plaza Midwood)",
-     "address": "2121 Shamrock Dr, Charlotte, NC 28205",
-     "website": "https://www.postscriptrestaurant.com/",
-     "price": "$$",
-     "cuisine": "French, Italian and American comfort food",
-     "why": "Husband-and-wife neighborhood spot in the old Letty's space doing seasonal European-leaning comfort dishes like chicken scarpariello and mushroom stroganoff cavatelli; warm, low-key room for a relaxed date.",
+     "name": "Deepwell",
+     "area": "Mooresville (Lake Norman)",
+     "address": "185 N Main St, Mooresville, NC 28115",
+     "website": "https://www.instagram.com/deepwellnc/",
+     "price": "$$$$",
+     "cuisine": "Steakhouse with New Orleans touches",
+     "why": "The Kindred team's steakhouse in a restored downtown Mooresville building, with in-house dry-aged beef and chef Craig Deihl running the kitchen; a handsome room for a splurge if you're up near the lake.",
      "score": 2,
      "threads": 0,
      "guides": 1,
      "sources": [
       {
        "type": "article",
-       "url": "https://unpretentiouspalate.com/unpretentious-palates-2026-people-of-the-year/",
-       "date": "2026-11-09",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 19
+    },
+    {
+     "name": "Dressler's",
+     "area": "Midtown (The Metropolitan)",
+     "address": "1100 Metropolitan Ave Ste 125, Charlotte, NC 28204",
+     "website": "https://www.opentable.com/r/dresslers-charlotte",
+     "price": "$$$",
+     "cuisine": "Steakhouse and Southern-leaning American",
+     "why": "Long-running Midtown steakhouse that still earns praise for warm, regulars-style service, solid steaks and starters like pimento cheese and shrimp and grits, plus a strong cocktail bar. Valet helps with the tricky Metropolitan parking.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://unpretentiouspalate.com/dresslers/",
+       "date": "2026-11-17",
        "label": "Unpretentious Palate"
       }
      ],
-     "rank": 18
+     "rank": 20
+    },
+    {
+     "name": "Emmy Lou's",
+     "area": "Dilworth (Park Rd)",
+     "address": "2400 Park Rd Ste H, Charlotte, NC 28203",
+     "website": "https://emmylouswinebar.com/",
+     "price": "$$",
+     "cuisine": "Wine bar and small plates",
+     "why": "Small wine bar and bottle shop from the Customshop owners with communal tables, a seven-seat bar and a patio; seasonal snacks and light plates make it an easy, walk-in date. No reservations.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 21
+    },
+    {
+     "name": "Guard & Grace",
+     "area": "South End (Queensbridge Collective, 10th floor)",
+     "address": "111 E Carson Blvd Ste 100, Charlotte, NC 28203",
+     "website": "https://guardandgrace.com/charlotte",
+     "price": "$$$$",
+     "cuisine": "Modern steakhouse",
+     "why": "Denver's high-rise steakhouse opened its Charlotte outpost this fall on the 10th floor of a new South End tower; the filet tasting flight is the signature order and the skyline views suit a special occasion.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 22
     },
     {
      "name": "Seaboy",
@@ -710,7 +800,28 @@
        "label": "Unpretentious Palate"
       }
      ],
-     "rank": 19
+     "rank": 23
+    },
+    {
+     "name": "Zamindar's Clubhouse",
+     "area": "South End",
+     "address": "155 New Bern St, Charlotte, NC 28203",
+     "website": "https://zamindarsclubhouse.com/",
+     "price": "$$$",
+     "cuisine": "Upscale Indian, cocktail lounge",
+     "why": "Dressed-up South End Indian dining room styled after old-world estate clubs, from a chef whose New York restaurant holds a Bib Gourmand; go for the chaat and seafood curries and pair them with spice-forward cocktails. Dinner only, closed Mondays.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 24
     }
    ]
   },
@@ -1444,6 +1555,48 @@
      "rank": 12
     },
     {
+     "name": "Mochi's Deli",
+     "area": "Dilworth (Dilworth Crossing)",
+     "address": "2216 Park Rd, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=Mochi%27s+Deli+2216+Park+Rd+Charlotte",
+     "price": "$",
+     "cuisine": "New York-style deli sandwiches",
+     "why": "No-frills Dilworth deli piling up big, made-to-order New York-style sandwiches at fair prices; lines can be long, so call ahead. The chicken Italiano is the one to get.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 13
+    },
+    {
+     "name": "Olivelli Deli",
+     "area": "NoDa",
+     "address": "3120 N Davidson St, Charlotte, NC 28205",
+     "website": "https://olivellideli.com/",
+     "price": "$",
+     "cuisine": "Walk-up deli sandwiches and soft serve",
+     "why": "Tiny walk-up window in NoDa from the Tonidandel-Brown group (Haberdish, Supperland) selling fresh sandwiches and soft serve; order at the window or online.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 14
+    },
+    {
      "name": "Kabab-Je Rotisserie & Grille",
      "area": "Matthews",
      "address": "2233 Matthews Township Pkwy, Unit E, Matthews, NC 28105",
@@ -1462,7 +1615,7 @@
        "label": "waywardblog.com"
       }
      ],
-     "rank": 13
+     "rank": 15
     }
    ]
   },
@@ -1974,6 +2127,27 @@
       }
      ],
      "rank": 14
+    },
+    {
+     "name": "Grey's Diner + Community Kitchen",
+     "area": "Plaza Midwood (The Plaza)",
+     "address": "3100 The Plaza, Charlotte, NC 28205",
+     "website": "https://greysdinerclt.com/",
+     "price": "$$",
+     "cuisine": "Modern American diner",
+     "why": "Chef Sam Diminich (Restaurant Constance) revived the old Mattie's Diner car on The Plaza with a chef-driven take on diner breakfasts, lunches and dinners; a good bet for a relaxed weekend breakfast.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 15
     }
    ]
   },
@@ -3150,6 +3324,45 @@
      "rank": 2
     },
     {
+     "name": "The Story of Mi Cariño",
+     "area": "South End",
+     "address": "1440 S Tryon St Ste 100, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=The%20Story%20of%20Mi%20Cari%C3%B1o%20Charlotte",
+     "price": "$$",
+     "cuisine": "Mexican and Latin American gastro cantina, mezcaleria",
+     "why": "South End cantina and mezcal bar from the Vinyl team that opened in January 2026 and earned a Bib Gourmand on its first try; the crispy fish tacos and rajas con crema are standout orders.",
+     "score": 7.0,
+     "threads": 0,
+     "guides": 4,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
+       "date": "2026-10-22",
+       "label": "visitnc.com"
+      },
+      {
+       "type": "article",
+       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
+       "date": "2026-10-22",
+       "label": "WSOC"
+      },
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2026/10/22/north-carolina-michelin-stars-bib-gourmand-restaurants",
+       "date": "2026-10-22",
+       "label": "Axios Charlotte"
+      },
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 3
+    },
+    {
      "name": "Tacos El Nevado",
      "area": "Central Ave (east Charlotte) and South Blvd",
      "address": "4715 Central Ave, Charlotte, NC 28205",
@@ -3174,7 +3387,7 @@
        "label": "Charlotte Magazine"
       }
      ],
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Tacos El Regio",
@@ -3205,39 +3418,6 @@
        "url": "https://www.charlottemagazine.com/?p=142954",
        "date": "2023-04",
        "label": "Charlotte Magazine"
-      }
-     ],
-     "rank": 4
-    },
-    {
-     "name": "The Story of Mi Cariño",
-     "area": "South End",
-     "address": "1440 S Tryon St Ste 100, Charlotte, NC 28203",
-     "website": "https://www.google.com/maps/search/?api=1&query=The%20Story%20of%20Mi%20Cari%C3%B1o%20Charlotte",
-     "price": "$$",
-     "cuisine": "Mexican and Latin American gastro cantina, mezcaleria",
-     "why": "South End cantina and mezcal bar from the Vinyl team that opened in January 2026 and earned a Bib Gourmand on its first try; its chef also won Michelin's Young Chef Award.",
-     "score": 5.0,
-     "threads": 0,
-     "guides": 3,
-     "sources": [
-      {
-       "type": "article",
-       "url": "https://www.visitnc.com/media/news-release/michelin-toasts-new-class-nc-restaurants",
-       "date": "2026-10-22",
-       "label": "visitnc.com"
-      },
-      {
-       "type": "article",
-       "url": "https://www.wsoctv.com/your704/queen-city-restaurants-earn-michelin-guide-honors/IC3JDS6V3JARPOIFABPKP7SVJI/",
-       "date": "2026-10-22",
-       "label": "WSOC"
-      },
-      {
-       "type": "article",
-       "url": "https://www.axios.com/local/charlotte/2026/10/22/north-carolina-michelin-stars-bib-gourmand-restaurants",
-       "date": "2026-10-22",
-       "label": "Axios Charlotte"
       }
      ],
      "rank": 5
@@ -4552,6 +4732,48 @@
       }
      ],
      "rank": 16
+    },
+    {
+     "name": "Sharigato",
+     "area": "Optimist Park (The Joinery)",
+     "address": "420 E 22nd St, Charlotte, NC 28206",
+     "website": "https://www.sharigato.com/",
+     "price": "$$",
+     "cuisine": "Japanese hand rolls",
+     "why": "Counter-style hand-roll bar from chef Shari Robins where rolls come in sets or a la carte, alongside sashimi and snacks like truffle edamame; a quick, fun sushi stop in Optimist Park.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 17
+    },
+    {
+     "name": "Uchi / Uchibā",
+     "area": "Plaza Midwood (Commonwealth)",
+     "address": "1720 Commonwealth Ave, Charlotte, NC 28205",
+     "website": "https://uchi.uchirestaurants.com/location/sushi-charlotte/",
+     "price": "$$$$",
+     "cuisine": "Japanese, sushi and izakaya",
+     "why": "Austin's celebrated modern-Japanese group opened its first Carolinas location this spring, with creative sushi and hot plates at Uchi and a more casual izakaya-style bar upstairs at Uchibā; readers voted it the top opening of the year. Save room for the fried milk dessert.",
+     "score": 2,
+     "threads": 0,
+     "guides": 1,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 18
     }
    ]
   },
@@ -4925,6 +5147,39 @@
    "blurb": "Underrated spots locals say more people should know about.",
    "places": [
     {
+     "name": "DŌZO",
+     "area": "Dilworth (East Blvd)",
+     "address": "1419 East Blvd Ste A, Charlotte, NC 28203",
+     "website": "https://www.google.com/maps/search/?api=1&query=DOZO+1419+East+Blvd+Charlotte",
+     "price": "$$",
+     "cuisine": "Japanese-American comfort food",
+     "why": "The former City Kitch counter grew into a full Dilworth restaurant with a patio in early 2026, still serving big, shareable Japanese comfort food like tonkatsu, crispy potatoes and smoked salmon dip.",
+     "score": 7,
+     "threads": 1,
+     "guides": 2,
+     "sources": [
+      {
+       "type": "article",
+       "url": "https://www.axios.com/local/charlotte/2025/06/27/best-restaurants-charlotte-2025",
+       "date": "2025-06",
+       "label": "Axios Charlotte"
+      },
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "label": "r/Charlotte thread"
+      },
+      {
+       "type": "article",
+       "url": "https://www.scoopcharlotte.com/2026/11/21/add-these-new-charlotte-restaurants-to-your-foodie-bucket-list/",
+       "date": "2026-11-21",
+       "label": "Scoop Charlotte"
+      }
+     ],
+     "rank": 1
+    },
+    {
      "name": "Bird Pizzeria",
      "area": "Optimist Park",
      "address": "510 E 15th St, Charlotte, NC 28206",
@@ -4953,33 +5208,6 @@
        "url": "https://www.charlottemagazine.com/?p=153290",
        "date": "2025",
        "label": "Charlotte Magazine"
-      }
-     ],
-     "rank": 1
-    },
-    {
-     "name": "DŌZO",
-     "area": "West Charlotte (inside City Kitch)",
-     "address": "",
-     "website": "https://www.google.com/maps/search/?api=1&query=DOZO+City+Kitch+Charlotte",
-     "price": "$$",
-     "cuisine": "Japanese-American comfort food",
-     "why": "Easy-to-miss counter inside a ghost-kitchen hall serving big, shareable Japanese comfort dishes.",
-     "score": 5,
-     "threads": 1,
-     "guides": 1,
-     "sources": [
-      {
-       "type": "article",
-       "url": "https://www.axios.com/local/charlotte/2025/06/27/best-restaurants-charlotte-2025",
-       "date": "2025-06",
-       "label": "Axios Charlotte"
-      },
-      {
-       "type": "reddit",
-       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
-       "date": "2025-04",
-       "label": "r/Charlotte thread"
       }
      ],
      "rank": 2
@@ -5066,6 +5294,27 @@
      "rank": 5
     },
     {
+     "name": "Hatoya",
+     "area": "Pineville",
+     "address": "605 N Polk St, Pineville, NC 28134",
+     "website": "https://hatoyamart.com/",
+     "price": "$$",
+     "cuisine": "Japanese grocery, sashimi",
+     "why": "Family-run Japanese grocery in Pineville since 1992 that locals point to for sashimi-grade fish and uni, plus pantry staples and snacks; best for takeaway rather than a sit-down meal.",
+     "score": 3,
+     "threads": 1,
+     "guides": 0,
+     "sources": [
+      {
+       "type": "reddit",
+       "url": "https://reddit.sentinel-team.org/posts/1qgivnf/snapshots/2026-01-20T01%3A20%3A45.01149Z",
+       "date": "2025-04",
+       "label": "r/Charlotte thread"
+      }
+     ],
+     "rank": 6
+    },
+    {
      "name": "Mano Bella",
      "area": "SouthPark (Morrison Place); stall at The Market at 7th Street, Uptown",
      "address": "721 Governor Morrison St Ste 150, Charlotte, NC 28211",
@@ -5084,7 +5333,7 @@
        "label": "Unpretentious Palate"
       }
      ],
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Crispy Banh Mi",
@@ -5105,7 +5354,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "King of Spicy",
@@ -5126,7 +5375,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Malaya Kitchen",
@@ -5147,7 +5396,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Nile Ethiopian Restaurant & Grocery",
@@ -5168,7 +5417,7 @@
        "label": "Charlotte's Got A Lot"
       }
      ],
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Rice and Spice",
@@ -5189,7 +5438,7 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Saigon Palace",
@@ -5210,16 +5459,10 @@
        "label": "Axios Charlotte"
       }
      ],
-     "rank": 12
+     "rank": 13
     }
    ]
   }
  ],
- "held": [
-  {
-   "cat": "hidden-gems",
-   "name": "Hatoya",
-   "status": "unverified (2 commenters, apr 2025)"
-  }
- ]
+ "held": []
 }
