@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-11-25",
-  "weekOf": "2026-11-23",
-  "coverage": "2026-11-23 to 2026-12-31",
+  "updated": "2026-11-26",
+  "weekOf": "2026-11-26",
+  "coverage": "2026-11-26 to 2026-12-31",
   "featured": {
    "2026-11": [
     {
-     "id": "e256",
+     "id": "e236",
      "why": "Light the Knights opens Nov 25 at Truist Field: lights, skating and snow tubing in the ballpark"
     },
     {
@@ -14,11 +14,11 @@
      "why": "Discovery Place's Snow Days exhibit: frictionless skating rink and a life-size igloo, through Jan 3"
     },
     {
-     "id": "e285",
+     "id": "e261",
      "why": "Holidays at the Garden opens Nov 28 at Daniel Stowe, an outdoor walk among garden lights"
     },
     {
-     "id": "e264",
+     "id": "e240",
      "why": "A Beautiful Noise, the Neil Diamond musical, plays the Belk Thanksgiving weekend, Nov 27–29"
     },
     {
@@ -28,79 +28,69 @@
    ],
    "2026-12": [
     {
-     "id": "e310",
+     "id": "e286",
      "why": "Christmas Town USA lights up McAdenville Dec 1–26; free to walk or drive through"
     },
     {
-     "id": "e338",
+     "id": "e314",
      "why": "Free Mint, Bechtler, Gantt and Charlotte Museum of History admission Dec 5–6 with a Bank of America card"
     },
     {
-     "id": "e325",
+     "id": "e301",
      "why": "Charlotte Ballet's Nutcracker at the Belk, Dec 4–23; holiday weekends sell out, so buy early"
     },
     {
-     "id": "e378",
+     "id": "e354",
      "why": "Trans-Siberian Orchestra plays Spectrum Center twice on Dec 12; buy tickets early"
     },
     {
-     "id": "e266",
+     "id": "e242",
      "why": "Walk through the Carolina Holiday Light Spectacular at Ballantyne's Backyard through Dec 30"
     },
     {
-     "id": "e485",
+     "id": "e455",
      "why": "Uptown's New Year's Eve party with midnight fireworks; it has sold out in past years"
     }
    ]
   },
-  "nextUpdate": "Thursday, Nov 26",
+  "nextUpdate": "Monday, Nov 30",
   "picks": [
-   "e493",
-   "e256",
-   "e285",
-   "e264",
-   "e281"
+   "e463",
+   "e236",
+   "e261",
+   "e240",
+   "e257"
   ],
   "forecast": [
    {
-    "date": "2026-11-25",
-    "hi": 49,
-    "lo": 46,
-    "sky": "Rain and Patchy Fog",
-    "rain": 80,
-    "wind": "NE 16-21 mph",
-    "gust": 39,
-    "detail": "Rain, mainly after 7am.  Patchy fog after 2pm. High near 49. Breezy, with a northeast wind 16 to 21 mph, with gusts as high as 39 mph.  Chance of precipitation is 80%. New precipitation amounts between a quarter and half of an inch possible.",
-    "night": "Rain (100%), 1–2 in., breezy, low 46°"
-   },
-   {
     "date": "2026-11-26",
-    "hi": 57,
+    "hi": 55,
     "lo": 36,
-    "sky": "Rain Likely",
-    "rain": 70,
-    "wind": "NNE 13-18 mph",
-    "gust": 30,
-    "detail": "Rain likely, mainly before 1pm.  Cloudy, with a high near 57. North northeast wind 13 to 18 mph becoming southwest in the afternoon. Winds could gust as high as 30 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible.",
-    "night": "Partly cloudy, windy, low 36°"
+    "sky": "Rain Likely, then Cloudy",
+    "rain": 60,
+    "wind": "NNE 6-15 mph",
+    "gust": 28,
+    "detail": "Rain likely, mainly before 10am.  Patchy fog between 11am and 2pm.  Otherwise, cloudy, with a high near 55. North northeast wind 6 to 15 mph becoming southwest in the afternoon. Winds could gust as high as 28 mph.  Chance of precipitation is 60%. New precipitation amounts of less than a tenth of an inch possible.",
+    "night": "Mostly cloudy, windy, low 36°"
    },
    {
     "date": "2026-11-27",
-    "hi": 52,
-    "lo": 35,
-    "sky": "Mostly Sunny",
-    "wind": "WSW 16-18 mph",
+    "hi": 51,
+    "lo": 34,
+    "sky": "Partly Sunny and Breezy",
+    "wind": "WSW 16-20 mph",
     "gust": 34,
-    "detail": "Mostly sunny, with a high near 52. West southwest wind 16 to 18 mph, with gusts as high as 34 mph.",
-    "night": "Partly cloudy, low 35°"
+    "detail": "Partly sunny, with a high near 51. Breezy, with a west southwest wind 16 to 20 mph, with gusts as high as 34 mph.",
+    "night": "Partly cloudy, low 34°"
    },
    {
     "date": "2026-11-28",
-    "hi": 59,
+    "hi": 58,
     "lo": 38,
     "sky": "Sunny",
-    "detail": "Sunny, with a high near 59.",
-    "night": "Partly cloudy, low 38°"
+    "wind": "SW 5-7 mph",
+    "detail": "Sunny, with a high near 58. Southwest wind 5 to 7 mph.",
+    "night": "Mostly clear, low 38°"
    },
    {
     "date": "2026-11-29",
@@ -108,18 +98,26 @@
     "lo": 46,
     "sky": "Mostly Sunny",
     "detail": "Mostly sunny, with a high near 62.",
-    "night": "Rain likely (60%), low 46°"
+    "night": "Rain 7 PM–1 AM (80%), low 46°"
    },
    {
     "date": "2026-11-30",
-    "hi": 62,
-    "lo": 38,
-    "sky": "Partly Sunny",
-    "detail": "Partly sunny, with a high near 62.",
-    "night": "Partly cloudy, low 38°"
+    "hi": 60,
+    "lo": 35,
+    "sky": "Mostly Sunny",
+    "detail": "Mostly sunny, with a high near 60.",
+    "night": "Partly cloudy, low 35°"
    },
    {
     "date": "2026-12-01",
+    "hi": 56,
+    "lo": 36,
+    "sky": "Mostly Sunny",
+    "detail": "Mostly sunny, with a high near 56.",
+    "night": "Partly cloudy, low 36°"
+   },
+   {
+    "date": "2026-12-02",
     "hi": 58,
     "sky": "Mostly Sunny",
     "detail": "Mostly sunny, with a high near 58."
@@ -763,7 +761,7 @@
    "free": true,
    "note": "Drink & Think Trivia. Prizes.",
    "url": "https://gilde1546.com/charlotte-lower-south-end-gilde-brewery-events",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "endTime": "9:00 PM",
@@ -1937,7 +1935,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Mixtape Music Trivia",
@@ -2025,7 +2023,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Music Bingo",
@@ -2047,7 +2045,7 @@
    "free": true,
    "note": "Digital music bingo on your phone",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Music Bingo",
@@ -2069,7 +2067,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Music Bingo",
@@ -2091,7 +2089,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Music Bingo",
@@ -2113,7 +2111,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Music Bingo",
@@ -2971,7 +2969,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Survey Says",
@@ -2993,7 +2991,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "nearby",
    "gameKind": "Survey Says",
@@ -3015,7 +3013,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "region",
    "gameKind": "Survey Says",
@@ -3037,7 +3035,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Survey Says",
@@ -3059,7 +3057,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Survey Says",
@@ -3081,7 +3079,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Survey Says",
@@ -3103,7 +3101,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "region",
    "gameKind": "Survey Says",
@@ -3125,7 +3123,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Survey Says",
@@ -3262,7 +3260,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Themed",
@@ -3284,7 +3282,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Themed",
@@ -3306,7 +3304,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "Themed",
@@ -3616,7 +3614,7 @@
    "note": "General knowledge: 4 rounds of 11 questions",
    "url": "https://www.charlotteonthecheap.com/triple-c-brewing/",
    "dogs": true,
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3639,7 +3637,7 @@
    "free": true,
    "note": "Hosted by Dave Chase. Themed trivia on the last Monday of each month (next: Nov 30).",
    "url": "https://divinebarrel.com/dbb-events/",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3663,7 +3661,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3686,7 +3684,7 @@
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
    "kids": true,
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3732,7 +3730,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "nearby",
    "gameKind": "General knowledge",
@@ -3779,7 +3777,7 @@
    "free": true,
    "note": "Free to play, prizes for winners.",
    "url": "https://www.charlotteonthecheap.com/rhino-market/",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3806,7 +3804,7 @@
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "id": "e153"
   },
   {
@@ -3824,7 +3822,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3847,7 +3845,7 @@
    "free": true,
    "note": "Prizes for winning teams",
    "url": "https://heistbrewery.com/events/upcoming-events/",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3867,9 +3865,9 @@
    "tag": "Trivia",
    "price": "Free",
    "free": true,
-   "note": "Weekly prizes; season trophy on the line",
+   "note": "Weekly prizes; season trophy on the line. No trivia Dec 1; back Dec 8.",
    "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3892,7 +3890,7 @@
    "free": true,
    "note": "Top 3 teams win gift cards. $5 pints",
    "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3937,7 +3935,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -3959,7 +3957,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4002,7 +4000,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4025,7 +4023,7 @@
    "priceTier": "free",
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "zone": "charlotte",
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
@@ -4074,7 +4072,7 @@
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "id": "e165"
   },
   {
@@ -4096,7 +4094,7 @@
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "id": "e166"
   },
   {
@@ -4114,7 +4112,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4136,7 +4134,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4202,7 +4200,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4245,7 +4243,7 @@
    "free": true,
    "note": "",
    "url": "https://residentculturebrewing.com/events/",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4268,7 +4266,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4290,7 +4288,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4312,7 +4310,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4334,7 +4332,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4356,7 +4354,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4378,7 +4376,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4400,7 +4398,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4447,7 +4445,7 @@
    "note": "Half-off wine bottles from 4 PM",
    "url": "https://www.charlotteonthecheap.com/town-brewing/",
    "kids": true,
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4470,7 +4468,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4517,7 +4515,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4565,7 +4563,7 @@
    "note": "No trivia Thu Nov 26: NoDa taproom closed for Thanksgiving",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
    "kids": true,
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4608,7 +4606,7 @@
    "free": true,
    "note": "Prizes 1st–4th, food truck, $6 Guinness",
    "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4655,7 +4653,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4677,7 +4675,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4699,7 +4697,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4742,7 +4740,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4764,7 +4762,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4786,7 +4784,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -4808,7 +4806,7 @@
    "free": true,
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "priceTier": "free",
    "zone": "charlotte",
    "gameKind": "General knowledge",
@@ -5730,68 +5728,6 @@
   {
    "kind": "dated",
    "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "3:00 PM",
-   "endTime": "5:00 PM",
-   "title": "Cookies with Santa",
-   "venue": "The Market at 7th Street",
-   "area": "Uptown",
-   "zone": "charlotte",
-   "cat": "family",
-   "tag": "Santa",
-   "price": "Tickets (Eventbrite)",
-   "free": false,
-   "priceTier": "ticketed",
-   "note": "Ticket includes a Santa meet-and-greet, one professional photo, a homemade cookie and hot cocoa from Not Just Coffee. Two hours of validated parking in the Market deck",
-   "url": "https://uptowncharlotte.com/do/cookies-with-santa",
-   "checked": "2026-11-24",
-   "kids": true,
-   "season": "holidays",
-   "id": "e253"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "8:00 PM",
-   "title": "Deante' Hitchcock",
-   "venue": "Neighborhood Theatre",
-   "area": "NoDa",
-   "zone": "charlotte",
-   "cat": "music",
-   "tag": "Concert",
-   "priceTier": "ticketed",
-   "free": false,
-   "url": "https://neighborhoodtheatre.com/event/deante-hitchcock/",
-   "checked": "2026-11-23",
-   "ages": "18+",
-   "kids": false,
-   "note": "Doors 7:00 PM. Under 18 admitted with a parent.",
-   "price": "Tickets",
-   "id": "e254"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "7:00 PM",
-   "title": "Hornets vs. Bulls",
-   "venue": "Spectrum Center",
-   "area": "Uptown",
-   "cat": "sports",
-   "tag": "NBA",
-   "price": "Tickets",
-   "free": false,
-   "note": "",
-   "url": "https://www.cbssports.com/nba/teams/CHA/charlotte-hornets/schedule/",
-   "checked": "2026-11-23",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "id": "e255"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
    "end": "2027-01-03",
    "time": "5:00 PM",
    "title": "Light the Knights Festival",
@@ -5809,66 +5745,7 @@
    "season": "holidays",
    "outdoor": true,
    "kids": true,
-   "id": "e256"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "10:00 AM",
-   "endTime": "12:00 PM",
-   "title": "Natural Bird Feeders (drop-in)",
-   "venue": "Quest Nature Center",
-   "area": "Huntersville",
-   "zone": "nearby",
-   "cat": "family",
-   "tag": "Nature Program",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Drop-in bird-feeder craft, all ages.",
-   "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/181859?onlineSiteId=0&from_original_cui=true",
-   "checked": "2026-11-16",
-   "kids": true,
-   "outdoor": true,
-   "id": "e257"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "8:00 PM",
-   "title": "Pi'erre Bourne",
-   "venue": "The Underground",
-   "area": "NC Music Factory",
-   "zone": "charlotte",
-   "cat": "music",
-   "tag": "Concert",
-   "priceTier": "ticketed",
-   "free": false,
-   "url": "https://www.livenation.com/event/G5eVZ_fU3d5p0/pi-erre-bourne",
-   "checked": "2026-11-23",
-   "price": "Tickets",
-   "id": "e259"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "6:30 PM",
-   "title": "Wage War",
-   "venue": "The Fillmore",
-   "area": "NC Music Factory",
-   "zone": "charlotte",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "Tickets",
-   "free": false,
-   "priceTier": "ticketed",
-   "note": "",
-   "url": "https://uptowncharlotte.com/do/wage-war-charlotte",
-   "checked": "2026-11-23",
-   "id": "e260"
+   "id": "e236"
   },
   {
    "kind": "dated",
@@ -5891,7 +5768,7 @@
    "season": "holidays",
    "end": "2026-11-26",
    "unconfirmedTime": false,
-   "id": "e261"
+   "id": "e237"
   },
   {
    "kind": "dated",
@@ -5913,7 +5790,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e262"
+   "id": "e238"
   },
   {
    "kind": "dated",
@@ -5934,7 +5811,7 @@
    "outdoor": true,
    "season": "holidays",
    "end": "2026-11-26",
-   "id": "e263"
+   "id": "e239"
   },
   {
    "kind": "dated",
@@ -5966,7 +5843,7 @@
      "6:30 PM"
     ]
    },
-   "id": "e264"
+   "id": "e240"
   },
   {
    "kind": "dated",
@@ -5986,7 +5863,7 @@
    "priceTier": "ticketed",
    "zone": "charlotte",
    "season": "holidays",
-   "id": "e265"
+   "id": "e241"
   },
   {
    "kind": "dated",
@@ -6007,7 +5884,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "season": "holidays",
-   "id": "e266"
+   "id": "e242"
   },
   {
    "kind": "dated",
@@ -6027,7 +5904,7 @@
    "area": "East Charlotte",
    "url": "https://charlottecheckers.com/schedule/promotions",
    "kids": true,
-   "id": "e267"
+   "id": "e243"
   },
   {
    "kind": "dated",
@@ -6060,7 +5937,7 @@
     ]
    },
    "endTime": "6:00 PM",
-   "id": "e268"
+   "id": "e244"
   },
   {
    "kind": "dated",
@@ -6094,7 +5971,7 @@
    },
    "note": "All shows 18+. Saturday late show listed as 8:45 PM on the calendar and 9:15 PM on the event page.",
    "price": "Tickets",
-   "id": "e269"
+   "id": "e245"
   },
   {
    "kind": "dated",
@@ -6113,7 +5990,7 @@
    "note": "Black Friday men's college basketball; second year of the event",
    "url": "https://www.spectrumcentercharlotte.com/events",
    "checked": "2026-11-23",
-   "id": "e270"
+   "id": "e246"
   },
   {
    "kind": "dated",
@@ -6142,7 +6019,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e271"
+   "id": "e247"
   },
   {
    "kind": "dated",
@@ -6161,7 +6038,7 @@
    "checked": "2026-11-23",
    "price": "$18 adv / $22 day of",
    "note": "Two nights. Doors 7:00 PM.",
-   "id": "e272"
+   "id": "e248"
   },
   {
    "kind": "dated",
@@ -6187,7 +6064,7 @@
    ],
    "kids": true,
    "season": "holidays",
-   "id": "e273"
+   "id": "e249"
   },
   {
    "kind": "dated",
@@ -6213,7 +6090,7 @@
    ],
    "kids": true,
    "season": "holidays",
-   "id": "e274"
+   "id": "e250"
   },
   {
    "kind": "dated",
@@ -6231,7 +6108,7 @@
    "url": "https://www.livenation.com/event/G5eVZ_Gxw90bD/pouya-the-foreverglades-tour",
    "checked": "2026-11-23",
    "price": "Tickets",
-   "id": "e275"
+   "id": "e251"
   },
   {
    "kind": "dated",
@@ -6253,7 +6130,7 @@
    "zone": "charlotte",
    "outdoor": true,
    "season": "holidays",
-   "id": "e276"
+   "id": "e252"
   },
   {
    "kind": "dated",
@@ -6276,7 +6153,7 @@
    "kids": true,
    "outdoor": true,
    "ages": "7+",
-   "id": "e277"
+   "id": "e253"
   },
   {
    "kind": "dated",
@@ -6297,7 +6174,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e278"
+   "id": "e254"
   },
   {
    "kind": "dated",
@@ -6318,7 +6195,7 @@
    "outdoor": true,
    "end": "2026-11-28",
    "unconfirmedTime": true,
-   "id": "e279"
+   "id": "e255"
   },
   {
    "kind": "dated",
@@ -6338,7 +6215,7 @@
    "note": "Best-of-three series; Game 1 is Nov. 22 in Chicago, Game 3 (if needed) Dec. 2 in Chicago.",
    "kids": true,
    "price": "Tickets",
-   "id": "e280"
+   "id": "e256"
   },
   {
    "kind": "dated",
@@ -6359,7 +6236,7 @@
    "checked": "2026-11-23",
    "kids": true,
    "season": "holidays",
-   "id": "e281"
+   "id": "e257"
   },
   {
    "kind": "dated",
@@ -6382,7 +6259,7 @@
    "kids": true,
    "kidsOnly": true,
    "ages": "3+",
-   "id": "e282"
+   "id": "e258"
   },
   {
    "kind": "dated",
@@ -6400,7 +6277,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/eric-roberson-4",
    "checked": "2026-11-23",
    "price": "From $58.89",
-   "id": "e283"
+   "id": "e259"
   },
   {
    "kind": "dated",
@@ -6422,7 +6299,7 @@
    "checked": "2026-11-16",
    "kids": true,
    "outdoor": true,
-   "id": "e284"
+   "id": "e260"
   },
   {
    "kind": "dated",
@@ -6444,7 +6321,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e285"
+   "id": "e261"
   },
   {
    "kind": "dated",
@@ -6463,7 +6340,7 @@
    "checked": "2026-11-23",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e286"
+   "id": "e262"
   },
   {
    "kind": "dated",
@@ -6487,7 +6364,7 @@
     "8:00 PM"
    ],
    "season": "holidays",
-   "id": "e287"
+   "id": "e263"
   },
   {
    "kind": "dated",
@@ -6509,7 +6386,7 @@
    "kids": true,
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e288"
+   "id": "e264"
   },
   {
    "kind": "dated",
@@ -6531,7 +6408,7 @@
    "checked": "2026-11-16",
    "kids": true,
    "outdoor": false,
-   "id": "e289"
+   "id": "e265"
   },
   {
    "kind": "dated",
@@ -6553,7 +6430,7 @@
    "checked": "2026-11-23",
    "kids": true,
    "kidsOnly": true,
-   "id": "e290"
+   "id": "e266"
   },
   {
    "kind": "dated",
@@ -6576,7 +6453,7 @@
    "kids": true,
    "outdoor": false,
    "ages": "7+",
-   "id": "e291"
+   "id": "e267"
   },
   {
    "kind": "dated",
@@ -6594,7 +6471,7 @@
    "url": "https://www.livenation.com/event/G5eVZ_3BbOyBi/syd-beard-tour",
    "checked": "2026-11-23",
    "price": "Tickets",
-   "id": "e292"
+   "id": "e268"
   },
   {
    "kind": "dated",
@@ -6615,7 +6492,7 @@
    "kids": false,
    "note": "Doors 2:00 PM.",
    "price": "Tickets",
-   "id": "e293"
+   "id": "e269"
   },
   {
    "kind": "dated",
@@ -6638,7 +6515,7 @@
    "kids": true,
    "outdoor": true,
    "season": "holidays",
-   "id": "e294"
+   "id": "e270"
   },
   {
    "kind": "dated",
@@ -6661,7 +6538,7 @@
    "kids": true,
    "kidsOnly": true,
    "ages": "6 weeks–17 months",
-   "id": "e295"
+   "id": "e271"
   },
   {
    "kind": "dated",
@@ -6683,7 +6560,7 @@
    "checked": "2026-11-16",
    "kids": true,
    "outdoor": false,
-   "id": "e296"
+   "id": "e272"
   },
   {
    "kind": "dated",
@@ -6702,7 +6579,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e297"
+   "id": "e273"
   },
   {
    "kind": "dated",
@@ -6721,7 +6598,7 @@
    "area": "Uptown",
    "url": "https://www.blumenthalarts.org/events/detail/charlotte-symphony-majestic-brass-2",
    "end": "2026-11-29",
-   "id": "e298"
+   "id": "e274"
   },
   {
    "kind": "dated",
@@ -6741,7 +6618,7 @@
    "url": "https://www.tickpick.com/buy-christmas-together-amy-grant-michael-w-smith-cece-winans-tickets-bojangles-coliseum-11-29-26-7pm/7908808/",
    "end": "2026-11-29",
    "season": "holidays",
-   "id": "e299"
+   "id": "e275"
   },
   {
    "kind": "dated",
@@ -6761,7 +6638,7 @@
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e300"
+   "id": "e276"
   },
   {
    "kind": "dated",
@@ -6779,7 +6656,7 @@
    "url": "https://www.livenation.com/event/G5eVZ_Khh8NNV/hunxho",
    "checked": "2026-11-23",
    "price": "Tickets",
-   "id": "e301"
+   "id": "e277"
   },
   {
    "kind": "dated",
@@ -6800,7 +6677,7 @@
    "checked": "2026-11-23",
    "endTime": "5:00 PM",
    "season": "holidays",
-   "id": "e302"
+   "id": "e278"
   },
   {
    "kind": "dated",
@@ -6826,7 +6703,7 @@
     "1:00 PM",
     "2:00 PM"
    ],
-   "id": "e303"
+   "id": "e279"
   },
   {
    "kind": "dated",
@@ -6848,7 +6725,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e304"
+   "id": "e280"
   },
   {
    "kind": "dated",
@@ -6867,7 +6744,7 @@
    "checked": "2026-11-23",
    "priceTier": "ticketed",
    "zone": "charlotte",
-   "id": "e305"
+   "id": "e281"
   },
   {
    "kind": "dated",
@@ -6887,7 +6764,7 @@
    "note": "Brewery stays open late for the whole Monday Night Football game (8:15 PM kickoff, ESPN), with drink specials and free food.",
    "url": "https://edge-city-brewery.mailchimpsites.com/",
    "checked": "2026-11-16",
-   "id": "e306"
+   "id": "e282"
   },
   {
    "kind": "dated",
@@ -6906,7 +6783,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "checked": "2026-11-23",
-   "id": "e307"
+   "id": "e283"
   },
   {
    "kind": "dated",
@@ -6928,7 +6805,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e308"
+   "id": "e284"
   },
   {
    "kind": "dated",
@@ -6952,7 +6829,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e309"
+   "id": "e285"
   },
   {
    "kind": "dated",
@@ -6975,7 +6852,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e310"
+   "id": "e286"
   },
   {
    "kind": "dated",
@@ -7005,7 +6882,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e311"
+   "id": "e287"
   },
   {
    "kind": "dated",
@@ -7028,7 +6905,7 @@
    "kidsOnly": true,
    "unconfirmedTime": true,
    "season": "holidays",
-   "id": "e312"
+   "id": "e288"
   },
   {
    "kind": "dated",
@@ -7050,7 +6927,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e313"
+   "id": "e289"
   },
   {
    "kind": "dated",
@@ -7069,7 +6946,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e314"
+   "id": "e290"
   },
   {
    "kind": "dated",
@@ -7088,7 +6965,7 @@
    "note": "Men's team plays College of Charleston at 8 PM the same night",
    "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2429/charlotte-49ers",
    "checked": "2026-11-09",
-   "id": "e315"
+   "id": "e291"
   },
   {
    "kind": "dated",
@@ -7124,7 +7001,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e316"
+   "id": "e292"
   },
   {
    "kind": "dated",
@@ -7146,7 +7023,7 @@
    "unconfirmedTime": true,
    "kids": true,
    "season": "holidays",
-   "id": "e317"
+   "id": "e293"
   },
   {
    "kind": "dated",
@@ -7167,7 +7044,7 @@
    "ages": "11+",
    "note": "Historic dessert demo (25 seats) and food-history lecture; $35 lecture only",
    "url": "https://charlottemuseum.org/programs-events/events/cwc/",
-   "id": "e318"
+   "id": "e294"
   },
   {
    "kind": "dated",
@@ -7189,7 +7066,7 @@
    "checked": "2026-11-12",
    "outdoor": true,
    "season": "holidays",
-   "id": "e319"
+   "id": "e295"
   },
   {
    "kind": "dated",
@@ -7220,7 +7097,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e320"
+   "id": "e296"
   },
   {
    "kind": "dated",
@@ -7239,7 +7116,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/spectrum-center/pages/0",
    "checked": "2026-11-23",
-   "id": "e321"
+   "id": "e297"
   },
   {
    "kind": "dated",
@@ -7257,7 +7134,7 @@
    "url": "https://www.livenation.com/event/G5eVZ_8nrWy9c/montell-fish-the-nest-tour",
    "checked": "2026-11-23",
    "price": "Tickets",
-   "id": "e322"
+   "id": "e298"
   },
   {
    "kind": "dated",
@@ -7276,7 +7153,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "checked": "2026-11-23",
-   "id": "e323"
+   "id": "e299"
   },
   {
    "kind": "dated",
@@ -7296,7 +7173,7 @@
    "url": "https://uptowncharlotte.com/do/an-evening-with-kirk-whalum",
    "checked": "2026-11-23",
    "endTime": "10:00 PM",
-   "id": "e324"
+   "id": "e300"
   },
   {
    "kind": "dated",
@@ -7322,7 +7199,7 @@
    ],
    "season": "holidays",
    "kids": true,
-   "id": "e325"
+   "id": "e301"
   },
   {
    "kind": "dated",
@@ -7353,7 +7230,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e326"
+   "id": "e302"
   },
   {
    "kind": "dated",
@@ -7380,7 +7257,7 @@
      "6:00 PM"
     ]
    },
-   "id": "e327"
+   "id": "e303"
   },
   {
    "kind": "dated",
@@ -7402,7 +7279,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e328"
+   "id": "e304"
   },
   {
    "kind": "dated",
@@ -7425,7 +7302,7 @@
    "kids": true,
    "season": "holidays",
    "endTime": "8:30 PM",
-   "id": "e329"
+   "id": "e305"
   },
   {
    "kind": "dated",
@@ -7449,7 +7326,7 @@
    "note": "Two sets with the Ziad Jazz Quartet; advance tickets required",
    "url": "https://www.bechtler.org/event-details-registration/holiday-jazz-ft-justin-ray",
    "season": "holidays",
-   "id": "e330"
+   "id": "e306"
   },
   {
    "kind": "dated",
@@ -7472,7 +7349,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e331"
+   "id": "e307"
   },
   {
    "kind": "dated",
@@ -7493,7 +7370,7 @@
    "checked": "2026-11-23",
    "endTime": "10:00 PM",
    "season": "holidays",
-   "id": "e332"
+   "id": "e308"
   },
   {
    "kind": "dated",
@@ -7517,7 +7394,7 @@
    "kidsOnly": true,
    "ages": "0–5",
    "season": "holidays",
-   "id": "e333"
+   "id": "e309"
   },
   {
    "kind": "dated",
@@ -7538,7 +7415,7 @@
    "note": "Latin dance lessons, DJ, percussion, vendors; galleries open to 9 PM",
    "url": "https://www.mintmuseum.org/event/mint-2-move-cultural-dance-night-6-3/",
    "season": "holidays",
-   "id": "e334"
+   "id": "e310"
   },
   {
    "kind": "dated",
@@ -7561,7 +7438,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e335"
+   "id": "e311"
   },
   {
    "kind": "dated",
@@ -7583,7 +7460,7 @@
    "note": "Holiday drag variety show with Robyn O'Ladies and Charlotte Douglas. Doors 7:00 PM.",
    "season": "holidays",
    "price": "Tickets",
-   "id": "e336"
+   "id": "e312"
   },
   {
    "kind": "dated",
@@ -7602,7 +7479,7 @@
    "note": "Noon kickoff on ABC",
    "url": "https://fbschedules.com/2026-acc-football-championship-game-to-kickoff-at-noon-on-abc/amp/",
    "checked": "2026-11-09",
-   "id": "e337"
+   "id": "e313"
   },
   {
    "kind": "dated",
@@ -7622,7 +7499,7 @@
    "priceTier": "free",
    "note": "Free general admission for BofA/Merrill cardholders with photo ID, both Mint locations; Sat 11–6, Sun 1–5",
    "url": "https://www.mintmuseum.org/event/bank-of-america-museums-on-us/2026-12-05/",
-   "id": "e338"
+   "id": "e314"
   },
   {
    "kind": "dated",
@@ -7642,7 +7519,7 @@
    "url": "https://charlottecheckers.com/schedule/promotions",
    "checked": "2026-11-23",
    "kids": true,
-   "id": "e339"
+   "id": "e315"
   },
   {
    "kind": "dated",
@@ -7665,7 +7542,7 @@
    "kidsOnly": true,
    "ages": "3–5",
    "season": "holidays",
-   "id": "e340"
+   "id": "e316"
   },
   {
    "kind": "dated",
@@ -7687,7 +7564,7 @@
    "url": "https://ganttcenter.org/calendar/family-first-stitched-together-a-family-story-quilt-experience/",
    "kids": true,
    "kidsOnly": true,
-   "id": "e341"
+   "id": "e317"
   },
   {
    "kind": "dated",
@@ -7710,7 +7587,7 @@
    "kids": true,
    "outdoor": true,
    "season": "holidays",
-   "id": "e342"
+   "id": "e318"
   },
   {
    "kind": "dated",
@@ -7731,7 +7608,7 @@
    "checked": "2026-11-09",
    "endTime": "9:00 PM",
    "season": "holidays",
-   "id": "e343"
+   "id": "e319"
   },
   {
    "kind": "dated",
@@ -7754,7 +7631,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e344"
+   "id": "e320"
   },
   {
    "kind": "dated",
@@ -7776,7 +7653,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e345"
+   "id": "e321"
   },
   {
    "kind": "dated",
@@ -7800,7 +7677,7 @@
    ],
    "endTime": "7:00 PM",
    "season": "holidays",
-   "id": "e346"
+   "id": "e322"
   },
   {
    "kind": "dated",
@@ -7822,7 +7699,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e347"
+   "id": "e323"
   },
   {
    "kind": "dated",
@@ -7845,7 +7722,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e348"
+   "id": "e324"
   },
   {
    "kind": "dated",
@@ -7874,7 +7751,7 @@
    },
    "kids": true,
    "season": "holidays",
-   "id": "e349"
+   "id": "e325"
   },
   {
    "kind": "dated",
@@ -7897,7 +7774,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e350"
+   "id": "e326"
   },
   {
    "kind": "dated",
@@ -7916,7 +7793,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e351"
+   "id": "e327"
   },
   {
    "kind": "dated",
@@ -7938,7 +7815,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e352"
+   "id": "e328"
   },
   {
    "kind": "dated",
@@ -7959,7 +7836,7 @@
    "url": "https://www.winghavengardens.org/events-calendar/historic-holiday",
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e353"
+   "id": "e329"
   },
   {
    "kind": "dated",
@@ -7978,7 +7855,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "checked": "2026-11-23",
-   "id": "e354"
+   "id": "e330"
   },
   {
    "kind": "dated",
@@ -7997,7 +7874,7 @@
    "checked": "2026-11-23",
    "price": "From $59.52",
    "note": "With special guest Trey Hensley.",
-   "id": "e355"
+   "id": "e331"
   },
   {
    "kind": "dated",
@@ -8017,7 +7894,7 @@
    "url": "https://charlottecheckers.com/articles/checkers-announce-2026-27-schedule",
    "checked": "2026-11-23",
    "kids": true,
-   "id": "e356"
+   "id": "e332"
   },
   {
    "kind": "dated",
@@ -8038,7 +7915,7 @@
    "checked": "2026-11-09",
    "endTime": "7:30 PM",
    "season": "holidays",
-   "id": "e357"
+   "id": "e333"
   },
   {
    "kind": "dated",
@@ -8057,7 +7934,7 @@
    "note": "",
    "url": "https://charlottecheckers.com/schedule/schedule",
    "checked": "2026-11-23",
-   "id": "e358"
+   "id": "e334"
   },
   {
    "kind": "dated",
@@ -8077,7 +7954,7 @@
    "note": "Listed on Bechtler calendar; details on site",
    "url": "https://bechtler.org/events/calendar",
    "season": "holidays",
-   "id": "e359"
+   "id": "e335"
   },
   {
    "kind": "dated",
@@ -8096,7 +7973,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "checked": "2026-11-23",
-   "id": "e360"
+   "id": "e336"
   },
   {
    "kind": "dated",
@@ -8115,7 +7992,7 @@
    "priceTier": "free",
    "note": "Lunchtime gallery tour",
    "url": "https://bechtler.org/events/calendar",
-   "id": "e361"
+   "id": "e337"
   },
   {
    "kind": "dated",
@@ -8135,7 +8012,7 @@
    "url": "https://uptowncharlotte.com/do/festival-of-lights",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e362"
+   "id": "e338"
   },
   {
    "kind": "dated",
@@ -8157,7 +8034,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e363"
+   "id": "e339"
   },
   {
    "kind": "dated",
@@ -8177,7 +8054,7 @@
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/bojangles-coliseum/pages/0",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e364"
+   "id": "e340"
   },
   {
    "kind": "dated",
@@ -8219,7 +8096,7 @@
      "2:30 PM"
     ]
    },
-   "id": "e365"
+   "id": "e341"
   },
   {
    "kind": "dated",
@@ -8251,7 +8128,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e366"
+   "id": "e342"
   },
   {
    "kind": "dated",
@@ -8272,7 +8149,7 @@
    "checked": "2026-11-09",
    "endTime": "7:30 PM",
    "season": "holidays",
-   "id": "e367"
+   "id": "e343"
   },
   {
    "kind": "dated",
@@ -8294,7 +8171,7 @@
    "endTime": "8:30 PM",
    "kids": true,
    "season": "holidays",
-   "id": "e368"
+   "id": "e344"
   },
   {
    "kind": "dated",
@@ -8327,7 +8204,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e369"
+   "id": "e345"
   },
   {
    "kind": "dated",
@@ -8350,7 +8227,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e370"
+   "id": "e346"
   },
   {
    "kind": "dated",
@@ -8373,7 +8250,7 @@
    "kids": true,
    "kidsOnly": true,
    "season": "holidays",
-   "id": "e371"
+   "id": "e347"
   },
   {
    "kind": "dated",
@@ -8399,7 +8276,7 @@
    "endTime": "11:00 AM",
    "kids": true,
    "season": "holidays",
-   "id": "e372"
+   "id": "e348"
   },
   {
    "kind": "dated",
@@ -8420,7 +8297,7 @@
    "kids": false,
    "note": "Doors 7:00 PM. Under 18 admitted with a parent.",
    "price": "Tickets",
-   "id": "e373"
+   "id": "e349"
   },
   {
    "kind": "dated",
@@ -8441,7 +8318,7 @@
    "checked": "2026-11-09",
    "endTime": "7:00 PM",
    "season": "holidays",
-   "id": "e374"
+   "id": "e350"
   },
   {
    "kind": "dated",
@@ -8464,7 +8341,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e375"
+   "id": "e351"
   },
   {
    "kind": "dated",
@@ -8488,7 +8365,7 @@
     "7:00 PM"
    ],
    "season": "holidays",
-   "id": "e376"
+   "id": "e352"
   },
   {
    "kind": "dated",
@@ -8511,7 +8388,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e377"
+   "id": "e353"
   },
   {
    "kind": "dated",
@@ -8535,7 +8412,7 @@
     "7:30 PM"
    ],
    "season": "holidays",
-   "id": "e378"
+   "id": "e354"
   },
   {
    "kind": "dated",
@@ -8554,7 +8431,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e379"
+   "id": "e355"
   },
   {
    "kind": "dated",
@@ -8572,7 +8449,7 @@
    "url": "https://www.livenation.com/event/G5eVZ_ux9kb_m/chris-mitchell-begging-for-sax",
    "checked": "2026-11-23",
    "price": "Tickets",
-   "id": "e380"
+   "id": "e356"
   },
   {
    "kind": "dated",
@@ -8593,7 +8470,7 @@
    "checked": "2026-11-09",
    "endTime": "10:00 PM",
    "season": "holidays",
-   "id": "e381"
+   "id": "e357"
   },
   {
    "kind": "dated",
@@ -8612,7 +8489,7 @@
    "note": "",
    "url": "https://www.cbssports.com/nfl/teams/CAR/carolina-panthers/schedule/",
    "checked": "2026-11-09",
-   "id": "e382"
+   "id": "e358"
   },
   {
    "kind": "dated",
@@ -8631,7 +8508,7 @@
    "note": "Marvel Night: Brandon Miller x Marvel shirt giveaway",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e383"
+   "id": "e359"
   },
   {
    "kind": "dated",
@@ -8651,7 +8528,7 @@
    "url": "https://www.cltguide.com/event/tosco-music-holiday-party/",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e384"
+   "id": "e360"
   },
   {
    "kind": "dated",
@@ -8670,7 +8547,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e385"
+   "id": "e361"
   },
   {
    "kind": "dated",
@@ -8692,7 +8569,7 @@
    "checked": "2026-11-23",
    "kids": true,
    "kidsOnly": true,
-   "id": "e386"
+   "id": "e362"
   },
   {
    "kind": "dated",
@@ -8713,7 +8590,7 @@
    "checked": "2026-11-09",
    "endTime": "7:30 PM",
    "season": "holidays",
-   "id": "e387"
+   "id": "e363"
   },
   {
    "kind": "dated",
@@ -8732,7 +8609,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "checked": "2026-11-23",
-   "id": "e388"
+   "id": "e364"
   },
   {
    "kind": "dated",
@@ -8751,7 +8628,7 @@
    "note": "",
    "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2429/charlotte-49ers",
    "checked": "2026-11-09",
-   "id": "e389"
+   "id": "e365"
   },
   {
    "kind": "dated",
@@ -8771,7 +8648,7 @@
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e390"
+   "id": "e366"
   },
   {
    "kind": "dated",
@@ -8802,7 +8679,7 @@
     ]
    },
    "season": "holidays",
-   "id": "e391"
+   "id": "e367"
   },
   {
    "kind": "dated",
@@ -8821,7 +8698,7 @@
    "note": "",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e392"
+   "id": "e368"
   },
   {
    "kind": "dated",
@@ -8842,7 +8719,7 @@
    "checked": "2026-11-23",
    "season": "holidays",
    "kids": true,
-   "id": "e393"
+   "id": "e369"
   },
   {
    "kind": "dated",
@@ -8865,7 +8742,7 @@
    "kidsOnly": true,
    "kids": true,
    "season": "holidays",
-   "id": "e394"
+   "id": "e370"
   },
   {
    "kind": "dated",
@@ -8892,7 +8769,7 @@
      "1:00 PM"
     ]
    },
-   "id": "e395"
+   "id": "e371"
   },
   {
    "kind": "dated",
@@ -8911,7 +8788,7 @@
    "note": "",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e396"
+   "id": "e372"
   },
   {
    "kind": "dated",
@@ -8930,7 +8807,7 @@
    "note": "Two nights",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "checked": "2026-11-23",
-   "id": "e397"
+   "id": "e373"
   },
   {
    "kind": "dated",
@@ -8949,7 +8826,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "checked": "2026-11-23",
-   "id": "e398"
+   "id": "e374"
   },
   {
    "kind": "dated",
@@ -8970,7 +8847,7 @@
    "checked": "2026-11-23",
    "kids": true,
    "season": "holidays",
-   "id": "e399"
+   "id": "e375"
   },
   {
    "kind": "dated",
@@ -8989,7 +8866,7 @@
    "note": "",
    "url": "https://www.cbssports.com/nfl/teams/CAR/carolina-panthers/schedule/",
    "checked": "2026-11-09",
-   "id": "e400"
+   "id": "e376"
   },
   {
    "kind": "dated",
@@ -9009,7 +8886,7 @@
    "url": "https://uptowncharlotte.com/do/stanley-jordan-charlotte",
    "checked": "2026-11-09",
    "endTime": "7:00 PM",
-   "id": "e401"
+   "id": "e377"
   },
   {
    "kind": "dated",
@@ -9028,7 +8905,7 @@
    "note": "",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e402"
+   "id": "e378"
   },
   {
    "kind": "dated",
@@ -9051,7 +8928,7 @@
    "kids": true,
    "kidsOnly": true,
    "season": "holidays",
-   "id": "e403"
+   "id": "e379"
   },
   {
    "kind": "dated",
@@ -9075,7 +8952,7 @@
     "7:00 PM"
    ],
    "season": "holidays",
-   "id": "e404"
+   "id": "e380"
   },
   {
    "kind": "dated",
@@ -9094,7 +8971,7 @@
    "note": "",
    "url": "https://charlotte49ers.com/sports/mens-basketball/schedule/2026-27",
    "checked": "2026-11-16",
-   "id": "e405"
+   "id": "e381"
   },
   {
    "kind": "dated",
@@ -9117,7 +8994,7 @@
    "kids": true,
    "checked": "2026-11-16",
    "season": "holidays",
-   "id": "e406"
+   "id": "e382"
   },
   {
    "kind": "dated",
@@ -9138,7 +9015,7 @@
    "checked": "2026-11-23",
    "endTime": "9:00 PM",
    "season": "holidays",
-   "id": "e407"
+   "id": "e383"
   },
   {
    "kind": "dated",
@@ -9158,7 +9035,7 @@
    "url": "https://charlottesports.org/events/dukes-mayo-bowl",
    "checked": "2026-11-09",
    "season": "holidays",
-   "id": "e408"
+   "id": "e384"
   },
   {
    "kind": "dated",
@@ -9179,7 +9056,7 @@
    "checked": "2026-11-23",
    "unconfirmedTime": true,
    "season": "holidays",
-   "id": "e409"
+   "id": "e385"
   },
   {
    "kind": "dated",
@@ -9198,7 +9075,7 @@
    "note": "",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "checked": "2026-11-23",
-   "id": "e410"
+   "id": "e386"
   },
   {
    "kind": "dated",
@@ -9217,7 +9094,7 @@
    "note": "",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e411"
+   "id": "e387"
   },
   {
    "kind": "dated",
@@ -9241,7 +9118,7 @@
     "7:00 PM"
    ],
    "season": "holidays",
-   "id": "e412"
+   "id": "e388"
   },
   {
    "kind": "dated",
@@ -9260,7 +9137,7 @@
    "note": "Two nights incl. New Year's Eve; 2-day passes available",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/bojangles-coliseum/pages/0",
    "checked": "2026-11-23",
-   "id": "e413"
+   "id": "e389"
   },
   {
    "kind": "dated",
@@ -9279,7 +9156,7 @@
    "note": "New Year's Eve matinee",
    "url": "https://www.wsoctv.com/news/local/charlotte-hornets-release-2026-2027-season-schedule/UOMF7ZH6FFCL3HICLMG7FTMEKI/",
    "checked": "2026-11-23",
-   "id": "e414"
+   "id": "e390"
   },
   {
    "kind": "dated",
@@ -9300,7 +9177,7 @@
    "checked": "2026-11-09",
    "endTime": "11:59 PM",
    "season": "holidays",
-   "id": "e415"
+   "id": "e391"
   },
   {
    "kind": "weekly",
@@ -9319,10 +9196,10 @@
    "priceTier": "free",
    "note": "",
    "url": "https://www.mindlessminutiatrivia.com/weekly-charlotte-trivia",
-   "checked": "2026-11-23",
+   "checked": "2026-11-26",
    "gameKind": "General knowledge",
    "host": "Mindless Minutia",
-   "id": "e416"
+   "id": "e392"
   },
   {
    "kind": "weekly",
@@ -9344,7 +9221,7 @@
    "url": "https://suffolkpunchbrewing.com/event/birkdale-music-trivia-10-cold-brew-martinis-all-day-3/",
    "checked": "2026-11-23",
    "gameKind": "Music trivia",
-   "id": "e417"
+   "id": "e393"
   },
   {
    "kind": "weekly",
@@ -9365,7 +9242,7 @@
    "note": "Casual Magic: The Gathering Commander play. $5 mugs and select seasonals",
    "url": "https://www.charlotteonthecheap.com/hi-wire-brewing/",
    "checked": "2026-11-23",
-   "id": "e418"
+   "id": "e394"
   },
   {
    "kind": "dated",
@@ -9386,26 +9263,7 @@
    "url": "https://suffolkpunchbrewing.com/event/friendsgiving-friends-trivia/",
    "checked": "2026-11-23",
    "gameKind": "Themed",
-   "id": "e419"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "7:00 PM",
-   "title": "Official Jeopardy! Bar League",
-   "venue": "Free Range Brewing",
-   "area": "Optimist Park",
-   "zone": "charlotte",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Not listed",
-   "free": false,
-   "priceTier": "varies",
-   "note": "Listed as a one-time event",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-11-24",
-   "id": "e420"
+   "id": "e395"
   },
   {
    "kind": "weekly",
@@ -9429,7 +9287,7 @@
    "note": "Books, songs and rhymes for babies and toddlers.",
    "url": "https://cmlibrary.bibliocommons.com/events/68aeffde15946f2800cf64c3",
    "checked": "2026-11-23",
-   "id": "e421"
+   "id": "e396"
   },
   {
    "kind": "weekly",
@@ -9453,7 +9311,7 @@
    "note": "Tuesday series starts Dec 1. Registration.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a74b3160d65ac360044d408",
    "checked": "2026-11-23",
-   "id": "e422"
+   "id": "e397"
   },
   {
    "kind": "weekly",
@@ -9477,7 +9335,7 @@
    "note": "Register adults and children. Starts Dec 2; no session Dec 23.",
    "url": "https://cmlibrary.bibliocommons.com/events/6ac14f57c6cddb0045958c7e",
    "checked": "2026-11-23",
-   "id": "e423"
+   "id": "e398"
   },
   {
    "kind": "weekly",
@@ -9501,7 +9359,7 @@
    "note": "Kids read aloud to a volunteer therapy dog.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a2b0e97caf9343600625d63",
    "checked": "2026-11-23",
-   "id": "e424"
+   "id": "e399"
   },
   {
    "kind": "dated",
@@ -9527,7 +9385,7 @@
    "onDays": [
     "Wed"
    ],
-   "id": "e425"
+   "id": "e400"
   },
   {
    "kind": "dated",
@@ -9550,7 +9408,7 @@
    "note": "Ed Bounds brings his dinosaur puppets: pet a baby dinosaur, meet a Stegosaurus, maybe see a hatching. First Tuesday of each month.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a8f3f885e6fc10d05502aaa",
    "checked": "2026-11-23",
-   "id": "e426"
+   "id": "e401"
   },
   {
    "kind": "dated",
@@ -9573,7 +9431,7 @@
    "note": "Puppet shows, songs and movement.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a838a4bbf1aec09082b4599",
    "checked": "2026-11-23",
-   "id": "e427"
+   "id": "e402"
   },
   {
    "kind": "dated",
@@ -9596,7 +9454,7 @@
    "note": "For children on the autism spectrum or with sensory processing challenges or ADHD, with an adult. Registration required; small group.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a206e9d52c88111723cc7ca",
    "checked": "2026-11-23",
-   "id": "e428"
+   "id": "e403"
   },
   {
    "kind": "dated",
@@ -9619,7 +9477,7 @@
    "note": "For children with autism, sensory integration issues or other neurodiversity, with an adult. Registration required.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a99863d29a7dd0d6748c598",
    "checked": "2026-11-23",
-   "id": "e429"
+   "id": "e404"
   },
   {
    "kind": "dated",
@@ -9645,7 +9503,7 @@
    "onDays": [
     "Sat"
    ],
-   "id": "e430"
+   "id": "e405"
   },
   {
    "kind": "dated",
@@ -9668,7 +9526,7 @@
    "note": "Books, songs and pre-reading activities.",
    "url": "https://cmlibrary.bibliocommons.com/events/69ff8ef6703c336300269138",
    "checked": "2026-11-23",
-   "id": "e431"
+   "id": "e406"
   },
   {
    "kind": "dated",
@@ -9691,7 +9549,7 @@
    "note": "Themed jigsaw puzzles, easy to hard. Children and families welcome. Winter Wonderland theme Dec 8.",
    "url": "https://cmlibrary.bibliocommons.com/events/6ad62464fee2d21deb2443b3",
    "checked": "2026-11-23",
-   "id": "e432"
+   "id": "e407"
   },
   {
    "kind": "dated",
@@ -9718,7 +9576,7 @@
     "Sat",
     "Sun"
    ],
-   "id": "e433"
+   "id": "e408"
   },
   {
    "kind": "dated",
@@ -9741,7 +9599,7 @@
    "note": "High-energy stories, dance and movement games; wear comfy clothes. Also Tue Dec 15.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a79f263f213992f00caf4f3",
    "checked": "2026-11-23",
-   "id": "e434"
+   "id": "e409"
   },
   {
    "kind": "dated",
@@ -9764,7 +9622,7 @@
    "note": "Storytime for preschoolers without a parent in the room, to build independence. Also Thu Dec 17.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a7f4d253f18f80030bb1e0b",
    "checked": "2026-11-23",
-   "id": "e435"
+   "id": "e410"
   },
   {
    "kind": "dated",
@@ -9787,7 +9645,7 @@
    "note": "Team LEGO engineering challenges.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a7dd479386764026a16d191",
    "checked": "2026-11-23",
-   "id": "e437"
+   "id": "e411"
   },
   {
    "kind": "dated",
@@ -9810,7 +9668,7 @@
    "note": "Hands-on science activities and experiments. Registration. Next one Dec 19.",
    "url": "https://cmlibrary.bibliocommons.com/events/6a67a5854523092f0032f4d0",
    "checked": "2026-11-23",
-   "id": "e438"
+   "id": "e412"
   },
   {
    "kind": "dated",
@@ -9834,7 +9692,7 @@
    "url": "https://cmlibrary.bibliocommons.com/events/697cda40d34a4e75928414ae",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e440"
+   "id": "e413"
   },
   {
    "kind": "dated",
@@ -9858,7 +9716,7 @@
    "url": "https://cmlibrary.bibliocommons.com/events/69406473d875af6300d0d860",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e441"
+   "id": "e414"
   },
   {
    "kind": "dated",
@@ -9882,7 +9740,7 @@
    "url": "https://cmlibrary.bibliocommons.com/events/6a7b58cc61e11c005176ff19",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e442"
+   "id": "e415"
   },
   {
    "kind": "dated",
@@ -9906,31 +9764,7 @@
    "url": "https://cmlibrary.bibliocommons.com/events/6a98276d29a7dd0d67487a3d",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e443"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "10:00 AM",
-   "endTime": "11:00 AM",
-   "title": "Snail Mail with the Snails",
-   "venue": "Stevens Creek Nature Center",
-   "area": "Mint Hill",
-   "zone": "nearby",
-   "cat": "outdoors",
-   "tag": "Nature Program",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "ages": "4–8",
-   "kidsOnly": true,
-   "kids": true,
-   "outdoor": true,
-   "note": "Practice letter writing with the nature center's snails as pen pals. Pre-registration required; an adult must attend.",
-   "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/181479?onlineSiteId=0&from_original_cui=true",
-   "checked": "2026-11-23",
-   "id": "e446"
+   "id": "e416"
   },
   {
    "kind": "dated",
@@ -9957,7 +9791,7 @@
    "onDays": [
     "Mon"
    ],
-   "id": "e447"
+   "id": "e417"
   },
   {
    "kind": "dated",
@@ -9981,7 +9815,7 @@
    "note": "Paved-trail walk with your little one; this month explores the stream along Four Seasons Trail. Meets at the Four Seasons Trail parking lot. No registration needed.",
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182940?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
-   "id": "e448"
+   "id": "e418"
   },
   {
    "kind": "dated",
@@ -10005,7 +9839,7 @@
    "note": "Drop-off program: find the birds that winter in Charlotte on a binocular hike. Bring a packed lunch. Pre-registration required.",
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182289?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
-   "id": "e449"
+   "id": "e419"
   },
   {
    "kind": "dated",
@@ -10029,7 +9863,7 @@
    "note": "Monthly drop-off hike with a trail passport and 100-mile hike club card. Pre-registration required. Next one Dec 18.",
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/183225?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
-   "id": "e450"
+   "id": "e420"
   },
   {
    "kind": "dated",
@@ -10057,7 +9891,7 @@
     "9:30 AM",
     "1:30 PM"
    ],
-   "id": "e451"
+   "id": "e421"
   },
   {
    "kind": "dated",
@@ -10085,7 +9919,7 @@
     "10:30 AM",
     "11:35 AM"
    ],
-   "id": "e452"
+   "id": "e422"
   },
   {
    "kind": "dated",
@@ -10110,7 +9944,7 @@
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182329?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e453"
+   "id": "e423"
   },
   {
    "kind": "dated",
@@ -10135,7 +9969,7 @@
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182476?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e454"
+   "id": "e424"
   },
   {
    "kind": "dated",
@@ -10160,7 +9994,7 @@
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182330?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e455"
+   "id": "e425"
   },
   {
    "kind": "dated",
@@ -10185,7 +10019,7 @@
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/182284?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e456"
+   "id": "e426"
   },
   {
    "kind": "dated",
@@ -10209,7 +10043,7 @@
    "url": "https://anc.apm.activecommunities.com/mecklenburgparks/activity/search/detail/179536?onlineSiteId=0&from_original_cui=true",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e457"
+   "id": "e427"
   },
   {
    "kind": "dated",
@@ -10241,7 +10075,7 @@
    "note": "Winter play: sock skating rink, indoor snowball area, ice block building, Arctic animals and science shows. Museum closed Mondays except Dec 21 and Dec 28.",
    "url": "https://dpkidshuntersville.org/wintersville",
    "checked": "2026-11-23",
-   "id": "e458"
+   "id": "e428"
   },
   {
    "kind": "dated",
@@ -10265,7 +10099,7 @@
    "note": "Three-hour drop-off camp: sculpt clay keepsake cookies and decorate real ones. Space limited.",
    "url": "https://fun4charlottekids.com/calendar/eventdetail/493613/-/christmas-cookie-creations-at-kidcreate-studio",
    "checked": "2026-11-23",
-   "id": "e459"
+   "id": "e429"
   },
   {
    "kind": "dated",
@@ -10286,7 +10120,7 @@
    "note": "Free kids storytime and music; caregivers get free coffee from The Giddy Goat. Listed as an ongoing program.",
    "url": "https://fun4charlottekids.com/calendar/eventdetail/486398/-/betty-bookworms-story-time-coffee-at-moxie-mercantile",
    "checked": "2026-11-23",
-   "id": "e460"
+   "id": "e430"
   },
   {
    "kind": "dated",
@@ -10309,7 +10143,7 @@
    "note": "Pajama brunch buffet, hot chocolate bar, library storytime at 10:30 and an electric train ride at 10:45. Doors 9 AM. Lap kids free; anyone needing a seat needs a ticket.",
    "url": "https://fun4charlottekids.com/calendar/eventdetail/493596/-/polar-express-brunch-at-urban-district-market",
    "checked": "2026-11-23",
-   "id": "e461"
+   "id": "e431"
   },
   {
    "kind": "dated",
@@ -10328,7 +10162,7 @@
    "tag": "Tennis",
    "url": "https://www.spectrumcentercharlotte.com/events/detail/charlotte-invitational-2",
    "end": "2026-12-11",
-   "id": "e462"
+   "id": "e432"
   },
   {
    "kind": "dated",
@@ -10347,7 +10181,7 @@
    "tag": "Concert",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "end": "2026-12-05",
-   "id": "e463"
+   "id": "e433"
   },
   {
    "kind": "dated",
@@ -10366,7 +10200,7 @@
    "tag": "Concert",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/ovens-auditorium/pages/0",
    "end": "2026-12-12",
-   "id": "e464"
+   "id": "e434"
   },
   {
    "kind": "dated",
@@ -10385,7 +10219,7 @@
    "tag": "Concert",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "end": "2026-12-15",
-   "id": "e465"
+   "id": "e435"
   },
   {
    "kind": "dated",
@@ -10404,7 +10238,7 @@
    "tag": "Concert",
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "end": "2026-12-18",
-   "id": "e466"
+   "id": "e436"
   },
   {
    "kind": "dated",
@@ -10424,7 +10258,7 @@
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-fillmore-charlotte/pages/0",
    "season": "holidays",
    "end": "2026-12-31",
-   "id": "e467"
+   "id": "e437"
   },
   {
    "kind": "dated",
@@ -10446,7 +10280,7 @@
    "url": "https://www.concertlands.com/venues/s/north-carolina/c/charlotte/v/the-underground/pages/0",
    "season": "holidays",
    "end": "2026-12-31",
-   "id": "e468"
+   "id": "e438"
   },
   {
    "kind": "dated",
@@ -10465,7 +10299,7 @@
    "tag": "Concert",
    "url": "https://neighborhoodtheatre.com/event/eddie-and-the-getaway-the-over-caffeinated-under-stimulated-tour/",
    "end": "2026-12-03",
-   "id": "e469"
+   "id": "e439"
   },
   {
    "kind": "dated",
@@ -10484,7 +10318,7 @@
    "tag": "Concert",
    "url": "https://neighborhoodtheatre.com/event/winyah/",
    "end": "2026-12-10",
-   "id": "e470"
+   "id": "e440"
   },
   {
    "kind": "dated",
@@ -10503,7 +10337,7 @@
    "tag": "Concert",
    "url": "https://neighborhoodtheatre.com/event/friendship-charlotte-cornfield/",
    "end": "2026-12-11",
-   "id": "e471"
+   "id": "e441"
   },
   {
    "kind": "dated",
@@ -10524,7 +10358,7 @@
    "kids": false,
    "url": "https://neighborhoodtheatre.com/event/the-casualties-people-over-power-tour-18/",
    "end": "2026-12-15",
-   "id": "e472"
+   "id": "e442"
   },
   {
    "kind": "dated",
@@ -10543,7 +10377,7 @@
    "tag": "Concert",
    "url": "https://neighborhoodtheatre.com/event/jeff-parker-eta-ivtet/",
    "end": "2026-12-19",
-   "id": "e473"
+   "id": "e443"
   },
   {
    "kind": "dated",
@@ -10563,7 +10397,7 @@
    "url": "https://www.visulite.com/",
    "season": "holidays",
    "end": "2026-12-04",
-   "id": "e474"
+   "id": "e444"
   },
   {
    "kind": "dated",
@@ -10582,7 +10416,7 @@
    "tag": "Concert",
    "url": "https://www.visulite.com/",
    "end": "2026-12-11",
-   "id": "e475"
+   "id": "e445"
   },
   {
    "kind": "dated",
@@ -10601,7 +10435,7 @@
    "tag": "Concert",
    "url": "https://www.visulite.com/",
    "end": "2026-12-18",
-   "id": "e476"
+   "id": "e446"
   },
   {
    "kind": "dated",
@@ -10620,7 +10454,7 @@
    "tag": "Concert",
    "url": "https://www.visulite.com/",
    "end": "2026-12-19",
-   "id": "e477"
+   "id": "e447"
   },
   {
    "kind": "dated",
@@ -10649,7 +10483,7 @@
    "cat": "arts",
    "tag": "Comedy",
    "url": "https://www.cltcomedyzone.com/",
-   "id": "e478"
+   "id": "e448"
   },
   {
    "kind": "dated",
@@ -10669,7 +10503,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/jim-brickman-a-christmas-celebration-1",
    "season": "holidays",
    "end": "2026-12-03",
-   "id": "e479"
+   "id": "e449"
   },
   {
    "kind": "dated",
@@ -10689,7 +10523,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/noel-maria-christmas-in-a-new-key",
    "season": "holidays",
    "end": "2026-12-06",
-   "id": "e480"
+   "id": "e450"
   },
   {
    "kind": "dated",
@@ -10709,7 +10543,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/rocky-mountain-high-experience-a-john-denver-christmas",
    "season": "holidays",
    "end": "2026-12-08",
-   "id": "e481"
+   "id": "e451"
   },
   {
    "kind": "dated",
@@ -10743,7 +10577,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/elf-the-musical-magical-edition",
    "season": "holidays",
    "kids": true,
-   "id": "e482"
+   "id": "e452"
   },
   {
    "kind": "dated",
@@ -10763,7 +10597,7 @@
    "url": "https://www.blumenthalarts.org/events/detail/charlotte-bronzes-holiday-concert-2026",
    "season": "holidays",
    "end": "2026-12-21",
-   "id": "e483"
+   "id": "e453"
   },
   {
    "kind": "dated",
@@ -10782,7 +10616,7 @@
    "tag": "Concert",
    "url": "https://www.blumenthalarts.org/events/detail/nicole-henry",
    "end": "2026-12-26",
-   "id": "e484"
+   "id": "e454"
   },
   {
    "kind": "dated",
@@ -10805,7 +10639,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-31",
-   "id": "e485"
+   "id": "e455"
   },
   {
    "kind": "dated",
@@ -10828,7 +10662,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-31",
-   "id": "e486"
+   "id": "e456"
   },
   {
    "kind": "dated",
@@ -10850,7 +10684,7 @@
    "kidsOnly": true,
    "season": "holidays",
    "end": "2026-12-31",
-   "id": "e487"
+   "id": "e457"
   },
   {
    "kind": "dated",
@@ -10872,7 +10706,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-26",
-   "id": "e488"
+   "id": "e458"
   },
   {
    "kind": "dated",
@@ -10895,7 +10729,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-19",
-   "id": "e489"
+   "id": "e459"
   },
   {
    "kind": "dated",
@@ -10918,7 +10752,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-05",
-   "id": "e490"
+   "id": "e460"
   },
   {
    "kind": "dated",
@@ -10939,7 +10773,7 @@
    "url": "https://discoveryplace.org/visit/exhibitions",
    "kids": true,
    "end": "2026-12-05",
-   "id": "e491"
+   "id": "e461"
   },
   {
    "kind": "dated",
@@ -10960,7 +10794,7 @@
    "kids": true,
    "season": "holidays",
    "end": "2026-12-05",
-   "id": "e492"
+   "id": "e462"
   },
   {
    "kind": "dated",
@@ -10984,7 +10818,7 @@
    "kids": true,
    "dogs": true,
    "season": "holidays",
-   "id": "e493"
+   "id": "e463"
   },
   {
    "kind": "dated",
@@ -11005,7 +10839,7 @@
    "checked": "2026-11-23",
    "endTime": "4:00 PM",
    "season": "holidays",
-   "id": "e494"
+   "id": "e464"
   },
   {
    "kind": "dated",
@@ -11027,7 +10861,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e495"
+   "id": "e465"
   },
   {
    "kind": "dated",
@@ -11048,7 +10882,7 @@
    "checked": "2026-11-23",
    "endTime": "5:00 PM",
    "season": "holidays",
-   "id": "e496"
+   "id": "e466"
   },
   {
    "kind": "dated",
@@ -11070,7 +10904,7 @@
    "endTime": "7:00 PM",
    "kids": true,
    "season": "holidays",
-   "id": "e497"
+   "id": "e467"
   },
   {
    "kind": "dated",
@@ -11089,7 +10923,7 @@
    "note": "Open-mic style comedy night; performer sign-up from 6:30 PM. Listed every other Monday (next: Dec 14).",
    "url": "https://www.charlotteonthecheap.com/carolina-beer-temple-matthews",
    "checked": "2026-11-23",
-   "id": "e498"
+   "id": "e468"
   },
   {
    "kind": "dated",
@@ -11112,7 +10946,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e499"
+   "id": "e469"
   },
   {
    "kind": "dated",
@@ -11134,7 +10968,7 @@
    "endTime": "11:00 AM",
    "outdoor": true,
    "season": "holidays",
-   "id": "e500"
+   "id": "e470"
   },
   {
    "kind": "dated",
@@ -11158,28 +10992,7 @@
    "kids": true,
    "dogs": true,
    "season": "holidays",
-   "id": "e501"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "6:00 PM",
-   "title": "Bright Lights 5K & Fun Run",
-   "venue": "Daniel Stowe Conservancy",
-   "area": "Belmont",
-   "zone": "nearby",
-   "cat": "outdoors",
-   "tag": "Run",
-   "price": "5K $70.85; fun run $44.35 (incl. fees)",
-   "free": false,
-   "priceTier": "ticketed",
-   "note": "Night race through the garden's holiday lights before they open to the public. 1-mile fun run 6:45 PM; sneak-peek party 7–9 PM included. Gates close 5:50 PM.",
-   "url": "https://raceroster.com/events/2026/139153/bright-lights-5k-and-fun-run",
-   "checked": "2026-11-24",
-   "outdoor": true,
-   "season": "holidays",
-   "id": "e502"
+   "id": "e471"
   },
   {
    "kind": "dated",
@@ -11202,7 +11015,7 @@
     "6:00 PM",
     "8:30 PM"
    ],
-   "id": "e503"
+   "id": "e472"
   },
   {
    "kind": "dated",
@@ -11223,7 +11036,7 @@
    "checked": "2026-11-23",
    "endTime": "5:00 PM",
    "season": "holidays",
-   "id": "e504"
+   "id": "e473"
   },
   {
    "kind": "dated",
@@ -11243,7 +11056,7 @@
    "url": "https://www.axios.com/local/charlotte/2026/10/28/charlotte-holiday-hop-krampus-krawl-2026",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e505"
+   "id": "e474"
   },
   {
    "kind": "dated",
@@ -11266,7 +11079,7 @@
    "outdoor": true,
    "kids": true,
    "season": "holidays",
-   "id": "e506"
+   "id": "e475"
   },
   {
    "kind": "dated",
@@ -11288,7 +11101,7 @@
    "endTime": "4:00 PM",
    "outdoor": true,
    "season": "holidays",
-   "id": "e507"
+   "id": "e476"
   },
   {
    "kind": "dated",
@@ -11309,7 +11122,7 @@
    "checked": "2026-11-23",
    "endTime": "5:00 PM",
    "season": "holidays",
-   "id": "e508"
+   "id": "e477"
   },
   {
    "kind": "dated",
@@ -11330,7 +11143,7 @@
    "checked": "2026-11-23",
    "endTime": "7:00 PM",
    "season": "holidays",
-   "id": "e509"
+   "id": "e478"
   },
   {
    "kind": "dated",
@@ -11351,7 +11164,7 @@
    "checked": "2026-11-23",
    "endTime": "10:00 PM",
    "season": "holidays",
-   "id": "e510"
+   "id": "e479"
   },
   {
    "kind": "dated",
@@ -11378,7 +11191,7 @@
      "1:00 PM"
     ]
    },
-   "id": "e511"
+   "id": "e480"
   },
   {
    "kind": "dated",
@@ -11401,7 +11214,7 @@
    "ages": "21+",
    "kids": false,
    "season": "holidays",
-   "id": "e512"
+   "id": "e481"
   },
   {
    "kind": "dated",
@@ -11422,7 +11235,7 @@
    "checked": "2026-11-23",
    "endTime": "3:00 PM",
    "season": "holidays",
-   "id": "e513"
+   "id": "e482"
   },
   {
    "kind": "dated",
@@ -11442,7 +11255,7 @@
    "url": "https://www.thecarolina.com/events/detail/duke-ellingtons-nutcracker-suite-g5evz_kpo8jf5",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e514"
+   "id": "e483"
   },
   {
    "kind": "dated",
@@ -11462,7 +11275,7 @@
    "url": "https://www.thecarolina.com/events/detail/ricky-skaggs-kentucky-thunder-christmas-g5evz_kxmixav",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e515"
+   "id": "e484"
   },
   {
    "kind": "dated",
@@ -11482,7 +11295,7 @@
    "url": "https://www.thecarolina.com/events/detail/gad-elbaz-live-in-concert-g5evz_feiruet",
    "checked": "2026-11-23",
    "season": "holidays",
-   "id": "e516"
+   "id": "e485"
   },
   {
    "kind": "dated",
@@ -11503,7 +11316,7 @@
    "checked": "2026-11-23",
    "kids": true,
    "season": "holidays",
-   "id": "e517"
+   "id": "e486"
   },
   {
    "kind": "dated",
@@ -11537,7 +11350,7 @@
    },
    "kids": true,
    "season": "holidays",
-   "id": "e518"
+   "id": "e487"
   },
   {
    "kind": "dated",
@@ -11557,7 +11370,7 @@
    "url": "https://www.folksociety.org/",
    "checked": "2026-11-23",
    "endTime": "9:00 PM",
-   "id": "e519"
+   "id": "e488"
   },
   {
    "kind": "weekly",
@@ -11578,7 +11391,7 @@
    "url": "https://www.folksociety.org/",
    "checked": "2026-11-23",
    "endTime": "12:00 PM",
-   "id": "e520"
+   "id": "e489"
   },
   {
    "kind": "weekly",
@@ -11599,7 +11412,7 @@
    "url": "https://lastminuteclt.com/events/rumbao-salsa-saturdays-viva",
    "checked": "2026-11-23",
    "endTime": "12:00 PM",
-   "id": "e521"
+   "id": "e490"
   },
   {
    "kind": "weekly",
@@ -11619,7 +11432,7 @@
    "note": "Weekly drop-in figure drawing session at 2320 N. Davidson St.",
    "url": "https://www.charlotteonthecheap.com/free-events-free-range-brewing/",
    "checked": "2026-11-23",
-   "id": "e522"
+   "id": "e491"
   },
   {
    "kind": "weekly",
@@ -11640,7 +11453,7 @@
    "url": "https://www.mariposaclt.com/",
    "checked": "2026-11-23",
    "endTime": "4:00 PM",
-   "id": "e523"
+   "id": "e492"
   },
   {
    "kind": "weekly",
@@ -11661,7 +11474,7 @@
    "url": "https://charlotterunningclub.wildapricot.org/event-6867549",
    "checked": "2026-11-23",
    "outdoor": true,
-   "id": "e524"
+   "id": "e493"
   },
   {
    "kind": "weekly",
@@ -11686,7 +11499,7 @@
    "checked": "2026-11-23",
    "outdoor": true,
    "kids": true,
-   "id": "e525"
+   "id": "e494"
   },
   {
    "kind": "weekly",
@@ -11708,27 +11521,7 @@
    "checked": "2026-11-23",
    "endTime": "9:00 PM",
    "outdoor": true,
-   "id": "e526"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "time": "7:00 PM",
-   "endTime": "9:00 PM",
-   "title": "The One with All The Trivia: An All F.R.I.E.N.D.S Trivia Night",
-   "venue": "Ghostface Brewing",
-   "area": "Mooresville",
-   "zone": "nearby",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Not listed",
-   "free": false,
-   "priceTier": "varies",
-   "note": "Themed one-night trivia on the show Friends",
-   "url": "https://hopclt.com/trivia-nights-charlotte",
-   "checked": "2026-11-24",
-   "id": "e527"
+   "id": "e495"
   }
  ],
  "deals": [
@@ -13384,15 +13177,6 @@
      "mi": 0.4
     }
    },
-   "Tryon St, 9th St to Good Samaritan Way": {
-    "lat": 35.22738,
-    "lon": -80.84337,
-    "approx": true,
-    "rail": {
-     "st": "CTC/Arena",
-     "mi": 0.2
-    }
-   },
    "Two Buck Saloon Monroe Rd": {
     "lat": 35.1935,
     "lon": -80.78274
@@ -13800,10 +13584,6 @@
     "lat": 35.49926,
     "lon": -80.84852,
     "approx": true
-   },
-   "Ghostface Brewing": {
-    "lat": 35.58163,
-    "lon": -80.81511
    }
   },
   "stations": [
