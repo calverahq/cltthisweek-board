@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "source": "https://www.discgolfscene.com",
  "tournaments": [
   {
@@ -13,7 +13,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 52,
+   "players": 58,
    "cap": null,
    "regOpen": true
   },
@@ -63,6 +63,21 @@
    "regOpen": true
   },
   {
+   "name": "Chain Reactions Winter Series #1 (Y6) @Eastway",
+   "url": "https://www.discgolfscene.com/tournaments/Chain_Reactions_Winter_Series_1_Y6_atEastway_2026",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "tier": "",
+   "format": "Flex start",
+   "course": "Eastway Park",
+   "city": "Charlotte",
+   "state": "NC",
+   "close": true,
+   "players": null,
+   "cap": null,
+   "regOpen": true
+  },
+  {
    "name": "The Charlotte Charity Classic",
    "url": "https://www.discgolfscene.com/tournaments/The_Charlotte_Charity_Classic_2026",
    "start": "2026-12-19",
@@ -88,7 +103,7 @@
    "city": "Matthews",
    "state": "NC",
    "close": true,
-   "players": 27,
+   "players": 29,
    "cap": 108,
    "regOpen": true
   },
@@ -118,7 +133,7 @@
    "city": "Charlotte",
    "state": "NC",
    "close": true,
-   "players": 65,
+   "players": 68,
    "cap": 216,
    "regOpen": true
   }
