@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "weekOf": "2026-11-26",
   "coverage": "2026-11-26 to 2026-12-31",
   "featured": {
@@ -63,64 +63,66 @@
   ],
   "forecast": [
    {
-    "date": "2026-11-27",
-    "hi": 51,
-    "lo": 36,
-    "sky": "Mostly Cloudy and Breezy",
-    "wind": "SW 16-20 mph",
-    "gust": 36,
-    "detail": "Mostly cloudy, with a high near 51. Breezy, with a southwest wind 16 to 20 mph, with gusts as high as 36 mph.",
-    "night": "Clearing, low 36°"
-   },
-   {
     "date": "2026-11-28",
-    "hi": 59,
+    "hi": 61,
     "lo": 39,
     "sky": "Sunny",
-    "wind": "SW 6-8 mph",
-    "detail": "Sunny, with a high near 59. Southwest wind 6 to 8 mph.",
-    "night": "Mostly clear, low 39°"
+    "wind": "SW 8 mph",
+    "gust": 18,
+    "detail": "Sunny, with a high near 61. Southwest wind around 8 mph, with gusts as high as 18 mph.",
+    "night": "Partly cloudy, low 39°"
    },
    {
     "date": "2026-11-29",
     "hi": 63,
-    "lo": 42,
-    "sky": "Partly Sunny then Slight Chance Rain",
-    "rain": 20,
-    "wind": "S 10-15 mph",
-    "gust": 30,
-    "detail": "A 20 percent chance of rain after 3pm.  Partly sunny, with a high near 63. Light south southwest wind becoming south 10 to 15 mph in the morning. Winds could gust as high as 30 mph.",
-    "night": "Rain, mainly before 1 AM (90%), low 42°"
+    "lo": 48,
+    "sky": "Partly Sunny",
+    "wind": "S 6-11 mph",
+    "gust": 24,
+    "detail": "Partly sunny, with a high near 63. Light south southwest wind becoming south 6 to 11 mph in the morning. Winds could gust as high as 24 mph.",
+    "night": "Showers (100%), low 48°"
    },
    {
     "date": "2026-11-30",
-    "hi": 58,
-    "lo": 34,
-    "sky": "Sunny",
-    "detail": "Sunny, with a high near 58.",
-    "night": "Mostly clear, low 34°"
+    "hi": 59,
+    "lo": 33,
+    "sky": "Chance Showers then Mostly Sunny",
+    "rain": 30,
+    "wind": "NW 6-11 mph",
+    "gust": 20,
+    "detail": "A 30 percent chance of showers before 7am.  Mostly sunny, with a high near 59. Northwest wind 6 to 11 mph, with gusts as high as 20 mph.",
+    "night": "Partly cloudy, low 33°"
    },
    {
     "date": "2026-12-01",
-    "hi": 57,
-    "lo": 34,
-    "sky": "Sunny",
-    "detail": "Sunny, with a high near 57.",
-    "night": "Mostly clear, low 34°"
+    "hi": 55,
+    "lo": 32,
+    "sky": "Mostly Sunny",
+    "detail": "Mostly sunny, with a high near 55.",
+    "night": "Mostly clear, low 32°"
    },
    {
     "date": "2026-12-02",
     "hi": 60,
-    "lo": 41,
+    "lo": 39,
     "sky": "Sunny",
     "detail": "Sunny, with a high near 60.",
-    "night": "Partly cloudy, low 41°"
+    "night": "Partly cloudy, low 39°"
    },
    {
     "date": "2026-12-03",
     "hi": 65,
-    "sky": "Partly Sunny",
-    "detail": "Partly sunny, with a high near 65."
+    "lo": 49,
+    "sky": "Mostly Sunny",
+    "detail": "Mostly sunny, with a high near 65.",
+    "night": "Mostly cloudy, low 49°"
+   },
+   {
+    "date": "2026-12-04",
+    "hi": 68,
+    "sky": "Chance Rain",
+    "rain": 50,
+    "detail": "A 50 percent chance of rain.  Mostly cloudy, with a high near 68."
    }
   ],
   "forecastSource": "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431",
@@ -5782,26 +5784,6 @@
   {
    "kind": "dated",
    "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "7:30 PM",
-   "title": "A Motown Christmas",
-   "venue": "Knight Theater",
-   "area": "Uptown",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "From $70.77",
-   "free": false,
-   "note": "Motortown All-Stars, with former members of The Miracles and The Contours, and a live band with brass",
-   "url": "https://www.blumenthalarts.org/events/detail/a-motown-christmas-5",
-   "checked": "2026-11-23",
-   "priceTier": "ticketed",
-   "zone": "charlotte",
-   "season": "holidays",
-   "id": "e241"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-27",
    "end": "2026-12-30",
    "time": "5:30 PM",
    "title": "Carolina Holiday Light Spectacular",
@@ -5819,26 +5801,6 @@
    "outdoor": true,
    "season": "holidays",
    "id": "e242"
-  },
-  {
-   "kind": "dated",
-   "cat": "sports",
-   "tag": "AHL",
-   "price": "Tickets",
-   "free": false,
-   "note": "What If? Night (custom Charlotte Chess jerseys auctioned).",
-   "zone": "charlotte",
-   "checked": "2026-11-23",
-   "priceTier": "ticketed",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "4:00 PM",
-   "title": "Checkers vs. Hershey Bears",
-   "venue": "Bojangles Coliseum",
-   "area": "East Charlotte",
-   "url": "https://charlottecheckers.com/schedule/promotions",
-   "kids": true,
-   "id": "e243"
   },
   {
    "kind": "dated",
@@ -5906,25 +5868,6 @@
    "note": "All shows 18+. Saturday late show listed as 8:45 PM on the calendar and 9:15 PM on the event page.",
    "price": "Tickets",
    "id": "e245"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "7:00 PM",
-   "title": "Dick Vitale Invitational: UNC vs. West Virginia",
-   "venue": "Spectrum Center",
-   "area": "Uptown",
-   "zone": "charlotte",
-   "cat": "sports",
-   "tag": "College Basketball",
-   "price": "Tickets",
-   "free": false,
-   "priceTier": "ticketed",
-   "note": "Black Friday men's college basketball; second year of the event",
-   "url": "https://www.spectrumcentercharlotte.com/events",
-   "checked": "2026-11-23",
-   "id": "e246"
   },
   {
    "kind": "dated",
@@ -6029,24 +5972,6 @@
   {
    "kind": "dated",
    "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "8:00 PM",
-   "title": "Pouya: The Foreverglades Tour",
-   "venue": "The Fillmore",
-   "area": "NC Music Factory",
-   "zone": "charlotte",
-   "cat": "music",
-   "tag": "Concert",
-   "priceTier": "ticketed",
-   "free": false,
-   "url": "https://www.livenation.com/event/G5eVZ_Gxw90bD/pouya-the-foreverglades-tour",
-   "checked": "2026-11-23",
-   "price": "Tickets",
-   "id": "e251"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-27",
    "end": "2027-01-03",
    "time": "Evening",
    "title": "WinterFest at Carowinds",
@@ -6106,7 +6031,7 @@
    "note": "Food trucks, sweets, local vendors, People's Choice food awards, car show, line dancing, kids' activities. Listing gives 11 AM–5 PM in the header but 12–6 PM in the description.",
    "url": "https://www.eventbrite.com/e/carolina-culture-food-fest-home-for-the-holidays-edition-tickets-2003605783835",
    "kids": true,
-   "checked": "2026-11-16",
+   "checked": "2026-11-28",
    "season": "holidays",
    "id": "e254"
   },
@@ -6145,7 +6070,7 @@
    "priceTier": "ticketed",
    "free": false,
    "url": "https://www.charlottefootballclub.com/news/charlotte-fc-to-play-chicago-fire-fc-in-round-one-of-audi-2026-mls-cup-playoffs",
-   "checked": "2026-11-16",
+   "checked": "2026-11-28",
    "note": "Best-of-three series; Game 1 is Nov. 22 in Chicago, Game 3 (if needed) Dec. 2 in Chicago.",
    "kids": true,
    "price": "Tickets",
@@ -9179,27 +9104,6 @@
    "id": "e394"
   },
   {
-   "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "7:00 PM",
-   "endTime": "9:00 PM",
-   "title": "\"Friends\"giving Friends Trivia",
-   "venue": "Suffolk Punch",
-   "area": "South End",
-   "zone": "charlotte",
-   "cat": "games",
-   "tag": "Trivia",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "note": "Thanksgiving-week trivia all about Friends; prizes for top teams",
-   "url": "https://suffolkpunchbrewing.com/event/friendsgiving-friends-trivia/",
-   "checked": "2026-11-27",
-   "gameKind": "Themed",
-   "id": "e395"
-  },
-  {
    "kind": "weekly",
    "days": [
     "Wed"
@@ -10013,51 +9917,6 @@
   },
   {
    "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "9:00 AM",
-   "endTime": "12:00 PM",
-   "title": "Christmas Cookie Creations",
-   "venue": "Kidcreate Studio South Charlotte",
-   "area": "Ballantyne",
-   "zone": "charlotte",
-   "cat": "family",
-   "tag": "Kids Class",
-   "price": "$55.97",
-   "free": false,
-   "priceTier": "ticketed",
-   "ages": "4–12",
-   "kidsOnly": true,
-   "kids": true,
-   "season": "holidays",
-   "note": "Three-hour drop-off camp: sculpt clay keepsake cookies and decorate real ones. Space limited.",
-   "url": "https://fun4charlottekids.com/calendar/eventdetail/493613/-/christmas-cookie-creations-at-kidcreate-studio",
-   "checked": "2026-11-23",
-   "id": "e429"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "9:30 AM",
-   "title": "Betty Bookworms Story Time",
-   "venue": "Moxie Mercantile",
-   "area": "Plaza Midwood",
-   "zone": "charlotte",
-   "cat": "family",
-   "tag": "Storytime",
-   "price": "Free",
-   "free": true,
-   "priceTier": "free",
-   "kidsOnly": true,
-   "kids": true,
-   "note": "Free kids storytime and music; caregivers get free coffee from The Giddy Goat. Listed as an ongoing program.",
-   "url": "https://fun4charlottekids.com/calendar/eventdetail/486398/-/betty-bookworms-story-time-coffee-at-moxie-mercantile",
-   "checked": "2026-11-23",
-   "id": "e430"
-  },
-  {
-   "kind": "dated",
    "start": "2026-11-29",
    "end": "2026-11-29",
    "time": "9:30 AM",
@@ -10746,7 +10605,7 @@
    "priceTier": "free",
    "note": "150+ small-business pop-ups along four blocks of Camden Rd. Free Port Coffee cocoa (while it lasts), DJs, roaming carolers noon–2, adoptable pups, free self-serve Santa photos 11–1 at the Design Center (1930 Camden Rd). Shop Small card: a sticker per $10 spent earns a tote. Light rail to East/West Blvd; 110 East deck $5.",
    "url": "https://www.charlotteonthecheap.com/historic-south-end-celebrating-small-business-saturday/",
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "endTime": "5:00 PM",
    "outdoor": true,
    "kids": true,
@@ -10884,29 +10743,6 @@
   },
   {
    "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "6:00 PM",
-   "title": "Robyn Springer Performs Sade",
-   "venue": "Middle C Jazz",
-   "area": "Uptown",
-   "zone": "charlotte",
-   "cat": "music",
-   "tag": "Concert",
-   "price": "See site",
-   "free": false,
-   "priceTier": "ticketed",
-   "note": "Sade tribute by vocalist Robyn Springer with Ziad Rabie and Rodney Shelton. Two shows.",
-   "url": "https://uptowncharlotte.com/do/robyn-springer-performs-sade-1",
-   "checked": "2026-11-23",
-   "times": [
-    "6:00 PM",
-    "8:30 PM"
-   ],
-   "id": "e472"
-  },
-  {
-   "kind": "dated",
    "start": "2026-12-05",
    "end": "2026-12-05",
    "time": "1:00 PM",
@@ -10945,29 +10781,6 @@
    "checked": "2026-11-23",
    "season": "holidays",
    "id": "e474"
-  },
-  {
-   "kind": "dated",
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "time": "11:00 AM",
-   "title": "Thanksgiving with the Raptors",
-   "venue": "Carolina Raptor Center",
-   "area": "Huntersville",
-   "zone": "nearby",
-   "cat": "outdoors",
-   "tag": "Nature Program",
-   "price": "Included with admission",
-   "free": false,
-   "priceTier": "varies",
-   "note": "Keepers prep holiday meals for the hawks, owls and eagles. 6000 Sample Rd (Latta Nature Preserve). Gift shop Black Friday deals all weekend.",
-   "url": "https://carolinaraptorcenter.org/thanksgiving",
-   "checked": "2026-11-23",
-   "endTime": "11:30 AM",
-   "outdoor": true,
-   "kids": true,
-   "season": "holidays",
-   "id": "e475"
   },
   {
    "kind": "dated",
@@ -11410,6 +11223,27 @@
    "endTime": "9:00 PM",
    "outdoor": true,
    "id": "e495"
+  },
+  {
+   "kind": "dated",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "12:00 PM",
+   "endTime": "4:00 PM",
+   "title": "Krampus Alternative Holiday Market",
+   "venue": "High Branch Brewing Co., Gibson Mill Market",
+   "area": "Concord",
+   "zone": "region",
+   "cat": "market",
+   "tag": "Holiday Market",
+   "price": "Free",
+   "free": true,
+   "priceTier": "free",
+   "note": "Alternative holiday market at High Branch Brewing in Gibson Mill Market, 305 McGill Ave NW.",
+   "url": "https://www.charlotteonthecheap.com/high-branch-brewing-concord/",
+   "checked": "2026-11-28",
+   "season": "holidays",
+   "id": "e496"
   }
  ],
  "deals": [
@@ -13472,6 +13306,10 @@
     "lat": 35.49926,
     "lon": -80.84852,
     "approx": true
+   },
+   "High Branch Brewing Co., Gibson Mill Market": {
+    "lat": 35.41608,
+    "lon": -80.60284
    }
   },
   "stations": [
